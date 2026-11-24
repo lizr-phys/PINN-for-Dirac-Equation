@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "accepted": 24,
+  "attempted": 24,
+  "reference_separated": true,
+  "group": "formal_v1",
+  "high_precision_amplitudes": true,
+  "thresholds": {
+    "wave_l2": 0.0005,
+    "RT_absolute": 0.0005,
+    "complex_amplitudes": 0.0005,
+    "residual_rms": 0.0005,
+    "flux": 0.0005,
+    "boundary": 1e-09,
+    "phase_amplitude_floor": 1e-05,
+    "reference_error_separation": 100.0
+  },
+  "statement": "All seeds retained; conditional formal training requires this gate."
+}

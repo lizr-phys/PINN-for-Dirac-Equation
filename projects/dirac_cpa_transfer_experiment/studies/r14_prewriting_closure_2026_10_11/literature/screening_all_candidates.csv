@@ -1,0 +1,155 @@
+﻿title,DOI,url,source,decision,reason
+Time-dependent Dirac Equation with Physics-Informed Neural Networks: Computation and Properties,10.1016/j.cpc.2022.108474,https://doi.org/10.1016/j.cpc.2022.108474,10.1016_j.cpc.2022.108474,KEY_PRIOR,原始先例或预定方法来源
+Spectral informed neural networks,10.1016/j.cam.2025.117178,https://doi.org/10.1016/j.cam.2025.117178,10.1016_j.cam.2025.117178,KEY_PRIOR,原始先例或预定方法来源
+Structure-preserving conservative phase-amplitude PINNs for semiclassical Schrödinger-type equations,10.1016/j.cam.2026.117607,https://doi.org/10.1016/j.cam.2026.117607,10.1016_j.cam.2026.117607,KEY_PRIOR,原始先例或预定方法来源
+WKB-PINNs: Physics-informed neural networks for highly oscillatory Schrödinger–type equations,10.1016/j.physd.2026.135394,https://doi.org/10.1016/j.physd.2026.135394,10.1016_j.physd.2026.135394,KEY_PRIOR,原始先例或预定方法来源
+A deep learning WKB-PINNs framework for forward and inverse problems of semiclassical nonlinear Schrödinger equations,10.1016/j.cnsns.2026.110653,https://doi.org/10.1016/j.cnsns.2026.110653,10.1016_j.cnsns.2026.110653,KEY_PRIOR,原始先例或预定方法来源
+Solving Schrodinger equations using a physically constrained neural network*,10.1088/1674-1137/acc518,https://doi.org/10.1088/1674-1137/acc518,10.1088_1674-1137_acc518,KEY_PRIOR,原始先例或预定方法来源
+"Checkable NTK Positivity and Finite-Width Gradient Descent for Scalar- and Vector-Valued PINNs with Strong-Form, Weak-Form, and Nonlocal Linear Constraints",,http://arxiv.org/abs/2610.04357v1,dirac_all,ADJACENT,PINN线性约束理论；Dirac-data指delta数据，不是本方程方法
+Physics-Informed Support Vector Kernels via Green-Function Analogies and Jackson-Chebyshev Spectral Design,,http://arxiv.org/abs/2502.11153v4,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Lattice fermion formulation via Physics-Informed Neural Networks: Ginsparg-Wilson relation and Overlap fermions,10.1103/756m-stz5,http://arxiv.org/abs/2605.06022v3,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Quantization of Brane-Skyrmions via Physics-Informed Neural Networks,,http://arxiv.org/abs/2606.20066v1,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Neural Networks and Radial Basis Functions for PDEs with Dirac Delta Sources,,http://arxiv.org/abs/2606.12735v1,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Learning Physical Systems: Symplectification via Gauge Fixing in Dirac Structures,,http://arxiv.org/abs/2506.18812v2,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"Remarks on Dirac-Bergmann algorithm, Dirac's conjecture and the extended Hamiltonian",,http://arxiv.org/abs/2602.00284v3,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Neural Solvers for Periodic Quantum Eigenproblems,,http://arxiv.org/abs/2512.21349v1,dirac_all,CANDIDATE,对象或方法相关，需原文逐项核查，不能据关键词认定重复
+Chimera baryons and mesons on the lattice: a spectral density analysis,,http://arxiv.org/abs/2506.19804v2,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Symmetry-Constrained Multi-Scale Physics-Informed Neural Networks for Graphene Electronic Band Structure Prediction,10.1109/CEII67787.2025.00035,http://arxiv.org/abs/2508.10718v1,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"Predictions and Tests for Semi-leptonic Decays of Beauty Hadrons,",,http://arxiv.org/abs/2406.05456v2,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Constrained Hamiltonian Systems and Physics-Informed Neural Networks: Hamilton-Dirac Neural Networks,10.1103/PhysRevE.111.025301,http://arxiv.org/abs/2401.15485v3,dirac_all,EXCLUDE,Dirac几何/约束结构，非量子Dirac旋量演化
+Deep Generalized Green's Functions,,http://arxiv.org/abs/2306.02925v1,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-informed machine learning for moving load problems,,http://arxiv.org/abs/2304.00369v1,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Inference of neutrino nature and Majorana CP phases from $0νββ$ decays with inverted mass ordering,10.1140/epjc/s10052-022-10811-1,http://arxiv.org/abs/2206.06688v2,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Computation of the Time-Dependent Dirac Equation with Physics-Informed Neural Networks,,http://arxiv.org/abs/2204.02959v1,dirac_all,CANDIDATE,对象或方法相关，需原文逐项核查，不能据关键词认定重复
+Solving Partial Differential Equations with Point Source Based on Physics-Informed Neural Networks,,http://arxiv.org/abs/2111.01394v1,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+An Entropic Dynamics Approach to Geometrodynamics,,http://arxiv.org/abs/1910.01188v1,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Comparison of heavy-ion transport simulations: Collision integral in a box,10.1103/PhysRevC.97.034625,http://arxiv.org/abs/1711.05950v3,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Semi-doubled Sigma Models for Five-branes,10.1007/JHEP02(2016)013,http://arxiv.org/abs/1512.05548v3,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Dirac-Hestenes spinor fields in Riemann-Cartan spacetime,10.1007/BF02302420,http://arxiv.org/abs/hep-th/9607073v1,dirac_all,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"Checkable NTK Positivity and Finite-Width Gradient Descent for Scalar- and Vector-Valued PINNs with Strong-Form, Weak-Form, and Nonlocal Linear Constraints",,http://arxiv.org/abs/2610.04357v1,dirac_recent,ADJACENT,PINN线性约束理论；Dirac-data指delta数据，不是本方程方法
+Dirac-Interconnected Neural Elements: Discovering Modularity in Physical Systems Without Reduction,,http://arxiv.org/abs/2610.02960v1,dirac_recent,EXCLUDE,Dirac几何/约束结构，非量子Dirac旋量演化
+Hyperbolic lattices with mass disorder: Phases and phase transitions,,http://arxiv.org/abs/2610.02192v1,dirac_recent,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Logarithmic lightcones in the multiparticle Anderson model with sparse interactions,,http://arxiv.org/abs/2509.02383v2,interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"Introducing SINFONIA: Symplectic, slimplectic and Magnusian (Neural) Flows for Orbital Numerical Integration and Acceleration",,http://arxiv.org/abs/2609.03329v1,interaction,ADJACENT,引力轨道交互绘景神经流；对象与训练任务不同，仅摘要核对
+Physics-Informed Classical and Quantum Neural Networks for One-Dimensional Schrodinger Eigenvalue Problems,,http://arxiv.org/abs/2609.22189v1,norm,CANDIDATE,对象或方法相关，需原文逐项核查，不能据关键词认定重复
+Physics-Informed Neural Solvers for Periodic Quantum Eigenproblems,,http://arxiv.org/abs/2512.21349v1,norm,CANDIDATE,对象或方法相关，需原文逐项核查，不能据关键词认定重复
+Constrained Hamiltonian Systems and Physics-Informed Neural Networks: Hamilton-Dirac Neural Networks,10.1103/PhysRevE.111.025301,http://arxiv.org/abs/2401.15485v3,norm,EXCLUDE,Dirac几何/约束结构，非量子Dirac旋量演化
+Inference of neutrino nature and Majorana CP phases from $0νββ$ decays with inverted mass ordering,10.1140/epjc/s10052-022-10811-1,http://arxiv.org/abs/2206.06688v2,norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Neural Networks as Differentiable Surrogates for 4D-Variational Data Assimilation,10.22541/essoar.15008576/v2,https://doi.org/10.22541/essoar.15008576/v2,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"ChemODE: A Physics-Informed
+Neural Surrogate for Robust
+Pharmacokinetics and Biochemical Dynamics",10.1021/acsomega.6c04487,https://doi.org/10.1021/acsomega.6c04487,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Lightweight Explainable Physics-Informed Neural Networks by Learnable Activation Function,10.20944/preprints202605.0613.v3,https://doi.org/10.20944/preprints202605.0613.v3,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Learning boson star solution families with physics-informed neural networks,10.1103/gnwy-2szh,https://doi.org/10.1103/gnwy-2szh,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Automated physics-informed neural-networks-based calibration of highly segmented silicon telescopes,10.1103/14mn-mtq3,https://doi.org/10.1103/14mn-mtq3,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"Physics-Informed Neural Networks for Incommensurate Fractional Volterra-Lotka Systems: Forward Solutions, Memory Asymmetry, and Inverse Parameter Recovery",10.21203/rs.3.rs-10965316/v1,https://doi.org/10.21203/rs.3.rs-10965316/v1,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+PINNIES: An efficient physics-informed neural network framework for integral operator problems,10.1016/j.cpc.2026.110255,https://doi.org/10.1016/j.cpc.2026.110255,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Parameter Recovery and Noise Sensitivity of Physics-Informed Neural Networks for Michaelis–Menten Kinetics: A Benchmark Against Classical Nonlinear Least Squares,10.26434/chemrxiv.15009723/v1,https://doi.org/10.26434/chemrxiv.15009723/v1,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Deep Neural Networks for Laguerre–Gaussian Modal Decomposition via PCA-Ranked Zernike Descriptors,10.1364/oe.613268,https://doi.org/10.1364/oe.613268,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Graph Neural Networks for Leak Diagnosis Under Concurrent Leakage,10.20944/preprints202610.0666.v1,https://doi.org/10.20944/preprints202610.0666.v1,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Casual attention: Adaptive enforcement of causality in physics-informed neural networks,10.1016/j.jcp.2026.115071,https://doi.org/10.1016/j.jcp.2026.115071,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-informed neural networks for soliton solutions and parameter identification of the two-mode Korteweg–de Vries equation,10.1016/j.nuclphysb.2026.117684,https://doi.org/10.1016/j.nuclphysb.2026.117684,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Axisymmetric nanoplates: A physics-informed neural network approach,10.1016/j.compstruct.2026.120954,https://doi.org/10.1016/j.compstruct.2026.120954,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Conservation-laws-informed physics-informed neural networks for solving the KdV equation,10.1016/j.physd.2026.135256,https://doi.org/10.1016/j.physd.2026.135256,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+A fractional physics-informed neural observer for joint state and attack reconstruction in hyperchaotic cyber-physical systems,10.1063/5.0353987,https://doi.org/10.1063/5.0353987,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics informed neural networks for interfacial debonding analysis,10.1016/j.engfracmech.2026.112441,https://doi.org/10.1016/j.engfracmech.2026.112441,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Neural Network Framework for Predicting Compressive Strength of Coconut Fiber Reinforced Concrete,10.21203/rs.3.rs-11114348/v1,https://doi.org/10.21203/rs.3.rs-11114348/v1,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-informed neural network for analyzing Michaelis–Menten and non-Michaelis–Menten kinetics in amperometric biosensor,10.1016/j.electacta.2026.150121,https://doi.org/10.1016/j.electacta.2026.150121,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+A physics-informed neural network approach to simulating wave packets at different speeds: an educational demonstration,10.1088/1361-6404/aea8a4,https://doi.org/10.1088/1361-6404/aea8a4,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Thermodynamically consistent physics-informed neural network-finite element method for viscoelastic fluids using square-root conformation,10.1063/5.0348584,https://doi.org/10.1063/5.0348584,crossref_dirac,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Neural Networks as Differentiable Surrogates for 4D-Variational Data Assimilation,10.22541/essoar.15008576/v2,https://doi.org/10.22541/essoar.15008576/v2,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Unrolled Learning for ATR-FTIR Spectral Unmixing,10.3390/math14193619,https://doi.org/10.3390/math14193619,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"ChemODE: A Physics-Informed
+Neural Surrogate for Robust
+Pharmacokinetics and Biochemical Dynamics",10.1021/acsomega.6c04487,https://doi.org/10.1021/acsomega.6c04487,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Lightweight Explainable Physics-Informed Neural Networks by Learnable Activation Function,10.20944/preprints202605.0613.v3,https://doi.org/10.20944/preprints202605.0613.v3,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Learning boson star solution families with physics-informed neural networks,10.1103/gnwy-2szh,https://doi.org/10.1103/gnwy-2szh,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Automated physics-informed neural-networks-based calibration of highly segmented silicon telescopes,10.1103/14mn-mtq3,https://doi.org/10.1103/14mn-mtq3,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+PINNIES: An efficient physics-informed neural network framework for integral operator problems,10.1016/j.cpc.2026.110255,https://doi.org/10.1016/j.cpc.2026.110255,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"Physics-Informed Neural Networks for Incommensurate Fractional Volterra-Lotka Systems: Forward Solutions, Memory Asymmetry, and Inverse Parameter Recovery",10.21203/rs.3.rs-10965316/v1,https://doi.org/10.21203/rs.3.rs-10965316/v1,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Parameter Recovery and Noise Sensitivity of Physics-Informed Neural Networks for Michaelis–Menten Kinetics: A Benchmark Against Classical Nonlinear Least Squares,10.26434/chemrxiv.15009723/v1,https://doi.org/10.26434/chemrxiv.15009723/v1,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Deep Neural Networks for Laguerre–Gaussian Modal Decomposition via PCA-Ranked Zernike Descriptors,10.1364/oe.613268,https://doi.org/10.1364/oe.613268,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Graph Neural Networks for Leak Diagnosis Under Concurrent Leakage,10.20944/preprints202610.0666.v1,https://doi.org/10.20944/preprints202610.0666.v1,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Casual attention: Adaptive enforcement of causality in physics-informed neural networks,10.1016/j.jcp.2026.115071,https://doi.org/10.1016/j.jcp.2026.115071,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Legendre polynomial anti-derivative layer for compact physics-informed neural networks and operator learning with high-frequency spectral expressivity,10.1088/2632-2153/aea688,https://doi.org/10.1088/2632-2153/aea688,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-informed neural networks for soliton solutions and parameter identification of the two-mode Korteweg–de Vries equation,10.1016/j.nuclphysb.2026.117684,https://doi.org/10.1016/j.nuclphysb.2026.117684,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Axisymmetric nanoplates: A physics-informed neural network approach,10.1016/j.compstruct.2026.120954,https://doi.org/10.1016/j.compstruct.2026.120954,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Conservation-laws-informed physics-informed neural networks for solving the KdV equation,10.1016/j.physd.2026.135256,https://doi.org/10.1016/j.physd.2026.135256,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+A fractional physics-informed neural observer for joint state and attack reconstruction in hyperchaotic cyber-physical systems,10.1063/5.0353987,https://doi.org/10.1063/5.0353987,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics informed neural networks for interfacial debonding analysis,10.1016/j.engfracmech.2026.112441,https://doi.org/10.1016/j.engfracmech.2026.112441,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Neural Network Framework for Predicting Compressive Strength of Coconut Fiber Reinforced Concrete,10.21203/rs.3.rs-11114348/v1,https://doi.org/10.21203/rs.3.rs-11114348/v1,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-informed neural network for analyzing Michaelis–Menten and non-Michaelis–Menten kinetics in amperometric biosensor,10.1016/j.electacta.2026.150121,https://doi.org/10.1016/j.electacta.2026.150121,crossref_spectral,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+ZNet: fast physics-informed quantitative phase imaging via residual phase correction,10.1117/12.3116081,https://doi.org/10.1117/12.3116081,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Phase–amplitude irreducibility and phase stiffness in complex nonlinear oscillators,10.1063/5.0353763,https://doi.org/10.1063/5.0353763,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Antiferroelectric phase-field simulations via scale-invariant physics-informed neural operators,10.1038/s41524-026-02344-y,https://doi.org/10.1038/s41524-026-02344-y,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-informed neural network framework for phase-field modelling of intergranular fracture,10.1016/j.physb.2026.418948,https://doi.org/10.1016/j.physb.2026.418948,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Bessel-beam-based hybrid physics-informed phase retrieval from single-shot measurements,10.1117/12.3114620,https://doi.org/10.1117/12.3114620,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+PAPI-t: Phase-aware physics-informed self-supervised transformer for explainable cardiac MRI analysis,10.1016/j.ins.2026.124282,https://doi.org/10.1016/j.ins.2026.124282,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Combining simulations and measurements in physics-informed engineering surrogates,10.31224/8440,https://doi.org/10.31224/8440,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Dimensionally consistent loss construction for physics-informed flow and thermomechanical models,10.31224/8362,https://doi.org/10.31224/8362,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Numerical Recovery of Pore-Air Pressure and Effective-Stress Reduction in Cover Soils Using a Two-Phase Inverse Physics-Informed Neural Network,10.3390/geotechnics6040100,https://doi.org/10.3390/geotechnics6040100,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Quantum analog of the classical action integral: evaluation using approximate WKB and exact energy eigenvalues in familiar (and not so familiar) bound state problems,10.1088/1361-6404/aea2f8,https://doi.org/10.1088/1361-6404/aea2f8,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Neural Networks as Differentiable Surrogates for 4D-Variational Data Assimilation,10.22541/essoar.15008576/v2,https://doi.org/10.22541/essoar.15008576/v2,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"ChemODE: A Physics-Informed
+Neural Surrogate for Robust
+Pharmacokinetics and Biochemical Dynamics",10.1021/acsomega.6c04487,https://doi.org/10.1021/acsomega.6c04487,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"Decision letter for ""Learning approximate solutions of partial differential equations within the physics-informed framework""",10.1088/1402-4896/aeb282/v2/decision1,https://doi.org/10.1088/1402-4896/aeb282/v2/decision1,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+PINNIES: An efficient physics-informed neural network framework for integral operator problems,10.1016/j.cpc.2026.110255,https://doi.org/10.1016/j.cpc.2026.110255,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Lightweight Explainable Physics-Informed Neural Networks by Learnable Activation Function,10.20944/preprints202605.0613.v3,https://doi.org/10.20944/preprints202605.0613.v3,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"Review of physics augmented: Physics-guided, physics-informed, and physics-encoded machine learning models in condition monitoring",10.1016/j.engappai.2026.116100,https://doi.org/10.1016/j.engappai.2026.116100,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Gaussian-amplitude transitions and Wigner phase-space dynamics of electron Airy beams in a uniform magnetic field,10.1103/5zqb-p5pz,https://doi.org/10.1103/5zqb-p5pz,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+A Puck-informed mode-resolved phase-field formulation for fatigue fracture in unidirectional composites,10.1016/j.engfracmech.2026.112707,https://doi.org/10.1016/j.engfracmech.2026.112707,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Phase and amplitude pre-shaping for a high-power ps-wedged thin-disk amplifier,10.1364/oe.613864,https://doi.org/10.1364/oe.613864,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Learning boson star solution families with physics-informed neural networks,10.1103/gnwy-2szh,https://doi.org/10.1103/gnwy-2szh,crossref_phase,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Exact and penalized physical constraints in engineering neural field models,10.31224/8460,https://doi.org/10.31224/8460,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Investigations on model compression techniques for convolutional neural networks under noise and hardware constraints,10.1007/s00521-026-12556-4,https://doi.org/10.1007/s00521-026-12556-4,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Thermodynamic constraints as organizing principles of neural efficiency and cognitive architecture,10.1016/j.biosystems.2026.105921,https://doi.org/10.1016/j.biosystems.2026.105921,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Semantic clustering under resource constraints via Bayesian low-rank adaptation,10.1016/j.neunet.2026.109021,https://doi.org/10.1016/j.neunet.2026.109021,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Comparative Analysis of Meta-Heuristic-Driven Fractional Derivative Constraints for Linear-Phase HP and BP FIR Filter Design with Hybrid L1- L2 Norm,10.1142/s0218126626502889,https://doi.org/10.1142/s0218126626502889,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Cross-geometry pretraining for equivariant neural networks: Improving molecular property prediction under computational constraints,10.1063/5.0317737,https://doi.org/10.1063/5.0317737,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Approximation by Max-product neural network operators in function spaces with mixed-norm structure,10.1016/j.cam.2026.117456,https://doi.org/10.1016/j.cam.2026.117456,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+JTCSE: Joint Tensor-Modulus Constraints and Cross-Attention for Unsupervised Contrastive Learning of Sentence Embeddings,10.1016/j.neunet.2026.109724,https://doi.org/10.1016/j.neunet.2026.109724,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+SACI framework-based fixed-time learning control for nonlinear systems with asymmetric constraints,10.1016/j.neunet.2026.109015,https://doi.org/10.1016/j.neunet.2026.109015,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Seismic P-wave impedance inversion based on L1/2-norm and high-order vertical-lateral difference constraints,10.1016/j.jappgeo.2026.106420,https://doi.org/10.1016/j.jappgeo.2026.106420,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Robust low-rank matrix completion via joint schatten capped p-norm and capped ℓp-norm,10.1016/j.apm.2026.116999,https://doi.org/10.1016/j.apm.2026.116999,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Event-Based Adaptive Consensus Control of Multiple Flexible Manipulator Systems With Input-Output Constraints,10.1109/tnnls.2026.3679760,https://doi.org/10.1109/tnnls.2026.3679760,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Efficient algorithms for optimal control of Boussinesq equations with box and L2-norm control constraints,10.1016/j.camwa.2026.08.013,https://doi.org/10.1016/j.camwa.2026.08.013,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Correction: Physics-guided neural network for seismic hysteretic response prediction with energy conservation constraints and error correction,10.1007/s10518-026-02698-0,https://doi.org/10.1007/s10518-026-02698-0,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Interpretable graph neural networks for wind turbine fault feature identification with physics-based constraints and self-supervised pretraining,10.1016/j.engappai.2026.115712,https://doi.org/10.1016/j.engappai.2026.115712,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Reinforcement Learning-Based Cooperative Control for Nonlinear Multiagent System With State and Control Input Constraints and Guaranteed Convergence Performance,10.1109/tnnls.2026.3678516,https://doi.org/10.1109/tnnls.2026.3678516,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Convergence of Alternating Gradient Descent to Nuclear-Norm Minimizing Factorizations,10.21203/rs.3.rs-11199672/v1,https://doi.org/10.21203/rs.3.rs-11199672/v1,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Corrigendum to “Artificial neural network (ANN) vs multilinear regression (MLR) models to predict naturally occurring radioactivity (NORM) in the gold mining area in eastern Sudan” [Radiat. Phys. Chem. 243 (2026) 113656],10.1016/j.radphyschem.2026.114019,https://doi.org/10.1016/j.radphyschem.2026.114019,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Noise-robust physics-informed neural networks with hard linear equality constraints for process systems,10.1016/j.jfranklin.2026.108999,https://doi.org/10.1016/j.jfranklin.2026.108999,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Free Vibration Analysis of Antisymmetric Cross-ply and Angle-ply Laminated Plates via Physics-Informed Neural Networks with Hard Boundary Constraints,10.1007/s42417-026-02774-4,https://doi.org/10.1007/s42417-026-02774-4,crossref_norm,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+The Neural Network: A Participatory Artwork Creating a Collaborative Neural Network,10.1145/3821402.3830173,https://doi.org/10.1145/3821402.3830173,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Pairing Picture Books with Middle Grade Books by the Same Author,10.4324/9781003644897-6,https://doi.org/10.4324/9781003644897-6,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Exploring Depictions of Christianity in the United States Using Caldecott Picture Books,10.4324/9781003644897-12,https://doi.org/10.4324/9781003644897-12,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Courage for Memories,10.4324/9781003644897-13,https://doi.org/10.4324/9781003644897-13,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Picture This! Leveraging Award-Winning Picture Books as Primary Sources in Secondary Social Studies,10.4324/9781003644897,https://doi.org/10.4324/9781003644897,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+We Are Still Here,10.4324/9781003644897-7,https://doi.org/10.4324/9781003644897-7,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Why Mosquitoes Buzz in People's Ears,10.4324/9781003644897-3,https://doi.org/10.4324/9781003644897-3,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+A More Personal Look at Immigration,10.4324/9781003644897-10,https://doi.org/10.4324/9781003644897-10,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+&lt;b&gt;PENERAPAN MODEL PICTURE AND PICTURE BERBANTUAN GAMBAR SERI UNTUK MENINGKATKAN KETERAMPILAN MENULIS NARASI MURID SD 1 BARONGAN&lt;/b&gt; IMPLEMENTATION OF THE PICTURE AND PICTURE MODEL ASSISTED BY SERIAL IMAGES TO IMPROVE NARRATIVE WRITING SKILLS OF STUDENTS AT SD 1 BARONGAN,10.52060/pgsd.v9i1.4807,https://doi.org/10.52060/pgsd.v9i1.4807,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+What Is Children's Literature?,10.4324/9781003644897-1,https://doi.org/10.4324/9781003644897-1,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Teaching the Holocaust through Children's Art,10.4324/9781003644897-14,https://doi.org/10.4324/9781003644897-14,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-informed neural networks for microbial interaction network inference,10.1117/12.3114128,https://doi.org/10.1117/12.3114128,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Beyond the Caldecott,10.4324/9781003644897-15,https://doi.org/10.4324/9781003644897-15,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Contemporary Picturebooks and the Unreliable Narrator,10.4324/9781003644897-11,https://doi.org/10.4324/9781003644897-11,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+FIT: Enhancing multimodal knowledge graph completion via fine-grained interaction and TriConvTransformer,10.1016/j.neunet.2026.109000,https://doi.org/10.1016/j.neunet.2026.109000,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"Exploring the Power of Mindset, Art, and Language",10.4324/9781003644897-4,https://doi.org/10.4324/9781003644897-4,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Monte Carlo and Neural Network-based Prediction of Base Shear Force in Airport Tunnels using the Pushover Method Considering Both Soil-Structure Interaction and Non-Interaction across Different Soil Types,10.14445/23488352/ijce-v13i9p104,https://doi.org/10.14445/23488352/ijce-v13i9p104,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+"Women, Work, and the War Effort During World War II",10.4324/9781003644897-5,https://doi.org/10.4324/9781003644897-5,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+MoDAl: Self-Supervised Neural Modality Discovery via Decorrelation for Speech Neuroprosthesis,10.1145/3776574.3832754,https://doi.org/10.1145/3776574.3832754,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Using Peer-Assisted Learning Strategies for Cultural Analysis in Special Education Settings,10.4324/9781003644897-8,https://doi.org/10.4324/9781003644897-8,crossref_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Physics-Informed Neural Networks with Hard Linear Equality Constraints,,http://arxiv.org/abs/2402.07251v1,arxiv_known,KEY_PRIOR,原始先例或预定方法来源
+Improved uniform error bounds on time-splitting methods for the long-time dynamics of the Dirac equation with small potentials,,http://arxiv.org/abs/2112.03616v1,arxiv_known,KEY_PRIOR,原始先例或预定方法来源
+Split Complex-Valued Physics-Informed Neural Networks for Forward and Inverse Nonlinear PDEs,,http://arxiv.org/abs/2607.15087v1,arxiv_known,KEY_PRIOR,原始先例或预定方法来源
+Implicit Neural Representations with Periodic Activation Functions,,http://arxiv.org/abs/2006.09661v1,arxiv_known,KEY_PRIOR,原始先例或预定方法来源
+Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains,,http://arxiv.org/abs/2006.10739v1,arxiv_known,KEY_PRIOR,原始先例或预定方法来源
+Computation of the Time-Dependent Dirac Equation with Physics-Informed Neural Networks,,http://arxiv.org/abs/2204.02959v1,arxiv_known,KEY_PRIOR,原始先例或预定方法来源
+Spectral Informed Neural Network: An Efficient and Low-Memory PINN,10.1016/j.cam.2025.117178,http://arxiv.org/abs/2408.16414v2,arxiv_known,KEY_PRIOR,原始先例或预定方法来源
+A fourth-order compact time-splitting Fourier pseudospectral method for the Dirac equation,10.1007/s40687-018-0173-x,http://arxiv.org/abs/1711.07193v2,arxiv_known,KEY_PRIOR,原始先例或预定方法来源
+A Fourth-Order Runge–Kutta in the Interaction Picture Method for Simulating Supercontinuum Generation in Optical Fibers,10.1109/jlt.2007.909373,https://doi.org/10.1109/jlt.2007.909373,hult_interaction,KEY_PRIOR,原始先例或预定方法来源
+A fourth-order Runge–Kutta in the interaction picture method for simulating supercontinuum generation in photonic crystal fibers,10.1117/12.2202903,https://doi.org/10.1117/12.2202903,hult_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Fourth-Order Runge–Kutta Method (RK4),10.1190/1.9781560804154.appa,https://doi.org/10.1190/1.9781560804154.appa,hult_interaction,EXCLUDE,宽查询发现项，未匹配本课题对象与方法
+Structure-Preserving helmholtz PINNs for absorbing media with transparent boundaries,10.1016/j.cnsns.2026.109926,https://doi.org/10.1016/j.cnsns.2026.109926,10.1016/j.cnsns.2026.109926,KEY_PRIOR,原始先例或预定方法来源

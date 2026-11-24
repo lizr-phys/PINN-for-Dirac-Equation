@@ -1,0 +1,626 @@
+{
+  "url": "https://api.crossref.org/works/10.1016%2Fj.cnsns.2026.109926",
+  "observed_utc": 1791724886.9960868,
+  "HTTP_status": 200,
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2026-09-16T00:11:14Z",
+        "timestamp": 1789517474073,
+        "version": "build-2803163510"
+      },
+      "reference-count": 34,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Communications in Nonlinear Science and Numerical Simulation"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.cnsns.2026.109926",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            19
+          ]
+        ],
+        "date-time": "2026-03-19T08:39:52Z",
+        "timestamp": 1773909592000
+      },
+      "page": "109926",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "special_numbering": "C",
+      "title": [
+        "Structure-Preserving helmholtz PINNs for absorbing media with transparent boundaries"
+      ],
+      "prefix": "10.1016",
+      "volume": "159",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0002-2722-7275",
+          "authenticated-orcid": false,
+          "given": "Bari",
+          "family": "Khairullin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3268-2267",
+          "authenticated-orcid": false,
+          "given": "Sergey",
+          "family": "Rykovanov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0001",
+          "series-title": "The Propagation of Electromagnetic Waves in Plasmas",
+          "author": "Ginzburg",
+          "year": "1970"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0002",
+          "doi-asserted-by": "crossref",
+          "first-page": "59",
+          "DOI": "10.1016/j.cpc.2017.01.010",
+          "article-title": "A hybrid model of laser energy deposition for multi-dimensional simulations of plasmas and metals",
+          "volume": "214",
+          "author": "Basko",
+          "year": "2017",
+          "journal-title": "Comput Phys Commun"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0003",
+          "series-title": "Optical Waves in Layered Media",
+          "isbn-type": "print",
+          "author": "Yeh",
+          "year": "1988",
+          "ISBN": "https://id.crossref.org/isbn/9780471731924"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0004",
+          "article-title": "Inverse Acoustic and Electromagnetic Scattering Theory",
+          "volume": "vol. 93",
+          "author": "Colton",
+          "year": "2013"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.cnsns.2026.109926_bib0005",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/5.0057345",
+          "article-title": "Quasioptical modeling of wave beams with and without mode conversion. IV. numerical simulations of waves in dissipative media",
+          "volume": "28",
+          "author": "Yanagihara",
+          "year": "2021",
+          "journal-title": "Phys Plasmas"
+        },
+        {
+          "issue": "139",
+          "key": "10.1016/j.cnsns.2026.109926_bib0006",
+          "doi-asserted-by": "crossref",
+          "first-page": "629",
+          "DOI": "10.1090/S0025-5718-1977-0436612-4",
+          "article-title": "Absorbing boundary conditions for the numerical simulation of waves",
+          "volume": "31",
+          "author": "Engquist",
+          "year": "1977",
+          "journal-title": "Math Comput"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.cnsns.2026.109926_bib0007",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1016/j.physrep.2004.03.002",
+          "article-title": "Complex absorbing potentials",
+          "volume": "395",
+          "author": "Muga",
+          "year": "2004",
+          "journal-title": "Phys Rep"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.cnsns.2026.109926_bib0008",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/1.5026187",
+          "article-title": "Cross-beam energy transfer: on the accuracy of linear stationary models in the linear kinetic regime",
+          "volume": "25",
+          "author": "Debayle",
+          "year": "2018",
+          "journal-title": "Phys Plasmas"
+        },
+        {
+          "issue": "26",
+          "key": "10.1016/j.cnsns.2026.109926_bib0009",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1103/PhysRevLett.127.265001",
+          "article-title": "Reduction of cross-beam energy transfer by a speckle pattern",
+          "volume": "127",
+          "author": "Oudin",
+          "year": "2021",
+          "journal-title": "Phys Rev Lett"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.cnsns.2026.109926_bib0010",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/5.0109511",
+          "article-title": "Cross-beam energy transfer between spatially smoothed laser beams",
+          "volume": "29",
+          "author": "Oudin",
+          "year": "2022",
+          "journal-title": "Phys Plasmas"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.cnsns.2026.109926_bib0011",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1103/PhysRevE.98.043202",
+          "article-title": "Ray-based modeling of cross-beam energy transfer at caustics",
+          "volume": "98",
+          "author": "Follett",
+          "year": "2018",
+          "journal-title": "Phys Rev E"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0012",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jcp.2019.108916",
+          "article-title": "Lpse: a 3-d wave-based model of cross-beam energy transfer in laser-irradiated plasmas",
+          "volume": "399",
+          "author": "Myatt",
+          "year": "2019",
+          "journal-title": "J Comput Phys"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.cnsns.2026.109926_bib0013",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.1038/s41567-019-0725-z",
+          "article-title": "Impact of the langdon effect on crossed-beam energy transfer",
+          "volume": "16",
+          "author": "Turnbull",
+          "year": "2019",
+          "journal-title": "Nat Phys"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.cnsns.2026.109926_bib0014",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/5.0123462",
+          "article-title": "Validation of ray-based cross-beam energy transfer models",
+          "volume": "29",
+          "author": "Follett",
+          "year": "2022",
+          "journal-title": "Phys Plasmas"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.cnsns.2026.109926_bib0015",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/5.0137420",
+          "article-title": "Ray-based cross-beam energy transfer modeling for broadband lasers",
+          "volume": "30",
+          "author": "Follett",
+          "year": "2023",
+          "journal-title": "Phys Plasmas"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.cnsns.2026.109926_bib0016",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/5.0253858",
+          "article-title": "Modeling cross-beam energy transfer with sector ray tracing",
+          "volume": "32",
+          "author": "Follett",
+          "year": "2025",
+          "journal-title": "Phys Plasmas"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.cnsns.2026.109926_bib0017",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/1.5095076",
+          "article-title": "Quasioptical modeling of wave beams with and without mode conversion. i. basic theory",
+          "volume": "26",
+          "author": "Dodin",
+          "year": "2019",
+          "journal-title": "Phys Plasmas"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0018",
+          "series-title": "Thin-Film Optical Filters",
+          "author": "Macleod",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0019",
+          "unstructured": "Byrnes S.J.. Multilayer optical calculations. 2016. arXiv: 1603.02720."
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0020",
+          "unstructured": "Byrnes S.J.. tmm: transfer-matrix method for optics of thin and thick multilayer films. https://pypi.org/project/tmm/; 2024. Version 0.2.0; accessed 31 Oct 2025."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.cnsns.2026.109926_bib0021",
+          "doi-asserted-by": "crossref",
+          "first-page": "1007",
+          "DOI": "10.1364/JOSAA.450928",
+          "article-title": "Tmm-fast, a transfer matrix computation package for multilayer thin-film optimization: tutorial",
+          "volume": "39",
+          "author": "Luce",
+          "year": "2022",
+          "journal-title": "J Opt Soc Am A"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.cnsns.2026.109926_bib0022",
+          "doi-asserted-by": "crossref",
+          "first-page": "575",
+          "DOI": "10.1063/1.1703993",
+          "article-title": "Lie algebraic solution of linear differential equations",
+          "volume": "4",
+          "author": "Wei",
+          "year": "1963",
+          "journal-title": "J Math Phys"
+        },
+        {
+          "issue": "5–6",
+          "key": "10.1016/j.cnsns.2026.109926_bib0023",
+          "doi-asserted-by": "crossref",
+          "first-page": "151",
+          "DOI": "10.1016/j.physrep.2008.11.001",
+          "article-title": "The magnus expansion and some of its applications",
+          "volume": "470",
+          "author": "Blanes",
+          "year": "2009",
+          "journal-title": "Phys Rep"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0024",
+          "doi-asserted-by": "crossref",
+          "first-page": "215",
+          "DOI": "10.1017/S0962492900002154",
+          "article-title": "Lie-group methods",
+          "volume": "9",
+          "author": "Iserles",
+          "year": "2000",
+          "journal-title": "Acta Numerica"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0025",
+          "series-title": "Variable Phase Approach to Potential Scattering",
+          "author": "Calogero",
+          "year": "1967"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0026",
+          "doi-asserted-by": "crossref",
+          "first-page": "686",
+          "DOI": "10.1016/j.jcp.2018.10.045",
+          "article-title": "Physics-informed neural networks: a deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+          "volume": "378",
+          "author": "Raissi",
+          "year": "2019",
+          "journal-title": "J Comput Phys"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0027",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shin Y., Darbon J., Karniadakis G.E.. On the convergence of physics-informed neural networks for linear second-order elliptic and parabolic PDEs. 2020. arXiv: 2004.01806.",
+          "DOI": "10.4208/cicp.OA-2020-0193"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0028",
+          "unstructured": "Schoder S., Kraxberger F.. Feasibility study on solving the helmholtz equation in 3d with physics-informed neural networks. 2024. arXiv: 2403.06623."
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0029",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Escapil-Inchauspé P., Ruz G.A.. Hyper-parameter tuning of physics-informed neural networks: Application to helmholtz problems. 2023. arXiv: 2205.06704.",
+          "DOI": "10.1016/j.neucom.2023.126826"
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0030",
+          "unstructured": "Kim J., Kim M., Lee J.K., Lee S.. Adaptive blending units: Trainable activation functions for deep neural networks. 2021. arXiv: 2011.14225."
+        },
+        {
+          "key": "10.1016/j.cnsns.2026.109926_bib0031",
+          "unstructured": "Riffe D.M.. Canonical models of dielectric response. 2018. arXiv: 1806.05158."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.cnsns.2026.109926_bib0032",
+          "article-title": "Quasioptical modeling of wave beams with and without mode conversion. II. numerical simulations of single-mode beams",
+          "volume": "26",
+          "author": "Yanagihara",
+          "year": "2019",
+          "journal-title": "Phys Plasmas"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.cnsns.2026.109926_bib0033",
+          "article-title": "Quasioptical modeling of wave beams with and without mode conversion. III. numerical simulations of mode-converting beams",
+          "volume": "26",
+          "author": "Yanagihara",
+          "year": "2019",
+          "journal-title": "Phys Plasmas"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.cnsns.2026.109926_bib0034",
+          "doi-asserted-by": "crossref",
+          "first-page": "512",
+          "DOI": "10.1515/eng-2019-0059",
+          "article-title": "Zhores — petaflops supercomputer for data-driven modeling, machine learning and artificial intelligence installed in skolkovo institute of science and technology",
+          "volume": "9",
+          "author": "Zacharov",
+          "year": "2019",
+          "journal-title": "Open Eng"
+        }
+      ],
+      "container-title": [
+        "Communications in Nonlinear Science and Numerical Simulation"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1007570426002856?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1007570426002856?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            12
+          ]
+        ],
+        "date-time": "2026-05-12T10:50:33Z",
+        "timestamp": 1778583033000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1007570426002856"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "references-count": 34,
+      "alternative-id": [
+        "S1007570426002856"
+      ],
+      "URL": "https://doi.org/10.1016/j.cnsns.2026.109926",
+      "relation": {},
+      "ISSN": [
+        "1007-5704"
+      ],
+      "issn-type": [
+        {
+          "value": "1007-5704",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Structure-Preserving helmholtz PINNs for absorbing media with transparent boundaries",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Communications in Nonlinear Science and Numerical Simulation",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.cnsns.2026.109926",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2026 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "109926"
+    }
+  }
+}

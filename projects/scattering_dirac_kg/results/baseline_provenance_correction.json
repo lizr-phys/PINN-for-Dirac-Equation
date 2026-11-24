@@ -1,0 +1,216 @@
+{
+  "reason": "Correct disk-time provenance after an evaluation-only edit and LF/CRLF copy normalization. The live baseline process imported the original LF source once; numerical training code and all weights/history unchanged. frozen_source/mlp_v0/mlp.py preserves the exact original source bytes.",
+  "entries": [
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p50000000\\seed_0\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p50000000\\seed_1\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p20000000\\seed_0\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p20000000\\seed_1\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p20000000\\seed_2\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p02000000\\seed_0\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p02000000\\seed_1\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p02000000\\seed_2\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_2p00000000\\seed_0\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_2p00000000\\seed_1\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_2p00000000\\seed_2\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p50000000\\seed_0\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p50000000\\seed_1\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p50000000\\seed_2\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p20000000\\seed_0\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p20000000\\seed_1\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p20000000\\seed_2\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p02000000\\seed_0\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p02000000\\seed_1\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p02000000\\seed_2\\config.json",
+      "previous_disk_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "actual_loaded_LF_source_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e"
+    }
+  ],
+  "first_pass_original_entries": [
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p20000000\\seed_0\\config.json",
+      "recorded_disk_hash": "6955f27363328b39753b28c0c630731be9938be10b5238f1ba243064edd1f20c",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p20000000\\seed_1\\config.json",
+      "recorded_disk_hash": "6955f27363328b39753b28c0c630731be9938be10b5238f1ba243064edd1f20c",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p20000000\\seed_2\\config.json",
+      "recorded_disk_hash": "6955f27363328b39753b28c0c630731be9938be10b5238f1ba243064edd1f20c",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p02000000\\seed_0\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p02000000\\seed_1\\config.json",
+      "recorded_disk_hash": "6955f27363328b39753b28c0c630731be9938be10b5238f1ba243064edd1f20c",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\kg\\E_1p02000000\\seed_2\\config.json",
+      "recorded_disk_hash": "6955f27363328b39753b28c0c630731be9938be10b5238f1ba243064edd1f20c",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_2p00000000\\seed_0\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_2p00000000\\seed_1\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_2p00000000\\seed_2\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p50000000\\seed_0\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p50000000\\seed_1\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p50000000\\seed_2\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p20000000\\seed_0\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p20000000\\seed_1\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p20000000\\seed_2\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p02000000\\seed_0\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p02000000\\seed_1\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    },
+    {
+      "path": "results\\mlp_baseline\\dirac\\E_1p02000000\\seed_2\\config.json",
+      "recorded_disk_hash": "80e743d77950c0c8de4f2d8cf41481f377ec2c56f49493470810b215e463589e",
+      "loaded_process_hash": "a944893c57fb0ae6bbb6eebbd3adef9014861621731734ee6ca76f8327f92689",
+      "reason": "The baseline process had imported mlp_v0 before a temporary evaluation-only source edit. Training code was unchanged. Restore provenance to the actual in-memory source."
+    }
+  ],
+  "final_pass": []
+}

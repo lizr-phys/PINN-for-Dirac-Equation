@@ -1,0 +1,23 @@
+{
+  "status": "PASS_AVAILABLE_LEGACY_ENDPOINTS",
+  "endpoints_audited": 228,
+  "errors": [],
+  "skipped": [],
+  "elapsed_wall_seconds": 19.647883653640747,
+  "scope": "Available raw physical final arrays R1-R8, including R1 separate sensitivity root and historical smoke; secondary checkpoints excluded",
+  "endpoints_by_experiment": {
+    "cpa_transfer": 20,
+    "learned_two_phase_pilot": 6,
+    "ltpb_mechanism_ablation": 15,
+    "multimode_ltpb": 26,
+    "wavepacket_shared_spectral_ltpb": 26,
+    "periodic_potential_coupled_ltpb": 15,
+    "coupled_ltpb_phase_release_r7": 45,
+    "r8_coupling_recovery": 73,
+    "structure_weight_sensitivity": 2
+  },
+  "raw_history_unchanged": true,
+  "no_training_repeated": true,
+  "old_decisions_and_gauges_preserved": true,
+  "no_cross_round_accuracy_or_cost_pooling": true
+}

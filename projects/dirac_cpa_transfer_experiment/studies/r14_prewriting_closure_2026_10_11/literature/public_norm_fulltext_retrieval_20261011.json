@@ -1,0 +1,28 @@
+[
+  {
+    "tag": "paper_2303.03934",
+    "url": "https://arxiv.org/pdf/2303.03934v1",
+    "observed_utc": 1791724733.211164,
+    "HTTP_status": 200,
+    "content_type": "application/pdf",
+    "status": "OK",
+    "path": "literature/sources/paper_2303.03934.pdf",
+    "sha256": "226258d1c1398a8067e31066181721a09a798976e4378479c73a707614f2cbcf",
+    "pages": 7,
+    "text_path": "literature/sources/paper_2303.03934.txt",
+    "bytes": 2975708
+  },
+  {
+    "tag": "norm_cpc_published",
+    "url": "https://hepnp.ihep.ac.cn/fileZGWLC/journal/article/zgwlc/2023/5/PDF/CPC-2023-0002.pdf",
+    "observed_utc": 1791724737.056218,
+    "HTTP_status": 200,
+    "content_type": "application/pdf",
+    "status": "OK",
+    "path": "literature/sources/norm_cpc_published.pdf",
+    "sha256": "bc335bb896a787d0d4733028876f2e478a9cb9aa14a206013345a3e706a3a865",
+    "pages": 7,
+    "text_path": "literature/sources/norm_cpc_published.txt",
+    "bytes": 904181
+  }
+]

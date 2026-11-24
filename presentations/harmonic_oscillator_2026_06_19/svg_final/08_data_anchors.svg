@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FAFBFC" />
+
+  <g id="header">
+    <text x="60" y="72" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" fill="#52606D">08 / 数据锚点</text>
+    <text x="60" y="124" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="34" font-weight="700" fill="#1F2933">五组数据点是锚点，不是替代物理方程</text>
+    <line x1="60" y1="146" x2="1220" y2="146" stroke="#CBD5E1" stroke-width="1" />
+  </g>
+
+  <g id="anchor-plot">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M76,188 H684 A6,6 0 0 1 690,194 V560 A6,6 0 0 1 684,566 H76 A6,6 0 0 1 70,560 V194 A6,6 0 0 1 76,188 Z" />
+    <text x="108" y="232" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="21" font-weight="700" fill="#1F2933">锚点只给局部方向，方程残差仍覆盖整个区间</text>
+
+    <line x1="130" y1="452" x2="640" y2="452" stroke="#CBD5E1" stroke-width="1" />
+    <line x1="130" y1="278" x2="130" y2="452" stroke="#CBD5E1" stroke-width="1" />
+    <line x1="130" y1="365" x2="640" y2="365" stroke="#E2E8F0" stroke-width="1" />
+    <line x1="232" y1="278" x2="232" y2="452" stroke="#E2E8F0" stroke-width="1" />
+    <line x1="334" y1="278" x2="334" y2="452" stroke="#E2E8F0" stroke-width="1" />
+    <line x1="436" y1="278" x2="436" y2="452" stroke="#E2E8F0" stroke-width="1" />
+    <line x1="538" y1="278" x2="538" y2="452" stroke="#E2E8F0" stroke-width="1" />
+
+    <path d="M130 440 C188 438, 236 404, 282 360 C336 308, 390 296, 436 336 C486 380, 542 422, 640 440" fill="none" stroke="#1C4E80" stroke-width="4" />
+    <path d="M130 440 C188 438, 236 404, 282 360 C336 308, 390 296, 436 336 C486 380, 542 422, 640 440" fill="none" stroke="#4FA3A5" stroke-width="1" />
+
+    <circle cx="178" cy="430" r="7" fill="#D88C2D" />
+    <circle cx="270" cy="372" r="7" fill="#D88C2D" />
+    <circle cx="372" cy="305" r="7" fill="#D88C2D" />
+    <circle cx="482" cy="378" r="7" fill="#D88C2D" />
+    <circle cx="590" cy="432" r="7" fill="#D88C2D" />
+
+    <text x="126" y="482" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" fill="#52606D">-L</text>
+    <text x="628" y="482" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" fill="#52606D">L</text>
+    <text x="468" y="320" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" fill="#52606D">解析锚点</text>
+    <line x1="454" y1="326" x2="394" y2="310" stroke="#D88C2D" stroke-width="1.5" />
+    <text x="146" y="524" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="17" fill="#1F2933">训练时每个本征态抽取 5 个解析波函数点，用于稳定符号、相位和局部形状。</text>
+  </g>
+
+  <g id="hybrid-explanation">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M746,188 H1214 A6,6 0 0 1 1220,194 V288 A6,6 0 0 1 1214,294 H746 A6,6 0 0 1 740,288 V194 A6,6 0 0 1 746,188 Z" />
+    
+  <g transform="translate(772.0, 222.0) scale(1.25)" fill="none" stroke="#D88C2D" stroke-width="2">
+    <path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+    <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+    <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+  </g>
+    <text x="820" y="228" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">数据项</text>
+    <text x="820" y="260" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="18" fill="#52606D">少量解析值给出可观察的局部参照。</text>
+
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M746,322 H1214 A6,6 0 0 1 1220,328 V422 A6,6 0 0 1 1214,428 H746 A6,6 0 0 1 740,422 V328 A6,6 0 0 1 746,322 Z" />
+    
+  <g transform="translate(772.0, 356.0) scale(1.25)" fill="none" stroke="#1C4E80" stroke-width="2">
+    <path d="M3 19a2 2 0 0 0 2 2c2 0 2 -4 3 -9s1 -9 3 -9a2 2 0 0 1 2 2" />
+    <path d="M5 12h6" />
+    <path d="M15 12l6 6" />
+    <path d="M15 18l6 -6" />
+  </g>
+    <text x="820" y="362" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">物理项</text>
+    <text x="820" y="394" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="18" fill="#52606D">大量配点通过残差约束微分方程。</text>
+
+    <path fill="#EEF3F8" stroke="#CBD5E1" d="M746,456 H1214 A6,6 0 0 1 1220,462 V560 A6,6 0 0 1 1214,566 H746 A6,6 0 0 1 740,560 V462 A6,6 0 0 1 746,456 Z" />
+    
+  <g transform="translate(772.0, 492.0) scale(1.25)" fill="none" stroke="#4FA3A5" stroke-width="2">
+    <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" />
+    <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+  </g>
+    <text x="820" y="496" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">混合训练</text>
+    <text x="820" y="528" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="18" fill="#52606D">数据负责“别偏太远”，物理负责“整体要成立”。</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="654" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#7B8794">这个策略更像弱监督纠偏：它保留 PINN 的物理主导，同时降低训练早期的漂移。</text>
+    <text x="1220" y="654" text-anchor="end" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#7B8794">08</text>
+  </g>
+</svg>

@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "derivative_and_gradient_checks": [
+    {
+      "group": "learned_hard",
+      "forward_max": 0.0,
+      "time_derivative_max": 3.469446951953614e-18,
+      "parameter_gradient_scaled_max": 6.938893903907228e-18,
+      "all_active_gradients_checked": true
+    },
+    {
+      "group": "original_hard",
+      "forward_max": 0.0,
+      "time_derivative_max": 3.469446951953614e-18,
+      "parameter_gradient_scaled_max": 1.3877787807814457e-17,
+      "all_active_gradients_checked": true
+    },
+    {
+      "group": "analytic_hard",
+      "forward_max": 0.0,
+      "time_derivative_max": 2.7755575615628914e-17,
+      "parameter_gradient_scaled_max": 2.168404344971009e-19,
+      "all_active_gradients_checked": true
+    },
+    {
+      "group": "joint_hard",
+      "forward_max": 0.0,
+      "time_derivative_max": 3.469446951953614e-18,
+      "parameter_gradient_scaled_max": 6.938893903907228e-18,
+      "all_active_gradients_checked": true
+    },
+    {
+      "group": "no_carrier_hard",
+      "forward_max": 0.0,
+      "time_derivative_max": 3.469446951953614e-18,
+      "parameter_gradient_scaled_max": 6.938893903907228e-18,
+      "all_active_gradients_checked": true
+    },
+    {
+      "group": "siren",
+      "forward_max": 0.0,
+      "time_derivative_max": 2.4670305127455307e-17,
+      "parameter_gradient_scaled_max": 2.7755575615628914e-17,
+      "all_active_gradients_checked": true
+    },
+    {
+      "group": "fourier",
+      "forward_max": 0.0,
+      "time_derivative_max": 2.8609792490763984e-17,
+      "parameter_gradient_scaled_max": 6.938893903907228e-18,
+      "all_active_gradients_checked": true
+    }
+  ],
+  "R13_equivalence": [
+    {
+      "group": "original_pde",
+      "value_max": 0.0,
+      "objective_difference": 0.0,
+      "gradient_scaled_max": 0.0
+    },
+    {
+      "group": "static_pde",
+      "value_max": 0.0,
+      "objective_difference": 5.551115123125783e-17,
+      "gradient_scaled_max": 6.938893903907228e-18
+    },
+    {
+      "group": "original_hard",
+      "value_max": 0.0,
+      "objective_difference": 5.551115123125783e-17,
+      "gradient_scaled_max": 0.0
+    },
+    {
+      "group": "learned_hard",
+      "value_max": 0.0,
+      "objective_difference": 0.0,
+      "gradient_scaled_max": 6.938893903907228e-18
+    },
+    {
+      "group": "analytic_hard",
+      "value_max": 0.0,
+      "objective_difference": 2.168404344971009e-19,
+      "gradient_scaled_max": 0.0
+    }
+  ],
+  "exact_recovery": {
+    "bitwise_equal": {
+      "state_dict": true,
+      "optimizer": true,
+      "sampler": true,
+      "python_rng": true,
+      "numpy_rng": true,
+      "torch_rng": true
+    },
+    "interrupted_at_step": 3,
+    "endpoint": 8,
+    "new_initialization_after_resume": false
+  },
+  "zero_norm_denominator_preserved_failure": true,
+  "seconds": 10.678247199999532
+}

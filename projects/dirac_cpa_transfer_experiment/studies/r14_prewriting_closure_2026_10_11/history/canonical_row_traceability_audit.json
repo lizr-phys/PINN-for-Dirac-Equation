@@ -1,0 +1,13 @@
+{
+  "updated_utc": 1791704920.0556386,
+  "status": "PASS_CANONICAL_ROW_LINKS",
+  "canonical_rows": 528,
+  "matched_rows": 528,
+  "unresolved_rows": [],
+  "rows_with_independently_recomputed_raw_array": 528,
+  "raw_arrays_and_aliases_are_not_independent_replicate_count": true,
+  "R10_ancestor_rows_are_continuations_not_new_replicates": true,
+  "archived_table_and_original_sources_unchanged": true,
+  "all_matching_alias_paths_preserved": true,
+  "source_matching_does_not_change_native_decisions": true
+}

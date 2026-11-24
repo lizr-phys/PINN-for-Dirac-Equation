@@ -1,0 +1,9 @@
+kind,method,seeds,scan_energies,training_seconds,inference_seconds,total_seconds,mean_wave_relative_l2,maximum_wave_relative_l2,maximum_T_error,interpretation
+dirac,Jost,1,101,29.220372199939447,3.512859100097553,32.733231300037,,,,"Independent traditional solutions at all energies, high-accuracy DOP853."
+dirac,Jost rtol 1e-8,1,101,5.688481499993937,0.8370135000150134,6.52549500000895,1.416935180085842e-08,2.5247858739387762e-08,1.8786619371269356e-08,Actual looser-tolerance traditional solve; error evaluated against fine reference.
+dirac,Retrain RBF,1,101,8.818290499912106,2.570385000100937,11.388675500013044,1.600521552774985e-07,6.21815770997402e-07,7.318326489258453e-07,Actual independent training at each scan energy; seed 0.
+dirac,Conditional RBF,3,101,17.130980933332467,2.6098815333292147,19.740862466661678,1.2462850252802906e-06,7.822390438779864e-06,6.804022780082519e-06,Mean of three separately trained conditional networks; one training plus all-energy inference each.
+kg,Jost,1,101,28.866902799985837,3.477350600005588,32.34425339999143,,,,"Independent traditional solutions at all energies, high-accuracy DOP853."
+kg,Jost rtol 1e-8,1,101,5.517930700007124,0.8290534999541654,6.346984199961289,1.3979716617856415e-08,2.5333659945155432e-08,1.86856176087602e-08,Actual looser-tolerance traditional solve; error evaluated against fine reference.
+kg,Retrain RBF,1,101,8.63909310000599,2.4997983001376225,11.138891400143613,8.558905644209297e-08,4.2563857113216763e-07,7.328311422138967e-07,Actual independent training at each scan energy; seed 0.
+kg,Conditional RBF,3,101,16.540909166666097,2.545084333318902,19.085993499984998,1.0897610390074837e-06,9.05211082164351e-06,8.115433883015832e-06,Mean of three separately trained conditional networks; one training plus all-energy inference each.

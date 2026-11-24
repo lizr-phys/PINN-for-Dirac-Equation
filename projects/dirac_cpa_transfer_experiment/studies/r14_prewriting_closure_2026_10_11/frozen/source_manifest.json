@@ -1,0 +1,822 @@
+{
+  "utc": 1791685251.9287748,
+  "design_sha256": "ce26182b607b1e048e32b7ebd931221296fb1be071df34f40826f0a0b4dcdf24",
+  "files": [
+    {
+      "path": "plan.py",
+      "sha256": "1407c58b986ff8bca06325cb4f930abb891368d07eade0707a8e1c2038c5bf96"
+    },
+    {
+      "path": "preregistration.md",
+      "sha256": "652208bc36f3d296997b160f7f6ff3d7b66aae54224d212fa2be68554a095045"
+    },
+    {
+      "path": "closure/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "closure/config.py",
+      "sha256": "a88a7a3f77323aaf15859c13ffb095a82d786abe800ca98df81bab3980ed680a"
+    },
+    {
+      "path": "closure/evaluate.py",
+      "sha256": "73b837a3b66dbbc2848b657af4ff34a02f90e49dc24c64c5d1c0a380b3c22f2e"
+    },
+    {
+      "path": "closure/jobs.py",
+      "sha256": "8ea12e6f244bd2445de3b5fa075c888337085f43171a03a77dc61435fac21a8c"
+    },
+    {
+      "path": "closure/models.py",
+      "sha256": "430c58d3db564074d7f29ef100f719551b349524caca5450d8f1831819cfa02a"
+    },
+    {
+      "path": "closure/reference.py",
+      "sha256": "d12fb6600cf38ab27949ff74094a84d5de3600a5b623e2fe8436f0c322bf3e9c"
+    },
+    {
+      "path": "closure/spectral.py",
+      "sha256": "83594940c3a39af82f9373f520e384ec206fe93d42def417d08634b147f811a1"
+    },
+    {
+      "path": "closure/tests.py",
+      "sha256": "ac92c292ea0781c3db553e7d0083b48e8d0fe7e224677c2614493e9397c178d8"
+    },
+    {
+      "path": "closure/train.py",
+      "sha256": "0b93a79243a3671493db3b4068e677e96d2e51a78657d04437536f4249f2e8f2"
+    },
+    {
+      "path": "closure/vendor/__init__.py",
+      "sha256": "6d5bea9985b5015915c9aa3b3977f95956ea38ce47b1ae6c00bd8013173385a8"
+    },
+    {
+      "path": "closure/vendor/aggregate.py",
+      "sha256": "5a31b3d8981ea7ec3e2168673b86dd1f356ca538e448cea20e3747eceb14467d"
+    },
+    {
+      "path": "closure/vendor/aggregate_multimode_ltpb.py",
+      "sha256": "27562bd1d0a131a42899c526c1a02281b1e01b7109d41fe7ad2dfe751f9af14e"
+    },
+    {
+      "path": "closure/vendor/aggregate_periodic_potential_coupled_ltpb.py",
+      "sha256": "aa0bf6a9611fb6e58e16eb4a69b7c9277eb42ed7d7e2cf76f79dc7c73540eb5a"
+    },
+    {
+      "path": "closure/vendor/aggregate_r10_budget.py",
+      "sha256": "25c15dc102de5cacdc093cfd31d3fd5183a393cf9d006fe629f9af4b5f477bf7"
+    },
+    {
+      "path": "closure/vendor/aggregate_r11_ablation.py",
+      "sha256": "605d358229a6d9c4a7c69ba9618e156e81fb949ae8b2d922141e0568ab6061d9"
+    },
+    {
+      "path": "closure/vendor/aggregate_r12_robustness.py",
+      "sha256": "73db02603211a9a7ecfa9e61b7ea124d3e703324e35a928fd634956552a47f1c"
+    },
+    {
+      "path": "closure/vendor/aggregate_r13_recovery.py",
+      "sha256": "1c710ad42b35a670e55be93ba3d1cd2102bd4c324d7ca5e79d25079d0d3aaa5f"
+    },
+    {
+      "path": "closure/vendor/aggregate_r7_phase_release.py",
+      "sha256": "a9137eb9f41c6f5cb24b4ca1688dcaf1271f1e93b71725ca3761c95547ddeb49"
+    },
+    {
+      "path": "closure/vendor/aggregate_r8_coupling_recovery.py",
+      "sha256": "4ab3d92b1eb9448b6af275e458f96d53ff5be7584ada4f002d8b0140d7308c6b"
+    },
+    {
+      "path": "closure/vendor/aggregate_r9_wavepacket.py",
+      "sha256": "cc37303e1a5cca81211f0e74f209c5f5ab01f595a9e3a481652cbf5b69682f13"
+    },
+    {
+      "path": "closure/vendor/aggregate_wavepacket_shared_spectral_ltpb.py",
+      "sha256": "e84958af064099b86edde78f8ec505b0e16643b2a93ce447f08d7ceacbac9964"
+    },
+    {
+      "path": "closure/vendor/audit_learned_two_phase_pilot.py",
+      "sha256": "d8dd255c8603a69efce83c8307067a095ceb3c6c9c2cc214281c9c74e45750ac"
+    },
+    {
+      "path": "closure/vendor/audit_ltpb_mechanism_ablation.py",
+      "sha256": "5278ab2dc98bf68a8f4737f1dce25dab749cda1e754478cfff6bab0aa1028cfe"
+    },
+    {
+      "path": "closure/vendor/audit_multimode_ltpb.py",
+      "sha256": "06ddafc5a61954b0ffd9a49ea22b4af869735f9047d13c0a8ebfae674c3b0fe5"
+    },
+    {
+      "path": "closure/vendor/audit_periodic_potential_coupled_ltpb.py",
+      "sha256": "f7fbbc726f7d5e268f75d7a96c0d7142d1b117fe78bb6e4c5cd503d9269f78e1"
+    },
+    {
+      "path": "closure/vendor/audit_r10_budget.py",
+      "sha256": "f94033878d04abe4264e72674a8c95f305e00eff4ec409b9981b91c31bb2de46"
+    },
+    {
+      "path": "closure/vendor/audit_r11_ablation.py",
+      "sha256": "a6e20b6bbce83b5fa5121747a3c997a7e839495c635a9a2bd069d5e4e55101e9"
+    },
+    {
+      "path": "closure/vendor/audit_r12_robustness.py",
+      "sha256": "29fa0832a32f22f78cbb24dc8ae816f3b90f588253f008727848d6fa6668fd65"
+    },
+    {
+      "path": "closure/vendor/audit_r13_recovery.py",
+      "sha256": "ba79cc4a68b10f71a4165f70aaa24310cfee07ebbe4615be942b6b15fa40e5a9"
+    },
+    {
+      "path": "closure/vendor/audit_r7_phase_release.py",
+      "sha256": "3daf3c7325f6b0be25bdb78b842e71ac06e48b9ead061be1e15c50a64eb3ad06"
+    },
+    {
+      "path": "closure/vendor/audit_r8_coupling_recovery.py",
+      "sha256": "5328ad6ecc580ea2efd8622e4a5f5c94ebc4e51643a53f4cc4356af2f33160b3"
+    },
+    {
+      "path": "closure/vendor/audit_r9_wavepacket.py",
+      "sha256": "092a0918183d40e1231d18594ec2797a457a0683aabe83d70b9b286d42e19d71"
+    },
+    {
+      "path": "closure/vendor/audit_results.py",
+      "sha256": "fc867ac695d107a32d62b0b02cc798843b728db0472d5cfeb78b725e7c54b328"
+    },
+    {
+      "path": "closure/vendor/audit_wavepacket_shared_spectral_ltpb.py",
+      "sha256": "f8d6ced2582e0bd0085d934b8aba7b914d67312a75cf27b13df364ea3e1ea9ba"
+    },
+    {
+      "path": "closure/vendor/build_dirac_ltpb_comprehensive_report.py",
+      "sha256": "cd0669e54c3afe1524ea921baae730a6b7952ae559f259f00dc33fda67bfbd33"
+    },
+    {
+      "path": "closure/vendor/build_learned_two_phase_pilot_report.py",
+      "sha256": "86acd7f79f6215a18af704f80ba997fb6d95dc2ddd4e0daca7ad7675946ac96d"
+    },
+    {
+      "path": "closure/vendor/build_ltpb_mechanism_ablation_report.py",
+      "sha256": "2a5e6cb9b801502c3841cb6f2ac5beab64560a7d0b2f743d2c2ef9ec635f183d"
+    },
+    {
+      "path": "closure/vendor/build_multimode_ltpb_report.py",
+      "sha256": "e61bbbc07cdef1419f58517b77dd4f19de7a159c9775a2cc23e59d5140fba9a2"
+    },
+    {
+      "path": "closure/vendor/build_periodic_potential_coupled_ltpb_report.py",
+      "sha256": "dc93f8f9718832bcb267c86fd497892fafda247b8b4e34c7fd10536b9821f2d1"
+    },
+    {
+      "path": "closure/vendor/build_r10_budget_report.py",
+      "sha256": "0569343d7b8ede0bd84df60ea5a52a2395f2aa76a01446f02d97b3f32b620dc8"
+    },
+    {
+      "path": "closure/vendor/build_r11_ablation_report.py",
+      "sha256": "034445aaefdc788138bd4230fcd7b711da114af082a16386fbc7fed9bac843f4"
+    },
+    {
+      "path": "closure/vendor/build_r12_robustness_report.py",
+      "sha256": "fe042188e37ae27cf5c0c4a2a156d8e1614e0dcdfdf18bf8db9c41e296920839"
+    },
+    {
+      "path": "closure/vendor/build_r13_recovery_report.py",
+      "sha256": "cd8a5a796c1a34c5a1c476f1a51e773c5b52e7a9590f276a1211520be555d4f6"
+    },
+    {
+      "path": "closure/vendor/build_r7_phase_release_report.py",
+      "sha256": "aa5f0754f8fe02a52cc6096a13fdb222ad6cfe89a2c71d17f415a3b3c30b11e9"
+    },
+    {
+      "path": "closure/vendor/build_r8_coupling_recovery_report.py",
+      "sha256": "a77a8c8f65bfa2a0fb45fcd62743673e963ae8a3085215f9daccab72ff98c088"
+    },
+    {
+      "path": "closure/vendor/build_r9_wavepacket_report.py",
+      "sha256": "ce88a56fdfc66ef84fbcfdee4d22778ddc8f82ca273d539d36bc446c1bc63059"
+    },
+    {
+      "path": "closure/vendor/build_report.py",
+      "sha256": "c7cb6c43df6bb0f2e4cd01be10c1a2daa5ff5d373f4ed0a93f06faa5d8256f9d"
+    },
+    {
+      "path": "closure/vendor/build_wavepacket_shared_spectral_ltpb_report.py",
+      "sha256": "93a80046c647e8f312a709b1e51fc7bf244f5065fc9c8ae6bbf3e74a127aacbd"
+    },
+    {
+      "path": "closure/vendor/calibrate_periodic_potential.py",
+      "sha256": "692fb5f970364b164f1f4222c5116b04ab02a48e10010790858babf9289cc004"
+    },
+    {
+      "path": "closure/vendor/capture_ltpb_mechanism_protected_baseline.py",
+      "sha256": "5c8c175bf94791131a0d33537f87232f99e6685d258342fce50f26a0230af952"
+    },
+    {
+      "path": "closure/vendor/capture_multimode_ltpb_protected_baseline.py",
+      "sha256": "8df6015130913aaca0df28f3b9ad64db85c038fa32c1d4bab506e92107ff3b1c"
+    },
+    {
+      "path": "closure/vendor/capture_periodic_potential_coupled_ltpb_protected_baseline.py",
+      "sha256": "04da973c6a3876137d522e7172d4029fa4ab786ebd6e698bdf83181771c853ee"
+    },
+    {
+      "path": "closure/vendor/capture_wavepacket_shared_spectral_ltpb_protected_baseline.py",
+      "sha256": "6b05b02aa25ef7b939ab4e5f05995b4a034ffafcdadc418cbe48cc07671c5104"
+    },
+    {
+      "path": "closure/vendor/config.py",
+      "sha256": "cbd1533c295ee11b6cd953ee98630020fea3096202a628d35842e4c9ca6f9211"
+    },
+    {
+      "path": "closure/vendor/evaluate.py",
+      "sha256": "c0ac630392f6669441ba2ddfc925cda2f89030b479004fccc4bf817949d72a25"
+    },
+    {
+      "path": "closure/vendor/finalize_multimode_ltpb_audit.py",
+      "sha256": "c35c6f0a13ab71b1ee6d5e3ffbc459bd7874836eca9ae2e15ee70367eb5d7552"
+    },
+    {
+      "path": "closure/vendor/finalize_r11_ablation.py",
+      "sha256": "a2650009e1ede9ea209cdd44d55d06a7e83e80abfe33cc63edf9ebf8df80b111"
+    },
+    {
+      "path": "closure/vendor/finalize_r12_robustness.py",
+      "sha256": "18ba502eb74b0aae3906123a653bf4a0fb637c4cfe724e56a1581c93477082dd"
+    },
+    {
+      "path": "closure/vendor/finalize_r13_recovery.py",
+      "sha256": "a82b14b9e71f016c09a3fda8b443e279a33b313ac3d904ac0f294556d810ff67"
+    },
+    {
+      "path": "closure/vendor/freeze_multimode_ltpb_preregistration.py",
+      "sha256": "8aac959571a841e5dd9976052a5a2d0e89963476cb2c81f40772086ca1815ef1"
+    },
+    {
+      "path": "closure/vendor/freeze_periodic_potential_coupled_ltpb.py",
+      "sha256": "b4980b3377a1e0bcdb45290ffbd5a9a03cfa876be5195a3580fe033053bbc414"
+    },
+    {
+      "path": "closure/vendor/freeze_r10_budget.py",
+      "sha256": "648b74bdf11df7d334a7b791ef71ba0b2ac34c0d97c7c266119cdbe79bcc00fc"
+    },
+    {
+      "path": "closure/vendor/freeze_r11_ablation.py",
+      "sha256": "0a99865d4b02591c32c510604b0aa7a4aa0ca370c8fc866ed6f228ce5d0b48dc"
+    },
+    {
+      "path": "closure/vendor/freeze_r12_robustness.py",
+      "sha256": "4abfca7e946074fd5b3fc28aa1d5af3e9f9d675b0ac09b8e61afe8a975216fdb"
+    },
+    {
+      "path": "closure/vendor/freeze_r13_recovery.py",
+      "sha256": "bdc6a7c0f34398c8a713061193b52acc39c56ccad184e7918e097823d9a0a938"
+    },
+    {
+      "path": "closure/vendor/freeze_r7_phase_release.py",
+      "sha256": "154ceb8994b04102438043b0c938fb76be476b982476bf8af2b32539d616bce6"
+    },
+    {
+      "path": "closure/vendor/freeze_r8_coupling_recovery.py",
+      "sha256": "a45c4a275c3256d6e21325131f92ff712a08bc6cc7d21395bd1f651fe2f7d4e0"
+    },
+    {
+      "path": "closure/vendor/freeze_r9_wavepacket.py",
+      "sha256": "1d8fa3a24723d295dfbdc7d6c13ab814d5898b9f6d9bdc7292f914be4862dc1d"
+    },
+    {
+      "path": "closure/vendor/freeze_wavepacket_shared_spectral_ltpb_preregistration.py",
+      "sha256": "d2aad8ef9ba3cf46f45711f48497cebaecb01a7ac60be550adda6aaa9c07a1e0"
+    },
+    {
+      "path": "closure/vendor/launch_periodic_potential_coupled_ltpb.py",
+      "sha256": "ba1b293915ea32d12500e06e7372fd23b30dc9c5b440678e97300b53f3551616"
+    },
+    {
+      "path": "closure/vendor/launch_r13_detached.py",
+      "sha256": "3021750019a41461916faebc9d3bfd1e9a1a4302bbd4fa64345053f0fdf552a2"
+    },
+    {
+      "path": "closure/vendor/losses.py",
+      "sha256": "5789a47082a79f7ee28cf2449add7d7adf424ee59639e29e9ac55566de77b9cc"
+    },
+    {
+      "path": "closure/vendor/ltpb_mechanism_decision.py",
+      "sha256": "22e821db8cf5ff54ea0a419fdcd3033e1c2373735106a1fa9034a6a9e0841556"
+    },
+    {
+      "path": "closure/vendor/models.py",
+      "sha256": "4d85a6035b5f07bdffbee9aef5ae3d5f497be716e756d55973febe6053b8797f"
+    },
+    {
+      "path": "closure/vendor/monitor_r11_ablation.py",
+      "sha256": "ebc667c538ce4e39d4af47317a1153c3f94f323fc8f89b24a6fd0ab9e2af69b1"
+    },
+    {
+      "path": "closure/vendor/monitor_r12_robustness.py",
+      "sha256": "e1fbb1c7514d481908619d7fb88b6adfe71f51ffc2157a779205fe682b7f43c6"
+    },
+    {
+      "path": "closure/vendor/multimode_config.py",
+      "sha256": "c9505253648600646c1810a86191ae7b56717f14e233ed06810294eb44418787"
+    },
+    {
+      "path": "closure/vendor/multimode_evaluate.py",
+      "sha256": "32b44bdee8e8efa15954eedfcf0c672628cdc25d7e93999e607cfa8f8a9b37d4"
+    },
+    {
+      "path": "closure/vendor/multimode_ltpb_decision.py",
+      "sha256": "7f090b92f06e1aae6d78b1c8491b9430aeb6467cf314517f365832fe02c76613"
+    },
+    {
+      "path": "closure/vendor/multimode_models.py",
+      "sha256": "41ffb2c224fd25469a8c36b99af28558ae4777cce780776492b79f4477ce45b1"
+    },
+    {
+      "path": "closure/vendor/multimode_physics.py",
+      "sha256": "c2b88734203d9b4536e511a94bdb3d8f75437c467dbb11cfbdfcc23f71164e88"
+    },
+    {
+      "path": "closure/vendor/periodic_potential_config.py",
+      "sha256": "179ec9883b927a46ee0ec86cb75a7b85c4942196a2981eb40ee3b4c2d5db87e8"
+    },
+    {
+      "path": "closure/vendor/periodic_potential_coupled_ltpb_decision.py",
+      "sha256": "455d22f7659bdf055f15d2e025a18814d7830b2aebaa1c4c536b421dff7e47ea"
+    },
+    {
+      "path": "closure/vendor/periodic_potential_evaluate.py",
+      "sha256": "2f91addf63772802b99184a4a7b38a2c442e14168fe4cf6de0dc6b9808dbd6aa"
+    },
+    {
+      "path": "closure/vendor/periodic_potential_models.py",
+      "sha256": "b304f4896c5ef721c417350735c43ef26fe6aea122647872f39dcc6089d1fadd"
+    },
+    {
+      "path": "closure/vendor/periodic_potential_physics.py",
+      "sha256": "4a6da2915ab0430355db2b3b167000954e5ed2be36b53706d0eaf8e522505d99"
+    },
+    {
+      "path": "closure/vendor/physics.py",
+      "sha256": "14469c6dabdec935136dd73fe3d053057834af337fddf27fbe0a122d0e058d1b"
+    },
+    {
+      "path": "closure/vendor/plot_learned_two_phase_pilot.py",
+      "sha256": "5c93c1ccf9c8c30be1370331844394514bb7c81fb0d7c0c7d705d04cc0a2ac59"
+    },
+    {
+      "path": "closure/vendor/plot_ltpb_mechanism_ablation.py",
+      "sha256": "43884f80c1d36e7ae695cc4bb346b801d7952be5e2b33ca164f5749f0529c364"
+    },
+    {
+      "path": "closure/vendor/plot_multimode_ltpb.py",
+      "sha256": "45d6d103bf8228d264f1f958b65a737a3ad7593723420146253d00cae6e6f487"
+    },
+    {
+      "path": "closure/vendor/plot_periodic_potential_coupled_ltpb.py",
+      "sha256": "7c741acfa5625b671b8c166b61338f234a2fcc01b7eca0e74281f6f90dfef362"
+    },
+    {
+      "path": "closure/vendor/plot_r10_budget.py",
+      "sha256": "5011425bf9b18e79ef934a3a3655f68f733f5a41ff605dacf9bacbe15213025b"
+    },
+    {
+      "path": "closure/vendor/plot_r11_ablation.py",
+      "sha256": "4953ce67038ca05f8518ef6e926eb7c5156d9255e5a75fdad30fdee443e74f8e"
+    },
+    {
+      "path": "closure/vendor/plot_r12_robustness.py",
+      "sha256": "c54d841cb97a89b995b0f32dda6ffdec11d7c6be7a044169e99af4f161ba4d1e"
+    },
+    {
+      "path": "closure/vendor/plot_r13_recovery.py",
+      "sha256": "8c7ffe7444fb84a73d68204314c379086aa944da92a7387f8bad4f87f1a6a4b1"
+    },
+    {
+      "path": "closure/vendor/plot_r7_phase_release.py",
+      "sha256": "acc144188d9b05388149989bd5a94a8c95aae390ba99345d7620420ff4c0bd9f"
+    },
+    {
+      "path": "closure/vendor/plot_r8_coupling_recovery.py",
+      "sha256": "742d2a8bee4653325efdf010b1b155d2d530f9d6b523fb06e5d9deacf5e7c3a9"
+    },
+    {
+      "path": "closure/vendor/plot_r9_wavepacket.py",
+      "sha256": "05a674231e3c2b0ddc98f9ce8718bc48b757b4b67dcfc786d8884bbb5f25834d"
+    },
+    {
+      "path": "closure/vendor/plot_results.py",
+      "sha256": "ca738023c55a2942de1fcdd9707f4d79ba71aef8a29c4879fca1ed2a59b0d038"
+    },
+    {
+      "path": "closure/vendor/plot_wavepacket_shared_spectral_ltpb.py",
+      "sha256": "5139232d8fa0b982aba369e0902c8f4bfee801f5990e993badf80f2551f3ff8a"
+    },
+    {
+      "path": "closure/vendor/qa_multimode_ltpb_figures.py",
+      "sha256": "8ddd32eaa89e8f6498e02f057fd36a33b971df13bb172f04973f02e9d86c851c"
+    },
+    {
+      "path": "closure/vendor/qa_periodic_potential_coupled_ltpb_figures.py",
+      "sha256": "d73b53b3a8dbdfbf362b2ff32491737941d4fcf903d2ed42a8178cb177f2beef"
+    },
+    {
+      "path": "closure/vendor/qa_r10_budget_figures.py",
+      "sha256": "648b026037c792a40ad3ac8b7a07c078c196f1edf438480adbccae94de39a2f6"
+    },
+    {
+      "path": "closure/vendor/qa_r11_ablation_figures.py",
+      "sha256": "2bfb2d1928c84834d101d88853170a80894ddc5c83ed3e637cb3716896c5e328"
+    },
+    {
+      "path": "closure/vendor/qa_r12_robustness_figures.py",
+      "sha256": "fce89e69724e2f03245b004411ed612a8538c30ba38ed697b8cdd37808874e6a"
+    },
+    {
+      "path": "closure/vendor/qa_r13_recovery_figures.py",
+      "sha256": "8b5c17956cb5d0804ea13944b69d6295b947d20d7c8bfe167e54ffb598e2dbe1"
+    },
+    {
+      "path": "closure/vendor/qa_r9_wavepacket_figures.py",
+      "sha256": "0fc1097274260e2a6753d168128fe0d6278fb20dd117e33830c8a340593f66ee"
+    },
+    {
+      "path": "closure/vendor/qa_wavepacket_shared_spectral_ltpb_figures.py",
+      "sha256": "38e8957b013aad249aa4945ff9b23a17d66a6785ce0f31b7ae3f74c617d88c59"
+    },
+    {
+      "path": "closure/vendor/r10_config.py",
+      "sha256": "a0c473a978ffbac75ef63fc6da29fe89e5308efb18c01283debda79c9594dc2d"
+    },
+    {
+      "path": "closure/vendor/r10_evaluate.py",
+      "sha256": "975c495ac3d8d2f4576da00f0d21ddbc96d32e6affd040bd8fea82872b572dde"
+    },
+    {
+      "path": "closure/vendor/r10_norm_diagnostics.py",
+      "sha256": "dc69a9a28701760b4b4e54bbae4c6fada8c7f0be3cae9ce6690d1f008af58049"
+    },
+    {
+      "path": "closure/vendor/r10_state.py",
+      "sha256": "0b360aa64df174305c8ec66da1c02bd1ee403b281aa257e8ab01d62259559aea"
+    },
+    {
+      "path": "closure/vendor/r11_config.py",
+      "sha256": "ee01583dc679d49bef8154f7925c4a670861086e272e5b94ba601734d6185585"
+    },
+    {
+      "path": "closure/vendor/r11_decision.py",
+      "sha256": "7bfcaa327a48524992ce0fc1553cddbf1f6e3fa98e0ef224479fb98a541c79f7"
+    },
+    {
+      "path": "closure/vendor/r11_evaluate.py",
+      "sha256": "3d524312a353943d7c40fb74552d20244912e261b8578800137c77173be4669b"
+    },
+    {
+      "path": "closure/vendor/r11_exact_carrier_diagnostic.py",
+      "sha256": "8d7c9a0dd397e52aa0e3cd98d789f02ffd3030b9558da041a1b28e01da182cf1"
+    },
+    {
+      "path": "closure/vendor/r11_models.py",
+      "sha256": "dfc262ce6ebbafb1f5f354a4881d1b565904a3168eb11329605311cf78c046e1"
+    },
+    {
+      "path": "closure/vendor/r11_reference.py",
+      "sha256": "af6d7e0ac9bfd5159b8760ea4728965f4bac2d14a513ddca398491d28d8909b9"
+    },
+    {
+      "path": "closure/vendor/r11_residual.py",
+      "sha256": "5b93eed92a3e473f451d72a2556bf132893fa6e6ee4cbdc50d465a582a727aca"
+    },
+    {
+      "path": "closure/vendor/r12_config.py",
+      "sha256": "3c2a19f2d19a1c42c64e7eb6ce10336712955d34ff1c28a0b86757169a1e87af"
+    },
+    {
+      "path": "closure/vendor/r12_decision.py",
+      "sha256": "d30a0ff4a215a2e48c54d048832fbd3f297e8182ee86f8bfbd4bd190a828799e"
+    },
+    {
+      "path": "closure/vendor/r12_evaluate.py",
+      "sha256": "206f1854a5844d8635831921e474f4c8f88cec0a53791f19c7d1011cc192c97b"
+    },
+    {
+      "path": "closure/vendor/r12_hamiltonian.py",
+      "sha256": "3c8ff582872a4f5a1a8aa4b288e56440ee36976610ef038817d4d6dcc0811113"
+    },
+    {
+      "path": "closure/vendor/r12_models.py",
+      "sha256": "591b8970b38ae1b0c26a573d40d6f33ffd25ab4aaa485400b4b5a0caa5622436"
+    },
+    {
+      "path": "closure/vendor/r12_norm_diagnostics.py",
+      "sha256": "c5fd26d50b19a5cf18ee8a2ef4c9c57b10ca6ca81212adf798d1ec08a20cbbdf"
+    },
+    {
+      "path": "closure/vendor/r12_reference.py",
+      "sha256": "e09cb8427508e5c6e237a63f0fdcc0e8fb346d670fac4a5b77e975455fdd3a89"
+    },
+    {
+      "path": "closure/vendor/r12_residual.py",
+      "sha256": "5574918e29d7fb175d69a342d8d97f5391f9deee3eacce7ba5cfec49b4aed76e"
+    },
+    {
+      "path": "closure/vendor/r13_config.py",
+      "sha256": "b96157cce9bd655559dcb2653d649dce5a43faaa719105bed2d240b67b3430e9"
+    },
+    {
+      "path": "closure/vendor/r13_evaluate.py",
+      "sha256": "8ee7dae9d9a2a770edd83fa375e05631e2c183f784e68da1d3b27773e05c5072"
+    },
+    {
+      "path": "closure/vendor/r13_models.py",
+      "sha256": "6b1053087e29d02473665e3f7572e46bf6930840082af4c0212a47408292a99a"
+    },
+    {
+      "path": "closure/vendor/r13_phase_evaluate.py",
+      "sha256": "355ebc419dcec342e2bc3ce5995003b04801bf519649f41d5fcbf357fe268c4a"
+    },
+    {
+      "path": "closure/vendor/r13_plan.py",
+      "sha256": "429a39f636d0edb60e62b5aed59a3d2ab69873637bcfdd7e91b59c4d7ed4e977"
+    },
+    {
+      "path": "closure/vendor/r13_reference.py",
+      "sha256": "5ea2df8f328cade4145d3c882887247824609efaef51b9ca9dd88b5701d22e1a"
+    },
+    {
+      "path": "closure/vendor/r13_residual.py",
+      "sha256": "f0445b03b82f9278b4a49be3175cc42ceba258cc405c1627564e66c2b7bf60e4"
+    },
+    {
+      "path": "closure/vendor/r13_selection.py",
+      "sha256": "dd81cbb85a6a248811d8e8d7ab6b702fdb72381cf840e7ec60f6efc1bd7a7384"
+    },
+    {
+      "path": "closure/vendor/r7_config.py",
+      "sha256": "ea89b8494b77b60cf1294816f06d7e6e6dc4f3d8ad337a58d605c82f1b867017"
+    },
+    {
+      "path": "closure/vendor/r7_decision.py",
+      "sha256": "dff3b9cf56fa44e5e5f67a916efee300c575a8e787a8bdce4e876ef8f00343c1"
+    },
+    {
+      "path": "closure/vendor/r7_evaluate.py",
+      "sha256": "6628d8514e9138785c27834bca7fc7b39818f28274b05b25b8d6c572bd1efea2"
+    },
+    {
+      "path": "closure/vendor/r7_failure_diagnostics.py",
+      "sha256": "c22d86cd65bd6b04af0229218100e233d407024a723a4dd5544c1be0dd11f8d2"
+    },
+    {
+      "path": "closure/vendor/r7_loss.py",
+      "sha256": "8fcdc9800243baa68142fdf70038069aaa2045b16955a7f5e91852bf9271111f"
+    },
+    {
+      "path": "closure/vendor/r7_models.py",
+      "sha256": "82838edd838802879835766c938e50253c4215f065ef024f965611598dad04a1"
+    },
+    {
+      "path": "closure/vendor/r7_reference.py",
+      "sha256": "efe5b6fa40a29c493c3c27042d117bb5459074d56b383f1c501789e94c8fd2ee"
+    },
+    {
+      "path": "closure/vendor/r7_report_qa.py",
+      "sha256": "eb0715e929d634917b050ea3deaa9d5b3e598473bdb1bd7345beafc17850efbb"
+    },
+    {
+      "path": "closure/vendor/r7_runtime.py",
+      "sha256": "eaffab0c0038efd7d79700565670d2830760b561a36f56e188e11d1aace9f523"
+    },
+    {
+      "path": "closure/vendor/r7_sampling.py",
+      "sha256": "4c51cd47c530cebca46aecbb77b814c56d1d3b56450182a0f1e06698af638453"
+    },
+    {
+      "path": "closure/vendor/r7_theory.py",
+      "sha256": "9048de9ddf76539f68a4f10b8f5a0cdae0225f4dd1b8ccb0ea0da274c126ddf2"
+    },
+    {
+      "path": "closure/vendor/r8_config.py",
+      "sha256": "7f1db318c6f7598eb3fb3f8f66b4e244690efa18387c732615c7ffd1f07d431c"
+    },
+    {
+      "path": "closure/vendor/r8_decision.py",
+      "sha256": "b296b884c76ea47aaa067f4c52b92198d5b455897eab8d7dadcdd92107de38f5"
+    },
+    {
+      "path": "closure/vendor/r8_evaluate.py",
+      "sha256": "86bbf3bfb8e6f49bf5f70b9d364537d264b2f4e38ded440c5273d95d90f4b836"
+    },
+    {
+      "path": "closure/vendor/r8_free_packet_evaluation_adapter.py",
+      "sha256": "093905c8b7bb0b1214dababde13e3e1c3a3ae40f167af22b6adb8655844886c6"
+    },
+    {
+      "path": "closure/vendor/r8_loss.py",
+      "sha256": "cf37056acfcca66cb43d999d3252b7e00b974f949f7bbeed714cec5008eb9ac6"
+    },
+    {
+      "path": "closure/vendor/r8_models.py",
+      "sha256": "706b8739cb928f64c2a029f503c09249eccfcdb69eba7445ff25a60c2141699d"
+    },
+    {
+      "path": "closure/vendor/r8_reference.py",
+      "sha256": "6534e3792422945b8fe2b792ac7324c7e3e47c664e8a6bffcb1170b8116c4925"
+    },
+    {
+      "path": "closure/vendor/r8_report_qa.py",
+      "sha256": "5eb22858f281a1982f440782489ea46cb82a8954a5babb4da386cee98991d297"
+    },
+    {
+      "path": "closure/vendor/r8_sampling.py",
+      "sha256": "9b5745e87755600cc2904ff06ff8c31ce883e3ba6ca1c700f65eb458665f476a"
+    },
+    {
+      "path": "closure/vendor/r8_theory.py",
+      "sha256": "fdb51341712a667fbbc5a50280ce79fb012094bef9fb0496e095063bdba78501"
+    },
+    {
+      "path": "closure/vendor/r9_config.py",
+      "sha256": "26c1c491371ae287fe4fbe7ad7aab7df6a3f7c69de11157c9a01b5a4b1753c03"
+    },
+    {
+      "path": "closure/vendor/r9_decision.py",
+      "sha256": "944644d160f68181acf39f505e06df1ffbcd94bad2aa46ec1fea831fbcd99b15"
+    },
+    {
+      "path": "closure/vendor/r9_evaluate.py",
+      "sha256": "6b940a537337affea0e2463290933c16e55895514c5b37f1c8304a252c4bc1c8"
+    },
+    {
+      "path": "closure/vendor/r9_full_residual_archive.py",
+      "sha256": "0050f40c64d12449e97c3573441ec1a7c49a9fd2bef21df5011f99c7de8036fc"
+    },
+    {
+      "path": "closure/vendor/r9_loss.py",
+      "sha256": "4df61a097f95a7dc834dc7716ff559f05d70f1c1885b556ea7289ff9556da0b5"
+    },
+    {
+      "path": "closure/vendor/r9_models.py",
+      "sha256": "3fdabb7449f9af145facc4382a3b29a5eb015c5ff879760aaae93f5548195538"
+    },
+    {
+      "path": "closure/vendor/r9_reference.py",
+      "sha256": "a3673c4aea144506f73f3541158537de4110f6ba7c87f1f8e75da72365891dc5"
+    },
+    {
+      "path": "closure/vendor/r9_runtime.py",
+      "sha256": "1f306b423fd5802ed8de716da2c68056d45326b735cec39be6657e9935ee5f1b"
+    },
+    {
+      "path": "closure/vendor/r9_time_derivative.py",
+      "sha256": "26d73521dfc931676bb3db7d2d80a1dacf84c98efecbbc082299e887b1657475"
+    },
+    {
+      "path": "closure/vendor/repair_wavepacket_per_seed_figure_layout.py",
+      "sha256": "5ac495df601ab207be4d2567e0674989579ed0f920749bf0ef04d559bd3966f6"
+    },
+    {
+      "path": "closure/vendor/resume_r12_robustness.py",
+      "sha256": "3c038f904c8a82c7be43922dd8ee5db86a1fbeb581dba634738dfa268db33992"
+    },
+    {
+      "path": "closure/vendor/resume_r13_remaining.py",
+      "sha256": "05710a9907612392faf9e1f696e120230e56898368a5977f31ea90fb2c34efbd"
+    },
+    {
+      "path": "closure/vendor/run_experiments.py",
+      "sha256": "46395c3f52c311c76de632c006c8ec84947d0c5d53ed78bc7368653eda40e4e7"
+    },
+    {
+      "path": "closure/vendor/run_learned_two_phase_pilot.py",
+      "sha256": "a577eebe7e48c9f68310419dd7b0968a2628240b0f291bc9fa4fcc14fd0cfbb0"
+    },
+    {
+      "path": "closure/vendor/run_ltpb_mechanism_ablation.py",
+      "sha256": "3fd3e36b859dcc683ccf870c1bd6d88f36023d972588eb89e8b168a33ad3c9a9"
+    },
+    {
+      "path": "closure/vendor/run_multimode_ltpb.py",
+      "sha256": "57635dfcd3f717e71ca3aa1fd717060a24c4ed215f29a8124501761643247e06"
+    },
+    {
+      "path": "closure/vendor/run_periodic_potential_coupled_ltpb.py",
+      "sha256": "fd1c41fbb7bc721cbfd19ed57a172ebe01545587f285e693b5974aa7bf02c5ea"
+    },
+    {
+      "path": "closure/vendor/run_r10_budget.py",
+      "sha256": "6bf1ed3d17a5fd648bec9cae6df9c2f5e028321f360b877c3703249a9d27ba40"
+    },
+    {
+      "path": "closure/vendor/run_r11_ablation.py",
+      "sha256": "f02c1858829544351311608cd18bdb9ccf4c19165e38fe6d80f95e389429d266"
+    },
+    {
+      "path": "closure/vendor/run_r12_robustness.py",
+      "sha256": "6c87de627300cf2c4fad98572ca5bd35a03bdbca9a9f842309795474281fd6c9"
+    },
+    {
+      "path": "closure/vendor/run_r13_recovery.py",
+      "sha256": "545376f6cd46237b4d7f69a9ad96de040d9ae5aa5af9556ec0963437ae4523c2"
+    },
+    {
+      "path": "closure/vendor/run_r7_phase_release.py",
+      "sha256": "96ec71f896369a644136ecf04cbf7914a1482359436f6ee40f59bad9e89faef2"
+    },
+    {
+      "path": "closure/vendor/run_r8_coupling_recovery.py",
+      "sha256": "73d6a0561332727b58a09516df418e97cc4fcb7a666553027a4ec31e67e9610e"
+    },
+    {
+      "path": "closure/vendor/run_r9_wavepacket.py",
+      "sha256": "e03c68ad9d0f52e0eee0c75e2583693854b2cdc8faaeb0d8b2e96f06b525b12a"
+    },
+    {
+      "path": "closure/vendor/run_wavepacket_shared_spectral_ltpb.py",
+      "sha256": "e6cb735bc46496d07f9a490a2ec27b4a88969c887efedcc17ff2c9d1915757a5"
+    },
+    {
+      "path": "closure/vendor/select_periodic_potential_formal_physics.py",
+      "sha256": "c0115adf1eac4535e18dcf7a499fa9cab369400ea9e8fa02b3b933099389ef0d"
+    },
+    {
+      "path": "closure/vendor/train.py",
+      "sha256": "c72b3cc3129f0561c5da92d77e8539a8d25bb8adb2e8e3aab43376a7a0298312"
+    },
+    {
+      "path": "closure/vendor/train_multimode_ltpb.py",
+      "sha256": "73397ea9c28c494a9e8d76627fa33b398065564b862cf951f1cbbf397e9937a9"
+    },
+    {
+      "path": "closure/vendor/train_periodic_potential_coupled_ltpb.py",
+      "sha256": "4175d631ea5cbcf1114367e0686e4a30f4821e55ea1190bf685a7e0357dcff76"
+    },
+    {
+      "path": "closure/vendor/train_r10_budget.py",
+      "sha256": "54edae5b0aa6b141e07a536019113c61cb76c78a8281fc5c311b7c2ace51904d"
+    },
+    {
+      "path": "closure/vendor/train_r11_ablation.py",
+      "sha256": "a9157c115138d1563ab448c0617149626f4f83ccfe91eeba4a0ab136a8a6c8a8"
+    },
+    {
+      "path": "closure/vendor/train_r12_robustness.py",
+      "sha256": "74d2c22ea4d35895a2d43d2f6d5ba2e5ac945819d8025c896108b7ce75ff9691"
+    },
+    {
+      "path": "closure/vendor/train_r13_recovery.py",
+      "sha256": "5d85dcb2b8f6731998fd148eac708022076708de4db6dba82e120895d243e43f"
+    },
+    {
+      "path": "closure/vendor/train_r7_phase_release.py",
+      "sha256": "0ed3d3f6ac7762fd5f3c1551cb64e11ea4beddfc67e3ce54fa0085992be40793"
+    },
+    {
+      "path": "closure/vendor/train_r8_coupling_recovery.py",
+      "sha256": "9de5a059d62a414dd4606bbd2725850e842ae229ee01fac412aec2c43a43dbc2"
+    },
+    {
+      "path": "closure/vendor/train_r9_wavepacket.py",
+      "sha256": "78fc18b3f72431f8dda60d9f2f9e447b65044064cc26b97b37d36c324e1eaead"
+    },
+    {
+      "path": "closure/vendor/train_wavepacket_shared_spectral_ltpb.py",
+      "sha256": "76e75dce3b836d61452cac5193b1defe0d4498921585ddc4412a38ed5053dc5b"
+    },
+    {
+      "path": "closure/vendor/update_r13_progress.py",
+      "sha256": "ae88d0403bb59e6cb41c75de0f17f7b7ce8aa689f524bf84d0f3f040e255a96f"
+    },
+    {
+      "path": "closure/vendor/validate_analytic.py",
+      "sha256": "c7e73732b944658796094515d2383bcd30f12b0aa5ac8e901fe5aca121da0126"
+    },
+    {
+      "path": "closure/vendor/verify_periodic_potential_reference.py",
+      "sha256": "9d394237429f867fe43f40d2c10ea11c43ed5801eabdaa876b42d8f79626450d"
+    },
+    {
+      "path": "closure/vendor/verify_r11_deliverables.py",
+      "sha256": "92d145c1625cb54ca949cae922f908ad62c1f1a3e536e6fc2de7122b263676c6"
+    },
+    {
+      "path": "closure/vendor/wavepacket_config.py",
+      "sha256": "1fd0414121e21712c04264d0cee0b2f3d370723dd0dcdfdc8c19a42d443f5f10"
+    },
+    {
+      "path": "closure/vendor/wavepacket_evaluate.py",
+      "sha256": "209e66cb06c9ee6c1f9ba6d1a5246d48a1d88de6e36d6ec472e2fa0ba753b610"
+    },
+    {
+      "path": "closure/vendor/wavepacket_models.py",
+      "sha256": "7524862cae790e0881969ada578651fc08d4421be5ca9a5e319ded6cca6f978c"
+    },
+    {
+      "path": "closure/vendor/wavepacket_physics.py",
+      "sha256": "bcea1166b33c7d64b9ba899031ba7012b9234e5f49bb0d9fdf12b80e4dc43fc3"
+    },
+    {
+      "path": "closure/vendor/wavepacket_shared_spectral_ltpb_decision.py",
+      "sha256": "7a03764c7f8437d0d6cad39cb050f918136e1932e17e1c00aa50dbf8099c7142"
+    }
+  ]
+}

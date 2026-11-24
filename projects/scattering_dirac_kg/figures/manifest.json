@@ -1,0 +1,171 @@
+[
+  {
+    "name": "01_scattering_scan",
+    "files": [
+      "figures/01_scattering_scan.png",
+      "figures/01_scattering_scan.svg",
+      "figures/01_scattering_scan.pdf"
+    ],
+    "caption": "两模型参考与三个条件网络的 R(E)、T(E)；底部刻线为训练能量，扫描点多数为未训练能量。",
+    "sources": [
+      "results/reference/scan.csv",
+      "results/conditional_v1_summary.csv"
+    ],
+    "statistics": "All seeds; mean/sample SD where shown; no significance tests.",
+    "backend": "Python/matplotlib",
+    "image_integrity": "No data editing; logarithmic display uses a 1e-16 floor only."
+  },
+  {
+    "name": "02_scattering_phases",
+    "files": [
+      "figures/02_scattering_phases.png",
+      "figures/02_scattering_phases.svg",
+      "figures/02_scattering_phases.pdf"
+    ],
+    "caption": "固定入射相位后的透射与反射相位；各连续有效段展开，|r|<10⁻⁵ 的反射相位屏蔽，段间不解释相位跳跃。",
+    "sources": [
+      "results/reference/scan.csv",
+      "results/conditional_v1_summary.csv"
+    ],
+    "statistics": "All seeds; mean/sample SD where shown; no significance tests.",
+    "backend": "Python/matplotlib",
+    "image_integrity": "No data editing; logarithmic display uses a 1e-16 floor only."
+  },
+  {
+    "name": "03_dirac_complex_components",
+    "files": [
+      "figures/03_dirac_complex_components.png",
+      "figures/03_dirac_complex_components.svg",
+      "figures/03_dirac_complex_components.pdf"
+    ],
+    "caption": "四个指定能量的复波函数逐分量，三种子全部显示；重合曲线表示误差低于此尺度的可见度，误差另图显示。",
+    "sources": [
+      "results/formal_v1/dirac/E_*/seed_*/evaluation.npz"
+    ],
+    "statistics": "All seeds; mean/sample SD where shown; no significance tests.",
+    "backend": "Python/matplotlib",
+    "image_integrity": "No data editing; logarithmic display uses a 1e-16 floor only."
+  },
+  {
+    "name": "03_kg_complex_components",
+    "files": [
+      "figures/03_kg_complex_components.png",
+      "figures/03_kg_complex_components.svg",
+      "figures/03_kg_complex_components.pdf"
+    ],
+    "caption": "四个指定能量的复波函数逐分量，三种子全部显示；重合曲线表示误差低于此尺度的可见度，误差另图显示。",
+    "sources": [
+      "results/formal_v1/kg/E_*/seed_*/evaluation.npz"
+    ],
+    "statistics": "All seeds; mean/sample SD where shown; no significance tests.",
+    "backend": "Python/matplotlib",
+    "image_integrity": "No data editing; logarithmic display uses a 1e-16 floor only."
+  },
+  {
+    "name": "04_pointwise_errors",
+    "files": [
+      "figures/04_pointwise_errors.png",
+      "figures/04_pointwise_errors.svg",
+      "figures/04_pointwise_errors.pdf"
+    ],
+    "caption": "固定入射相位后的逐点波形误差，Dirac 为复旋量模、KG 为复 φ 的模；全部三种子，不进行事后缩放。",
+    "sources": [
+      "results/formal_v1/*/E_*/seed_*/evaluation.npz"
+    ],
+    "statistics": "All seeds; mean/sample SD where shown; no significance tests.",
+    "backend": "Python/matplotlib",
+    "image_integrity": "No data editing; logarithmic display uses a 1e-16 floor only."
+  },
+  {
+    "name": "05_seed_error_distribution",
+    "files": [
+      "figures/05_seed_error_distribution.png",
+      "figures/05_seed_error_distribution.svg",
+      "figures/05_seed_error_distribution.pdf"
+    ],
+    "caption": "全部固定能量与三种子的误差分布；每组 n=12（四能量×三种子），短黑线为算术均值；失败 MLP 不剔除。组间不是等参数单因素对照。",
+    "sources": [
+      "results/formal_v1_summary.csv",
+      "results/mlp_baseline_summary.csv"
+    ],
+    "statistics": "All seeds; mean/sample SD where shown; no significance tests.",
+    "backend": "Python/matplotlib",
+    "image_integrity": "No data editing; logarithmic display uses a 1e-16 floor only."
+  },
+  {
+    "name": "06_local_current",
+    "files": [
+      "figures/06_local_current.png",
+      "figures/06_local_current.svg",
+      "figures/06_local_current.pdf"
+    ],
+    "caption": "单位入射通量下 j(x) 和参考透射流；坐标科学计数偏移使微小流变化可见。守恒为辅助证据，训练没有流损失。",
+    "sources": [
+      "results/formal_v1/*/E_*/seed_*/evaluation.npz"
+    ],
+    "statistics": "All seeds; mean/sample SD where shown; no significance tests.",
+    "backend": "Python/matplotlib",
+    "image_integrity": "No data editing; logarithmic display uses a 1e-16 floor only."
+  },
+  {
+    "name": "07_conditional_heldout_errors",
+    "files": [
+      "figures/07_conditional_heldout_errors.png",
+      "figures/07_conditional_heldout_errors.svg",
+      "figures/07_conditional_heldout_errors.pdf"
+    ],
+    "caption": "未训练能量上三种子条件网络的波形、T 绝对误差与流守恒偏差；水平线为统一验收阈值。",
+    "sources": [
+      "results/conditional_v1_summary.csv"
+    ],
+    "statistics": "All seeds; mean/sample SD where shown; no significance tests.",
+    "backend": "Python/matplotlib",
+    "image_integrity": "No data editing; logarithmic display uses a 1e-16 floor only."
+  },
+  {
+    "name": "08_training_curves",
+    "files": [
+      "figures/08_training_curves.png",
+      "figures/08_training_curves.svg",
+      "figures/08_training_curves.pdf"
+    ],
+    "caption": "全部固定能量/种子的训练记录。RBF 为直接解及细化阶段，MLP 为 Adam/L-BFGS 目标调用；损失尺度不同，不比较曲线绝对值。",
+    "sources": [
+      "results/formal_v1/*/E_*/seed_*/history.csv",
+      "results/mlp_baseline/*/E_*/seed_*/history.csv"
+    ],
+    "statistics": "All seeds; mean/sample SD where shown; no significance tests.",
+    "backend": "Python/matplotlib",
+    "image_integrity": "No data editing; logarithmic display uses a 1e-16 floor only."
+  },
+  {
+    "name": "09_scan_total_cost",
+    "files": [
+      "figures/09_scan_total_cost.png",
+      "figures/09_scan_total_cost.svg",
+      "figures/09_scan_total_cost.pdf"
+    ],
+    "caption": "同一扫描的传统积分、逐能量重训、条件网络训练加全部推理成本；条件网络为三个种子成本的均值。机器已有 R12 后台训练，时间为实际负载下的墙钟值；准确度不同，不是隔离资源的速度排名。",
+    "sources": [
+      "results/scan_costs.csv"
+    ],
+    "statistics": "All seeds; mean/sample SD where shown; no significance tests.",
+    "backend": "Python/matplotlib",
+    "image_integrity": "No data editing; logarithmic display uses a 1e-16 floor only."
+  },
+  {
+    "name": "10_reference_convergence",
+    "files": [
+      "figures/10_reference_convergence.png",
+      "figures/10_reference_convergence.svg",
+      "figures/10_reference_convergence.pdf"
+    ],
+    "caption": "参考区间、容差和测试网格加密证据；值为四个固定能量的最大差异。零差仅为同算法同设置的恒等复算，不证明准确性。",
+    "sources": [
+      "results/reference/convergence.csv"
+    ],
+    "statistics": "All seeds; mean/sample SD where shown; no significance tests.",
+    "backend": "Python/matplotlib",
+    "image_integrity": "No data editing; logarithmic display uses a 1e-16 floor only."
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "status": "METHOD_SCOPE_VERIFIED_FROM_ORIGINALS",
+  "checked_utc": 1791725145.839239,
+  "work": "Pu et al. (2023), DOI10.1088/1674-1137/acc518",
+  "versions": [
+    {
+      "path": "literature/sources/paper_2303.03934.pdf",
+      "sha256": "226258d1c1398a8067e31066181721a09a798976e4378479c73a707614f2cbcf"
+    },
+    {
+      "path": "literature/sources/norm_cpc_published.pdf",
+      "sha256": "bc335bb896a787d0d4733028876f2e478a9cb9aa14a206013345a3e706a3a865"
+    }
+  ],
+  "actually_viewed_pages": [
+    {
+      "path": "literature/method_pages/norm_cpc_published_page2.png",
+      "sha256": "0132cc9b9c27611ca8824025a7a88fb75108ef7b631f2e2fbf708300c1d797b8"
+    },
+    {
+      "path": "literature/method_pages/norm_cpc_published_page3.png",
+      "sha256": "54e3fa9366de263f81b21a0cc0ee7fa2800abfef6925c9e29b4a72599a5abeac"
+    }
+  ],
+  "methods": "SectionII, equations1-4; nonnegative monotonic network weights, psi=sqrt(dF/dx), stationary ground-state eigensolver",
+  "key_observation": "Equation4 includes soft CDF endpoint losses; integral norm on a finite interval is endpoint difference. Do not label this as an exact hard unit-norm sphere for arbitrary weights.",
+  "interpretation_not_author_verbatim_quote": true,
+  "does_not_establish_general_norm_architecture_priority": true,
+  "remaining_CPA_WKB_fulltexts_still_access_limited": true,
+  "new_Helmholtz_neighbor_abstract_only_not_benchmarked": true,
+  "entire_goal_accepted": false
+}

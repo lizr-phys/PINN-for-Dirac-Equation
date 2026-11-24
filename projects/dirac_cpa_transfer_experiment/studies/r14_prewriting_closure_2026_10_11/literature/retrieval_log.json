@@ -1,0 +1,234 @@
+{
+  "retrieved_utc": "2026-10-11T02:25:00.014883+00:00",
+  "queries": [
+    [
+      "dirac_all",
+      "all:Dirac AND (all:PINN OR all:\"physics-informed\")"
+    ],
+    [
+      "dirac_recent",
+      "(all:Dirac AND (all:PINN OR all:\"physics-informed\" OR all:neural)) AND submittedDate:[202609300000 TO 202610112359]"
+    ],
+    [
+      "phase_recent",
+      "((all:Dirac OR all:Schrodinger OR all:Schrödinger) AND (all:PINN OR all:\"physics-informed\") AND (all:phase OR all:amplitude OR all:spectral)) AND submittedDate:[202609300000 TO 202610112359]"
+    ],
+    [
+      "interaction",
+      "(all:\"interaction picture\" AND (all:neural OR all:PINN OR all:\"physics-informed\"))"
+    ],
+    [
+      "norm",
+      "((all:Schrodinger OR all:Dirac) AND (all:PINN OR all:\"physics-informed\") AND (all:norm OR all:normalization OR all:conservation))"
+    ]
+  ],
+  "results": [
+    {
+      "tag": "10.1016_j.cpc.2022.108474",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cpc.2022.108474",
+      "retrieved_utc": "2026-10-11T02:24:47.300225+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 13736,
+      "path": "literature\\sources\\10.1016_j.cpc.2022.108474.json",
+      "sha256": "b91a859875d9194777817ce0f1325a4c74d6d166fcb5394db9aa480e433c6763"
+    },
+    {
+      "tag": "10.1016_j.cam.2025.117178",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cam.2025.117178",
+      "retrieved_utc": "2026-10-11T02:24:47.304855+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 22766,
+      "path": "literature\\sources\\10.1016_j.cam.2025.117178.json",
+      "sha256": "15e902800361b9b8bf69e0c057b067d8c188481aafaef0d1b1f70eb6388fd6e0"
+    },
+    {
+      "tag": "10.1016_j.cam.2026.117607",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cam.2026.117607",
+      "retrieved_utc": "2026-10-11T02:24:48.682087+00:00",
+      "status": "OK",
+      "error": "<HTTPError 429: 'Too Many Requests'>",
+      "attempts": 1,
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 16063,
+      "path": "literature\\sources\\10.1016_j.cam.2026.117607.json",
+      "sha256": "120155d732576a509d03acd8a1e6e829474a842989d902a72182e7d235715f00"
+    },
+    {
+      "tag": "10.1016_j.physd.2026.135394",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.physd.2026.135394",
+      "retrieved_utc": "2026-10-11T02:24:48.705143+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 21844,
+      "path": "literature\\sources\\10.1016_j.physd.2026.135394.json",
+      "sha256": "81aa4124eccfbf2ed70d376587e8f38cd02f22e5fac106906a2d900175e8eda4"
+    },
+    {
+      "tag": "10.1016_j.cnsns.2026.110653",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cnsns.2026.110653",
+      "retrieved_utc": "2026-10-11T02:24:49.731544+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 16001,
+      "path": "literature\\sources\\10.1016_j.cnsns.2026.110653.json",
+      "sha256": "2e11abad98fa4ea63f2d3f846374237bb7ed519fcfa224a21b8046df597589b3"
+    },
+    {
+      "tag": "10.1088_1674-1137_acc518",
+      "url": "https://api.crossref.org/works/10.1088%2F1674-1137%2Facc518",
+      "retrieved_utc": "2026-10-11T02:24:50.759867+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 12775,
+      "path": "literature\\sources\\10.1088_1674-1137_acc518.json",
+      "sha256": "0f7c95fcd2141f3540871b9301c2630855a5c8b044269b2acbe03b9fd49c97e4"
+    },
+    {
+      "tag": "dirac_all",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3ADirac+AND+%28all%3APINN+OR+all%3A%22physics-informed%22%29&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "retrieved_utc": "2026-10-11T02:24:51.750892+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 51508,
+      "path": "literature\\sources\\dirac_all.xml",
+      "sha256": "9931f5890bdf587e7c8fddd864855d50ac2fa4ef2b98ff0feb19b1fb45370e78"
+    },
+    {
+      "tag": "dirac_recent",
+      "url": "https://export.arxiv.org/api/query?search_query=%28all%3ADirac+AND+%28all%3APINN+OR+all%3A%22physics-informed%22+OR+all%3Aneural%29%29+AND+submittedDate%3A%5B202609300000+TO+202610112359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "retrieved_utc": "2026-10-11T02:24:52.567765+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 7533,
+      "path": "literature\\sources\\dirac_recent.xml",
+      "sha256": "a852b5e3c600340a72a016865829d8a57b0be7db6e40f92ed03958666bd8f0a5"
+    },
+    {
+      "tag": "phase_recent",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3ADirac+OR+all%3ASchrodinger+OR+all%3ASchr%C3%B6dinger%29+AND+%28all%3APINN+OR+all%3A%22physics-informed%22%29+AND+%28all%3Aphase+OR+all%3Aamplitude+OR+all%3Aspectral%29%29+AND+submittedDate%3A%5B202609300000+TO+202610112359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "retrieved_utc": "2026-10-11T02:24:52.771213+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 1079,
+      "path": "literature\\sources\\phase_recent.xml",
+      "sha256": "242d9e9aac763175754cf4d78c357cb9834c6e6ffc3cf3ec52052c45bd62174f"
+    },
+    {
+      "tag": "interaction",
+      "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22interaction+picture%22+AND+%28all%3Aneural+OR+all%3APINN+OR+all%3A%22physics-informed%22%29%29&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "retrieved_utc": "2026-10-11T02:24:53.382025+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 5667,
+      "path": "literature\\sources\\interaction.xml",
+      "sha256": "2b5c215018af75404d800df699007c29870768008217bf310edc33fc62d46e03"
+    },
+    {
+      "tag": "norm",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3ASchrodinger+OR+all%3ADirac%29+AND+%28all%3APINN+OR+all%3A%22physics-informed%22%29+AND+%28all%3Anorm+OR+all%3Anormalization+OR+all%3Aconservation%29%29&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "retrieved_utc": "2026-10-11T02:24:53.507662+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 9959,
+      "path": "literature\\sources\\norm.xml",
+      "sha256": "d67b30b3234c03769b0d9b31328c0cd50f9b227b86c2325059f2d5597e5dfdeb"
+    },
+    {
+      "tag": "crossref_dirac",
+      "url": "https://api.crossref.org/works?query=Dirac+physics+informed+neural&rows=20&filter=from-pub-date%3A2026-09-30%2Cuntil-pub-date%3A2026-10-11",
+      "retrieved_utc": "2026-10-11T02:24:54.184584+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 247758,
+      "path": "literature\\sources\\crossref_dirac.json",
+      "sha256": "b76b54ec2abc30be5d1854146d3ef07f7a7636aba9fff8a8dd79277143c6c37c"
+    },
+    {
+      "tag": "crossref_spectral",
+      "url": "https://api.crossref.org/works?query=spectral+physics+informed+neural&rows=20&filter=from-pub-date%3A2026-09-30%2Cuntil-pub-date%3A2026-10-11",
+      "retrieved_utc": "2026-10-11T02:24:54.324378+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 256481,
+      "path": "literature\\sources\\crossref_spectral.json",
+      "sha256": "c111267168c57320ae8b1d860f904a68e11f4f6ed0047533c3541a457bfe93f4"
+    },
+    {
+      "tag": "crossref_phase",
+      "url": "https://api.crossref.org/works?query=WKB+phase+amplitude+physics+informed&rows=20&filter=from-pub-date%3A2026-09-30%2Cuntil-pub-date%3A2026-10-11",
+      "retrieved_utc": "2026-10-11T02:24:55.741222+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 212362,
+      "path": "literature\\sources\\crossref_phase.json",
+      "sha256": "eb4c3aa9e2a1aadcfc9655d0d56e925a0da21788dc6bfabfef5ea4f20c6b4dda"
+    },
+    {
+      "tag": "crossref_norm",
+      "url": "https://api.crossref.org/works?query=Schrodinger+norm+constraints+neural&rows=20&filter=from-pub-date%3A2026-09-30%2Cuntil-pub-date%3A2026-10-11",
+      "retrieved_utc": "2026-10-11T02:24:55.982039+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 277698,
+      "path": "literature\\sources\\crossref_norm.json",
+      "sha256": "7c00f546b9721ceb6ac1b95c4f58ad75b69178425eb357816fa2cb064e39317e"
+    },
+    {
+      "tag": "crossref_interaction",
+      "url": "https://api.crossref.org/works?query=neural+interaction+picture&rows=20&filter=from-pub-date%3A2026-09-30%2Cuntil-pub-date%3A2026-10-11",
+      "retrieved_utc": "2026-10-11T02:24:57.287022+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 72855,
+      "path": "literature\\sources\\crossref_interaction.json",
+      "sha256": "90e7945ab712b057a527429598417eca880e19872ccab1f586761d589ed49719"
+    },
+    {
+      "tag": "arxiv_known",
+      "url": "https://export.arxiv.org/api/query?id_list=2204.02959%2C2408.16414%2C2006.09661%2C2006.10739%2C2112.03616%2C1711.07193%2C2402.07251%2C2607.15087&max_results=30",
+      "retrieved_utc": "2026-10-11T02:24:57.513466+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 18558,
+      "path": "literature\\sources\\arxiv_known.xml",
+      "sha256": "5f48af0b74e68bd5346821396cfeb16b10e319f148b186c7ddce092ca6186e60"
+    },
+    {
+      "tag": "hult_interaction",
+      "url": "https://api.crossref.org/works?query.title=A+Fourth-Order+Runge-Kutta+in+the+Interaction+Picture+Method+for+Simulating+Supercontinuum+Generation+in+Optical+Fibers&rows=3",
+      "retrieved_utc": "2026-10-11T02:24:58.365454+00:00",
+      "status": "OK",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 9688,
+      "path": "literature\\sources\\hult_interaction.json",
+      "sha256": "e7860351971b22339c929b4a5d14386fc997d5513b307dc1bef4dbf2eafdc687"
+    }
+  ],
+  "academic_MCP_unavailable": true,
+  "primary_APIs": [
+    "arXiv",
+    "CrossRef"
+  ],
+  "no_Scopus_WoS_access": true,
+  "bounded_queries_not_systematic_priority_proof": true
+}

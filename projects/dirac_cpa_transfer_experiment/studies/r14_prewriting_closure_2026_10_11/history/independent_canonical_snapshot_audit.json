@@ -1,0 +1,13 @@
+{
+  "updated_utc": 1791704061.1642795,
+  "status": "PASS_CANONICAL_SNAPSHOTS",
+  "unique_canonical_snapshots_audited": 75,
+  "canonical_table_rows_requiring_this_audit": 75,
+  "errors": [],
+  "elapsed_wall_seconds": 43.593849658966064,
+  "historical_final_audits_not_overwritten": true,
+  "old_scientific_decisions_and_gauges_unchanged": true,
+  "original_history_read_only": true,
+  "no_training_repeated": true,
+  "snapshots_not_independent_training_replicates": true
+}

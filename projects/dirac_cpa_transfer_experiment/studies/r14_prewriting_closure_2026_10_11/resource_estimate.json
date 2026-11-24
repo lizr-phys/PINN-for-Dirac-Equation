@@ -1,0 +1,25 @@
+{
+  "carrier_jobs": 30,
+  "development_jobs": 24,
+  "core_coupled_jobs": 135,
+  "extension_coupled_jobs": 45,
+  "unique_train_jobs": 234,
+  "zero_shot_evaluations": 45,
+  "TSFP_configurations": 108,
+  "TSFP_cost_repetitions": 5,
+  "optimizer_steps": 4326000,
+  "estimated_bound_core_hours": 355.0,
+  "estimated_wall_hours_five_workers": 71.0,
+  "plausible_wall_hours_range": [
+    60,
+    120
+  ],
+  "evaluation_io_interruptions_extra": true,
+  "basis": "R13 measured hard static~5511sec, analytic~4073sec, original~6896-7199sec per20000; autonomous evaluation coalescing is exact engineering",
+  "disk_free_bytes": 28636372992,
+  "estimated_new_storage_bytes": 4831838208,
+  "reserve_free_bytes": 4294967296,
+  "estimated_peak_RAM_bytes": 6442450944,
+  "all_costs_measured_in_final": true,
+  "no_step_count_speed_claim": true
+}

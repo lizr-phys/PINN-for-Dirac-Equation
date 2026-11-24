@@ -1,0 +1,751 @@
+{
+  "updated_utc": 1791886525.9774127,
+  "status": "WORK_IN_PROGRESS",
+  "scientific_source_sha256": "0c2bf352f6bfd12ad106b75ae0814e09abf9af51ac75b59dbc3e6665d595f0c9",
+  "frozen_reference_changes": [],
+  "driver_alive": true,
+  "observed_training_stage": "extension:V04",
+  "formal_training_endpoints": 167,
+  "formal_planned": 210,
+  "development_endpoints": 24,
+  "development_planned": 24,
+  "actual_processes": [
+    {
+      "pid": 6656,
+      "cmdline": [
+        "C:\\Python313\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-u",
+        "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\driver.py"
+      ],
+      "create_time": 1791853002.3958964,
+      "name": "python.exe",
+      "ppid": 23456
+    },
+    {
+      "pid": 17184,
+      "cmdline": [
+        "C:\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-u",
+        "-m",
+        "closure.train",
+        "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\runtime\\jobs\\formal__coupled__V04__analytic_hard__seed_813.json"
+      ],
+      "create_time": 1791885853.6272218,
+      "name": "python.exe",
+      "ppid": 6656
+    },
+    {
+      "pid": 20324,
+      "cmdline": [
+        "C:\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-u",
+        "-m",
+        "closure.train",
+        "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\runtime\\jobs\\formal__coupled__V04__learned_hard__seed_810.json"
+      ],
+      "create_time": 1791880904.7514899,
+      "name": "python.exe",
+      "ppid": 6656
+    },
+    {
+      "pid": 20708,
+      "cmdline": [
+        "C:\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-u",
+        "-m",
+        "closure.train",
+        "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\runtime\\jobs\\formal__coupled__V04__analytic_hard__seed_811.json"
+      ],
+      "create_time": 1791880904.7658203,
+      "name": "python.exe",
+      "ppid": 6656
+    },
+    {
+      "pid": 25180,
+      "cmdline": [
+        "C:\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-u",
+        "-m",
+        "closure.train",
+        "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\runtime\\jobs\\formal__coupled__V04__fourier__seed_812.json"
+      ],
+      "create_time": 1791880904.7581644,
+      "name": "python.exe",
+      "ppid": 6656
+    },
+    {
+      "pid": 29520,
+      "cmdline": [
+        "C:\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-u",
+        "-m",
+        "closure.train",
+        "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\runtime\\jobs\\formal__coupled__V04__fourier__seed_814.json"
+      ],
+      "create_time": 1791886358.0982633,
+      "name": "python.exe",
+      "ppid": 6656
+    }
+  ],
+  "duplicate_active_training_jobs": false,
+  "workers": [
+    {
+      "pid": 20324,
+      "alive": true,
+      "job": "formal/coupled/V04/learned_hard/seed_810",
+      "last_saved_step": 13000
+    },
+    {
+      "pid": 25180,
+      "alive": true,
+      "job": "formal/coupled/V04/fourier/seed_812",
+      "last_saved_step": 17500
+    },
+    {
+      "pid": 20708,
+      "alive": true,
+      "job": "formal/coupled/V04/analytic_hard/seed_811",
+      "last_saved_step": 18500
+    },
+    {
+      "pid": 17184,
+      "alive": true,
+      "job": "formal/coupled/V04/analytic_hard/seed_813",
+      "last_saved_step": 2000
+    },
+    {
+      "pid": 29520,
+      "alive": true,
+      "job": "formal/coupled/V04/fourier/seed_814",
+      "last_saved_step": 0
+    }
+  ],
+  "available_RAM_bytes": 2426753024,
+  "free_E_bytes": 13661196288,
+  "numerical_or_dependency_failures": 0,
+  "completed_training_is_not_method_accuracy_success": true,
+  "entire_goal_accepted_complete": false,
+  "verification": {
+    "theoretical_closure": {
+      "status": "FROZEN_EQUATION_DERIVATIONS_REVIEWED_EXPERIMENTAL_CLOSURE_PENDING",
+      "reviewed_utc": 1791761093.7877142,
+      "note": "theory_closure_audit.md",
+      "note_sha256": "dfdc62e5894f651e71ca3ca45d771afeed76def188eff99a9bf0c7a8868f8669",
+      "sources": [
+        {
+          "path": "frozen/source/closure/models.py",
+          "sha256": "430c58d3db564074d7f29ef100f719551b349524caca5450d8f1831819cfa02a"
+        },
+        {
+          "path": "frozen/source/closure/vendor/periodic_potential_models.py",
+          "sha256": "b304f4896c5ef721c417350735c43ef26fe6aea122647872f39dcc6089d1fadd"
+        },
+        {
+          "path": "frozen/source/closure/vendor/r7_models.py",
+          "sha256": "82838edd838802879835766c938e50253c4215f065ef024f965611598dad04a1"
+        },
+        {
+          "path": "frozen/source/closure/vendor/r13_models.py",
+          "sha256": "6b1053087e29d02473665e3f7572e46bf6930840082af4c0212a47408292a99a"
+        },
+        {
+          "path": "frozen/source/closure/vendor/r12_hamiltonian.py",
+          "sha256": "3c8ff582872a4f5a1a8aa4b288e56440ee36976610ef038817d4d6dcc0811113"
+        },
+        {
+          "path": "frozen/source/closure/vendor/r13_residual.py",
+          "sha256": "f0445b03b82f9278b4a49be3175cc42ceba258cc405c1627564e66c2b7bf60e4"
+        }
+      ],
+      "checks": [
+        "Actual old ansatz permits amplitude growth but restricts empty-channel initial imaginary tangent",
+        "Full complex radial norm derivative and its nonzero-domain assumption",
+        "Unitary carrier and basis imply structural norm, not dynamics",
+        "Approximate carrier free defect retained in complete residual",
+        "Exterior Fourier residual separates truncated conservation from full PDE",
+        "Continuous Duhamel relation conditional; sampled/trapezoidal residual is not a certificate",
+        "Static unit-carrier PDE loss equals one quarter of the sum of known free-frequency squared defects averaged over all modes; no unknown-spectrum discovery claim",
+        "Historical real-amplitude tangent restriction does not directly explain R14 original groups, which already use B_complex; carrier repair contrasts a parameterization bundle"
+      ],
+      "no_new_model_parameters_methods_seeds_or_training_budget": true,
+      "new_numeric_experiments_not_claimed": true,
+      "original_history_and_frozen_code_not_written": true,
+      "whole_goal_complete": false,
+      "previous_revision_preserved": "engineering/theory_revisions/before_free_loss_equivalence_20261012",
+      "free_loss_equivalence_is_algebra_not_new_numeric_experiment": true,
+      "real_initial_coefficients_not_real_spatial_wavefunction": true,
+      "wording_revision_preserved": "engineering/theory_revisions/before_real_spectral_initial_wording_20261012",
+      "unitarity_scope_source_checks": [
+        {
+          "live_path": "closure/models.py",
+          "frozen_path": "frozen/source/closure/models.py",
+          "sha256": "430c58d3db564074d7f29ef100f719551b349524caca5450d8f1831819cfa02a",
+          "live_and_frozen_identical": true
+        },
+        {
+          "live_path": "closure/vendor/r9_models.py",
+          "frozen_path": "frozen/source/closure/vendor/r9_models.py",
+          "sha256": "3fdabb7449f9af145facc4382a3b29a5eb015c5ff879760aaae93f5548195538",
+          "live_and_frozen_identical": true
+        }
+      ],
+      "single_trajectory_normalization_is_not_a_unitary_propagator": true,
+      "operator_scope_is_algebra_not_new_initial_condition_experiment": true,
+      "existing_model_buffers_and_weights_not_written": true,
+      "unitarity_scope_revision_preserved": "engineering/theory_revisions/before_unitary_operator_scope_20261012"
+    },
+    "attempts": {
+      "updated_utc": 1791886115.6009357,
+      "status": "INCOMPLETE",
+      "planned_development": 24,
+      "planned_formal": 210,
+      "counts": {
+        "development": {
+          "COMPLETE_VERIFIED": 24,
+          "FAILURE_PRESERVED": 0,
+          "INCOMPLETE": 0,
+          "INVALID_COMPLETION": 0,
+          "INVALID_FAILURE": 0
+        },
+        "core": {
+          "COMPLETE_VERIFIED": 165,
+          "FAILURE_PRESERVED": 0,
+          "INCOMPLETE": 0,
+          "INVALID_COMPLETION": 0,
+          "INVALID_FAILURE": 0
+        },
+        "extension": {
+          "COMPLETE_VERIFIED": 1,
+          "FAILURE_PRESERVED": 0,
+          "INCOMPLETE": 44,
+          "INVALID_COMPLETION": 0,
+          "INVALID_FAILURE": 0
+        }
+      },
+      "unexpected_attempts": [],
+      "all_training_attempts_verified": false,
+      "entire_evidence_package_complete": false,
+      "failure_is_not_success": true,
+      "missing_endpoint_is_not_complete": true,
+      "rows": {
+        "record_count": 234,
+        "full_entries_in": "analysis_outputs/attempt_completion_audit.json"
+      }
+    },
+    "metrics": {
+      "updated_utc": 1791886104.230672,
+      "status": "PASS_AVAILABLE_SNAPSHOTS",
+      "snapshots_audited": 638,
+      "missing": [],
+      "metric_mismatches": [],
+      "independent_implementation": "FFT quadrature and independent NumPy branch rotation",
+      "source_code_sha256": "f3aca5242d0eaf45fe7b0ce66fc91520a8b03b2f7022c3a48f7a49dccc61b6f5",
+      "independent_metric_code_sha256": "861e28da7d688436bbaee3a92b89acac8b5b0fe7ecc5d1d3f856c007efe576d1",
+      "required_401_and_spatial_grid_diagnostics_checked": true,
+      "entire_study_complete": false,
+      "does_not_mark_missing_training_complete": true
+    },
+    "residuals": {
+      "updated_utc": 1791886465.5328457,
+      "status": "PASS_AVAILABLE_FIXED_ENDPOINTS",
+      "trained_endpoints_checked": 221,
+      "missing": [],
+      "independent_JVP_and_hamiltonian_convolution": true,
+      "model_states_unchanged": true,
+      "stored_residual_samples_per_endpoint": 201,
+      "all_full_tables_independently_summed": true,
+      "no_training_budget_or_success_rule_changes": true,
+      "whole_study_complete": false,
+      "norm_projection_agreement_is_structural_not_dynamics_accuracy": true,
+      "discrete_checks_not_continuous_certificates": true
+    },
+    "residual_sources": {
+      "updated_utc": 1791886479.1021824,
+      "status": "PASS_CURRENT_RESIDUAL_SOURCE_CHAIN",
+      "independent_cached_records_checked": 221,
+      "errors": [],
+      "checks": {
+        "record_count": 221,
+        "full_entries_in": "analysis_outputs/residual_provenance_audit.json"
+      },
+      "current_raw_tables_and_checkpoint_SHA_verified": true,
+      "cached_observations_not_recomputed_or_overwritten": true,
+      "whole_study_complete": false
+    },
+    "postprocessing": {
+      "pid": 11604,
+      "updated_utc": 1791886507.3840792,
+      "entire_goal_accepted_complete": false,
+      "status": "WAITING_FOR_FROZEN_TRAINING",
+      "training_status": "RUNNING",
+      "completed_formal": 167,
+      "preserved_scientific_failures": 0,
+      "active_training_pids": [
+        17184,
+        20324,
+        20708,
+        25180,
+        29520
+      ],
+      "next_step": "预定训练完成并无活跃训练进程后启动独立复核"
+    },
+    "costs": {
+      "updated_utc": 1791886490.6869724,
+      "status": "PASS_AVAILABLE_COST_RECORDS",
+      "cost_records_checked": 921,
+      "mismatches": [],
+      "missing_attempts": {
+        "record_count": 43,
+        "full_entries_in": "analysis_outputs/independent_cost_audit.json"
+      },
+      "all_prescribed_cost_records_present": false,
+      "entire_study_complete": false,
+      "attribution_does_not_replace_unique_incurred_ledger": true,
+      "concurrent_wall_is_not_isolated_speedup": true,
+      "possible_uncheckpointed_replay_work_not_assumed_zero": true
+    },
+    "cost_summary": {
+      "updated_utc": 1791886509.5704768,
+      "status": "AVAILABLE_ATTEMPTS_ONLY",
+      "unique_complete": 191,
+      "unique_preserved_failure": 0,
+      "unique_planned": 234,
+      "whole_study_complete": false,
+      "unique_optimization_wall_seconds_recorded": 874073.8684860191,
+      "unique_optimization_cpu_seconds_recorded": 840960.8125,
+      "recorded_unique_pipeline_seconds": 891808.72555552,
+      "retained_replay_records": 0,
+      "uncheckpointed_replay_wall_seconds_known": 0,
+      "replay_missing_fields_not_assumed_zero": false,
+      "dev_all24_optimization_wall_seconds": 24697.24064179986,
+      "unknown_failed_costs_not_filled_with_zero": true,
+      "optimization_CPU_excludes_imports_IO_and_evaluation_child_CPU": true,
+      "launch_span_from_log_creation_and_complete_mtime_is_observed_lifecycle_not_CPU_consumption": true,
+      "concurrent_training_costs_are_not_isolated_hardware_speedup": true
+    },
+    "statistics": {
+      "updated_utc": 1791886153.1834452,
+      "status": "PASS_AVAILABLE_STATISTICAL_TABLES",
+      "group_endpoints_checked": 159,
+      "prescribed_pair_contrasts_checked": 627,
+      "full_five_pair_estimates_checked": 495,
+      "factor_interactions_checked": 18,
+      "complete_factor_estimates_checked": 18,
+      "source_snapshots_checked": 615,
+      "pending_independent_source_audits": [
+        "formal/coupled/V04/learned_hard/seed_813/snapshots/20000/metrics.json"
+      ],
+      "errors": [],
+      "new_live_snapshots_require_reaggregation_not_false_completion": true,
+      "source_table_sha256": {
+        "all_snapshots_metrics.csv": "dd1b144f138caf76adfec485b665d21e39d0f48a04762ce7f496b89ac4e873c2",
+        "summary_metrics.csv": "dde22538e88b1a41c0e40e953e0a078f8590819783be384dfe69707013545d78",
+        "paired_statistics.csv": "433be497c1d0f5b0bd849a3862b7fd1987054187f574c5e8114a41a4b7b62b7d",
+        "paired_per_seed.csv": "c34803f2972588ce4462dd5a3900f3f7794d582bee7cc27d21a10013323c107d",
+        "factor_interactions.csv": "eff56da43424c10abc3398acca77d2135ea14f7a66282a8925334a64979811f7",
+        "factor_interactions_per_seed.csv": "8304ac96106246c6a6e70a2f7e377d73cebad16000fadd31dfbd1f85d1fc2723",
+        "independent_metrics_per_snapshot.csv": "cbe77aafccd3d36b73dc3cfc0ce6ee8c6ed3747802316cc92b1937ca690891a6",
+        "attempt_completion_audit.json": "bcacf65ab08cd19a1f3340b50ee3d5e7cc629f96f0796eac7895a3ee1c7976e7"
+      },
+      "audit_code_sha256": "fd1128a051fa8e43b3daddfde6df40cbf5c31533fd1f20b8cc80b3b09e89c603",
+      "separate_csv_math_implementation": true,
+      "archived_dynamics_inputs_independently_FFT_validated": true,
+      "student_t_df4_critical_constant": 2.7764451051977987,
+      "no_survivor_five_seed_mean": true,
+      "exact_sign_flip_minimum_two_sided_p": 0.0625,
+      "all_prescribed_statistics_verified": false,
+      "whole_goal_complete": false
+    },
+    "inference_cost_provenance": {
+      "updated_utc": 1791886454.9149673,
+      "status": "PASS_AVAILABLE_INFERENCE_RECORDS",
+      "prescribed_endpoints": 255,
+      "actual_measurements_checked": 197,
+      "preserved_source_failures": [],
+      "missing": {
+        "record_count": 58,
+        "full_entries_in": "isolated_inference/independent_audit.json"
+      },
+      "errors": [],
+      "all_prescribed_inference_records_verified": false,
+      "original_measurements_not_overwritten": true,
+      "separate_process_is_not_machine_idle": true,
+      "whole_goal_complete": false,
+      "rows": {
+        "record_count": 197,
+        "full_entries_in": "isolated_inference/independent_audit.json"
+      }
+    },
+    "parameter_counts": {
+      "updated_utc": 1791886496.2988212,
+      "status": "PASS_AVAILABLE_PARAMETER_RECORDS",
+      "prescribed_attempts": 234,
+      "actual_initial_states_checked": 196,
+      "cost_records_checked": 921,
+      "missing": {
+        "record_count": 38,
+        "full_entries_in": "analysis_outputs/independent_parameter_audit.json"
+      },
+      "preserved_no_model_dependencies": [],
+      "errors": [],
+      "checks": {
+        "record_count": 196,
+        "full_entries_in": "analysis_outputs/independent_parameter_audit.json"
+      },
+      "all_prescribed_parameter_records_verified": false,
+      "source_code_sha256": "7f93263b3afb18013f8895db82913eebbfb817c844733aa39dbb223596c51b7a",
+      "independent_saved_tensor_shapes_without_model_constructor": true,
+      "fixed_buffers_separately_reported": true,
+      "frozen_architectures_have_linear_weight_bias_parameters_only": true,
+      "original_states_not_written": true,
+      "counts_are_not_process_peak_memory": true,
+      "whole_goal_complete": false
+    },
+    "spectral_benchmark": {
+      "updated_utc": 1791720002.330814,
+      "status": "PASS",
+      "fixed_configurations_checked": 108,
+      "prescribed_configurations": 108,
+      "cost_repetitions_per_configuration": 5,
+      "five_cost_samples_recomputed_without_rerunning_solver": true,
+      "all_spectral_benchmark_records_verified": true,
+      "primary_and_wide_reference_metrics_independently_recomputed": true,
+      "bilinear_L2_from_full_convolution_not_spatial_quadrature": true,
+      "missing": [],
+      "errors": [],
+      "source_code_sha256": "29b1c72ea0f6869787a0658727bfb34c3ac7eedab60d0e239e055bdcdca4d664",
+      "source_table_sha256": {
+        "spectral_benchmark\\error_cost.csv": "9d52d49b1169c5ca6c55208de4a62d9c7beaca0e3127d2d8df164134d61302c7",
+        "spectral_reference_check\\spectral_error_cost_wide_reference.csv": "158af5756949c83fe7f523625f3f96e23d5769d28322cdf597e5b1464b57e7a7"
+      },
+      "original_records_references_and_training_unchanged": true,
+      "benchmark_OS_peak_RSS_is_cumulative_not_isolated_per_configuration": true,
+      "elapsed_wall_seconds": 87.99928889999865,
+      "whole_goal_complete": false
+    },
+    "pairing": {
+      "updated_utc": 1791886213.378329,
+      "status": "ALL_PRESCRIBED_BLOCKS_ACCOUNTED",
+      "seed_blocks": 15,
+      "blocks_accounted": 15,
+      "checks": {
+        "record_count": 15,
+        "full_entries_in": "analysis_outputs/pairing_audit.json"
+      },
+      "prescribed_block_status": {
+        "record_count": 15,
+        "full_entries_in": "analysis_outputs/pairing_audit.json"
+      },
+      "missing": [],
+      "mismatches": [],
+      "actual_initializers_checked": 105,
+      "actual_terminal_trace_prefixes_checked": 105,
+      "initializer_checks": {
+        "record_count": 105,
+        "full_entries_in": "analysis_outputs/pairing_audit.json"
+      },
+      "stream_replay_checks": {
+        "record_count": 105,
+        "full_entries_in": "analysis_outputs/pairing_audit.json"
+      },
+      "source_code_sha256": "3569f592c75dc553d4f67e36fa0c2f7b6fd245bf9bfcd153ee513b5e9856c204",
+      "current_workers_recovery_files_not_opened": true,
+      "training_and_optimizer_states_not_written": true,
+      "entire_study_pairing_complete": true,
+      "all_prescribed_blocks_accounted": true,
+      "scientific_failure_does_not_imply_bitwise_pairing_verified": true
+    },
+    "phase": {
+      "updated_utc": 1791886330.957825,
+      "status": "PASS_AVAILABLE_PHASE_DIAGNOSTICS",
+      "snapshots_checked": 181,
+      "physical_consistency_mismatches": [],
+      "unwrap_alias_diagnostics": [],
+      "exact_unwrapped_phase_from_raw_real_network_output": true,
+      "slope_from_independent_autograd": true,
+      "archived_phase_metrics_preserved": true,
+      "agreement_is_not_carrier_or_coupled_dynamics_accuracy": true,
+      "whole_study_complete": false,
+      "no_training_or_budget_changed": true
+    },
+    "carrier_initial_controls": {
+      "updated_utc": 1791886195.0929494,
+      "status": "ALL_INITIAL_CARRIER_CONTROLS_VERIFIED",
+      "prescribed_pairs": 15,
+      "actual_carrier_pairs_checked": 15,
+      "actual_joint_initializers_checked": 15,
+      "missing_carrier_pairs": [],
+      "missing_joint_initializers": [],
+      "errors": [],
+      "checks": {
+        "record_count": 15,
+        "full_entries_in": "analysis_outputs/carrier_initialization_audit.json"
+      },
+      "independently_evaluated_saved_weights_with_NumPy": true,
+      "source_code_sha256": "b289686ef7e50c60a90ec6b7814bcf0b01b92103daab279095579341f0ecd07d",
+      "all_initial_carrier_controls_verified": true,
+      "original_weights_not_written": true,
+      "whole_goal_complete": false
+    },
+    "learning_advantage": {
+      "updated_utc": 1791886340.3307474,
+      "status": "ASSESSED_FIXED_PRIMARY_COMPARISONS",
+      "both_T10_and_m10_accuracy_gate_qualified": false,
+      "both_T10_and_m10_efficiency_gate_qualified": false,
+      "cases": [
+        {
+          "case": "T10",
+          "primary_step": 20000,
+          "status": "QUALIFIED_IN_THIS_CASE",
+          "all_five_paired_and_independently_audited": true,
+          "prescribed_primary_attempts_accounted": true,
+          "accuracy_advantage_qualified": true,
+          "efficiency_claim_qualified": false,
+          "spinor_paired_difference_mean": -0.0012035101338429,
+          "spinor_CI95_upper": -0.0001397113145285,
+          "lower_error_pairs": 5,
+          "complete_auxiliary_cost_included": true,
+          "attributed_training_time_difference_mean": 126.01944795997296
+        },
+        {
+          "case": "m10",
+          "primary_step": 20000,
+          "status": "NOT_QUALIFIED_IN_THIS_CASE",
+          "all_five_paired_and_independently_audited": true,
+          "prescribed_primary_attempts_accounted": true,
+          "accuracy_advantage_qualified": false,
+          "efficiency_claim_qualified": false,
+          "spinor_paired_difference_mean": 0.0067038713993299,
+          "spinor_CI95_upper": 0.0224193603416097,
+          "lower_error_pairs": 2,
+          "complete_auxiliary_cost_included": true,
+          "attributed_training_time_difference_mean": 159.11662732004189
+        }
+      ],
+      "n5_exact_two_sided_minimum_p": 0.0625,
+      "descriptive_t_interval_assumptions_required": true,
+      "no_cross_case_pooling": true,
+      "no_accuracy_driven_extra_budget": true,
+      "entire_study_complete": false,
+      "paper_positioning_waits_for_all_scope_and_baseline_evidence": true
+    },
+    "isolated_inference": {
+      "updated_utc": 1791886442.1160002,
+      "status": "WAITING_FOR_FIXED_ENDPOINTS",
+      "prescribed_checkpoints": 255,
+      "complete_measurements": 197,
+      "missing": {
+        "record_count": 58,
+        "full_entries_in": "isolated_inference/status.json"
+      },
+      "failed_no_valid_checkpoint": [],
+      "whole_study_complete": false,
+      "scientific_failed_checkpoints_are_absent_not_zero_cost": true
+    },
+    "history_early": {
+      "status": "PASS_AVAILABLE_LEGACY_ENDPOINTS",
+      "endpoints_audited": 228,
+      "errors": [],
+      "skipped": [],
+      "elapsed_wall_seconds": 19.647883653640747,
+      "scope": "Available raw physical final arrays R1-R8, including R1 separate sensitivity root and historical smoke; secondary checkpoints excluded",
+      "endpoints_by_experiment": {
+        "cpa_transfer": 20,
+        "learned_two_phase_pilot": 6,
+        "ltpb_mechanism_ablation": 15,
+        "multimode_ltpb": 26,
+        "wavepacket_shared_spectral_ltpb": 26,
+        "periodic_potential_coupled_ltpb": 15,
+        "coupled_ltpb_phase_release_r7": 45,
+        "r8_coupling_recovery": 73,
+        "structure_weight_sensitivity": 2
+      },
+      "raw_history_unchanged": true,
+      "no_training_repeated": true,
+      "old_decisions_and_gauges_preserved": true,
+      "no_cross_round_accuracy_or_cost_pooling": true
+    },
+    "history_late": {
+      "status": "PASS",
+      "endpoints_audited": 191,
+      "failures": [],
+      "skipped": [],
+      "raw_history_unchanged": true,
+      "no_training_repeated": true,
+      "does_not_cover_R1_R8_or_all_secondary_snapshots": true
+    },
+    "history_snapshots": {
+      "updated_utc": 1791704061.1642795,
+      "status": "PASS_CANONICAL_SNAPSHOTS",
+      "unique_canonical_snapshots_audited": 75,
+      "canonical_table_rows_requiring_this_audit": 75,
+      "errors": [],
+      "elapsed_wall_seconds": 43.593849658966064,
+      "historical_final_audits_not_overwritten": true,
+      "old_scientific_decisions_and_gauges_unchanged": true,
+      "original_history_read_only": true,
+      "no_training_repeated": true,
+      "snapshots_not_independent_training_replicates": true
+    },
+    "history_row_links": {
+      "updated_utc": 1791704920.0556386,
+      "status": "PASS_CANONICAL_ROW_LINKS",
+      "canonical_rows": 528,
+      "matched_rows": 528,
+      "unresolved_rows": [],
+      "rows_with_independently_recomputed_raw_array": 528,
+      "raw_arrays_and_aliases_are_not_independent_replicate_count": true,
+      "R10_ancestor_rows_are_continuations_not_new_replicates": true,
+      "archived_table_and_original_sources_unchanged": true,
+      "all_matching_alias_paths_preserved": true,
+      "source_matching_does_not_change_native_decisions": true
+    },
+    "zero_shot_audit": {
+      "updated_utc": 1791704173.9719303,
+      "status": "WAITING_FOR_PRESCRIBED_DIAGNOSTICS",
+      "prescribed": 45,
+      "actual_diagnostics_recomputed": 0,
+      "preserved_source_failures": 0,
+      "missing_or_invalid": 45,
+      "errors": [],
+      "entire_zero_shot_validation_complete": false,
+      "direct_space_audit_vs_FFT_production": true,
+      "weights_no_training_reference_is_evaluation_only": true,
+      "initial_condition_mismatch_preserved": true,
+      "no_survivor_mean_replaces_five_seeds": true,
+      "whole_study_complete": false
+    },
+    "links": {
+      "updated_utc": 1791742817.6876695,
+      "status": "REQUIRES_REVIEW",
+      "local_links": 68,
+      "external_links": 29,
+      "missing_local_links": [],
+      "unresolved_external_links": [
+        {
+          "url": "https://arxiv.org/abs/2112.03616",
+          "checked_utc": 1791742794.330911,
+          "status": "NETWORK_ERROR_REQUIRES_REVIEW",
+          "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='arxiv.org', port=443): Max retries exceeded with url: /abs/2112.03616 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))\"))",
+          "citing_documents": [
+            "literature/prior_art_map.csv",
+            "literature/report.md"
+          ]
+        }
+      ],
+      "access_limited_links": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5901547",
+        "https://www.sciencedirect.com/science/article/abs/pii/S1007570426010075",
+        "https://www.sciencedirect.com/science/article/pii/S0167278926002903",
+        "https://www.sciencedirect.com/science/article/pii/S0377042726002505"
+      ],
+      "pending_final_documents": [
+        "total_report.md",
+        "claims_evidence.csv",
+        "code_data_manifest.json",
+        "submission_positioning.md"
+      ],
+      "whole_delivery_link_check_complete": false,
+      "structured_documents": [],
+      "structured_document_errors": [
+        {
+          "error": "INPUT_CHANGED_DURING_CHECK_REQUIRES_REPEAT",
+          "paths": [
+            "progress.md"
+          ]
+        }
+      ],
+      "link_completeness_is_not_whole_scientific_acceptance": true,
+      "access_limit_does_not_confirm_fulltext_reading": true,
+      "documents": {
+        "record_count": 14,
+        "full_entries_in": "link_check.json"
+      },
+      "link_check_code_sha256": "798ca5d64827f52b376471f92495864b2a51bfe54b62c332bc2bc7678f86ab1c",
+      "input_sources_unchanged_during_check": false,
+      "local": {
+        "record_count": 68,
+        "full_entries_in": "link_check.json"
+      },
+      "external": {
+        "record_count": 29,
+        "full_entries_in": "link_check.json"
+      }
+    },
+    "zero_shot": {
+      "status": "NOT_EXECUTED"
+    },
+    "visual": {
+      "whole_figure_package_complete": false,
+      "checks": [
+        {
+          "figure": "reference_calibration",
+          "status": "PASS_ACTUAL_PNG_AND_PDF_VISUAL_CHECK",
+          "checked_utc": 1791696076.9257636,
+          "PNG_sha256": "6df4e7b17737f8d1996e654f35a2413c3311e4cae1de1622b60cca9d9c3d430f",
+          "PDF_sha256": "79413bc2dff7a441df1f27764a1e5a721b76ce4d48d882a37873622efb5448ab",
+          "SVG_sha256": "3baee43b3fb7f671f9a85d354a680288126bfe28a56bf4d5503ddf91da96d47d",
+          "observed": "All panels opened using view_image; labels readable, no cropping or overlap; all prescribed displayed points retained."
+        },
+        {
+          "figure": "development_tuning",
+          "status": "PASS_ACTUAL_PNG_AND_PDF_VISUAL_CHECK",
+          "checked_utc": 1791696076.9530733,
+          "PNG_sha256": "f4c32bd5c5be69d4893c465391ad0f685512aa5352f230b0002eef6240fecd79",
+          "PDF_sha256": "14e471371363f800f909759874c39b9cb10c31e4bc3fe93c57171a79f5e8df24",
+          "SVG_sha256": "60a777324f17b551f5399efc9d36f9a7daa8bb9408cf5348f0ad341a20aa6ec2",
+          "observed": "All panels opened using view_image; labels readable, no cropping or overlap; all prescribed displayed points retained."
+        },
+        {
+          "figure": "TSFP_error_cost",
+          "status": "PASS_ACTUAL_PNG_AND_PDF_VISUAL_CHECK",
+          "checked_utc": 1791696076.9627497,
+          "PNG_sha256": "fcde81999fc1f1fd7de28f234ed324ec0294b7386964234d6187602d5b925992",
+          "PDF_sha256": "19ade15878db81309c7b5848306bc8b46bb2f05499ec269a54d167fbbc10ab81",
+          "SVG_sha256": "9ae44d3f740b52b58eb802077b882b430881c4a01c46274438dccb2cbd199bff",
+          "observed": "All panels opened using view_image; labels readable, no cropping or overlap; all prescribed displayed points retained."
+        }
+      ]
+    }
+  },
+  "verification_sources": {
+    "theoretical_closure": "engineering/theory_closure_audit.json",
+    "attempts": "analysis_outputs/attempt_completion_audit.json",
+    "metrics": "analysis_outputs/independent_metric_audit.json",
+    "residuals": "analysis_outputs/residual_audit.json",
+    "residual_sources": "analysis_outputs/residual_provenance_audit.json",
+    "postprocessing": "runtime/postprocessing_progress.json",
+    "costs": "analysis_outputs/independent_cost_audit.json",
+    "cost_summary": "analysis_outputs/cost_summary.json",
+    "statistics": "analysis_outputs/independent_statistical_audit.json",
+    "inference_cost_provenance": "isolated_inference/independent_audit.json",
+    "parameter_counts": "analysis_outputs/independent_parameter_audit.json",
+    "spectral_benchmark": "analysis_outputs/independent_TSFP_audit.json",
+    "pairing": "analysis_outputs/pairing_audit.json",
+    "phase": "analysis_outputs/carrier_phase_audit.json",
+    "carrier_initial_controls": "analysis_outputs/carrier_initialization_audit.json",
+    "learning_advantage": "analysis_outputs/learning_advantage_assessment.json",
+    "isolated_inference": "isolated_inference/status.json",
+    "history_early": "history/independent_R1_R8_audit.json",
+    "history_late": "history/independent_R9_R13_audit.json",
+    "history_snapshots": "history/independent_canonical_snapshot_audit.json",
+    "history_row_links": "history/canonical_row_traceability_audit.json",
+    "zero_shot_audit": "zero_shot/independent_audit.json",
+    "links": "link_check.json",
+    "zero_shot": "zero_shot/complete.json",
+    "visual": "figures/actual_visual_QA.json"
+  }
+}

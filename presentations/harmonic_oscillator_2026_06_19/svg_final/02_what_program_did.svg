@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FAFBFC" />
+
+  <g id="header">
+    <text x="60" y="72" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" fill="#52606D">02 / 项目目标</text>
+    <line x1="60" y1="98" x2="1220" y2="98" stroke="#CBD5E1" stroke-width="1" />
+  </g>
+
+  <g id="hero-statement">
+    
+  <g transform="translate(76.0, 162.0) scale(1.9166666666666667)" fill="none" stroke="#1C4E80" stroke-width="2">
+    <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  </g>
+    <text x="150" y="190" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="44" font-weight="700" fill="#1F2933">这段程序完成了一件具体的事</text>
+    <text x="150" y="252" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="24" fill="#52606D">把一维谐振子的本征方程转成一个可训练的物理约束神经网络问题</text>
+  </g>
+
+  <g id="main-chain">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M158,340 H330 A6,6 0 0 1 336,346 V412 A6,6 0 0 1 330,418 H158 A6,6 0 0 1 152,412 V346 A6,6 0 0 1 158,340 Z" />
+    <text x="180" y="374" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" fill="#52606D">对象</text>
+    <text x="180" y="403" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">谐振子本征态</text>
+
+    <line x1="350" y1="379" x2="424" y2="379" stroke="#1C4E80" stroke-width="2" />
+    <polygon points="424,379 412,372 412,386" fill="#1C4E80" />
+
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M448,340 H620 A6,6 0 0 1 626,346 V412 A6,6 0 0 1 620,418 H448 A6,6 0 0 1 442,412 V346 A6,6 0 0 1 448,340 Z" />
+    <text x="470" y="374" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" fill="#52606D">方法</text>
+    <text x="470" y="403" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">PINN 训练</text>
+
+    <line x1="640" y1="379" x2="714" y2="379" stroke="#1C4E80" stroke-width="2" />
+    <polygon points="714,379 702,372 702,386" fill="#1C4E80" />
+
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M738,340 H910 A6,6 0 0 1 916,346 V412 A6,6 0 0 1 910,418 H738 A6,6 0 0 1 732,412 V346 A6,6 0 0 1 738,340 Z" />
+    <text x="760" y="374" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" fill="#52606D">输出</text>
+    <text x="760" y="403" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">前三个能级</text>
+
+    <line x1="930" y1="379" x2="1004" y2="379" stroke="#1C4E80" stroke-width="2" />
+    <polygon points="1004,379 992,372 992,386" fill="#1C4E80" />
+
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M1028,340 H1200 A6,6 0 0 1 1206,346 V412 A6,6 0 0 1 1200,418 H1028 A6,6 0 0 1 1022,412 V346 A6,6 0 0 1 1028,340 Z" />
+    <text x="1050" y="374" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" fill="#52606D">启示</text>
+    <text x="1050" y="403" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">可迁移骨架</text>
+  </g>
+
+  <g id="supporting-points">
+    <line x1="150" y1="508" x2="1130" y2="508" stroke="#CBD5E1" stroke-width="1" />
+    <text x="150" y="552" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="20" fill="#1F2933">不是泛泛介绍 PINN，而是解释当前代码如何把方程、边界、正交性和数据点放进训练目标。</text>
+    <text x="150" y="592" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="20" fill="#1F2933">结果页用能级误差和波函数误差验证程序确实学到了前三个本征态。</text>
+  </g>
+
+  <g id="footer">
+    <text x="1220" y="654" text-anchor="end" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#7B8794">02</text>
+  </g>
+</svg>

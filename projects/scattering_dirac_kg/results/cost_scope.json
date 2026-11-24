@@ -1,0 +1,11 @@
+{
+  "reference_dense_extrema_grid_solve_seconds": 393.109268699307,
+  "reference_extrema_refinement_seconds": 37.484281299999566,
+  "reference_scan_grid_solve_seconds": 58.087274999925285,
+  "fixed_training_seconds": 2.0800600999500594,
+  "mlp_baseline_training_seconds": 659.672707500009,
+  "scan_points": 101,
+  "dense_extrema_points_per_model": 1001,
+  "background_load": "Pre-existing R12 training controller, five workers and finalizer were active before and during this scattering task. See results/preexisting_active_processes.json. Costs are actual wall times under background load, not isolated CPU benchmarks.",
+  "statement": "Timings exclude library import, file writes, development and evaluation against reference; dense-extremum verification is separate from a 101-energy solve cost. MLP baseline overlapped some development reference computation; all speed comparisons need idle-machine repetition."
+}

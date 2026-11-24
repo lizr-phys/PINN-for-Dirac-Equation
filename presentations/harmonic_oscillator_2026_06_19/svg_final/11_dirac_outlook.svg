@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FAFBFC" />
+
+  <g id="header">
+    <text x="60" y="72" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" fill="#52606D">11 / Dirac 方程启示</text>
+    <text x="60" y="124" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="34" font-weight="700" fill="#1F2933">对 Dirac 方程的启示主要在迁移逻辑</text>
+    <line x1="60" y1="146" x2="1220" y2="146" stroke="#CBD5E1" stroke-width="1" />
+  </g>
+
+  <g id="migration-route">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M82,210 H370 A6,6 0 0 1 376,216 V336 A6,6 0 0 1 370,342 H82 A6,6 0 0 1 76,336 V216 A6,6 0 0 1 82,210 Z" />
+    
+  <g transform="translate(110.0, 246.0) scale(1.4166666666666667)" fill="none" stroke="#1C4E80" stroke-width="2">
+    <path d="M12 12v.01" />
+    <path d="M19.071 4.929c-1.562 -1.562 -6 .337 -9.9 4.243c-3.905 3.905 -5.804 8.337 -4.242 9.9c1.562 1.561 6 -.338 9.9 -4.244c3.905 -3.905 5.804 -8.337 4.242 -9.9" />
+    <path d="M4.929 4.929c-1.562 1.562 .337 6 4.243 9.9c3.905 3.905 8.337 5.804 9.9 4.242c1.561 -1.562 -.338 -6 -4.244 -9.9c-3.905 -3.905 -8.337 -5.804 -9.9 -4.242" />
+  </g>
+    <text x="166" y="254" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="21" font-weight="700" fill="#1F2933">一维谐振子</text>
+    <text x="166" y="292" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="17" fill="#52606D">标量、定态、解析解可检验</text>
+
+    <line x1="392" y1="276" x2="484" y2="276" stroke="#1C4E80" stroke-width="2" />
+    <polygon points="484,276 472,269 472,283" fill="#1C4E80" />
+
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M506,210 H794 A6,6 0 0 1 800,216 V336 A6,6 0 0 1 794,342 H506 A6,6 0 0 1 500,336 V216 A6,6 0 0 1 506,210 Z" />
+    
+  <g transform="translate(534.0, 246.0) scale(1.4166666666666667)" fill="none" stroke="#4FA3A5" stroke-width="2">
+    <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" />
+    <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+  </g>
+    <text x="590" y="254" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="21" font-weight="700" fill="#1F2933">多本征态 PINN</text>
+    <text x="590" y="292" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="17" fill="#52606D">边界、归一化、正交、能量</text>
+
+    <line x1="816" y1="276" x2="908" y2="276" stroke="#1C4E80" stroke-width="2" />
+    <polygon points="908,276 896,269 896,283" fill="#1C4E80" />
+
+    <path fill="#EEF3F8" stroke="#CBD5E1" d="M930,210 H1198 A6,6 0 0 1 1204,216 V336 A6,6 0 0 1 1198,342 H930 A6,6 0 0 1 924,336 V216 A6,6 0 0 1 930,210 Z" />
+    
+  <g transform="translate(958.0, 246.0) scale(1.4166666666666667)" fill="none" stroke="#D88C2D" stroke-width="2">
+    <path d="M6 9a6 6 0 1 0 12 0a6 6 0 0 0 -12 0" />
+    <path d="M12 3c1.333 .333 2 2.333 2 6s-.667 5.667 -2 6" />
+    <path d="M12 3c-1.333 .333 -2 2.333 -2 6s.667 5.667 2 6" />
+    <path d="M6 9h12" />
+    <path d="M3 20h7" />
+    <path d="M14 20h7" />
+    <path d="M10 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M12 15v3" />
+  </g>
+    <text x="1014" y="254" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="21" font-weight="700" fill="#1F2933">Dirac 类问题</text>
+    <text x="1014" y="292" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="17" fill="#52606D">多分量、含时间、约束更多</text>
+  </g>
+
+  <g id="takeaways">
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M82,404 H430 A6,6 0 0 1 436,410 V552 A6,6 0 0 1 430,558 H82 A6,6 0 0 1 76,552 V410 A6,6 0 0 1 82,404 Z" />
+    <text x="112" y="448" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="22" font-weight="700" fill="#1C4E80">可以保留的经验</text>
+    <text x="112" y="486" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="18" fill="#1F2933">先做有解析参照的最小问题，</text>
+    <text x="112" y="516" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="18" fill="#1F2933">再逐步扩展方程和约束。</text>
+
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M466,404 H814 A6,6 0 0 1 820,410 V552 A6,6 0 0 1 814,558 H466 A6,6 0 0 1 460,552 V410 A6,6 0 0 1 466,404 Z" />
+    <text x="496" y="448" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="22" font-weight="700" fill="#D88C2D">必须重写的部分</text>
+    <text x="496" y="486" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="18" fill="#1F2933">残差要按旋量分量展开，</text>
+    <text x="496" y="516" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="18" fill="#1F2933">初边值条件也要重新设计。</text>
+
+    <path fill="#FFFFFF" stroke="#CBD5E1" d="M850,404 H1198 A6,6 0 0 1 1204,410 V552 A6,6 0 0 1 1198,558 H850 A6,6 0 0 1 844,552 V410 A6,6 0 0 1 850,404 Z" />
+    <text x="880" y="448" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="22" font-weight="700" fill="#4FA3A5">新增的检查</text>
+    <text x="880" y="486" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="18" fill="#1F2933">质量守恒、稳定性和全局收敛，</text>
+    <text x="880" y="516" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="18" fill="#1F2933">会比谐振子更重要。</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="654" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#7B8794">因此谐振子项目的价值，是先建立“残差、约束、验证、导出”的可复用闭环。</text>
+    <text x="1220" y="654" text-anchor="end" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#7B8794">11</text>
+  </g>
+</svg>

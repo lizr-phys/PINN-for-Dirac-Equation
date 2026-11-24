@@ -1,0 +1,12 @@
+{
+  "status": "PASS_AVAILABLE_LEGACY_ENDPOINTS",
+  "endpoints_audited": 226,
+  "errors": [],
+  "skipped": [],
+  "elapsed_wall_seconds": 20.015382528305054,
+  "scope": "All available raw physical final arrays R1-R8, including historical smoke; secondary checkpoints excluded",
+  "raw_history_unchanged": true,
+  "no_training_repeated": true,
+  "old_decisions_and_gauges_preserved": true,
+  "no_cross_round_accuracy_or_cost_pooling": true
+}

@@ -1,0 +1,127 @@
+{
+  "status": "PAUSED_BY_USER",
+  "driver_pid": 6656,
+  "stage": "extension:V04",
+  "started_utc": 1791853002.8026211,
+  "next_step": "等待用户明确恢复；当前停止训练和验证，保留原Adam、权重、RNG及采样断点",
+  "formal_complete": 168,
+  "formal_planned": 210,
+  "development_complete": 24,
+  "development_planned": 24,
+  "preserved_failures": 0,
+  "active_children": [],
+  "updated_utc": 1791887820.716064,
+  "free_disk_bytes": 13643063296,
+  "paused_utc": 1791887820.716064,
+  "paused_saved_workers": [
+    {
+      "job": {
+        "type": "coupled",
+        "stage": "extension",
+        "case": "V04",
+        "group": "fourier",
+        "seed": 811,
+        "budget": 26000,
+        "snapshots": [
+          5000,
+          10000,
+          15000,
+          20000,
+          26000
+        ],
+        "directory": "formal/coupled/V04/fourier/seed_811",
+        "options": {
+          "scale": 1.0,
+          "lr": 0.001
+        }
+      },
+      "saved_step": 500
+    },
+    {
+      "job": {
+        "type": "coupled",
+        "stage": "extension",
+        "case": "V04",
+        "group": "analytic_hard",
+        "seed": 813,
+        "budget": 20000,
+        "snapshots": [
+          5000,
+          10000,
+          15000,
+          20000
+        ],
+        "directory": "formal/coupled/V04/analytic_hard/seed_813"
+      },
+      "saved_step": 5000
+    },
+    {
+      "job": {
+        "type": "coupled",
+        "stage": "extension",
+        "case": "V04",
+        "group": "learned_hard",
+        "seed": 810,
+        "budget": 20000,
+        "snapshots": [
+          5000,
+          10000,
+          15000,
+          20000
+        ],
+        "directory": "formal/coupled/V04/learned_hard/seed_810",
+        "source": "formal/carriers/m5T5/static_frequency/seed_810",
+        "reuse_source": true
+      },
+      "saved_step": 15000
+    },
+    {
+      "job": {
+        "type": "coupled",
+        "stage": "extension",
+        "case": "V04",
+        "group": "fourier",
+        "seed": 812,
+        "budget": 26000,
+        "snapshots": [
+          5000,
+          10000,
+          15000,
+          20000,
+          26000
+        ],
+        "directory": "formal/coupled/V04/fourier/seed_812",
+        "options": {
+          "scale": 1.0,
+          "lr": 0.001
+        }
+      },
+      "saved_step": 20000
+    },
+    {
+      "job": {
+        "type": "coupled",
+        "stage": "extension",
+        "case": "V04",
+        "group": "fourier",
+        "seed": 814,
+        "budget": 26000,
+        "snapshots": [
+          5000,
+          10000,
+          15000,
+          20000,
+          26000
+        ],
+        "directory": "formal/coupled/V04/fourier/seed_814",
+        "options": {
+          "scale": 1.0,
+          "lr": 0.001
+        }
+      },
+      "saved_step": 2000
+    }
+  ],
+  "user_pause_event": "runtime/user_pause_events/1791887266842631000",
+  "whole_goal_complete": false
+}
