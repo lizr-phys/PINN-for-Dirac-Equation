@@ -1,0 +1,122 @@
+{
+  "audit": "multimode_ltpb",
+  "status": "PASS",
+  "checks_passed": 12,
+  "checks_total": 12,
+  "checks": [
+    {
+      "name": "formal_inventory_25_runs_exactly_six_artifacts",
+      "pass": true,
+      "detail": {
+        "expected_runs": 25,
+        "actual_runs": 25,
+        "missing": [],
+        "extra": [],
+        "bad_artifacts": {}
+      }
+    },
+    {
+      "name": "formal_configs_and_no_exact_frequency_leakage",
+      "pass": true,
+      "detail": {
+        "problems": [],
+        "correction": "Set torch default dtype to float64 before deterministic initialization rebuild, matching the trainer."
+      },
+      "postfreeze_audit_false_positive_corrected": true
+    },
+    {
+      "name": "checkpoint_metadata_state_and_no_frequency_buffers",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "loss_history_501_rows_pde_only",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "dense_grid_shapes_dtypes_finite_hard_initial_condition",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "metrics_independently_recomputed_from_dense_raw",
+      "pass": true,
+      "detail": {
+        "problems": [],
+        "maximum_json_csv_float_roundtrip_difference": 8.326672684688674e-17,
+        "correction": "Use explicit floating-point tolerances instead of bitwise equality after CSV parsing."
+      },
+      "postfreeze_audit_false_positive_corrected": true
+    },
+    {
+      "name": "aggregates_population_sd_and_decision_independently_recomputed",
+      "pass": true,
+      "detail": {
+        "problems": [],
+        "maximum_json_csv_float_roundtrip_difference": 1.1102230246251565e-16,
+        "independent_overall": true,
+        "paired_joint_pass_count": 5,
+        "phase_slope_pass_count": 4,
+        "correction": "Use round-trip floating tolerances for JSON-to-CSV comparisons; decision remains independently recomputed."
+      },
+      "postfreeze_audit_false_positive_corrected": true
+    },
+    {
+      "name": "oracle_exact_and_excluded_from_learned_ranking",
+      "pass": true,
+      "detail": {
+        "files": [
+          "config.json",
+          "dense_grid.npz",
+          "metrics.json",
+          "time_series.csv"
+        ],
+        "spinor": 0.0,
+        "pde": 3.4106682403269365e-16
+      }
+    },
+    {
+      "name": "figure_manifest_source_formats_and_visual_qa",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "all_438_protected_prior_files_unchanged",
+      "pass": true,
+      "detail": {
+        "checked": 438,
+        "problems": []
+      }
+    },
+    {
+      "name": "preregistration_and_code_freeze_hashes",
+      "pass": true,
+      "detail": {
+        "checked": 17,
+        "problems": [],
+        "frozen_before_formal_results": true
+      }
+    },
+    {
+      "name": "report_relative_links_exist_within_project",
+      "pass": true,
+      "detail": {
+        "checked_links": 174,
+        "expected_raw_links": 150,
+        "missing_targets": [],
+        "missing_raw_links": [],
+        "correction": "Verify the complete 150-link raw artifact set directly instead of an unrelated hard-coded total-link count."
+      },
+      "postfreeze_audit_false_positive_corrected": true
+    }
+  ],
+  "audit_finalizer": "src/finalize_multimode_ltpb_audit.py",
+  "audit_finalizer_sha256": "c35c6f0a13ab71b1ee6d5e3ffbc459bd7874836eca9ae2e15ee70367eb5d7552",
+  "frozen_experiment_code_modified": false,
+  "correction_scope": [
+    "audit rebuild dtype",
+    "floating point comparison tolerance",
+    "direct report raw-link inventory"
+  ]
+}

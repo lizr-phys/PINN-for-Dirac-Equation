@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "model": "A_carrier_complex",
+      "hard_initial_max_abs": 1.1102230246251565e-16,
+      "empty_sideband_imaginary_tangent_sensitivity": 1.8900938578331354,
+      "derivative_finite": true,
+      "carrier_time_graph_retained": true,
+      "pass_check": true
+    },
+    {
+      "model": "B_free_correction",
+      "hard_initial_max_abs": 1.1102230246251565e-16,
+      "empty_sideband_imaginary_tangent_sensitivity": 1.9959890732232792,
+      "derivative_finite": true,
+      "carrier_time_graph_retained": true,
+      "pass_check": true
+    },
+    {
+      "model": "C_release_windows",
+      "hard_initial_max_abs": 1.1102230246251565e-16,
+      "empty_sideband_imaginary_tangent_sensitivity": 0.19603075531078384,
+      "derivative_finite": true,
+      "carrier_time_graph_retained": false,
+      "pass_check": true
+    },
+    {
+      "model": "D_carrier_windows",
+      "hard_initial_max_abs": 1.1102230246251565e-16,
+      "empty_sideband_imaginary_tangent_sensitivity": 18.900938578331353,
+      "derivative_finite": true,
+      "carrier_time_graph_retained": true,
+      "pass_check": true
+    },
+    {
+      "model": "complex",
+      "hard_initial_max_abs": 1.1102230246251565e-16,
+      "empty_sideband_imaginary_tangent_sensitivity": 1.8900938578331354,
+      "derivative_finite": true,
+      "carrier_time_graph_retained": false,
+      "pass_check": true
+    },
+    {
+      "model": "phase_release",
+      "hard_initial_max_abs": 1.1102230246251565e-16,
+      "empty_sideband_imaginary_tangent_sensitivity": 0.019603075531078384,
+      "derivative_finite": true,
+      "carrier_time_graph_retained": false,
+      "pass_check": true
+    }
+  ],
+  "scope": "Implementation and available local tangent, not complete coupled dynamics",
+  "derivative_supervision_used": false
+}

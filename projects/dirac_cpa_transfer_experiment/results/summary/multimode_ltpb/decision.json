@@ -1,0 +1,207 @@
+{
+  "decision_name": "preregistered_multimode_ltpb_success",
+  "population_sd_ddof": 0,
+  "absolute_thresholds": {
+    "spinor_mean_le_0p05": {
+      "value": 0.006594204115051035,
+      "threshold": 0.05,
+      "operator": "<=",
+      "pass": true
+    },
+    "current_mean_le_0p10": {
+      "value": 0.010975922187402617,
+      "threshold": 0.1,
+      "operator": "<=",
+      "pass": true
+    },
+    "fidelity_mean_ge_0p99": {
+      "value": 0.9999651663235379,
+      "threshold": 0.99,
+      "operator": ">=",
+      "pass": true
+    }
+  },
+  "mean_baseline_advantage": {
+    "spinor": {
+      "best_baseline": "multi_branch_complex",
+      "best_baseline_mean": 0.9398189908353123,
+      "multi_ltpb_mean": 0.006594204115051035,
+      "improvement_factor": 142.52197451550052,
+      "required_factor": 10.0,
+      "pass": true
+    },
+    "current": {
+      "best_baseline": "multi_branch_complex",
+      "best_baseline_mean": 0.9573635792963227,
+      "multi_ltpb_mean": 0.010975922187402617,
+      "improvement_factor": 87.22397653247911,
+      "required_factor": 10.0,
+      "pass": true
+    }
+  },
+  "paired_seed_results": [
+    {
+      "seed": 0,
+      "spinor_best_baseline": "multi_branch_complex",
+      "spinor_best_baseline_value": 0.9411326108285907,
+      "spinor_multi_ltpb_value": 0.005827712062317215,
+      "spinor_improvement_factor": 161.49264081080517,
+      "current_best_baseline": "multi_branch_complex",
+      "current_best_baseline_value": 0.9605877259172071,
+      "current_multi_ltpb_value": 0.009401066603426102,
+      "current_improvement_factor": 102.17858956207509,
+      "spinor_pass": true,
+      "current_pass": true,
+      "joint_pass": true
+    },
+    {
+      "seed": 1,
+      "spinor_best_baseline": "multi_branch_complex",
+      "spinor_best_baseline_value": 0.9341772882609193,
+      "spinor_multi_ltpb_value": 0.00542274290541937,
+      "spinor_improvement_factor": 172.27025226058993,
+      "current_best_baseline": "multi_branch_complex",
+      "current_best_baseline_value": 0.9491731964488622,
+      "current_multi_ltpb_value": 0.009347320884814209,
+      "current_improvement_factor": 101.54494620922905,
+      "spinor_pass": true,
+      "current_pass": true,
+      "joint_pass": true
+    },
+    {
+      "seed": 2,
+      "spinor_best_baseline": "multi_branch_complex",
+      "spinor_best_baseline_value": 0.9380434510388924,
+      "spinor_multi_ltpb_value": 0.006719566818643451,
+      "spinor_improvement_factor": 139.59879801124814,
+      "current_best_baseline": "multi_branch_complex",
+      "current_best_baseline_value": 0.9553103143101567,
+      "current_multi_ltpb_value": 0.011242091759377274,
+      "current_improvement_factor": 84.97620680896075,
+      "spinor_pass": true,
+      "current_pass": true,
+      "joint_pass": true
+    },
+    {
+      "seed": 3,
+      "spinor_best_baseline": "multi_branch_complex",
+      "spinor_best_baseline_value": 0.9391512893879836,
+      "spinor_multi_ltpb_value": 0.005792842173861697,
+      "spinor_improvement_factor": 162.122713031195,
+      "current_best_baseline": "multi_branch_complex",
+      "current_best_baseline_value": 0.9566597831122855,
+      "current_multi_ltpb_value": 0.010090217721400665,
+      "current_improvement_factor": 94.81061851453167,
+      "spinor_pass": true,
+      "current_pass": true,
+      "joint_pass": true
+    },
+    {
+      "seed": 4,
+      "spinor_best_baseline": "sp_cpa",
+      "spinor_best_baseline_value": 0.9264040098863042,
+      "spinor_multi_ltpb_value": 0.009208156615013442,
+      "spinor_improvement_factor": 100.60689110954613,
+      "current_best_baseline": "multi_branch_complex",
+      "current_best_baseline_value": 0.9650868766931022,
+      "current_multi_ltpb_value": 0.014798913967994832,
+      "current_improvement_factor": 65.21335814102756,
+      "spinor_pass": true,
+      "current_pass": true,
+      "joint_pass": true
+    }
+  ],
+  "paired_joint_pass_count": 5,
+  "paired_joint_pass_required": 4,
+  "paired_seed_rule_pass": true,
+  "phase_slope_channels": [
+    {
+      "mode": "k2_plus",
+      "per_seed_absolute_relative_errors": [
+        0.00013986969612663595,
+        0.0002665534243885258,
+        0.0003742961534185447,
+        0.0003273861961387462,
+        0.00033453648431223915
+      ],
+      "per_seed_valid_fractions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_absolute_relative_error": 0.0002885283908769383,
+      "threshold": 0.01,
+      "operator": "<",
+      "pass": true
+    },
+    {
+      "mode": "k2_minus",
+      "per_seed_absolute_relative_errors": [
+        0.00022152271801627568,
+        0.0003015916915838283,
+        0.0003773858550962171,
+        0.00029845310982985795,
+        0.00028898798724438606
+      ],
+      "per_seed_valid_fractions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_absolute_relative_error": 0.00029758827235411306,
+      "threshold": 0.01,
+      "operator": "<",
+      "pass": true
+    },
+    {
+      "mode": "k5_plus",
+      "per_seed_absolute_relative_errors": [
+        0.0004158836579119121,
+        0.00030239156221827725,
+        0.0004264967934743676,
+        0.00020853558658745917,
+        0.0002104840533056572
+      ],
+      "per_seed_valid_fractions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_absolute_relative_error": 0.00031275833069953465,
+      "threshold": 0.01,
+      "operator": "<",
+      "pass": true
+    },
+    {
+      "mode": "k5_minus",
+      "per_seed_absolute_relative_errors": [
+        0.0002607152966426935,
+        0.00032884547021924394,
+        0.00037784644342570483,
+        0.0003612459273542642,
+        0.0003786424094437336
+      ],
+      "per_seed_valid_fractions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_absolute_relative_error": 0.000341459109417128,
+      "threshold": 0.01,
+      "operator": "<",
+      "pass": true
+    }
+  ],
+  "phase_slope_pass_count": 4,
+  "phase_slope_pass_required": 3,
+  "phase_slope_rule_pass": true,
+  "overall_pass": true
+}

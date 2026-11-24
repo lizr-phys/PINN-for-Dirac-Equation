@@ -1,0 +1,51 @@
+{
+  "updated_utc": 1791720609.1406238,
+  "status": "FAIL",
+  "group_endpoints_checked": 159,
+  "prescribed_pair_contrasts_checked": 627,
+  "full_five_pair_estimates_checked": 0,
+  "factor_interactions_checked": 18,
+  "complete_factor_estimates_checked": 0,
+  "source_snapshots_checked": 100,
+  "pending_independent_source_audits": [],
+  "errors": [
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_810/snapshots/20000/metrics.json",
+      "field": "available_prescribed_source_missing_from_summary_input"
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_811/snapshots/26000/metrics.json",
+      "field": "available_prescribed_source_missing_from_summary_input"
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_812/snapshots/20000/metrics.json",
+      "field": "available_prescribed_source_missing_from_summary_input"
+    },
+    {
+      "context": "formal/coupled/T10/siren/seed_813/snapshots/26000/metrics.json",
+      "field": "available_prescribed_source_missing_from_summary_input"
+    },
+    {
+      "context": "formal/coupled/T10/fourier/seed_814/snapshots/26000/metrics.json",
+      "field": "available_prescribed_source_missing_from_summary_input"
+    }
+  ],
+  "source_table_sha256": {
+    "all_snapshots_metrics.csv": "eaaa2550a59c9ececfaa67771aa5324801d30f6b9ad1c05ae63313192f753abf",
+    "summary_metrics.csv": "203621ca33f246f198a32d1171e3c9ae530c23d387a62193bd529ac51e9aed2b",
+    "paired_statistics.csv": "fb53f49d1155c534e4c92da17aae791f2d81c6186868258b75939911d362c6a7",
+    "paired_per_seed.csv": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "factor_interactions.csv": "32eec2d4cc79b085af44ae50c923f07bb4b5dced07230f921fa2c139e3c33ea3",
+    "factor_interactions_per_seed.csv": "eaa64469e01f156e00d535db912b3cdd6b974a1355ac0b0728fa4e98737ee620",
+    "independent_metrics_per_snapshot.csv": "b814cfbcb90f916f3b7d9d0733d33ac5569d07cbe4d938ad6e63915d0bb43674",
+    "attempt_completion_audit.json": "a48c391a220e19206b5611377c840cedd3071adedb21f727538dc0e63cb28f14"
+  },
+  "audit_code_sha256": "5a6eb5d1d0cc4ae835409b04717f52bb581612617526cd394aca45b8cd8fcd96",
+  "separate_csv_math_implementation": true,
+  "archived_dynamics_inputs_independently_FFT_validated": true,
+  "student_t_df4_critical_constant": 2.7764451051977987,
+  "no_survivor_five_seed_mean": true,
+  "exact_sign_flip_minimum_two_sided_p": 0.0625,
+  "all_prescribed_statistics_verified": false,
+  "whole_goal_complete": false
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_utc": 1791734212.3325984,
+  "status": "RESOLVED_REQUIRED_DTYPE_RESTORED",
+  "preserved_failed_record": "engineering/residual_float32_invocation_failed_record_20261011.json",
+  "preserved_failed_sha256": "b4cb40e2907cf7b025a56da01481f88873888747da71057174e6fb262f5708e7",
+  "diagnostic": "engineering/residual_invocation_dtype_diagnostic_20261011.json",
+  "diagnostic_sha256": "d7c9c3f0e448a79caf196d711813a6e55ca1e67708c470d3309f748b290ed893",
+  "corrected_float64_record": "analysis_outputs/residual_checks/formal__coupled__T10__fourier__seed_812__snapshots__20000.json",
+  "corrected_record_sha256": "1656e8d858254069d6cd44195b9649eb01cb0f645366d9896018a2cf966d0c4b",
+  "measurement_source_sha256_unchanged": "d12068bd4bea2d359d4e9a264ccd8fe44c0acdf72543340b3a48c9cf066408ad",
+  "training_native_metrics_and_thresholds_unchanged": true
+}

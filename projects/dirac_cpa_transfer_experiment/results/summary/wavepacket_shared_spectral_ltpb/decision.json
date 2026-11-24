@@ -1,0 +1,167 @@
+{
+  "decision_name": "preregistered_wavepacket_shared_spectral_ltpb_success",
+  "population_sd_ddof": 0,
+  "absolute_thresholds": {
+    "spinor_mean_le_0p05": {
+      "value": 0.041038474896620644,
+      "threshold": 0.05,
+      "operator": "<=",
+      "pass": true
+    },
+    "current_mean_le_0p10": {
+      "value": 0.04805688201679267,
+      "threshold": 0.1,
+      "operator": "<=",
+      "pass": true
+    },
+    "fidelity_mean_ge_0p99": {
+      "value": 0.9982491953660142,
+      "threshold": 0.99,
+      "operator": ">=",
+      "pass": true
+    }
+  },
+  "mean_baseline_advantage": {
+    "spinor": {
+      "best_baseline": "physical_component_polar",
+      "best_baseline_mean": 0.9094119062899229,
+      "target_mean": 0.041038474896620644,
+      "improvement_factor": 22.159983005723472,
+      "required_factor": 10.0,
+      "pass": true
+    },
+    "current": {
+      "best_baseline": "physical_component_polar",
+      "best_baseline_mean": 0.8840100766970517,
+      "target_mean": 0.04805688201679267,
+      "improvement_factor": 18.395077657933555,
+      "required_factor": 10.0,
+      "pass": true
+    }
+  },
+  "paired_seed_results": [
+    {
+      "seed": 0,
+      "spinor_best_baseline": "physical_component_polar",
+      "spinor_best_baseline_value": 0.9085030482239617,
+      "spinor_target_value": 0.03212868389855942,
+      "spinor_improvement_factor": 28.277007894017625,
+      "current_best_baseline": "physical_component_polar",
+      "current_best_baseline_value": 0.878430709070564,
+      "current_target_value": 0.04258192096530951,
+      "current_improvement_factor": 20.629194013727112,
+      "spinor_pass": true,
+      "current_pass": true,
+      "joint_pass": true
+    },
+    {
+      "seed": 1,
+      "spinor_best_baseline": "physical_component_polar",
+      "spinor_best_baseline_value": 0.9171645340226425,
+      "spinor_target_value": 0.03353789421191735,
+      "spinor_improvement_factor": 27.347111545743306,
+      "current_best_baseline": "physical_component_polar",
+      "current_best_baseline_value": 0.8767696833019244,
+      "current_target_value": 0.04565742101992843,
+      "current_improvement_factor": 19.20322400424751,
+      "spinor_pass": true,
+      "current_pass": true,
+      "joint_pass": true
+    },
+    {
+      "seed": 2,
+      "spinor_best_baseline": "physical_component_polar",
+      "spinor_best_baseline_value": 0.9082897852784402,
+      "spinor_target_value": 0.03629637703187113,
+      "spinor_improvement_factor": 25.0242547480948,
+      "current_best_baseline": "physical_component_polar",
+      "current_best_baseline_value": 0.8908002843263038,
+      "current_target_value": 0.03959326167782607,
+      "current_improvement_factor": 22.498785060317225,
+      "spinor_pass": true,
+      "current_pass": true,
+      "joint_pass": true
+    },
+    {
+      "seed": 3,
+      "spinor_best_baseline": "physical_component_polar",
+      "spinor_best_baseline_value": 0.9040729940823653,
+      "spinor_target_value": 0.0576639320480328,
+      "spinor_improvement_factor": 15.678309854577591,
+      "current_best_baseline": "physical_component_polar",
+      "current_best_baseline_value": 0.8784950332914999,
+      "current_target_value": 0.06279940285497274,
+      "current_improvement_factor": 13.988907431496967,
+      "spinor_pass": true,
+      "current_pass": true,
+      "joint_pass": true
+    },
+    {
+      "seed": 4,
+      "spinor_best_baseline": "physical_component_polar",
+      "spinor_best_baseline_value": 0.9090291698422045,
+      "spinor_target_value": 0.04556548729272254,
+      "spinor_improvement_factor": 19.949949487040588,
+      "current_best_baseline": "physical_component_polar",
+      "current_best_baseline_value": 0.8955546734949669,
+      "current_target_value": 0.04965240356592659,
+      "current_improvement_factor": 18.036481805072803,
+      "spinor_pass": true,
+      "current_pass": true,
+      "joint_pass": true
+    }
+  ],
+  "paired_joint_pass_count": 5,
+  "paired_joint_pass_required": 4,
+  "paired_seed_rule_pass": true,
+  "training_phase_slope": {
+    "five_seed_mean_weighted_relative_error": 0.0011509899724482038,
+    "maximum_unidentifiable_fraction": 0.0,
+    "threshold": 0.01,
+    "operator": "<",
+    "pass": true
+  },
+  "heldout_midpoint_phase_slope": {
+    "five_seed_mean_weighted_relative_error": 0.0011498502571094097,
+    "maximum_unidentifiable_fraction": 0.0,
+    "threshold": 0.02,
+    "operator": "<",
+    "pass": true
+  },
+  "wavepacket_branch_dynamics": {
+    "five_seed_mean_values": {
+      "branch_plus_center_rmse": 0.017749403589240688,
+      "branch_minus_center_rmse": 0.016740743476181548,
+      "branch_plus_velocity_relative_error": 0.006612925515861785,
+      "branch_minus_velocity_relative_error": 0.004803417991685598,
+      "branch_plus_velocity": 0.36652296286072905,
+      "branch_minus_velocity": -0.36586501540469607,
+      "branch_plus_width_rel_l2": 0.012316405814150732,
+      "branch_minus_width_rel_l2": 0.009390308781633456,
+      "branch_plus_final_center": 1.819706588905467,
+      "branch_minus_final_center": -1.8165943007652174,
+      "branch_plus_final_width_change": 0.07892915184859758,
+      "branch_minus_final_width_change": 0.06746629027975395,
+      "branch_plus_exact_final_width_change": 0.07639384004715088,
+      "branch_minus_exact_final_width_change": 0.07639384004710359
+    },
+    "minimum_branch_norm_across_target_runs": 0.4876071679330893,
+    "checks": {
+      "finite_all_seeds": true,
+      "identifiable_all_seeds": true,
+      "velocity_signs": true,
+      "plus_velocity_relative_error_lt_0p10": true,
+      "minus_velocity_relative_error_lt_0p10": true,
+      "plus_center_rmse_le_0p25": true,
+      "minus_center_rmse_le_0p25": true,
+      "plus_width_rel_l2_lt_0p10": true,
+      "minus_width_rel_l2_lt_0p10": true,
+      "terminal_centers_split": true,
+      "plus_width_change_direction": true,
+      "minus_width_change_direction": true
+    },
+    "pass": true
+  },
+  "continuous_spectral_interpolation_claim_allowed": true,
+  "overall_pass": true
+}

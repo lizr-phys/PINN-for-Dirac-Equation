@@ -1,0 +1,85 @@
+{
+  "cutoff": "2026-10-04",
+  "timezone": "Asia/Shanghai",
+  "objective": "研究现状为主；区分定态谱、散射和含时演化；实验/跨领域联系为补充",
+  "coverage": "Foundational and 2023-2026 representative original papers; not an exhaustive systematic review or bibliometric ranking",
+  "workflow": [
+    "nature-academic-search: multi-source-search",
+    "nature-academic-search: citation-verification"
+  ],
+  "sources": [
+    "Publisher primary pages",
+    "Author arXiv abstract and selected HTML/PDF methods",
+    "Crossref works API"
+  ],
+  "unavailable": [
+    "Specialized scholarly MCP tools",
+    "Institution-authorized Scopus / Web of Science / CNKI"
+  ],
+  "query_groups": [
+    [
+      "bound spectrum",
+      "physics informed neural networks quantum eigenvalue eigenfunctions bound states 2025 2026 Dirac Klein Gordon",
+      "A deep neural network approach to solve the Dirac equation",
+      "Solving nuclear Dirac Woods-Saxon potential with a physics-informed neural network",
+      "neural quantum excited states 2024 2026"
+    ],
+    [
+      "stationary scattering",
+      "physics informed quantum scattering Schrodinger stationary transmission reflection 2024 2025 2026",
+      "multidimensional quantum tunneling physics informed",
+      "Exterior complex scaling enables physics-informed neural networks",
+      "Stable minimum principles for scattering states",
+      "Light nuclear scattering from neural quantum states",
+      "Constructing inverse potentials from scattering phase shifts"
+    ],
+    [
+      "conventional methods",
+      "Reduced basis emulator for elastic scattering 2026",
+      "Direct boundary matching bound-state technique nuclear scattering",
+      "Green function relativistic Hartree Fock resonant states 2026"
+    ],
+    [
+      "adjacent spectra",
+      "Friedrich Wintgen bound states continuum 2026",
+      "Bloch eigenproblem neural 2025",
+      "Boson star solution families PINN 2026",
+      "Variational neural density matrix steady state"
+    ],
+    [
+      "experimental connections",
+      "Quantum interference Klein tunnelling graphene heterojunctions",
+      "Observing atomic collapse resonances artificial nuclei graphene",
+      "Quantum simulation Dirac trapped ions",
+      "Direct observation Klein tunneling phononic crystals"
+    ]
+  ],
+  "exclusions": [
+    "Hamilton-Dirac constrained classical dynamics is not the relativistic spinor Dirac equation",
+    "Nonlinear/manufactured-source KG PDE benchmarks are not automatically stationary vector-coupled KG scattering",
+    "Radiative/Rayleigh and electromagnetic scattering are not automatically quantum-particle scattering"
+  ],
+  "deduplication": "DOI primary; match arXiv journal and author/title context. S06 preprint scattering title and journal nuclear reactions title merged.",
+  "date_handling": [
+    "B03 online 2025-12-15; print 2026-03-01",
+    "S02 arXiv 2026-05; verified journal 2026-09-18",
+    "M03 current Crossref print year 2026 rather than earlier local review shorthand",
+    "X02 journal 2013; arXiv deposited 2015",
+    "P01 DOI marked pending on arXiv; no unverified DOI added"
+  ],
+  "retrieval_issues_resolved": [
+    "B03 Crossref returned HTTP 429 on first attempt, successful on a later attempt",
+    "Local extraction regex escaping and Windows GBK stdout were repaired; final 40 records complete"
+  ],
+  "access_limits": [
+    "Some ScienceDirect / Nature direct pages refused full fetching; used primary author preprints or available publisher abstracts",
+    "B03 publisher PDF served application/octet-stream; method summary restricted to publisher abstract/equation snippet and verified metadata"
+  ],
+  "verification_counts": {
+    "selected_works": 40,
+    "crossref_doi_verified": 34,
+    "arxiv_pages_verified": 26
+  },
+  "performance_review": "External performance numbers are authors' experiments; not independently reproduced here",
+  "current_project_treatment": "Read-only comparison of delivered local reports; no new training or changes to earlier results"
+}

@@ -1,0 +1,630 @@
+{
+  "updated_utc": 1791719376.7926848,
+  "status": "FAIL",
+  "group_endpoints_checked": 159,
+  "prescribed_pair_contrasts_checked": 627,
+  "full_five_pair_estimates_checked": 0,
+  "factor_interactions_checked": 18,
+  "complete_factor_estimates_checked": 0,
+  "source_snapshots_checked": 100,
+  "pending_independent_source_audits": [],
+  "errors": [
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_811/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 12.251172599997517,
+      "expected": 1.8314892000016698
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_811/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 24.428313999997044,
+      "expected": 1.7677084999995714
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_811/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 36.29177150000032,
+      "expected": 1.7318898000012268
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_811/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 86.78762540000025,
+      "expected": 39.99299909999536
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_812/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 11.84815829999934,
+      "expected": 1.7463227000007464
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_812/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 39.13391359999878,
+      "expected": 1.8522550999987288
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_812/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 51.20763109999825,
+      "expected": 1.7033050999998522
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_812/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 102.34305259999746,
+      "expected": 40.909215500003484
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_813/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 12.216099499997654,
+      "expected": 1.7242024000006495
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_813/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 24.417958299996826,
+      "expected": 1.6992947999970056
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_813/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 36.5624912999956,
+      "expected": 1.7020159999992757
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_813/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 86.6424446999954,
+      "expected": 39.808962999999494
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_814/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 9.884871099999145,
+      "expected": 1.6870151000002807
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_814/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 19.725591300000815,
+      "expected": 1.6451090999998996
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_814/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 29.83383480000157,
+      "expected": 1.733717600000091
+    },
+    {
+      "context": "formal/coupled/T10/analytic_hard/seed_814/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 75.06819520000317,
+      "expected": 37.05511430000115
+    },
+    {
+      "context": "formal/coupled/T10/fourier/seed_814/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 9.848365399993781,
+      "expected": 1.6742621999947005
+    },
+    {
+      "context": "formal/coupled/T10/fourier/seed_814/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 19.92081039999175,
+      "expected": 1.7031969999952707
+    },
+    {
+      "context": "formal/coupled/T10/fourier/seed_814/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 29.903221599990502,
+      "expected": 1.6982000999996671
+    },
+    {
+      "context": "formal/coupled/T10/fourier/seed_814/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 82.57365259999642,
+      "expected": 44.280795200000284
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_811/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 11.832102999993367,
+      "expected": 1.7672707999954582
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_811/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 24.1020759999883,
+      "expected": 1.8773518000016338
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_811/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 35.257928599981824,
+      "expected": 1.6735869000040111
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_811/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 103.97843989998364,
+      "expected": 52.12383530000079
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_812/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 11.815284100001008,
+      "expected": 1.658532199999172
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_812/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 23.828632100001414,
+      "expected": 1.7397651999999653
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_812/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 35.74375090000467,
+      "expected": 1.730622900002345
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_812/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 87.04307080000217,
+      "expected": 41.131435399998736
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_812/snapshots/26000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 138.3003773000055,
+      "expected": 41.046681600004376
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_813/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 12.133629899999505,
+      "expected": 1.7346701999995275
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_813/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 24.374090299999807,
+      "expected": 1.900960799997847
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_813/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 36.39008150000154,
+      "expected": 1.7614190000022063
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_813/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 87.93414420000045,
+      "expected": 41.276475099999516
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_813/snapshots/26000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 139.48482640000293,
+      "expected": 41.17491660000087
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_814/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 9.794643099998211,
+      "expected": 1.637805299997126
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_814/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 19.787020399999165,
+      "expected": 1.7355752000003122
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_814/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 29.63353300000017,
+      "expected": 1.5996884999985923
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_814/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 75.95503539999845,
+      "expected": 38.09147160000066
+    },
+    {
+      "context": "formal/coupled/T10/joint_hard/seed_814/snapshots/26000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 124.65470379999897,
+      "expected": 39.348162300000695
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_810/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 13.924170700003742,
+      "expected": 2.1049603999999817
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_810/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 27.536388700005773,
+      "expected": 2.00578040000255
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_810/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 41.48883780000324,
+      "expected": 1.913894999997865
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_811/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 12.178316800000175,
+      "expected": 1.9125025000030291
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_811/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 24.314662599997973,
+      "expected": 1.9850468000004184
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_811/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 36.42479169999933,
+      "expected": 1.7421017000015127
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_811/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 88.12480929999947,
+      "expected": 41.23903679999785
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_812/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 12.117710999998963,
+      "expected": 1.719995100000233
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_812/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 24.08059090000097,
+      "expected": 1.7120376999992004
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_812/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 36.117748000000574,
+      "expected": 1.7241315999999642
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_812/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 87.54861660000097,
+      "expected": 41.218490200000815
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_813/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 12.31042510000043,
+      "expected": 1.9110285000006115
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_813/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 24.723033500000383,
+      "expected": 1.893175400000473
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_813/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 37.03769900000225,
+      "expected": 1.841545600000245
+    },
+    {
+      "context": "formal/coupled/T10/learned_hard/seed_813/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 89.57056790000024,
+      "expected": 42.093691000001854
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_812/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 11.850409900005616,
+      "expected": 1.7428094999995665
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_812/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 23.760481200006325,
+      "expected": 1.752577500003099
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_812/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 35.5745095000093,
+      "expected": 1.7331894999952056
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_813/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 12.708460699999705,
+      "expected": 1.8099563999967359
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_813/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 25.51825159999862,
+      "expected": 1.9768592000000353
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_813/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 37.40151759999935,
+      "expected": 1.7275526000012178
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_813/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 86.74458369999775,
+      "expected": 39.12878660000206
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_813/snapshots/26000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 135.89412789999915,
+      "expected": 38.81737029999931
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_814/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 9.686241300001711,
+      "expected": 1.5683346000005258
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_814/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 21.05463239999881,
+      "expected": 1.762380399999529
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_814/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 30.83739439999772,
+      "expected": 1.634166499999992
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_814/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 74.66575419999572,
+      "expected": 35.70501769999828
+    },
+    {
+      "context": "formal/coupled/T10/no_carrier_hard/seed_814/snapshots/26000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 130.18559889999597,
+      "expected": 46.06370269999752
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_810/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 13.289986800002225,
+      "expected": 2.1689117000023543
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_810/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 26.50459630000114,
+      "expected": 2.123392599998624
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_810/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 40.101731200004,
+      "expected": 2.1794611000004807
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_810/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 129.5918551000068,
+      "expected": 78.08686299999681
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_811/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 12.296071600001596,
+      "expected": 1.934865200000786
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_811/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 24.20025870000245,
+      "expected": 1.8970952999989095
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_811/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 36.266010400002415,
+      "expected": 1.9004562000009173
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_811/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 118.28395340000134,
+      "expected": 71.60926340000151
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_812/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 12.30202989999998,
+      "expected": 1.982964799999536
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_812/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 24.623416199998246,
+      "expected": 2.114502500000526
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_812/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 36.91609789999529,
+      "expected": 1.921690299997863
+    },
+    {
+      "context": "formal/coupled/T10/original_hard/seed_812/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 118.46471599999313,
+      "expected": 71.17363820000173
+    },
+    {
+      "context": "formal/coupled/T10/original_pde/seed_810/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 14.133413899999141,
+      "expected": 2.3150605999999243
+    },
+    {
+      "context": "formal/coupled/T10/original_pde/seed_810/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 27.681215699998575,
+      "expected": 2.205006799998955
+    },
+    {
+      "context": "formal/coupled/T10/original_pde/seed_810/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 41.30061659999774,
+      "expected": 2.1313933999990695
+    },
+    {
+      "context": "formal/coupled/T10/original_pde/seed_810/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 132.0942718999977,
+      "expected": 79.23832599999878
+    },
+    {
+      "context": "formal/coupled/T10/siren/seed_813/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 11.5150472000023,
+      "expected": 1.7161401999983354
+    },
+    {
+      "context": "formal/coupled/T10/siren/seed_813/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 23.380244899999525,
+      "expected": 1.698037199996179
+    },
+    {
+      "context": "formal/coupled/T10/siren/seed_813/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 34.2570401999983,
+      "expected": 1.7178243000016664
+    },
+    {
+      "context": "formal/coupled/T10/siren/seed_813/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 82.04089599999861,
+      "expected": 37.041601299999456
+    },
+    {
+      "context": "formal/coupled/T10/siren/seed_814/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 11.367930100001104,
+      "expected": 1.6585142000003543
+    },
+    {
+      "context": "formal/coupled/T10/siren/seed_814/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 23.520968700002413,
+      "expected": 2.139105700000073
+    },
+    {
+      "context": "formal/coupled/T10/siren/seed_814/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 33.394238400003815,
+      "expected": 1.5711889999984123
+    },
+    {
+      "context": "formal/coupled/T10/siren/seed_814/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 76.26991630000339,
+      "expected": 34.34212419999676
+    },
+    {
+      "context": "formal/coupled/T10/siren/seed_814/snapshots/26000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 119.67073750000054,
+      "expected": 34.952750299999025
+    },
+    {
+      "context": "formal/coupled/T10/static_pde/seed_810/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 13.414768799997546,
+      "expected": 1.9017406000020856
+    },
+    {
+      "context": "formal/coupled/T10/static_pde/seed_810/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 26.811185699996713,
+      "expected": 2.0566494000013336
+    },
+    {
+      "context": "formal/coupled/T10/static_pde/seed_810/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 39.0431417999971,
+      "expected": 1.7967672999984643
+    },
+    {
+      "context": "formal/coupled/T10/static_pde/seed_810/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 98.06700479999927,
+      "expected": 47.94957200000135
+    },
+    {
+      "context": "formal/coupled/T10/static_pde/seed_811/snapshots/05000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 12.366531800000303,
+      "expected": 1.7884924999998475
+    },
+    {
+      "context": "formal/coupled/T10/static_pde/seed_811/snapshots/10000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 24.501545000000988,
+      "expected": 1.8900818999991316
+    },
+    {
+      "context": "formal/coupled/T10/static_pde/seed_811/snapshots/15000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 36.715257900001234,
+      "expected": 1.7960598000008758
+    },
+    {
+      "context": "formal/coupled/T10/static_pde/seed_811/snapshots/20000/metrics.json",
+      "field": "evaluation_seconds",
+      "actual": 88.52570840000226,
+      "expected": 41.53608809999787
+    }
+  ],
+  "source_table_sha256": {
+    "all_snapshots_metrics.csv": "0243cd2d23cba267d2e39875f5e868d53aadd135faf39cfdade19ce0bad27032",
+    "summary_metrics.csv": "203621ca33f246f198a32d1171e3c9ae530c23d387a62193bd529ac51e9aed2b",
+    "paired_statistics.csv": "fb53f49d1155c534e4c92da17aae791f2d81c6186868258b75939911d362c6a7",
+    "paired_per_seed.csv": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "factor_interactions.csv": "32eec2d4cc79b085af44ae50c923f07bb4b5dced07230f921fa2c139e3c33ea3",
+    "factor_interactions_per_seed.csv": "eaa64469e01f156e00d535db912b3cdd6b974a1355ac0b0728fa4e98737ee620",
+    "independent_metrics_per_snapshot.csv": "b814cfbcb90f916f3b7d9d0733d33ac5569d07cbe4d938ad6e63915d0bb43674",
+    "attempt_completion_audit.json": "2142d56e1d10aee11936bfb9cf8daff8b3897b0bd96eb67e6a06c95bd6e91bde"
+  },
+  "separate_csv_math_implementation": true,
+  "archived_dynamics_inputs_independently_FFT_validated": true,
+  "student_t_df4_critical_constant": 2.7764451051977987,
+  "no_survivor_five_seed_mean": true,
+  "exact_sign_flip_minimum_two_sided_p": 0.0625,
+  "all_prescribed_statistics_verified": false,
+  "whole_goal_complete": false
+}

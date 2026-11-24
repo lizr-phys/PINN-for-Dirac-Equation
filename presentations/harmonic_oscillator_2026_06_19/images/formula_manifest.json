@@ -1,0 +1,89 @@
+{
+  "providers": [
+    "codecogs",
+    "quicklatex",
+    "mathpad",
+    "wikimedia"
+  ],
+  "items": [
+    {
+      "id": "formula_schrodinger",
+      "filename": "formula_schrodinger.png",
+      "latex": "\\left[-\\frac{1}{2}\\frac{d^2}{dx^2}+\\frac{1}{2}x^2\\right]\\psi_n(x)=E_n\\psi_n(x)",
+      "display": "block",
+      "dpi": 300,
+      "color": "#1F2933",
+      "background": "#FAFBFC",
+      "transparent": true,
+      "file": "images/formula_schrodinger.png",
+      "providers": [
+        "codecogs",
+        "quicklatex",
+        "mathpad",
+        "wikimedia"
+      ],
+      "transparent_tolerance": 12,
+      "provider": "codecogs",
+      "pixel_width": 709,
+      "pixel_height": 121,
+      "ratio": 5.8595,
+      "status": "Rendered"
+    },
+    {
+      "id": "formula_boundary",
+      "filename": "formula_boundary.png",
+      "latex": "\\psi_\\theta(x)=\\left(1-\\frac{x^2}{L^2}\\right)N_{\\mathrm{sym}}(x)",
+      "display": "block",
+      "dpi": 300,
+      "color": "#1F2933",
+      "background": "#FAFBFC",
+      "transparent": true,
+      "file": "images/formula_boundary.png",
+      "providers": [
+        "codecogs",
+        "quicklatex",
+        "mathpad",
+        "wikimedia"
+      ],
+      "transparent_tolerance": 12,
+      "provider": "codecogs",
+      "pixel_width": 576,
+      "pixel_height": 121,
+      "ratio": 4.7603,
+      "status": "Rendered"
+    },
+    {
+      "id": "formula_loss",
+      "filename": "formula_loss.png",
+      "latex": "\\mathcal{L}_{\\mathrm{total}}=\\mathcal{L}_{\\mathrm{pde}}+\\lambda_{\\mathrm{norm}}\\mathcal{L}_{\\mathrm{norm}}+\\lambda_{\\mathrm{orth}}\\mathcal{L}_{\\mathrm{orth}}+\\lambda_{\\mathrm{data}}\\mathcal{L}_{\\mathrm{data}}+\\lambda_R R[\\psi]",
+      "display": "block",
+      "dpi": 300,
+      "color": "#1F2933",
+      "background": "#FAFBFC",
+      "transparent": true,
+      "file": "images/formula_loss.png",
+      "providers": [
+        "codecogs",
+        "quicklatex",
+        "mathpad",
+        "wikimedia"
+      ],
+      "transparent_tolerance": 12,
+      "provider": "codecogs",
+      "pixel_width": 1284,
+      "pixel_height": 51,
+      "ratio": 25.1765,
+      "status": "Rendered"
+    }
+  ],
+  "renderer": {
+    "providers": [
+      "codecogs",
+      "quicklatex",
+      "mathpad",
+      "wikimedia"
+    ],
+    "default_dpi": 300,
+    "output_dir": "images"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "free_exact_error": 7.69942477987644e-15,
+  "Strang_dt_errors": [
+    9.348262003100433e-06,
+    2.3349265088788288e-06,
+    5.835981630364399e-07
+  ],
+  "second_order_verified": true
+}

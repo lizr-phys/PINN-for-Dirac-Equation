@@ -1,0 +1,270 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "paired_primary_metrics",
+      "claim": "All five fixed endpoint pairs; conditional continuation and absolute criteria are separate.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data/paired_primary_metrics_values.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 347240,
+          "sha256": "4621eca9052d3a7282250603e7980beaa5550f0dd13682b55a747138c4e2bfd6"
+        },
+        "svg": {
+          "bytes": 57510,
+          "sha256": "517d81516c6a482e7098b48f9cb8b04b0baa423a5304524ed25d86a7dd1f37c3"
+        },
+        "pdf": {
+          "bytes": 29792,
+          "sha256": "cd0220933141aa950d34b41b07c29dbddb558a84dd3c4a74a4cd88cd4a48ffee"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "paired ancestries, n=5; population SD ddof=0",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 20,
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 583,
+      "pdf_render": "qa_renders\\paired_primary_metrics_pdf.png",
+      "pdf_render_sha256": "3fa7c960c0df0bcb34d3b499f4126ef5e47de0b65c6119fe8f332c5f03c84cf2",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "norm_balance_all_seeds",
+      "claim": "Residual projection reconstructs norm change; finite-grid integration is a numerical diagnostic.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data/norm_balance_all_seeds_balance.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 283750,
+          "sha256": "fcc60e74f59e848ac9aa657a6bf8b2f48a84d3b0d2aeba34b065bf529fbdcbc0"
+        },
+        "svg": {
+          "bytes": 53850,
+          "sha256": "90f0484ba3b4b502ca2bb507b9b3a5d098aecbd466db1f8c51dcbb72d5827c6b"
+        },
+        "pdf": {
+          "bytes": 24359,
+          "sha256": "e42d5de28d37a64a7ec84b5dd098d1c7487b06d2a9db1e5c839294e0f8e61cd7"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "paired ancestries, n=5; population SD ddof=0",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 40,
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 509,
+      "pdf_render": "qa_renders\\norm_balance_all_seeds_pdf.png",
+      "pdf_render_sha256": "50e88905b31242d4e4952d1c04a53ce081594142bff4bb5d0f1176d6c1f0426c",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "residual_decomposition",
+      "claim": "Unitary carrier defects and Hermitian coupling have no direct global norm source; no pretraining causal ablation.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data/residual_decomposition_decomposition.csv",
+        "source_data/residual_decomposition_balance.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 1293859,
+          "sha256": "c6c41458e1ffe9e8ef22cd3ad8ea482de254069e4208ac0c605dcef848fafc2c"
+        },
+        "svg": {
+          "bytes": 163430,
+          "sha256": "0261e8f25401bbb0f437211a6487ae22a2dc69876e5288a315664a0992943aec"
+        },
+        "pdf": {
+          "bytes": 56050,
+          "sha256": "60a3820bec9a1f5b6c4308248536033e072e820083012ccd87c1930d0caf1a82"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "paired ancestries, n=5; population SD ddof=0",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 32,
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 402,
+      "pdf_render": "qa_renders\\residual_decomposition_pdf.png",
+      "pdf_render_sha256": "076f96e48213572be6d3947d1908d49a3507467e383cd2981274d7d5348bb807",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "dynamics_seed300",
+      "claim": "Fixed seed300 physical fields and errors; reference and both stages use common scales.",
+      "seeds": [
+        300
+      ],
+      "source_csv": [
+        "source_data/dynamics_seed300_physical_grid.csv",
+        "source_data/dynamics_seed300_series.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 455636,
+          "sha256": "7b75df784fcec5575fae119abfa9b7d7a3ddbce4cc4ac7e3d04d6b9d48e7e904"
+        },
+        "svg": {
+          "bytes": 324927,
+          "sha256": "2d4654c7f83d068360483eab2ced362e98018ffe6bbd8f93bf825e6438bcc49e"
+        },
+        "pdf": {
+          "bytes": 163347,
+          "sha256": "077185a95704134299d3c99a95b9784e3d52449f2415be0afd295d138b2b2c1f"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "fixed seed300 dynamics",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 80,
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 592,
+      "pdf_render": "qa_renders\\dynamics_seed300_pdf.png",
+      "pdf_render_sha256": "fbcc0deb9ada91065fe7e9d9a741a50a6d278fcb645ea28ffa2cb026bd718b5a",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "branch_trajectories",
+      "claim": "Both free-branch center and width trajectories relative to the same coupled reference; all seeds.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data/branch_trajectories_series.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 651139,
+          "sha256": "24fd18e86cb686c3b30749633390d62c6b14c37df5b66c3adbfd803a52c993db"
+        },
+        "svg": {
+          "bytes": 169565,
+          "sha256": "3ccda4c0bd9e92c17c99c88ac65f039c9f598ca8e916063cf45bf6b7ef9fcabb"
+        },
+        "pdf": {
+          "bytes": 62099,
+          "sha256": "491916c71dbb72bcbef985011bdc43d16cf854bc85dd9a41631d320403e4a9bc"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "paired ancestries, n=5; population SD ddof=0",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 32,
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 452,
+      "pdf_render": "qa_renders\\branch_trajectories_pdf.png",
+      "pdf_render_sha256": "24a7431daeb9e1d27a9a39470721d7aff21f3fdc39c9ffd2891bddc6a5280702",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "budget_and_residuals",
+      "claim": "Total optimizer steps and residual work differ; inherited and new measured costs are reported separately.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data/budget_and_residuals_costs.csv",
+        "source_data/budget_and_residuals_diagnostics.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 315990,
+          "sha256": "a7c692d534041f1794c4026fb0c60e82e4f6588ccf6d425e302b068fcd3321d3"
+        },
+        "svg": {
+          "bytes": 38289,
+          "sha256": "565f25516b84994ad392857bbca41bb063d796db6ea31195cc075905029896e4"
+        },
+        "pdf": {
+          "bytes": 25567,
+          "sha256": "b1a05e12be56264347e2f7f3c52cefccde0c1ac56a326b7f8b9e23f50937d07b"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "paired ancestries, n=5; population SD ddof=0",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 16,
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 568,
+      "pdf_render": "qa_renders\\budget_and_residuals_pdf.png",
+      "pdf_render_sha256": "1e26d1c3e77d5efad87af68a5a99cad000a47d0369b328621dbd23e9c80eb287",
+      "pdf_render_engine": "Poppler pdftoppm"
+    }
+  ],
+  "visual_inspection_pending": false,
+  "figure_count": 6,
+  "dynamics_seed": 300,
+  "paired_ancestries": [
+    300,
+    301,
+    302,
+    303,
+    304
+  ],
+  "population_sd_ddof": 0,
+  "pdf_checks_pass": true,
+  "visual_inspection_record": {
+    "passed": true,
+    "notes": "All six native PNGs and all six independent Poppler PDF previews inspected. All five paired ancestries remain visible, dynamics stays seed300, shared heatmap scales and units are clear, and labels/legends are readable without clipping. Initial false clipping flag came from an undrawn tick at -3e-17; the coordinate-scaled tolerance was corrected. Initial exports/QA are preserved, all native PNG SHA-256 hashes and all source CSV hashes are unchanged. No scientific data or evaluation rule changed.",
+    "scope": "all six native PNGs and all independent Poppler PDF previews",
+    "paired_ancestries": [
+      300,
+      301,
+      302,
+      303,
+      304
+    ],
+    "fixed_dynamic_seed": 300,
+    "selective_data_changes": false
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "B01": {
+    "note": "方程、归一化、正交约束的量子本征问题先例。",
+    "evidence_level": "primary_abstract"
+  },
+  "B02": {
+    "note": "逆 Hamiltonian 避免 Dirac 变分塌缩，并计算低激发态。",
+    "evidence_level": "primary_methods"
+  },
+  "B03": {
+    "note": "径向 Dirac Woods–Saxon 的残差 PINN，须区别标量/矢量势。",
+    "evidence_level": "publisher_abstract_and_equation_snippet"
+  },
+  "B04": {
+    "note": "NES-VMC 求多电子激发态、跃迁观测；不是低维残差 PINN。",
+    "evidence_level": "primary_abstract"
+  },
+  "B05": {
+    "note": "神经量子态处理多体波函数的基础工作。",
+    "evidence_level": "primary_abstract"
+  },
+  "B06": {
+    "note": "FermiNet 与变分 Monte Carlo，针对多电子反对称波函数。",
+    "evidence_level": "primary_abstract_or_author_repository"
+  },
+  "B07": {
+    "note": "PauliNet 将物理先验与神经多电子波函数结合。",
+    "evidence_level": "primary_abstract"
+  },
+  "B08": {
+    "note": "2026 多状态神经波函数与重要性采样预印本。",
+    "evidence_level": "primary_abstract"
+  },
+  "S01": {
+    "note": "多通道近势垒隧穿；复 SIREN，输入 r 和 E，对照 FEM。",
+    "evidence_level": "primary_methods"
+  },
+  "S02": {
+    "note": "稳定散射最小原理与振幅误差界；非相对论定理不能直接移植。",
+    "evidence_level": "primary_methods"
+  },
+  "S03": {
+    "note": "神经量子态求弹性/非弹性中子–氘核散射，无需含时推进。",
+    "evidence_level": "primary_methods"
+  },
+  "S04": {
+    "note": "cusp 势 Dirac 的透射、束缚与超临界；势形不同于当前高斯势。",
+    "evidence_level": "DOI_metadata_and_existing_project_primary_reference"
+  },
+  "S05": {
+    "note": "KG 标量/矢量耦合、流约定、束缚/散射区别。",
+    "evidence_level": "primary_methods"
+  },
+  "R01": {
+    "note": "Berggren 共振态与连续谱展开的经典基础。",
+    "evidence_level": "DOI_metadata"
+  },
+  "R02": {
+    "note": "干涉共振和 BIC 经典先例，不能把全透射当 BIC。",
+    "evidence_level": "primary_abstract"
+  },
+  "R03": {
+    "note": "2026 相对论 Hartree–Fock 与 Green 函数统一束缚态和共振。",
+    "evidence_level": "primary_abstract"
+  },
+  "A01": {
+    "note": "空间周期 Bloch 谱，与时间周期 Floquet 问题区别。",
+    "evidence_level": "DOI_metadata"
+  },
+  "A02": {
+    "note": "二维 Bloch 量子本征问题；明确为硕士论文。",
+    "evidence_level": "primary_abstract"
+  },
+  "T01": {
+    "note": "PINN 求含时 Dirac 的已有直接先例。",
+    "evidence_level": "primary_abstract"
+  },
+  "T02": {
+    "note": "标题为 scattering，但实际学习波包含时传播的神经算子。",
+    "evidence_level": "primary_abstract"
+  },
+  "T03": {
+    "note": "开放量子系统控制，属于动力学与控制而非静态束缚谱。",
+    "evidence_level": "primary_abstract"
+  },
+  "M01": {
+    "note": "随机隐藏层与物理残差最小二乘，当前 PIELM 的方法谱系。",
+    "evidence_level": "primary_abstract"
+  },
+  "M02": {
+    "note": "PINN 多损失训练困难的机制研究；不自动解释本项目失败。",
+    "evidence_level": "primary_abstract"
+  },
+  "M03": {
+    "note": "谱坐标 PINN，空间谱与时间输入的已有方法。",
+    "evidence_level": "primary_abstract"
+  },
+  "P01": {
+    "note": "2026 一维谱 benchmark 的经典/量子神经网络预印本。",
+    "evidence_level": "primary_abstract"
+  },
+  "R04": {
+    "note": "2026 给三耦合 Schrödinger 方程 BIC 存在性严格论证。",
+    "evidence_level": "primary_abstract"
+  },
+  "X01": {
+    "note": "石墨烯输运干涉实验，散射相位与电导相关。",
+    "evidence_level": "primary_abstract"
+  },
+  "X02": {
+    "note": "STM 测石墨烯人工核的原子塌缩共振。",
+    "evidence_level": "primary_abstract"
+  },
+  "X03": {
+    "note": "离子自由 Dirac 模拟，直接关联含时主线。",
+    "evidence_level": "primary_abstract"
+  },
+  "X04": {
+    "note": "离子散射波包重建，含时散射的实验实例。",
+    "evidence_level": "primary_abstract"
+  },
+  "X05": {
+    "note": "声子晶体 Klein 隧穿，属于有效 Dirac 波的类比平台。",
+    "evidence_level": "primary_abstract"
+  },
+  "X06": {
+    "note": "2026 Einstein–KG 定态解族代理，含监督与物理损失。",
+    "evidence_level": "primary_abstract"
+  },
+  "M04": {
+    "note": "学习函数空间映射的神经算子，区别有限参数条件网络。",
+    "evidence_level": "DOI_metadata"
+  },
+  "S06": {
+    "note": "2026 ECS 驱动方程 PINN 求核反应，阅读最新版弱源锚损失。",
+    "evidence_level": "primary_methods"
+  },
+  "S07": {
+    "note": "相移数据反演势，网络势＋可微 RK4 传统积分的混合路线。",
+    "evidence_level": "primary_methods_and_PDF_author_header"
+  },
+  "B09": {
+    "note": "无序局域谱 PINN，已于 2023 年期刊发表，对照 IGA。",
+    "evidence_level": "primary_abstract"
+  },
+  "O01": {
+    "note": "Lindblad 密度矩阵稳态；不同于纯态定态能谱。",
+    "evidence_level": "primary_abstract"
+  },
+  "S08": {
+    "note": "2026 由 Numerov 标签训练的全局核散射可微模拟器。",
+    "evidence_level": "primary_abstract"
+  },
+  "S09": {
+    "note": "2026 POD＋Galerkin 的非神经散射降阶模拟器。",
+    "evidence_level": "primary_abstract"
+  },
+  "S10": {
+    "note": "2026 直接边界匹配把内部 L2 基用于开放边界散射。",
+    "evidence_level": "primary_abstract"
+  }
+}

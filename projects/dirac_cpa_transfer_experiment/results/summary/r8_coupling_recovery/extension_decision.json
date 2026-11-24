@@ -1,0 +1,182 @@
+{
+  "status": "COMPLETED",
+  "scope": "Three new seeds per case; no extrapolation to arbitrary potentials",
+  "results": [
+    {
+      "case": "T8",
+      "model": "A_carrier_complex",
+      "absolute_scope_diagnostic": {
+        "pass_check": true,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": true,
+          "current_rel_l2": true,
+          "fidelity_mean": true,
+          "modal_population_rel_l2": true,
+          "max_norm_drift": true
+        },
+        "joint_pass_count": 2,
+        "per_seed_joint_pass": {
+          "200": false,
+          "201": true,
+          "202": true
+        }
+      },
+      "not_five_seed_independent_main_validation": true
+    },
+    {
+      "case": "T8",
+      "model": "complex",
+      "absolute_scope_diagnostic": {
+        "pass_check": false,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 0,
+        "per_seed_joint_pass": {
+          "200": false,
+          "201": false,
+          "202": false
+        }
+      },
+      "not_five_seed_independent_main_validation": true
+    },
+    {
+      "case": "V01",
+      "model": "A_carrier_complex",
+      "absolute_scope_diagnostic": {
+        "pass_check": true,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": true,
+          "current_rel_l2": true,
+          "fidelity_mean": true,
+          "modal_population_rel_l2": true,
+          "max_norm_drift": true
+        },
+        "joint_pass_count": 3,
+        "per_seed_joint_pass": {
+          "200": true,
+          "201": true,
+          "202": true
+        }
+      },
+      "not_five_seed_independent_main_validation": true
+    },
+    {
+      "case": "V01",
+      "model": "complex",
+      "absolute_scope_diagnostic": {
+        "pass_check": false,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 0,
+        "per_seed_joint_pass": {
+          "200": false,
+          "201": false,
+          "202": false
+        }
+      },
+      "not_five_seed_independent_main_validation": true
+    },
+    {
+      "case": "V04",
+      "model": "A_carrier_complex",
+      "absolute_scope_diagnostic": {
+        "pass_check": false,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": true,
+          "current_rel_l2": true,
+          "fidelity_mean": true,
+          "modal_population_rel_l2": true,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 2,
+        "per_seed_joint_pass": {
+          "200": false,
+          "201": true,
+          "202": true
+        }
+      },
+      "not_five_seed_independent_main_validation": true
+    },
+    {
+      "case": "V04",
+      "model": "complex",
+      "absolute_scope_diagnostic": {
+        "pass_check": false,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 0,
+        "per_seed_joint_pass": {
+          "200": false,
+          "201": false,
+          "202": false
+        }
+      },
+      "not_five_seed_independent_main_validation": true
+    },
+    {
+      "case": "free_packet",
+      "model": "A_carrier_complex",
+      "absolute_scope_diagnostic": {
+        "pass_check": true,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": true,
+          "current_rel_l2": true,
+          "fidelity_mean": true,
+          "modal_population_rel_l2": true,
+          "max_norm_drift": true
+        },
+        "joint_pass_count": 3,
+        "per_seed_joint_pass": {
+          "200": true,
+          "201": true,
+          "202": true
+        }
+      },
+      "not_five_seed_independent_main_validation": true
+    },
+    {
+      "case": "free_packet",
+      "model": "complex",
+      "absolute_scope_diagnostic": {
+        "pass_check": false,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 0,
+        "per_seed_joint_pass": {
+          "200": false,
+          "201": false,
+          "202": false
+        }
+      },
+      "not_five_seed_independent_main_validation": true
+    }
+  ]
+}

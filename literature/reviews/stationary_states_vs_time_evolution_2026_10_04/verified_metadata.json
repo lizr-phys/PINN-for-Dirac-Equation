@@ -1,0 +1,4474 @@
+{
+  "checked_at": "2026-10-04T08:35:06.104971+00:00",
+  "scope": "Selected primary sources; not an exhaustive systematic review",
+  "elapsed_seconds": 4.682566999996197,
+  "records": [
+    {
+      "id": "B01",
+      "topic": "bound",
+      "doi": "10.1109/IJCNN55064.2022.9891944",
+      "arxiv": "2203.00451",
+      "checked_at": "2026-10-04T08:35:01.438658+00:00",
+      "crossref": {
+        "DOI": "10.1109/ijcnn55064.2022.9891944",
+        "title": [
+          "Physics-Informed Neural Networks for Quantum Eigenvalue Problems"
+        ],
+        "author": [
+          {
+            "given": "Henry",
+            "family": "Jin",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Engineering and Applied Sciences, Harvard University,Cambridge,MA,USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marios",
+            "family": "Mattheakis",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Engineering and Applied Sciences, Harvard University,Cambridge,MA,USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pavlos",
+            "family": "Protopapas",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Engineering and Applied Sciences, Harvard University,Cambridge,MA,USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "2022 International Joint Conference on Neural Networks (IJCNN)"
+        ],
+        "type": "proceedings-article",
+        "volume": null,
+        "issue": null,
+        "page": "1-8",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              18
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              18
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              30
+            ]
+          ],
+          "date-time": "2022-09-30T15:56:04Z",
+          "timestamp": 1664553364000
+        },
+        "URL": "https://doi.org/10.1109/ijcnn55064.2022.9891944",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Physics-Informed Neural Networks for Quantum Eigenvalue Problems"
+        ],
+        "citation_author": [
+          "Jin, Henry",
+          "Mattheakis, Marios",
+          "Protopapas, Pavlos"
+        ],
+        "citation_date": [
+          "2022/02/24"
+        ],
+        "citation_online_date": [
+          "2022/02/24"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2203.00451"
+        ],
+        "citation_arxiv_id": [
+          "2203.00451"
+        ],
+        "citation_abstract": [
+          "Eigenvalue problems are critical to several fields of science and engineering. We expand on the method of using unsupervised neural networks for discovering eigenfunctions and eigenvalues for differential eigenvalue problems. The obtained solutions are given in an analytical and differentiable form that identically satisfies the desired boundary conditions. The network optimization is data-free and depends solely on the predictions of the neural network. We introduce two physics-informed loss functions. The first, called ortho-loss, motivates the network to discover pair-wise orthogonal eigenfunctions. The second loss term, called norm-loss, requests the discovery of normalized eigenfunctions and is used to avoid trivial solutions. We find that embedding even or odd symmetries to the neural network architecture further improves the convergence for relevant problems. Lastly, a patience condition can be used to automatically recognize eigenfunction solutions. This proposed unsupervised learning method is used to solve the finite well, multiple finite wells, and hydrogen atom eigenvalue quantum problems."
+        ],
+        "abstract": "Abstract: Eigenvalue problems are critical to several fields of science and engineering. We expand on the method of using unsupervised neural networks for discovering eigenfunctions and eigenvalues for differential eigenvalue problems. The obtained solutions are given in an analytical and differentiable form that identically satisfies the desired boundary conditions. The network optimization is data-free and depends solely on the predictions of the neural network. We introduce two physics-informed loss functions. The first, called ortho-loss, motivates the network to discover pair-wise orthogonal eigenfunctions. The second loss term, called norm-loss, requests the discovery of normalized eigenfunctions and is used to avoid trivial solutions. We find that embedding even or odd symmetries to the neural network architecture further improves the convergence for relevant problems. Lastly, a patience condition can be used to automatically recognize eigenfunction solutions. This proposed unsupervised learning method is used to solve the finite well, multiple finite wells, and hydrogen atom eigenvalue quantum problems."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "B02",
+      "topic": "bound_dirac",
+      "doi": "10.1140/epja/s10050-025-01630-5",
+      "arxiv": "2412.03090",
+      "checked_at": "2026-10-04T08:35:01.439546+00:00",
+      "crossref": {
+        "DOI": "10.1140/epja/s10050-025-01630-5",
+        "title": [
+          "A deep neural network approach to solve the Dirac equation"
+        ],
+        "author": [
+          {
+            "given": "Chuanxin",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0010-3558",
+            "authenticated-orcid": false,
+            "given": "Tomoya",
+            "family": "Naito",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jian",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Haozhao",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "The European Physical Journal A"
+        ],
+        "type": "journal-article",
+        "volume": "61",
+        "issue": "7",
+        "page": null,
+        "article-number": "162",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              15
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              15
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              15
+            ]
+          ],
+          "date-time": "2025-07-15T14:49:14Z",
+          "timestamp": 1752590954000
+        },
+        "URL": "https://doi.org/10.1140/epja/s10050-025-01630-5",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "A deep neural network approach to solve the Dirac equation"
+        ],
+        "citation_author": [
+          "Wang, Chuanxin",
+          "Naito, Tomoya",
+          "Li, Jian",
+          "Liang, Haozhao"
+        ],
+        "citation_doi": [
+          "10.1140/epja/s10050-025-01630-5"
+        ],
+        "citation_date": [
+          "2024/12/04"
+        ],
+        "citation_online_date": [
+          "2025/07/16"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2412.03090"
+        ],
+        "citation_arxiv_id": [
+          "2412.03090"
+        ],
+        "citation_abstract": [
+          "We extend the method from [Naito, Naito, and Hashimoto, Phys. Rev. Research 5, 033189 (2023)] to solve the Dirac equation not only for the ground state but also for low-lying excited states using a deep neural network and the unsupervised machine learning technique. The variational method fails because of the Dirac sea, which is avoided by introducing the inverse Hamiltonian method. For low-lying excited states, two methods are proposed, which have different performances and advantages. The validity of this method is verified by the calculations with the Coulomb and Woods-Saxon potentials."
+        ],
+        "abstract": "Abstract: We extend the method from [Naito, Naito, and Hashimoto, Phys. Rev. Research 5, 033189 (2023)] to solve the Dirac equation not only for the ground state but also for low-lying excited states using a deep neural network and the unsupervised machine learning technique. The variational method fails because of the Dirac sea, which is avoided by introducing the inverse Hamiltonian method. For low-lying excited states, two methods are proposed, which have different performances and advantages. The validity of this method is verified by the calculations with the Coulomb and Woods-Saxon potentials."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "B03",
+      "topic": "bound_dirac",
+      "doi": "10.1088/1572-9494/ae1a5c",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.450470+00:00",
+      "crossref": {
+        "DOI": "10.1088/1572-9494/ae1a5c",
+        "title": [
+          "Solving nuclear Dirac Woods–Saxon potential with a physics-informed neural network"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5977-1326",
+            "authenticated-orcid": false,
+            "given": "Xiao-Kai 晓凯",
+            "family": "Du 杜",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9590-1818",
+            "authenticated-orcid": false,
+            "given": "Shuang-Quan 双全",
+            "family": "Zhang 张",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Communications in Theoretical Physics"
+        ],
+        "type": "journal-article",
+        "volume": "78",
+        "issue": "3",
+        "page": "035303",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              15
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              15
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              3
+            ]
+          ],
+          "date-time": "2025-11-03T10:47:21Z",
+          "timestamp": 1762166841000
+        },
+        "URL": "https://doi.org/10.1088/1572-9494/ae1a5c",
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    A physics-informed neural network (PINN) is built to solve the nucleonic Dirac equation. The PINN employs the residual of the Dirac equation as the objective function instead of the variation of the energy expectation value, thereby avoiding the variational collapse problem. By integrating the automatic differentiation techniques, the PINN also overcomes the Fermion doubling problem. A constraint term in the loss function of the PINN is designed to avoid trivial solutions and an orthogonality constraint term is used to search for the excited states. The performance of the unsupervised PINN is evaluated by solving the orbitals below the Fermi surface of\n                    <jats:sup>16</jats:sup>\n                    O and\n                    <jats:sup>208</jats:sup>\n                    Pb in the Dirac Woods–Saxon (WS) potential. Compared to the results obtained by the traditional shooting method, obtained energies have relative errors on the order of 10\n                    <jats:sup>−3</jats:sup>\n                    and the root-mean-square errors of the corresponding wave functions are also on the order of 10\n                    <jats:sup>−3</jats:sup>\n                    .\n                  </jats:p>"
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "B04",
+      "topic": "manybody_excited",
+      "doi": "10.1126/science.adn0137",
+      "arxiv": "2308.16848",
+      "checked_at": "2026-10-04T08:35:01.480945+00:00",
+      "crossref": {
+        "DOI": "10.1126/science.adn0137",
+        "title": [
+          "Accurate computation of quantum excited states with neural networks"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-0834-8653",
+            "authenticated-orcid": true,
+            "given": "David",
+            "family": "Pfau",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Google DeepMind, London N1C 4DJ, UK."
+              },
+              {
+                "name": "Department of Physics, Imperial College London, South Kensington Campus, London SW7 2AZ, UK."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2936-0133",
+            "authenticated-orcid": true,
+            "given": "Simon",
+            "family": "Axelrod",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google DeepMind, London N1C 4DJ, UK."
+              },
+              {
+                "name": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 01238, USA."
+              },
+              {
+                "name": "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, MA 01239, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1635-1668",
+            "authenticated-orcid": true,
+            "given": "Halvard",
+            "family": "Sutterud",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, Imperial College London, South Kensington Campus, London SW7 2AZ, UK."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-3102-196X",
+            "authenticated-orcid": true,
+            "given": "Ingrid",
+            "family": "von Glehn",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google DeepMind, London N1C 4DJ, UK."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "James S.",
+            "family": "Spencer",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google DeepMind, London N1C 4DJ, UK."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Science"
+        ],
+        "type": "journal-article",
+        "volume": "385",
+        "issue": "6711",
+        "page": null,
+        "article-number": "eadn0137",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              23
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              23
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              22
+            ]
+          ],
+          "date-time": "2024-08-22T13:59:05Z",
+          "timestamp": 1724335145000
+        },
+        "URL": "https://doi.org/10.1126/science.adn0137",
+        "abstract": "<jats:p>We present an algorithm to estimate the excited states of a quantum system by variational Monte Carlo, which has no free parameters and requires no orthogonalization of the states, instead transforming the problem into that of finding the ground state of an expanded system. Arbitrary observables can be calculated, including off-diagonal expectations, such as the transition dipole moment. The method works particularly well with neural network ansätze, and by combining this method with the FermiNet and Psiformer ansätze, we can accurately recover excitation energies and oscillator strengths on a range of molecules. We achieve accurate vertical excitation energies on benzene-scale molecules, including challenging double excitations. Beyond the examples presented in this work, we expect that this technique will be of interest for atomic, nuclear, and condensed matter physics.</jats:p>"
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Accurate Computation of Quantum Excited States with Neural Networks"
+        ],
+        "citation_author": [
+          "Pfau, David",
+          "Axelrod, Simon",
+          "Sutterud, Halvard",
+          "von Glehn, Ingrid",
+          "Spencer, James S."
+        ],
+        "citation_doi": [
+          "10.1126/science.adn0137"
+        ],
+        "citation_date": [
+          "2023/08/31"
+        ],
+        "citation_online_date": [
+          "2024/09/03"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2308.16848"
+        ],
+        "citation_arxiv_id": [
+          "2308.16848"
+        ],
+        "citation_abstract": [
+          "We present a variational Monte Carlo algorithm for estimating the lowest excited states of a quantum system which is a natural generalization of the estimation of ground states. The method has no free parameters and requires no explicit orthogonalization of the different states, instead transforming the problem of finding excited states of a given system into that of finding the ground state of an expanded system. Expected values of arbitrary observables can be calculated, including off-diagonal expectations between different states such as the transition dipole moment. Although the method is entirely general, it works particularly well in conjunction with recent work on using neural networks as variational Ans\\\"atze for many-electron systems, and we show that by combining this method with the FermiNet and Psiformer Ans\\\"atze we can accurately recover vertical excitation energies and oscillator strengths on a range of molecules. Our method is the first deep learning approach to achieve accurate vertical excitation energies, including challenging double excitations, on benzene-scale molecules. Beyond the chemistry examples here, we expect this technique will be of great interest for applications to atomic, nuclear and condensed matter physics."
+        ],
+        "abstract": "Abstract: We present a variational Monte Carlo algorithm for estimating the lowest excited states of a quantum system which is a natural generalization of the estimation of ground states. The method has no free parameters and requires no explicit orthogonalization of the different states, instead transforming the problem of finding excited states of a given system into that of finding the ground state of an expanded system. Expected values of arbitrary observables can be calculated, including off-diagonal expectations between different states such as the transition dipole moment. Although the method is entirely general, it works particularly well in conjunction with recent work on using neural networks as variational Ansätze for many-electron systems, and we show that by combining this method with the FermiNet and Psiformer Ansätze we can accurately recover vertical excitation energies and oscillator strengths on a range of molecules. Our method is the first deep learning approach to achieve accurate vertical excitation energies, including challenging double excitations, on benzene-scale molecules. Beyond the chemistry examples here, we expect this technique will be of great interest for applications to atomic, nuclear and condensed matter physics."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "B05",
+      "topic": "manybody",
+      "doi": "10.1126/science.aag2302",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.513061+00:00",
+      "crossref": {
+        "DOI": "10.1126/science.aag2302",
+        "title": [
+          "Solving the quantum many-body problem with artificial neural networks"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-8887-4356",
+            "authenticated-orcid": false,
+            "given": "Giuseppe",
+            "family": "Carleo",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Theoretical Physics, ETH Zurich, 8093 Zurich, Switzerland."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Matthias",
+            "family": "Troyer",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Theoretical Physics, ETH Zurich, 8093 Zurich, Switzerland."
+              },
+              {
+                "name": "Quantum Architectures and Computation Group, Microsoft Research, Redmond, WA 98052, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Science"
+        ],
+        "type": "journal-article",
+        "volume": "355",
+        "issue": "6325",
+        "page": "602-606",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              2,
+              10
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              2,
+              10
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              7
+            ]
+          ],
+          "date-time": "2017-03-07T14:43:31Z",
+          "timestamp": 1488897811000
+        },
+        "URL": "https://doi.org/10.1126/science.aag2302",
+        "abstract": "<jats:title>Machine learning and quantum physics</jats:title>\n                  <jats:p>Elucidating the behavior of quantum interacting systems of many particles remains one of the biggest challenges in physics. Traditional numerical methods often work well, but some of the most interesting problems leave them stumped. Carleo and Troyer harnessed the power of machine learning to develop a variational approach to the quantum many-body problem (see the Perspective by Hush). The method performed at least as well as state-of-the-art approaches, setting a benchmark for a prototypical two-dimensional problem. With further development, it may well prove a valuable piece in the quantum toolbox.</jats:p>\n                  <jats:p>\n                    <jats:italic>Science</jats:italic>\n                    , this issue p.\n                    <jats:related-article xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"doi\" issue=\"6325\" page=\"602\" related-article-type=\"in-this-issue\" vol=\"355\" xlink:href=\"10.1126/science.aag2302\">602</jats:related-article>\n                    ; see also p.\n                    <jats:related-article xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"doi\" issue=\"6325\" page=\"580\" related-article-type=\"in-this-issue\" vol=\"355\" xlink:href=\"10.1126/science.aam6564\">580</jats:related-article>\n                  </jats:p>"
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "B06",
+      "topic": "manybody",
+      "doi": "10.1103/PhysRevResearch.2.033429",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.546414+00:00",
+      "crossref": {
+        "DOI": "10.1103/physrevresearch.2.033429",
+        "title": [
+          "<i>Ab initio</i>\n                    solution of the many-electron Schrödinger equation with deep neural networks"
+        ],
+        "author": [
+          {
+            "given": "David",
+            "family": "Pfau",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "James S.",
+            "family": "Spencer",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Alexander G. D. G.",
+            "family": "Matthews",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8359-1122",
+            "authenticated-orcid": true,
+            "given": "W. M. C.",
+            "family": "Foulkes",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physical Review Research"
+        ],
+        "type": "journal-article",
+        "volume": "2",
+        "issue": "3",
+        "page": null,
+        "article-number": "033429",
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              16
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              16
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              16
+            ]
+          ],
+          "date-time": "2020-09-16T15:07:48Z",
+          "timestamp": 1600268868000
+        },
+        "URL": "https://doi.org/10.1103/physrevresearch.2.033429",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "B07",
+      "topic": "manybody",
+      "doi": "10.1038/s41557-020-0544-y",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.559419+00:00",
+      "crossref": {
+        "DOI": "10.1038/s41557-020-0544-y",
+        "title": [
+          "Deep-neural-network solution of the electronic Schrödinger equation"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2779-0749",
+            "authenticated-orcid": false,
+            "given": "Jan",
+            "family": "Hermann",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5345-6592",
+            "authenticated-orcid": false,
+            "given": "Zeno",
+            "family": "Schätzle",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4169-9324",
+            "authenticated-orcid": false,
+            "given": "Frank",
+            "family": "Noé",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nature Chemistry"
+        ],
+        "type": "journal-article",
+        "volume": "12",
+        "issue": "10",
+        "page": "891-897",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              23
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              23
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              10
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              23
+            ]
+          ],
+          "date-time": "2020-09-23T12:03:18Z",
+          "timestamp": 1600862598000
+        },
+        "URL": "https://doi.org/10.1038/s41557-020-0544-y",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "B08",
+      "topic": "manybody_excited_preprint",
+      "doi": null,
+      "arxiv": "2603.14515",
+      "checked_at": "2026-10-04T08:35:01.577885+00:00",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Excited Pfaffians: Generalized Neural Wave Functions Across Structure and State"
+        ],
+        "citation_author": [
+          "Gao, Nicholas",
+          "Grutschus, Till",
+          "Noé, Frank",
+          "Günnemann, Stephan"
+        ],
+        "citation_date": [
+          "2026/03/15"
+        ],
+        "citation_online_date": [
+          "2026/05/27"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2603.14515"
+        ],
+        "citation_arxiv_id": [
+          "2603.14515"
+        ],
+        "citation_abstract": [
+          "Neural-network wave functions in Variational Monte Carlo (VMC) have achieved great success in accurately representing both ground and excited states. However, achieving sufficient numerical accuracy in state overlaps requires increasing the number of Monte Carlo samples, and consequently the computational cost, with the number of states. We present a nearly constant sample-size approach, Multi-State Importance Sampling (MSIS), that leverages samples from all states to estimate pairwise overlap. To efficiently evaluate all states for all samples, we introduce Excited Pfaffians. Inspired by Hartree-Fock, this architecture represents many states within a single neural network. Excited Pfaffians also serve as generalized wave functions, allowing a single model to represent multi-state potential energy surfaces. On the carbon dimer, we match the $O(N_s^4)$-scaling natural excited states while training $>200\\times$ faster and modeling 50% more states. Our favorable scaling enables us to be the first to use neural networks to find all distinct energy levels of the beryllium atom. Finally, we demonstrate that a single wave function can represent excited states across various molecules."
+        ],
+        "abstract": "Abstract: Neural-network wave functions in Variational Monte Carlo (VMC) have achieved great success in accurately representing both ground and excited states. However, achieving sufficient numerical accuracy in state overlaps requires increasing the number of Monte Carlo samples, and consequently the computational cost, with the number of states. We present a nearly constant sample-size approach, Multi-State Importance Sampling (MSIS), that leverages samples from all states to estimate pairwise overlap. To efficiently evaluate all states for all samples, we introduce Excited Pfaffians. Inspired by Hartree-Fock, this architecture represents many states within a single neural network. Excited Pfaffians also serve as generalized wave functions, allowing a single model to represent multi-state potential energy surfaces. On the carbon dimer, we match the $O(N_s^4)$-scaling natural excited states while training $>200\\times$ faster and modeling 50% more states. Our favorable scaling enables us to be the first to use neural networks to find all distinct energy levels of the beryllium atom. Finally, we demonstrate that a single wave function can represent excited states across various molecules."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "S01",
+      "topic": "stationary_scattering",
+      "doi": "10.1088/1674-1137/add9fc",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.579946+00:00",
+      "crossref": {
+        "DOI": "10.1088/1674-1137/add9fc",
+        "title": [
+          "Application of physics-informed neural networks to multidimensional quantum tunneling*"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4507-8090",
+            "authenticated-orcid": false,
+            "given": "P. W. 培威",
+            "family": "Wen 温",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3988-6756",
+            "authenticated-orcid": false,
+            "given": "C. J. 承键",
+            "family": "Lin 林",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "L. 磊",
+            "family": "Yang 杨",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3489-0091",
+            "authenticated-orcid": false,
+            "given": "H. M. 会明",
+            "family": "Jia 贾",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "N. R. 南茹",
+            "family": "Ma 马",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Chinese Physics C"
+        ],
+        "type": "journal-article",
+        "volume": "49",
+        "issue": "8",
+        "page": "084109",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              18
+            ]
+          ],
+          "date-time": "2025-05-18T08:47:38Z",
+          "timestamp": 1747558058000
+        },
+        "URL": "https://doi.org/10.1088/1674-1137/add9fc",
+        "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Physics-Informed Neural Networks (PINNs) have emerged as a powerful tool for solving high-dimensional partial differential equations and have demonstrated promising results across various fields of physics and engineering. In this paper, we present the first application of PINNs to quantum tunneling in heavy-ion fusion reactions. By incorporating the physical laws directly into the neural network's loss function, PINNs enable the accurate solution of the multidimensional Schrödinger equation, whose wavefunction has substantial oscillations. The calculated quantum tunneling probabilities exhibit good agreement with those obtained using the finite element method at the considered near barrier energy region. Furthermore, we demonstrate a significant advantage of the PINN approach to save and fine-tune pre-trained neural networks for related tunneling calculations, thereby enhancing computational efficiency and adaptability.</jats:p>"
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "S02",
+      "topic": "scattering_error_bounds",
+      "doi": "10.1088/1751-8121/aea52e",
+      "arxiv": "2605.17139",
+      "checked_at": "2026-10-04T08:35:01.588804+00:00",
+      "crossref": {
+        "DOI": "10.1088/1751-8121/aea52e",
+        "title": [
+          "Stable minimum principles for scattering states"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7844-7000",
+            "authenticated-orcid": true,
+            "given": "Scott",
+            "family": "Lawrence",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Los Alamos National Laboratory"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yukari",
+            "family": "Yamauchi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Los Alamos National Laboratory"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Physics A: Mathematical and Theoretical"
+        ],
+        "type": "journal-article",
+        "volume": "59",
+        "issue": "37",
+        "page": "375202",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              18
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              18
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              18
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              9
+            ]
+          ],
+          "date-time": "2026-09-09T22:56:59Z",
+          "timestamp": 1788994619000
+        },
+        "URL": "https://doi.org/10.1088/1751-8121/aea52e",
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Quantum-mechanical scattering states are energy eigenstates obeying particular boundary conditions, whose behavior at infinity encodes the\n                    <jats:italic>S</jats:italic>\n                    -matrix which defines the outcoming of scattering experiments. With an eye toward numerical algorithms for computing nonrelativistic\n                    <jats:inline-formula>\n                      <jats:tex-math>\n                        \n                      </jats:tex-math>\n                      <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:mrow>\n                          <mml:mi>S</mml:mi>\n                        </mml:mrow>\n                      </mml:math>\n                    </jats:inline-formula>\n                    -matrices, we present a family of\n                    <jats:italic>stable</jats:italic>\n                    minimum principles for scattering states. States that approximately satisfy these minimum principles are shown to have a bounded difference with the true scattering states. These minimum principles and stability estimates can be used to obtain rigorous bounds on scattering amplitudes. We discuss the generalization of these minimum principles to momentum-dependent potentials, long-range (Coulomb) interactions, and elastic or inelastic scattering of bound states, including the case where the bound-state wavefunctions are themselves known only approximately.\n                  </jats:p>"
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Stable minimum principles for scattering states"
+        ],
+        "citation_author": [
+          "Lawrence, Scott",
+          "Yamauchi, Yukari"
+        ],
+        "citation_date": [
+          "2026/05/16"
+        ],
+        "citation_online_date": [
+          "2026/05/16"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2605.17139"
+        ],
+        "citation_arxiv_id": [
+          "2605.17139"
+        ],
+        "citation_abstract": [
+          "Quantum-mechanical scattering states are energy eigenstates obeying particular boundary conditions, whose behavior at infinity encodes the S-matrix which defines the outcoming of scattering experiments. With an eye toward numerical algorithms for computing nonrelativistic S-matrices, we present a family of stable minimum principles for scattering states. States that approximately satisfy these minimum principles are shown to have a bounded difference with the true scattering states. These minimum principles and stability estimates can be used to obtain rigorous bounds on scattering amplitudes. We show that these minimum principles are applicable to momentum-dependent potentials, long-range (Coulomb) interactions, and elastic or inelastic scattering of bound states."
+        ],
+        "abstract": "Abstract: Quantum-mechanical scattering states are energy eigenstates obeying particular boundary conditions, whose behavior at infinity encodes the S-matrix which defines the outcoming of scattering experiments. With an eye toward numerical algorithms for computing nonrelativistic S-matrices, we present a family of stable minimum principles for scattering states. States that approximately satisfy these minimum principles are shown to have a bounded difference with the true scattering states. These minimum principles and stability estimates can be used to obtain rigorous bounds on scattering amplitudes. We show that these minimum principles are applicable to momentum-dependent potentials, long-range (Coulomb) interactions, and elastic or inelastic scattering of bound states."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "S03",
+      "topic": "nuclear_scattering_preprint",
+      "doi": null,
+      "arxiv": "2605.27807",
+      "checked_at": "2026-10-04T08:35:01.615082+00:00",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Light nuclear scattering from neural quantum states"
+        ],
+        "citation_author": [
+          "Lawrence, Scott",
+          "Yamauchi, Yukari"
+        ],
+        "citation_date": [
+          "2026/05/27"
+        ],
+        "citation_online_date": [
+          "2026/05/28"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2605.27807"
+        ],
+        "citation_arxiv_id": [
+          "2605.27807"
+        ],
+        "citation_abstract": [
+          "We present a method of studying few-body nuclear scattering by means of neural quantum states, without requiring time-evolution. A recently developed family of stable minimum principles for Schrodinger's equation provides conservative uncertainties on cross sections and partial wave amplitudes computed in this way. We use this method to study both elastic and inelastic neutron-deuteron scattering with realistic nuclear two-body forces."
+        ],
+        "abstract": "Abstract: We present a method of studying few-body nuclear scattering by means of neural quantum states, without requiring time-evolution. A recently developed family of stable minimum principles for Schrodinger's equation provides conservative uncertainties on cross sections and partial wave amplitudes computed in this way. We use this method to study both elastic and inelastic neutron-deuteron scattering with realistic nuclear two-body forces."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "S04",
+      "topic": "dirac_scattering",
+      "doi": "10.1103/PhysRevA.67.052707",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.661139+00:00",
+      "crossref": {
+        "DOI": "10.1103/physreva.67.052707",
+        "title": [
+          "Transmission resonances and supercritical states in a one-dimensional cusp potential"
+        ],
+        "author": [
+          {
+            "given": "Víctor M.",
+            "family": "Villalba",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Walter",
+            "family": "Greiner",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physical Review A"
+        ],
+        "type": "journal-article",
+        "volume": "67",
+        "issue": "5",
+        "page": null,
+        "article-number": "052707",
+        "published": {
+          "date-parts": [
+            [
+              2003,
+              5,
+              27
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2003,
+              5,
+              27
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2003,
+              5,
+              28
+            ]
+          ],
+          "date-time": "2003-05-28T05:28:38Z",
+          "timestamp": 1054099718000
+        },
+        "URL": "https://doi.org/10.1103/physreva.67.052707",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "S05",
+      "topic": "kg_scattering_bound",
+      "doi": "10.1140/epjp/i2019-12571-8",
+      "arxiv": "1902.02872",
+      "checked_at": "2026-10-04T08:35:01.673620+00:00",
+      "crossref": {
+        "DOI": "10.1140/epjp/i2019-12571-8",
+        "title": [
+          "Proper treatment of scalar and vector exponential potentials in the Klein-Gordon equation: Scattering and bound states"
+        ],
+        "author": [
+          {
+            "given": "Elvis J.",
+            "family": "Aquino Curi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7017-1791",
+            "authenticated-orcid": false,
+            "given": "Luis B.",
+            "family": "Castro",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Antonio S.",
+            "family": "de Castro",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "The European Physical Journal Plus"
+        ],
+        "type": "journal-article",
+        "volume": "134",
+        "issue": "6",
+        "page": null,
+        "article-number": "248",
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              6
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              6
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              30
+            ]
+          ],
+          "date-time": "2019-05-30T03:02:53Z",
+          "timestamp": 1559185373000
+        },
+        "URL": "https://doi.org/10.1140/epjp/i2019-12571-8",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Proper treatment of scalar and vector exponential potentials in the Klein-Gordon equation: Scattering and bound states"
+        ],
+        "citation_author": [
+          "Curi, Elvis J. Aquino",
+          "Castro, Luis B.",
+          "de Castro, Antonio S."
+        ],
+        "citation_doi": [
+          "10.1140/epjp/i2019-12571-8"
+        ],
+        "citation_date": [
+          "2019/02/07"
+        ],
+        "citation_online_date": [
+          "2019/02/07"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1902.02872"
+        ],
+        "citation_arxiv_id": [
+          "1902.02872"
+        ],
+        "citation_abstract": [
+          "We point out a misleading treatment in the literature regarding to bound-state solutions for the $s$-wave Klein-Gordon equation with exponential scalar and vector potentials. Following the appropriate procedure for an arbitrary mixing of scalar and vector couplings, we generalize earlier works and present the correct solution to bound states and additionally we address the issue of scattering states. Moreover, we present a new effect related to the polarization of the charge density in the presence of weak short-range exponential scalar and vector potentials."
+        ],
+        "abstract": "Abstract: We point out a misleading treatment in the literature regarding to bound-state solutions for the $s$-wave Klein-Gordon equation with exponential scalar and vector potentials. Following the appropriate procedure for an arbitrary mixing of scalar and vector couplings, we generalize earlier works and present the correct solution to bound states and additionally we address the issue of scattering states. Moreover, we present a new effect related to the polarization of the charge density in the presence of weak short-range exponential scalar and vector potentials."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "R01",
+      "topic": "resonance",
+      "doi": "10.1016/0375-9474(68)90593-9",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.677901+00:00",
+      "crossref": {
+        "DOI": "10.1016/0375-9474(68)90593-9",
+        "title": [
+          "On the use of resonant states in eigenfunction expansions of scattering and reaction amplitudes"
+        ],
+        "author": [
+          {
+            "given": "Tore",
+            "family": "Berggren",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nuclear Physics A"
+        ],
+        "type": "journal-article",
+        "volume": "109",
+        "issue": "2",
+        "page": "265-287",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              1968,
+              2
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              1968,
+              2
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              11,
+              12
+            ]
+          ],
+          "date-time": "2002-11-12T02:20:52Z",
+          "timestamp": 1037067652000
+        },
+        "URL": "https://doi.org/10.1016/0375-9474(68)90593-9",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "R02",
+      "topic": "BIC",
+      "doi": "10.1103/PhysRevA.32.3231",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.678568+00:00",
+      "crossref": {
+        "DOI": "10.1103/physreva.32.3231",
+        "title": [
+          "Interfering resonances and bound states in the continuum"
+        ],
+        "author": [
+          {
+            "given": "H.",
+            "family": "Friedrich",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "D.",
+            "family": "Wintgen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physical Review A"
+        ],
+        "type": "journal-article",
+        "volume": "32",
+        "issue": "6",
+        "page": "3231-3242",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              1985,
+              12,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              1985,
+              12,
+              1
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              7,
+              26
+            ]
+          ],
+          "date-time": "2002-07-26T23:29:59Z",
+          "timestamp": 1027726199000
+        },
+        "URL": "https://doi.org/10.1103/physreva.32.3231",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "R03",
+      "topic": "dirac_resonance",
+      "doi": "10.1088/1674-1137/ae6a85",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.681919+00:00",
+      "crossref": {
+        "DOI": "10.1088/1674-1137/ae6a85",
+        "title": [
+          "Single-particle resonant states in relativistic hartree-fock theory: A Green's function approach*"
+        ],
+        "author": [
+          {
+            "given": "Wei 威",
+            "family": "Gao 高",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Frontier Science Center for Rare Isotope, Lanzhou University"
+              },
+              {
+                "name": "School of Nuclear Science and Technology, Lanzhou University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ting Ting 亭亭",
+            "family": "Sun 孙",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics, Zhengzhou University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3245-765X",
+            "authenticated-orcid": false,
+            "given": "Wen Hui 文辉",
+            "family": "Long 龙",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Frontier Science Center for Rare Isotope, Lanzhou University"
+              },
+              {
+                "name": "School of Nuclear Science and Technology, Lanzhou University"
+              },
+              {
+                "name": "Joint Department for Nuclear Physics, Lanzhou University and Institute of Modern Physics, CAS"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Chinese Physics C"
+        ],
+        "type": "journal-article",
+        "volume": "50",
+        "issue": "8",
+        "page": "084109",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              8
+            ]
+          ],
+          "date-time": "2026-05-08T10:47:50Z",
+          "timestamp": 1778237270000
+        },
+        "URL": "https://doi.org/10.1088/1674-1137/ae6a85",
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Relativistic Hartree-Fock theory is combined with the Green's function method in coordinate space to study both single-particle bound and resonant states within a unified framework. Within this approach, single-particle resonance energies and widths are unambiguously extracted from the density of states, and the influence of the Coulomb exchange effects on proton resonances in\n                    <jats:inline-formula>\n                      <jats:tex-math>\n                        \n                      </jats:tex-math>\n                    </jats:inline-formula>\n                    isotones is systematically examined. It is found that the exact treatment of Coulomb exchange terms reduces proton resonance energies by approximately\n                    <jats:inline-formula>\n                      <jats:tex-math>\n                        \n                      </jats:tex-math>\n                    </jats:inline-formula>\n                    MeV, a significantly smaller effect than that obtained from the phenomenological treatment. Moreover, except for rather narrow resonances, the proton resonance widths are visibly reduced by the Coulomb exchange terms, also being much less pronounced than in the phenomenological approach. Notably, clear shell effects are observed in the isotonic evolutions of resonance energy reductions for specific resonances. All these highlight the necessity of a microscopic and exact treatment of the Coulomb exchange terms.\n                  </jats:p>"
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "A01",
+      "topic": "bloch",
+      "doi": "10.1007/BF01339455",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.705461+00:00",
+      "crossref": {
+        "DOI": "10.1007/bf01339455",
+        "title": [
+          "�ber die Quantenmechanik der Elektronen in Kristallgittern"
+        ],
+        "author": [
+          {
+            "given": "Felix",
+            "family": "Bloch",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Zeitschrift f�r Physik"
+        ],
+        "type": "journal-article",
+        "volume": "52",
+        "issue": "7-8",
+        "page": "555-600",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              1929,
+              7
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              1929,
+              7
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              3,
+              26
+            ]
+          ],
+          "date-time": "2005-03-26T22:57:08Z",
+          "timestamp": 1111877828000
+        },
+        "URL": "https://doi.org/10.1007/bf01339455",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "A02",
+      "topic": "bloch_thesis",
+      "doi": null,
+      "arxiv": "2512.21349",
+      "checked_at": "2026-10-04T08:35:01.708861+00:00",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Physics-Informed Neural Solvers for Periodic Quantum Eigenproblems"
+        ],
+        "citation_author": [
+          "Mian, Haaris"
+        ],
+        "citation_date": [
+          "2025/12/20"
+        ],
+        "citation_online_date": [
+          "2025/12/20"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2512.21349"
+        ],
+        "citation_arxiv_id": [
+          "2512.21349"
+        ],
+        "citation_abstract": [
+          "This thesis presents a physics-informed machine learning framework for solving the Floquet-Bloch eigenvalue problem associated with particles in two-dimensional periodic potentials, with a focus on honeycomb lattice geometry, due to its distinctive band topology featuring Dirac points and its relevance to materials such as graphene. By leveraging neural networks to learn complex Bloch functions and their associated eigenvalues (energies) simultaneously, we develop a mesh-free solver enforcing the governing Schr\\\"odinger equation, Bloch periodicity, and normalization constraints through a composite loss function without supervision. The model is trained over the Brillouin zone to recover band structures and Bloch modes, with numerical validation against traditional plane-wave expansion methods. We further explore transfer learning techniques to adapt the solver from nearly-free electron potentials to strongly varying potentials, demonstrating its ability to capture changes in band structure topology. This work contributes to the growing field of physics-informed machine learning for quantum eigenproblems, providing insights into the interplay between symmetry, band structure, and neural architectures."
+        ],
+        "abstract": "Abstract: This thesis presents a physics-informed machine learning framework for solving the Floquet-Bloch eigenvalue problem associated with particles in two-dimensional periodic potentials, with a focus on honeycomb lattice geometry, due to its distinctive band topology featuring Dirac points and its relevance to materials such as graphene. By leveraging neural networks to learn complex Bloch functions and their associated eigenvalues (energies) simultaneously, we develop a mesh-free solver enforcing the governing Schrödinger equation, Bloch periodicity, and normalization constraints through a composite loss function without supervision. The model is trained over the Brillouin zone to recover band structures and Bloch modes, with numerical validation against traditional plane-wave expansion methods. We further explore transfer learning techniques to adapt the solver from nearly-free electron potentials to strongly varying potentials, demonstrating its ability to capture changes in band structure topology. This work contributes to the growing field of physics-informed machine learning for quantum eigenproblems, providing insights into the interplay between symmetry, band structure, and neural architectures."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "T01",
+      "topic": "time_dirac",
+      "doi": "10.1016/j.cpc.2022.108474",
+      "arxiv": "2204.02959",
+      "checked_at": "2026-10-04T08:35:01.710004+00:00",
+      "crossref": {
+        "DOI": "10.1016/j.cpc.2022.108474",
+        "title": [
+          "Time-dependent Dirac Equation with Physics-Informed Neural Networks: Computation and Properties"
+        ],
+        "author": [
+          {
+            "given": "Emmanuel",
+            "family": "Lorin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xu",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Physics Communications"
+        ],
+        "type": "journal-article",
+        "volume": "280",
+        "issue": null,
+        "page": "108474",
+        "article-number": "108474",
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              11
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              11
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2022-08-01T10:54:15Z",
+          "timestamp": 1659351255000
+        },
+        "URL": "https://doi.org/10.1016/j.cpc.2022.108474",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Computation of the Time-Dependent Dirac Equation with Physics-Informed Neural Networks"
+        ],
+        "citation_author": [
+          "Lorin, Emmanuel",
+          "Yang, Xu"
+        ],
+        "citation_date": [
+          "2022/04/06"
+        ],
+        "citation_online_date": [
+          "2022/04/06"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2204.02959"
+        ],
+        "citation_arxiv_id": [
+          "2204.02959"
+        ],
+        "citation_abstract": [
+          "We propose to compute the time-dependent Dirac equation using physics-informed neural networks (PINNs), a new powerful tool in scientific machine learning avoiding the use of approximate derivatives of differential operators. PINNs search solutions in the form of parameterized (deep) neural networks, whose derivatives (in time and space) are performed by automatic differentiation. The computational cost comes from the need to solve high-dimensional optimization problems using stochastic gradient methods and train the network with a large number of points. Specifically, we derive PINNs-based algorithms and present some key fundamental properties of these algorithms when applied to the Dirac equations in different physical frameworks."
+        ],
+        "abstract": "Abstract: We propose to compute the time-dependent Dirac equation using physics-informed neural networks (PINNs), a new powerful tool in scientific machine learning avoiding the use of approximate derivatives of differential operators. PINNs search solutions in the form of parameterized (deep) neural networks, whose derivatives (in time and space) are performed by automatic differentiation. The computational cost comes from the need to solve high-dimensional optimization problems using stochastic gradient methods and train the network with a large number of points. Specifically, we derive PINNs-based algorithms and present some key fundamental properties of these algorithms when applied to the Dirac equations in different physical frameworks."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "T02",
+      "topic": "time_scattering_operator",
+      "doi": "10.1103/PhysRevD.108.L101701",
+      "arxiv": "2308.14789",
+      "checked_at": "2026-10-04T08:35:01.742594+00:00",
+      "crossref": {
+        "DOI": "10.1103/physrevd.108.l101701",
+        "title": [
+          "Scattering with neural operators"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-8066-5891",
+            "authenticated-orcid": true,
+            "given": "Sebastian",
+            "family": "Mizera",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physical Review D"
+        ],
+        "type": "journal-article",
+        "volume": "108",
+        "issue": "10",
+        "page": null,
+        "article-number": "L101701",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              16
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              16
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              16
+            ]
+          ],
+          "date-time": "2023-11-16T16:18:11Z",
+          "timestamp": 1700151491000
+        },
+        "URL": "https://doi.org/10.1103/physrevd.108.l101701",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Scattering with Neural Operators"
+        ],
+        "citation_author": [
+          "Mizera, Sebastian"
+        ],
+        "citation_doi": [
+          "10.1103/PhysRevD.108.L101701"
+        ],
+        "citation_date": [
+          "2023/08/28"
+        ],
+        "citation_online_date": [
+          "2023/11/16"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2308.14789"
+        ],
+        "citation_arxiv_id": [
+          "2308.14789"
+        ],
+        "citation_abstract": [
+          "Recent advances in machine learning establish the ability of certain neural-network architectures called neural operators to approximate maps between function spaces. Motivated by a prospect of employing them in fundamental physics, we examine applications to scattering processes in quantum mechanics. We use an iterated variant of Fourier neural operators to learn the physics of Schr\\\"odinger operators, which map from the space of initial wave functions and potentials to the final wave functions. These deep operator learning ideas are put to test in two concrete problems: a neural operator predicting the time evolution of a wave packet scattering off a central potential in $1+1$ dimensions, and the double-slit experiment in $2+1$ dimensions. At inference, neural operators can become orders of magnitude more efficient compared to traditional finite-difference solvers."
+        ],
+        "abstract": "Abstract: Recent advances in machine learning establish the ability of certain neural-network architectures called neural operators to approximate maps between function spaces. Motivated by a prospect of employing them in fundamental physics, we examine applications to scattering processes in quantum mechanics. We use an iterated variant of Fourier neural operators to learn the physics of Schrödinger operators, which map from the space of initial wave functions and potentials to the final wave functions. These deep operator learning ideas are put to test in two concrete problems: a neural operator predicting the time evolution of a wave packet scattering off a central potential in $1+1$ dimensions, and the double-slit experiment in $2+1$ dimensions. At inference, neural operators can become orders of magnitude more efficient compared to traditional finite-difference solvers."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "T03",
+      "topic": "quantum_control",
+      "doi": "10.1103/PhysRevLett.132.010801",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.765623+00:00",
+      "crossref": {
+        "DOI": "10.1103/physrevlett.132.010801",
+        "title": [
+          "Physics-Informed Neural Networks for Quantum Control"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9496-8765",
+            "authenticated-orcid": true,
+            "given": "Ariel",
+            "family": "Norambuena",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Centro de Optica e Información Cuántica, Universidad Mayor, Camino la Piramide 5750, Huechuraba, Santiago, Chile"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6450-1128",
+            "authenticated-orcid": true,
+            "given": "Marios",
+            "family": "Mattheakis",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "John A. Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, Massachusetts 02138, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8997-145X",
+            "authenticated-orcid": true,
+            "given": "Francisco J.",
+            "family": "González",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Centro de Investigación DAiTA Lab, Facultad de Estudios Interdisciplinarios, Universidad Mayor, Santiago 7560908, Chile"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Raúl",
+            "family": "Coto",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Centro de Investigación DAiTA Lab, Facultad de Estudios Interdisciplinarios, Universidad Mayor, Santiago 7560908, Chile"
+              },
+              {
+                "name": "Department of Physics, Florida International University, Miami, Florida 33199, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physical Review Letters"
+        ],
+        "type": "journal-article",
+        "volume": "132",
+        "issue": "1",
+        "page": null,
+        "article-number": "010801",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              3
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              3
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              3
+            ]
+          ],
+          "date-time": "2024-01-03T16:15:30Z",
+          "timestamp": 1704298530000
+        },
+        "URL": "https://doi.org/10.1103/physrevlett.132.010801",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "M01",
+      "topic": "PIELM",
+      "doi": "10.1016/j.neucom.2019.12.099",
+      "arxiv": "1907.03507",
+      "checked_at": "2026-10-04T08:35:01.798034+00:00",
+      "crossref": {
+        "DOI": "10.1016/j.neucom.2019.12.099",
+        "title": [
+          "Physics Informed Extreme Learning Machine (PIELM)–A rapid method for the numerical solution of partial differential equations"
+        ],
+        "author": [
+          {
+            "given": "Vikas",
+            "family": "Dwivedi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Balaji",
+            "family": "Srinivasan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Neurocomputing"
+        ],
+        "type": "journal-article",
+        "volume": "391",
+        "issue": null,
+        "page": "96-118",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              5
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              5
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              26
+            ]
+          ],
+          "date-time": "2019-12-26T19:59:33Z",
+          "timestamp": 1577390373000
+        },
+        "URL": "https://doi.org/10.1016/j.neucom.2019.12.099",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Physics Informed Extreme Learning Machine (PIELM) -- A rapid method for the numerical solution of partial differential equations"
+        ],
+        "citation_author": [
+          "Dwivedi, Vikas",
+          "Srinivasan, Balaji"
+        ],
+        "citation_date": [
+          "2019/07/08"
+        ],
+        "citation_online_date": [
+          "2019/07/08"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1907.03507"
+        ],
+        "citation_arxiv_id": [
+          "1907.03507"
+        ],
+        "citation_abstract": [
+          "There has been rapid progress recently on the application of deep networks to the solution of partial differential equations, collectively labelled as Physics Informed Neural Networks (PINNs). In this paper, we develop Physics Informed Extreme Learning Machine (PIELM), a rapid version of PINNs which can be applied to stationary and time dependent linear partial differential equations. We demonstrate that PIELM matches or exceeds the accuracy of PINNs on a range of problems. We also discuss the limitations of neural network based approaches, including our PIELM, in the solution of PDEs on large domains and suggest an extension, a distributed version of our algorithm -{}- DPIELM. We show that DPIELM produces excellent results comparable to conventional numerical techniques in the solution of time-dependent problems. Collectively, this work contributes towards making the use of neural networks in the solution of partial differential equations in complex domains as a competitive alternative to conventional discretization techniques."
+        ],
+        "abstract": "Abstract: There has been rapid progress recently on the application of deep networks to the solution of partial differential equations, collectively labelled as Physics Informed Neural Networks (PINNs). In this paper, we develop Physics Informed Extreme Learning Machine (PIELM), a rapid version of PINNs which can be applied to stationary and time dependent linear partial differential equations. We demonstrate that PIELM matches or exceeds the accuracy of PINNs on a range of problems. We also discuss the limitations of neural network based approaches, including our PIELM, in the solution of PDEs on large domains and suggest an extension, a distributed version of our algorithm -{}- DPIELM. We show that DPIELM produces excellent results comparable to conventional numerical techniques in the solution of time-dependent problems. Collectively, this work contributes towards making the use of neural networks in the solution of partial differential equations in complex domains as a competitive alternative to conventional discretization techniques."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "M02",
+      "topic": "PINN_training",
+      "doi": "10.1016/j.jcp.2021.110768",
+      "arxiv": "2007.14527",
+      "checked_at": "2026-10-04T08:35:01.806145+00:00",
+      "crossref": {
+        "DOI": "10.1016/j.jcp.2021.110768",
+        "title": [
+          "When and why PINNs fail to train: A neural tangent kernel perspective"
+        ],
+        "author": [
+          {
+            "given": "Sifan",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7913-0307",
+            "authenticated-orcid": false,
+            "given": "Xinling",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2816-3229",
+            "authenticated-orcid": false,
+            "given": "Paris",
+            "family": "Perdikaris",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Computational Physics"
+        ],
+        "type": "journal-article",
+        "volume": "449",
+        "issue": null,
+        "page": "110768",
+        "article-number": "110768",
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              1
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              1
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2021-10-12T02:15:51Z",
+          "timestamp": 1634004951000
+        },
+        "URL": "https://doi.org/10.1016/j.jcp.2021.110768",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "When and why PINNs fail to train: A neural tangent kernel perspective"
+        ],
+        "citation_author": [
+          "Wang, Sifan",
+          "Yu, Xinling",
+          "Perdikaris, Paris"
+        ],
+        "citation_date": [
+          "2020/07/28"
+        ],
+        "citation_online_date": [
+          "2020/07/28"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2007.14527"
+        ],
+        "citation_arxiv_id": [
+          "2007.14527"
+        ],
+        "citation_abstract": [
+          "Physics-informed neural networks (PINNs) have lately received great attention thanks to their flexibility in tackling a wide range of forward and inverse problems involving partial differential equations. However, despite their noticeable empirical success, little is known about how such constrained neural networks behave during their training via gradient descent. More importantly, even less is known about why such models sometimes fail to train at all. In this work, we aim to investigate these questions through the lens of the Neural Tangent Kernel (NTK); a kernel that captures the behavior of fully-connected neural networks in the infinite width limit during training via gradient descent. Specifically, we derive the NTK of PINNs and prove that, under appropriate conditions, it converges to a deterministic kernel that stays constant during training in the infinite-width limit. This allows us to analyze the training dynamics of PINNs through the lens of their limiting NTK and find a remarkable discrepancy in the convergence rate of the different loss components contributing to the total training error. To address this fundamental pathology, we propose a novel gradient descent algorithm that utilizes the eigenvalues of the NTK to adaptively calibrate the convergence rate of the total training error. Finally, we perform a series of numerical experiments to verify the correctness of our theory and the practical effectiveness of the proposed algorithms. The data and code accompanying this manuscript are publicly available at \\url{https://github.com/PredictiveIntelligenceLab/PINNsNTK}."
+        ],
+        "abstract": "Abstract: Physics-informed neural networks (PINNs) have lately received great attention thanks to their flexibility in tackling a wide range of forward and inverse problems involving partial differential equations. However, despite their noticeable empirical success, little is known about how such constrained neural networks behave during their training via gradient descent. More importantly, even less is known about why such models sometimes fail to train at all. In this work, we aim to investigate these questions through the lens of the Neural Tangent Kernel (NTK); a kernel that captures the behavior of fully-connected neural networks in the infinite width limit during training via gradient descent. Specifically, we derive the NTK of PINNs and prove that, under appropriate conditions, it converges to a deterministic kernel that stays constant during training in the infinite-width limit. This allows us to analyze the training dynamics of PINNs through the lens of their limiting NTK and find a remarkable discrepancy in the convergence rate of the different loss components contributing to the total training error. To address this fundamental pathology, we propose a novel gradient descent algorithm that utilizes the eigenvalues of the NTK to adaptively calibrate the convergence rate of the total training error. Finally, we perform a series of numerical experiments to verify the correctness of our theory and the practical effectiveness of the proposed algorithms. The data and code accompanying this manuscript are publicly available at \\url{ this https URL }."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "M03",
+      "topic": "spectral_pinn",
+      "doi": "10.1016/j.cam.2025.117178",
+      "arxiv": "2408.16414",
+      "checked_at": "2026-10-04T08:35:01.808068+00:00",
+      "crossref": {
+        "DOI": "10.1016/j.cam.2025.117178",
+        "title": [
+          "Spectral informed neural networks"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-4050-4363",
+            "authenticated-orcid": false,
+            "given": "Tianchi",
+            "family": "Yu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8885-151X",
+            "authenticated-orcid": false,
+            "given": "Yiming",
+            "family": "Qi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2071-2163",
+            "authenticated-orcid": false,
+            "given": "Ivan",
+            "family": "Oseledets",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2913-4497",
+            "authenticated-orcid": false,
+            "given": "Shiyi",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Computational and Applied Mathematics"
+        ],
+        "type": "journal-article",
+        "volume": "477",
+        "issue": null,
+        "page": "117178",
+        "article-number": "117178",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              27
+            ]
+          ],
+          "date-time": "2025-10-27T19:14:40Z",
+          "timestamp": 1761592480000
+        },
+        "URL": "https://doi.org/10.1016/j.cam.2025.117178",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Spectral Informed Neural Network: An Efficient and Low-Memory PINN"
+        ],
+        "citation_author": [
+          "Yu, Tianchi",
+          "Qi, Yiming",
+          "Oseledets, Ivan",
+          "Chen, Shiyi"
+        ],
+        "citation_doi": [
+          "10.1016/j.cam.2025.117178"
+        ],
+        "citation_date": [
+          "2024/08/29"
+        ],
+        "citation_online_date": [
+          "2024/10/08"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2408.16414"
+        ],
+        "citation_arxiv_id": [
+          "2408.16414"
+        ],
+        "citation_abstract": [
+          "With growing investigations into solving partial differential equations by physics-informed neural networks (PINNs), more accurate and efficient PINNs are required to meet the practical demands of scientific computing. One bottleneck of current PINNs is computing the high-order derivatives via automatic differentiation which often necessitates substantial computing resources. In this paper, we focus on removing the automatic differentiation of the spatial derivatives and propose a spectral-based neural network that substitutes the differential operator with a multiplication. Compared to the PINNs, our approach requires lower memory and shorter training time. Thanks to the exponential convergence of the spectral basis, our approach is more accurate. Moreover, to handle the different situations between physics domain and spectral domain, we provide two strategies to train networks by their spectral information. Through a series of comprehensive experiments, We validate the aforementioned merits of our proposed network."
+        ],
+        "abstract": "Abstract: With growing investigations into solving partial differential equations by physics-informed neural networks (PINNs), more accurate and efficient PINNs are required to meet the practical demands of scientific computing. One bottleneck of current PINNs is computing the high-order derivatives via automatic differentiation which often necessitates substantial computing resources. In this paper, we focus on removing the automatic differentiation of the spatial derivatives and propose a spectral-based neural network that substitutes the differential operator with a multiplication. Compared to the PINNs, our approach requires lower memory and shorter training time. Thanks to the exponential convergence of the spectral basis, our approach is more accurate. Moreover, to handle the different situations between physics domain and spectral domain, we provide two strategies to train networks by their spectral information. Through a series of comprehensive experiments, We validate the aforementioned merits of our proposed network."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "P01",
+      "topic": "eigen_benchmark_preprint",
+      "doi": null,
+      "arxiv": "2609.22189",
+      "checked_at": "2026-10-04T08:35:01.888834+00:00",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Physics-Informed Classical and Quantum Neural Networks for One-Dimensional Schrodinger Eigenvalue Problems"
+        ],
+        "citation_author": [
+          "Mahmood, Tariq",
+          "Arshad, Waqas",
+          "Naseer, Bilal",
+          "Raya, Alfredo"
+        ],
+        "citation_date": [
+          "2026/08/28"
+        ],
+        "citation_online_date": [
+          "2026/08/28"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2609.22189"
+        ],
+        "citation_arxiv_id": [
+          "2609.22189"
+        ],
+        "citation_abstract": [
+          "The Schrodinger equation in one spatial dimension admits a small set of exactly solvable potentials that serve as natural proving grounds for any new eigenvalue solver. We formulate Physics-Informed Neural Networks (PINNs) and Physics-Informed Quantum Neural Networks (PIQNNs) for the time-independent Schrodinger equation and apply them to three of these benchmarks: the harmonic oscillator, the infinite square well, and the finite square well. In each case a composite loss encodes the differential-equation residual, the normalization condition, the boundary behavior, and the orthogonality between eigenstates, so that the trial wave function is driven toward a genuine eigenfunction without supervised data. The eigenvalues and wave functions returned by both methods are compared against the exact spectra and against three classical references: the matrix Numerov method, the finite difference method, and the shooting method. For the smooth oscillator the two neural solvers reproduce the lowest four eigenvalues to parts per million, while for the square wells they recover the analytic levels with comparable fidelity even where the potential is discontinuous. The quantum circuit, built as a layered angle-embedding ansatz with strongly entangling blocks, converges more reliably than its classical counterpart on the higher excited states, where the loss landscape of the classical network becomes harder to navigate."
+        ],
+        "abstract": "Abstract: The Schrodinger equation in one spatial dimension admits a small set of exactly solvable potentials that serve as natural proving grounds for any new eigenvalue solver. We formulate Physics-Informed Neural Networks (PINNs) and Physics-Informed Quantum Neural Networks (PIQNNs) for the time-independent Schrodinger equation and apply them to three of these benchmarks: the harmonic oscillator, the infinite square well, and the finite square well. In each case a composite loss encodes the differential-equation residual, the normalization condition, the boundary behavior, and the orthogonality between eigenstates, so that the trial wave function is driven toward a genuine eigenfunction without supervised data. The eigenvalues and wave functions returned by both methods are compared against the exact spectra and against three classical references: the matrix Numerov method, the finite difference method, and the shooting method. For the smooth oscillator the two neural solvers reproduce the lowest four eigenvalues to parts per million, while for the square wells they recover the analytic levels with comparable fidelity even where the potential is discontinuous. The quantum circuit, built as a layered angle-embedding ansatz with strongly entangling blocks, converges more reliably than its classical counterpart on the higher excited states, where the loss landscape of the classical network becomes harder to navigate."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "R04",
+      "topic": "BIC_rigorous",
+      "doi": "10.1137/25M1733926",
+      "arxiv": "2504.19573",
+      "checked_at": "2026-10-04T08:35:01.889904+00:00",
+      "crossref": {
+        "DOI": "10.1137/25m1733926",
+        "title": [
+          "Existence of Friedrich–Wintgen Bound States in the Continuum: System of Schrödinger Equations"
+        ],
+        "author": [
+          {
+            "given": "Xiuchen",
+            "family": "Yu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Mathematics, City University of Hong Kong, Kowloon, Hong Kong."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2448-114X",
+            "authenticated-orcid": true,
+            "given": "Ya Yan",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mathematics, City University of Hong Kong, Kowloon, Hong Kong."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "SIAM Journal on Applied Mathematics"
+        ],
+        "type": "journal-article",
+        "volume": "86",
+        "issue": "4",
+        "page": "1654-1671",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              31
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2026-07-13T08:03:11Z",
+          "timestamp": 1783929791000
+        },
+        "URL": "https://doi.org/10.1137/25m1733926",
+        "abstract": "<jats:p>Abstract.</jats:p>\n                  <jats:p>A bound state in the continuum (BIC) is an eigenmode with the corresponding eigenvalue embedded in the continuous spectrum. There is currently significant research interest in BICs in the photonics community, because they can be used to induce strong resonances that are useful for lasing, sensing, harmonic generation, etc. The existence of BICs in classical or quantum wave systems has only been established for some relatively simple cases, such as BICs protected by symmetry. In 1985, Friedrich and Wintgen [ Phys. Rev. A, 32 (1985), pp. 3231–3242] suggested that BICs may appear from the destructive interference of two resonances coupled to a single radiation channel. They used a system of three one-dimensional (1D) Schrödinger equations to illustrate this process. Many BICs in classical wave systems seem to follow this mechanism and are now called Friedrich–Wintgen BICs. However, Friedrich and Wintgen did not show the existence of BICs in their system of three Schrödinger equations. Instead, they approximated the original system by a model with one Schrödinger equation and two algebraic equations and only analyzed BICs in the approximate model. In this paper, we give a rigorous justification for the existence of BICs in the original system of three 1D Schrödinger equations.</jats:p>"
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Existence of Friedrich-Wintgen bound states in the continuum: system of Schr\\\"{o}dinger equations"
+        ],
+        "citation_author": [
+          "Yu, Xiuchen",
+          "Lu, Ya Yan"
+        ],
+        "citation_date": [
+          "2025/04/28"
+        ],
+        "citation_online_date": [
+          "2025/04/28"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2504.19573"
+        ],
+        "citation_arxiv_id": [
+          "2504.19573"
+        ],
+        "citation_abstract": [
+          "A bound state in the continuum (BIC) is an eigenmode with the corresponding eigenvalue embedded in the continuous spectrum. There is currently a significant research interest on BICs in the photonics community, because they can be used to induce strong resonances that are useful for lasing, sensing, harmonic generation, etc. The existence of BICs in classical or quantum wave systems has only been established for some relatively simple cases such as BICs protected by symmetry. In 1985, Friedrich and Wintgen (Physical Review A, Vol. 32, pp. 3232-3242, 1985) suggested that BICs may appear from the destructive interference of two resonances coupled to a single radiation channel. They used a system of three one-dimensional Schr\\\"{o}dinger equations to illustrate this process. Many BICs in classical wave systems seem to follow this mechanism and are now called Friedrich-Wintgen BICs. However, Friedrich and Wintgen did not show the existence of BICs in their system of three Schr\\\"{o}dinger equations. Instead, they approximated the original system by a model with one Schr\\\"{o}dinger equation and two algebraic equations, and only analyzed BICs in the approximate model. In this paper, we give a rigorous justification for the existence of BICs in the original system of three 1D Schr\\\"{o}dinger equations."
+        ],
+        "abstract": "Abstract: A bound state in the continuum (BIC) is an eigenmode with the corresponding eigenvalue embedded in the continuous spectrum. There is currently a significant research interest on BICs in the photonics community, because they can be used to induce strong resonances that are useful for lasing, sensing, harmonic generation, etc. The existence of BICs in classical or quantum wave systems has only been established for some relatively simple cases such as BICs protected by symmetry. In 1985, Friedrich and Wintgen (Physical Review A, Vol. 32, pp. 3232-3242, 1985) suggested that BICs may appear from the destructive interference of two resonances coupled to a single radiation channel. They used a system of three one-dimensional Schrödinger equations to illustrate this process. Many BICs in classical wave systems seem to follow this mechanism and are now called Friedrich-Wintgen BICs. However, Friedrich and Wintgen did not show the existence of BICs in their system of three Schrödinger equations. Instead, they approximated the original system by a model with one Schrödinger equation and two algebraic equations, and only analyzed BICs in the approximate model. In this paper, we give a rigorous justification for the existence of BICs in the original system of three 1D Schrödinger equations."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "X01",
+      "topic": "graphene_transport",
+      "doi": "10.1038/nphys1198",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:01.894721+00:00",
+      "crossref": {
+        "DOI": "10.1038/nphys1198",
+        "title": [
+          "Quantum interference and Klein tunnelling in graphene heterojunctions"
+        ],
+        "author": [
+          {
+            "given": "Andrea F.",
+            "family": "Young",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Philip",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nature Physics"
+        ],
+        "type": "journal-article",
+        "volume": "5",
+        "issue": "3",
+        "page": "222-226",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2009,
+              2,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2009,
+              2,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              3
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2009,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2009-02-01T13:41:47Z",
+          "timestamp": 1233495707000
+        },
+        "URL": "https://doi.org/10.1038/nphys1198",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "X02",
+      "topic": "graphene_STM",
+      "doi": "10.1126/science.1234320",
+      "arxiv": "1510.02890",
+      "checked_at": "2026-10-04T08:35:01.916501+00:00",
+      "crossref": {
+        "DOI": "10.1126/science.1234320",
+        "title": [
+          "Observing Atomic Collapse Resonances in Artificial Nuclei on Graphene"
+        ],
+        "author": [
+          {
+            "given": "Yang",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California at Berkeley, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Materials Science Division, Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dillon",
+            "family": "Wong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California at Berkeley, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Materials Science Division, Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andrey V.",
+            "family": "Shytov",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics, University of Exeter, Stocker Road, Exeter EX4 4QL, UK."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Victor W.",
+            "family": "Brar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California at Berkeley, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Materials Science Division, Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sangkook",
+            "family": "Choi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California at Berkeley, Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qiong",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California at Berkeley, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Materials Science Division, Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hsin-Zon",
+            "family": "Tsai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California at Berkeley, Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "William",
+            "family": "Regan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California at Berkeley, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Materials Science Division, Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Alex",
+            "family": "Zettl",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California at Berkeley, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Materials Science Division, Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Roland K.",
+            "family": "Kawakami",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics and Astronomy, University of California at Riverside, Riverside, CA 92521, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Steven G.",
+            "family": "Louie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California at Berkeley, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Materials Science Division, Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Leonid S.",
+            "family": "Levitov",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Michael F.",
+            "family": "Crommie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California at Berkeley, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Materials Science Division, Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Science"
+        ],
+        "type": "journal-article",
+        "volume": "340",
+        "issue": "6133",
+        "page": "734-737",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              5,
+              10
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              5,
+              10
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              3,
+              8
+            ]
+          ],
+          "date-time": "2013-03-08T05:55:46Z",
+          "timestamp": 1362722146000
+        },
+        "URL": "https://doi.org/10.1126/science.1234320",
+        "abstract": "<jats:title>Creating Unstable Atomic Orbitals</jats:title>\n          <jats:p>\n            A hallmark of atomic Bohr orbitals is that they are stable; that is, time independent. However, for a very highly charged nucleus, the electrons must be described with the relativistic Dirac equation; the motion becomes time dependent, with electrons spiraling into the nucleus and coupling to positrons at large distances from the nucleus. In graphene, charge carriers are mass-less and described by the relativistic Dirac equation, and could also exhibit “atomic collapse” states.\n            <jats:bold>\n              Wang\n              <jats:italic>et al.</jats:italic>\n            </jats:bold>\n            (p.\n            <jats:related-article xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"doi\" issue=\"6133\" page=\"734\" related-article-type=\"in-this-issue\" vol=\"340\" xlink:href=\"10.1126/science.1234320\">734</jats:related-article>\n            , published online 7 March) created highly charged clusters of calcium dimers by atomic manipulation with a scanning tunneling microscope. The emergence of atomic-collapse resonances with increasing cluster size and charge was observed with scanning tunneling microscopy.\n          </jats:p>"
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Observing Atomic Collapse Resonances in Artificial Nuclei on Graphene"
+        ],
+        "citation_author": [
+          "Wang, Yang",
+          "Wong, Dillon",
+          "Shytov, Andrey V.",
+          "Brar, Victor W.",
+          "Choi, Sangkook",
+          "Wu, Qiong",
+          "Tsai, Hsin-Zon",
+          "Regan, William",
+          "Zettl, Alex",
+          "Kawakami, Roland K.",
+          "Louie, Steven G.",
+          "Levitov, Leonid S.",
+          "Crommie, Michael F."
+        ],
+        "citation_doi": [
+          "10.1126/science.1234320"
+        ],
+        "citation_date": [
+          "2015/10/10"
+        ],
+        "citation_online_date": [
+          "2015/10/10"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1510.02890"
+        ],
+        "citation_arxiv_id": [
+          "1510.02890"
+        ],
+        "citation_abstract": [
+          "Relativistic quantum mechanics predicts that when the charge of a superheavy atomic nucleus surpasses a certain threshold, the resulting strong Coulomb field causes an unusual atomic collapse state; this state exhibits an electron wave function component that falls toward the nucleus, as well as a positron component that escapes to infinity. In graphene, where charge carriers behave as massless relativistic particles, it has been predicted that highly charged impurities should exhibit resonances corresponding to these atomic collapse states. We have observed the formation of such resonances around artificial nuclei (clusters of charged calcium dimers) fabricated on gated graphene devices via atomic manipulation with a scanning tunneling microscope. The energy and spatial dependence of the atomic collapse state measured with scanning tunneling microscopy revealed unexpected behavior when occupied by electrons."
+        ],
+        "abstract": "Abstract: Relativistic quantum mechanics predicts that when the charge of a superheavy atomic nucleus surpasses a certain threshold, the resulting strong Coulomb field causes an unusual atomic collapse state; this state exhibits an electron wave function component that falls toward the nucleus, as well as a positron component that escapes to infinity. In graphene, where charge carriers behave as massless relativistic particles, it has been predicted that highly charged impurities should exhibit resonances corresponding to these atomic collapse states. We have observed the formation of such resonances around artificial nuclei (clusters of charged calcium dimers) fabricated on gated graphene devices via atomic manipulation with a scanning tunneling microscope. The energy and spatial dependence of the atomic collapse state measured with scanning tunneling microscopy revealed unexpected behavior when occupied by electrons."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "X03",
+      "topic": "trapped_ion_time_dirac",
+      "doi": "10.1038/nature08688",
+      "arxiv": "0909.0674",
+      "checked_at": "2026-10-04T08:35:01.946819+00:00",
+      "crossref": {
+        "DOI": "10.1038/nature08688",
+        "title": [
+          "Quantum simulation of the Dirac equation"
+        ],
+        "author": [
+          {
+            "given": "R.",
+            "family": "Gerritsma",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "G.",
+            "family": "Kirchmair",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "F.",
+            "family": "Zähringer",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "E.",
+            "family": "Solano",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Blatt",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "C. F.",
+            "family": "Roos",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nature"
+        ],
+        "type": "journal-article",
+        "volume": "463",
+        "issue": "7277",
+        "page": "68-71",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              1
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              1
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2010,
+              1,
+              6
+            ]
+          ],
+          "date-time": "2010-01-06T09:51:16Z",
+          "timestamp": 1262771476000
+        },
+        "URL": "https://doi.org/10.1038/nature08688",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Quantum simulation of the Dirac equation"
+        ],
+        "citation_author": [
+          "Gerritsma, R.",
+          "Kirchmair, G.",
+          "Zähringer, F.",
+          "Solano, E.",
+          "Blatt, R.",
+          "Roos, C. F."
+        ],
+        "citation_doi": [
+          "10.1038/nature08688"
+        ],
+        "citation_date": [
+          "2009/09/03"
+        ],
+        "citation_online_date": [
+          "2009/09/03"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/0909.0674"
+        ],
+        "citation_arxiv_id": [
+          "0909.0674"
+        ],
+        "citation_abstract": [
+          " The Dirac equation is a cornerstone in the history of physics, merging successfully quantum mechanics with special relativity, providing a natural description of the electron spin and predicting the existence of anti-matter. Furthermore, it is able to reproduce accurately the spectrum of the hydrogen atom and its realm, relativistic quantum mechanics, is considered as the natural transition to quantum field theory. However, the Dirac equation also predicts some peculiar effects such as Klein's paradox and Zitterbewegung, an unexpected quivering motion of a free relativistic quantum particle first examined by Schr\\\"odinger. These and other predictions would be difficult to observe in real particles, while constituting key fundamental examples to understand relativistic quantum effects. Recent years have seen an increased interest in simulations of relativistic quantum effects in different physical setups, where parameter tunability allows accessibility to different physical regimes. Here, we perform a proof-of-principle quantum simulation of the one-dimensional Dirac equation using a single trapped ion, which is set to behave as a free relativistic quantum particle. We measure as a function of time the particle position and study Zitterbewegung for different initial superpositions of positive and negative energy spinor states, as well as the cross-over from relativistic to nonrelativistic dynamics. The high level of control of trapped-ion experimental parameters makes it possible to simulate elegant textbook examples of relativistic quantum physics."
+        ],
+        "abstract": "Abstract: The Dirac equation is a cornerstone in the history of physics, merging successfully quantum mechanics with special relativity, providing a natural description of the electron spin and predicting the existence of anti-matter. Furthermore, it is able to reproduce accurately the spectrum of the hydrogen atom and its realm, relativistic quantum mechanics, is considered as the natural transition to quantum field theory. However, the Dirac equation also predicts some peculiar effects such as Klein's paradox and Zitterbewegung, an unexpected quivering motion of a free relativistic quantum particle first examined by Schrödinger. These and other predictions would be difficult to observe in real particles, while constituting key fundamental examples to understand relativistic quantum effects. Recent years have seen an increased interest in simulations of relativistic quantum effects in different physical setups, where parameter tunability allows accessibility to different physical regimes. Here, we perform a proof-of-principle quantum simulation of the one-dimensional Dirac equation using a single trapped ion, which is set to behave as a free relativistic quantum particle. We measure as a function of time the particle position and study Zitterbewegung for different initial superpositions of positive and negative energy spinor states, as well as the cross-over from relativistic to nonrelativistic dynamics. The high level of control of trapped-ion experimental parameters makes it possible to simulate elegant textbook examples of relativistic quantum physics."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "X04",
+      "topic": "trapped_ion_scattering",
+      "doi": "10.1103/PhysRevLett.106.060503",
+      "arxiv": "1007.3683",
+      "checked_at": "2026-10-04T08:35:01.948854+00:00",
+      "crossref": {
+        "DOI": "10.1103/physrevlett.106.060503",
+        "title": [
+          "Quantum Simulation of the Klein Paradox with Trapped Ions"
+        ],
+        "author": [
+          {
+            "given": "R.",
+            "family": "Gerritsma",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "B. P.",
+            "family": "Lanyon",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "G.",
+            "family": "Kirchmair",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "F.",
+            "family": "Zähringer",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "C.",
+            "family": "Hempel",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.",
+            "family": "Casanova",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J. J.",
+            "family": "García-Ripoll",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "E.",
+            "family": "Solano",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Blatt",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "C. F.",
+            "family": "Roos",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physical Review Letters"
+        ],
+        "type": "journal-article",
+        "volume": "106",
+        "issue": "6",
+        "page": null,
+        "article-number": "060503",
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              2,
+              11
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              2,
+              11
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2011-02-11T11:24:40Z",
+          "timestamp": 1297423480000
+        },
+        "URL": "https://doi.org/10.1103/physrevlett.106.060503",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Quantum simulation of the Klein paradox with trapped ions"
+        ],
+        "citation_author": [
+          "Gerritsma, R.",
+          "Lanyon, B.",
+          "Kirchmair, G.",
+          "Zähringer, F.",
+          "Hempel, C.",
+          "Casanova, J.",
+          "García-Ripoll, J. J.",
+          "Solano, E.",
+          "Blatt, R.",
+          "Roos, C. F."
+        ],
+        "citation_doi": [
+          "10.1103/PhysRevLett.106.060503"
+        ],
+        "citation_date": [
+          "2010/07/21"
+        ],
+        "citation_online_date": [
+          "2011/01/26"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1007.3683"
+        ],
+        "citation_arxiv_id": [
+          "1007.3683"
+        ],
+        "citation_abstract": [
+          "We report on quantum simulations of relativistic scattering dynamics using trapped ions. The simulated state of a scattering particle is encoded in both the electronic and vibrational state of an ion, representing the discrete and continuous components of relativistic wave functions. Multiple laser fields and an auxiliary ion simulate the dynamics generated by the Dirac equation in the presence of a scattering potential. Measurement and reconstruction of the particle wave packet enables a frame-by-frame visualization of the scattering processes. By precisely engineering a range of external potentials we are able to simulate text book relativistic scattering experiments and study Klein tunneling in an analogue quantum simulator. We describe extensions to solve problems that are beyond current classical computing capabilities."
+        ],
+        "abstract": "Abstract: We report on quantum simulations of relativistic scattering dynamics using trapped ions. The simulated state of a scattering particle is encoded in both the electronic and vibrational state of an ion, representing the discrete and continuous components of relativistic wave functions. Multiple laser fields and an auxiliary ion simulate the dynamics generated by the Dirac equation in the presence of a scattering potential. Measurement and reconstruction of the particle wave packet enables a frame-by-frame visualization of the scattering processes. By precisely engineering a range of external potentials we are able to simulate text book relativistic scattering experiments and study Klein tunneling in an analogue quantum simulator. We describe extensions to solve problems that are beyond current classical computing capabilities."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "X05",
+      "topic": "phononic_scattering",
+      "doi": "10.1126/science.abe2011",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:02.010578+00:00",
+      "crossref": {
+        "DOI": "10.1126/science.abe2011",
+        "title": [
+          "Direct observation of Klein tunneling in phononic crystals"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9639-8655",
+            "authenticated-orcid": true,
+            "given": "Xue",
+            "family": "Jiang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Nano-scale Science and Engineering Center, University of California, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Department of Electronic Engineering, Fudan University, Shanghai 200433, China."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0799-213X",
+            "authenticated-orcid": true,
+            "given": "Chengzhi",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nano-scale Science and Engineering Center, University of California, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "School of Mechanical Engineering, Georgia Institute of Technology, Atlanta, GA 30332, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3851-9241",
+            "authenticated-orcid": true,
+            "given": "Zhenglu",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Materials Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Siqi",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nano-scale Science and Engineering Center, University of California, Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7892-2812",
+            "authenticated-orcid": true,
+            "given": "Yuan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nano-scale Science and Engineering Center, University of California, Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4072-6856",
+            "authenticated-orcid": true,
+            "given": "Sui",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nano-scale Science and Engineering Center, University of California, Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0622-0170",
+            "authenticated-orcid": true,
+            "given": "Steven G.",
+            "family": "Louie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Physics, University of California, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Materials Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3272-894X",
+            "authenticated-orcid": true,
+            "given": "Xiang",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nano-scale Science and Engineering Center, University of California, Berkeley, CA 94720, USA."
+              },
+              {
+                "name": "Faculty of Science and Faculty of Engineering, The University of Hong Kong, Hong Kong, China."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Science"
+        ],
+        "type": "journal-article",
+        "volume": "370",
+        "issue": "6523",
+        "page": "1447-1450",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              18
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              18
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              15
+            ]
+          ],
+          "date-time": "2021-09-15T12:04:13Z",
+          "timestamp": 1631707453000
+        },
+        "URL": "https://doi.org/10.1126/science.abe2011",
+        "abstract": "<jats:title>A sound demonstration of Klein tunneling</jats:title>\n                  <jats:p>\n                    The ability of particles to tunnel through barriers is an important property of quantum mechanical systems, and the extent of the effect is strongly dependent on the properties of the barrier. By contrast, Klein tunneling can exhibit unity transmission that is independent of the width and height of the energy barrier, but direct evidence for this effect remains elusive. Using a phononic system comprising a periodic array of dielectric pillars, Jiang\n                    <jats:italic>et al.</jats:italic>\n                    provide evidence for the direct observation of Klein tunneling. Near-unity transmission of acoustic excitations was observed across the barrier independently of its width and height. This ability to tune the effect by controlling the size of the junctions and the frequency of incident waves provides a promising platform to explore complex nontrivial physics and applications in signal processing and information communications.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Science</jats:italic>\n                    , this issue p.\n                    <jats:related-article xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"doi\" issue=\"6523\" page=\"1447\" related-article-type=\"in-this-issue\" vol=\"370\" xlink:href=\"10.1126/science.abe2011\">1447</jats:related-article>\n                  </jats:p>"
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "X06",
+      "topic": "nonlinear_KG_boson_star_preprint",
+      "doi": null,
+      "arxiv": "2608.21845",
+      "checked_at": "2026-10-04T08:35:02.020536+00:00",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Learning Boson Star Solution Families with Physics-Informed Neural Networks"
+        ],
+        "citation_author": [
+          "Liu, Ao",
+          "Hao, Chen-Hao",
+          "Wen, Cuihong",
+          "Wang, Shao-Jiang",
+          "Wang, Jieci"
+        ],
+        "citation_date": [
+          "2026/08/22"
+        ],
+        "citation_online_date": [
+          "2026/08/22"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2608.21845"
+        ],
+        "citation_arxiv_id": [
+          "2608.21845"
+        ],
+        "citation_abstract": [
+          "Computing boson star families traditionally requires repeated solution of nonlinear eigenvalue boundary-value problems and careful numerical continuation through turning points. We develop a physics-informed neural network (PINN) that learns the map from the physical parameters and radial coordinate directly to the scalar and metric fields over an equilibrium solution manifold. Regularity and asymptotic boundary conditions are incorporated into the network output, while the training objective combines pointwise supervision, Einstein-Klein-Gordon residuals, and curve-level constraints on the Arnowitt-Deser-Misner mass and Noether charge. A trained model generates a complete configuration in a single forward pass. Across representative one-, two-, and three-branch families, the method reconstructs the mass-frequency spirals and conserved quantities, including configurations on inner branches that require delicate continuation in conventional solvers. These results establish physics-informed surrogate learning as a practical route to amortized exploration of nonlinear self-gravitating solution families."
+        ],
+        "abstract": "Abstract: Computing boson star families traditionally requires repeated solution of nonlinear eigenvalue boundary-value problems and careful numerical continuation through turning points. We develop a physics-informed neural network (PINN) that learns the map from the physical parameters and radial coordinate directly to the scalar and metric fields over an equilibrium solution manifold. Regularity and asymptotic boundary conditions are incorporated into the network output, while the training objective combines pointwise supervision, Einstein-Klein-Gordon residuals, and curve-level constraints on the Arnowitt-Deser-Misner mass and Noether charge. A trained model generates a complete configuration in a single forward pass. Across representative one-, two-, and three-branch families, the method reconstructs the mass-frequency spirals and conserved quantities, including configurations on inner branches that require delicate continuation in conventional solvers. These results establish physics-informed surrogate learning as a practical route to amortized exploration of nonlinear self-gravitating solution families."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "M04",
+      "topic": "operator_learning",
+      "doi": "10.1038/s42256-021-00302-5",
+      "arxiv": null,
+      "checked_at": "2026-10-04T08:35:02.030382+00:00",
+      "crossref": {
+        "DOI": "10.1038/s42256-021-00302-5",
+        "title": [
+          "Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5476-5768",
+            "authenticated-orcid": false,
+            "given": "Lu",
+            "family": "Lu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2169-1491",
+            "authenticated-orcid": false,
+            "given": "Pengzhan",
+            "family": "Jin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Guofei",
+            "family": "Pang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8032-7510",
+            "authenticated-orcid": false,
+            "given": "Zhongqiang",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9713-7120",
+            "authenticated-orcid": false,
+            "given": "George Em",
+            "family": "Karniadakis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nature Machine Intelligence"
+        ],
+        "type": "journal-article",
+        "volume": "3",
+        "issue": "3",
+        "page": "218-229",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              18
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              18
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              18
+            ]
+          ],
+          "date-time": "2021-03-18T14:47:37Z",
+          "timestamp": 1616078857000
+        },
+        "URL": "https://doi.org/10.1038/s42256-021-00302-5",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified"
+    },
+    {
+      "id": "S06",
+      "topic": "ECS_PINN_scattering",
+      "doi": "10.1103/sjz4-pq6p",
+      "arxiv": "2602.04553",
+      "checked_at": "2026-10-04T08:35:02.039907+00:00",
+      "crossref": {
+        "DOI": "10.1103/sjz4-pq6p",
+        "title": [
+          "Exterior complex scaling enables physics-informed neural networks for nuclear reactions"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2323-2061",
+            "authenticated-orcid": true,
+            "given": "Jin",
+            "family": "Lei",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/03rc6as71",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Tongji University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physical Review C"
+        ],
+        "type": "journal-article",
+        "volume": "113",
+        "issue": "6",
+        "page": null,
+        "article-number": "064618",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              22
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              22
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              2
+            ]
+          ],
+          "date-time": "2026-06-02T16:01:02Z",
+          "timestamp": 1780416062000
+        },
+        "URL": "https://doi.org/10.1103/sjz4-pq6p",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Exterior complex scaling enables physics-informed neural networks for quantum scattering"
+        ],
+        "citation_author": [
+          "Lei, Jin"
+        ],
+        "citation_date": [
+          "2026/02/04"
+        ],
+        "citation_online_date": [
+          "2026/06/05"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2602.04553"
+        ],
+        "citation_arxiv_id": [
+          "2602.04553"
+        ],
+        "citation_abstract": [
+          "Physics-informed neural networks (PINNs) have emerged as a powerful tool for solving differential equations, yet their application to nuclear scattering has been hindered by the oscillatory, non-decaying nature of scattering wave functions. In this work, I demonstrate that exterior complex scaling (ECS) transforms scattering boundary conditions into exponentially decaying waves suitable for neural network solutions, enabling PINNs to solve nuclear reaction problems for the first time. I develop a driven-equation formulation where the source term is confined to the real axis, avoiding the need to analytically continue nuclear potentials into the complex plane. The method is validated on nucleon-nucleus scattering (n+$^{40}$Ca at $E_{\\text{lab}}=20$~MeV) with 21 partial waves, achieving phase shift accuracy of $\\Delta\\delta \\lesssim 0.1^\\circ$ for the strongly absorbed channels ($\\ell \\leq 4$) and $\\Delta\\delta \\leq 0.60^\\circ$ for all channels up to $\\ell = 10$, when compared to conventional solvers. I further demonstrate the approach on heavy-ion scattering ($^6$Li+$^{208}$Pb at 40~MeV) with 41 partial waves and strong Coulomb effects, where an auto-adaptive anchor warm-down for weak-source channels yields a mean S-matrix accuracy of $|\\Delta|S_\\ell|| \\approx 3 \\times 10^{-3}$ across the full angular momentum range, including the absorption-to-transparency transition region. This work establishes the foundation for extending PINNs to inverse problems where end-to-end differentiability enables direct fitting of optical potential parameters, coupled-channel reactions, and few-body scattering where traditional grid methods face exponential scaling."
+        ],
+        "abstract": "Abstract: Physics-informed neural networks (PINNs) have emerged as a powerful tool for solving differential equations, yet their application to nuclear scattering has been hindered by the oscillatory, non-decaying nature of scattering wave functions. In this work, I demonstrate that exterior complex scaling (ECS) transforms scattering boundary conditions into exponentially decaying waves suitable for neural network solutions, enabling PINNs to solve nuclear reaction problems for the first time. I develop a driven-equation formulation where the source term is confined to the real axis, avoiding the need to analytically continue nuclear potentials into the complex plane. The method is validated on nucleon-nucleus scattering (n+$^{40}$Ca at $E_{\\text{lab}}=20$~MeV) with 21 partial waves, achieving phase shift accuracy of $\\Delta\\delta \\lesssim 0.1^\\circ$ for the strongly absorbed channels ($\\ell \\leq 4$) and $\\Delta\\delta \\leq 0.60^\\circ$ for all channels up to $\\ell = 10$, when compared to conventional solvers. I further demonstrate the approach on heavy-ion scattering ($^6$Li+$^{208}$Pb at 40~MeV) with 41 partial waves and strong Coulomb effects, where an auto-adaptive anchor warm-down for weak-source channels yields a mean S-matrix accuracy of $|\\Delta|S_\\ell|| \\approx 3 \\times 10^{-3}$ across the full angular momentum range, including the absorption-to-transparency transition region. This work establishes the foundation for extending PINNs to inverse problems where end-to-end differentiability enables direct fitting of optical potential parameters, coupled-channel reactions, and few-body scattering where traditional grid methods face exponential scaling."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "S07",
+      "topic": "inverse_scattering_PINN",
+      "doi": null,
+      "arxiv": "2605.02264",
+      "checked_at": "2026-10-04T08:35:02.153955+00:00",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Constructing Inverse Potentials from Scattering Phase Shifts using Physics-Informed Neural Networks: Application to Neutron-Alpha Scattering"
+        ],
+        "citation_author": [
+          "Kumar, Ayushi Awasthi Ishwar Kant Arushi Sharma M. R. Ganesh",
+          "Sastri, O. S. K. S."
+        ],
+        "citation_date": [
+          "2026/05/04"
+        ],
+        "citation_online_date": [
+          "2026/05/04"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2605.02264"
+        ],
+        "citation_arxiv_id": [
+          "2605.02264"
+        ],
+        "citation_abstract": [
+          "We develop a physics-informed neural networks (PINNs) framework for the inverse scattering problem in nuclear physics and apply it to the $P_{3/2}$ partial wave of neutron-alpha elastic scattering. The radial potential is represented by a feed-forward network whose output is multiplied by a Gaussian envelope, embedding the finite-range condition directly into the architecture rather than through a soft penalty term. This distinction proves essential: without the envelope, the optimizer produces potentials with non-vanishing tails and the resulting phase shifts remain inconsistent with the data regardless of training duration, demonstrating that hard structural constraints are indispensable for physically meaningful solutions to nuclear inverse problems. Phase shifts are generated at each scattering energy by numerically integrating the variable-phase equation with a fourth-order Runge-Kutta scheme, making the entire pipeline end-to-end differentiable.Training converges stably to a loss near $3\\times10^{-4}$ and recovers a smooth, purely attractive central potential with a well depth of $-60.47$~MeV. Adding the centrifugal barrier to the learned potential reveals a well-defined barrier-well structure that naturally accounts for the $P_{3/2}$ resonance. The extracted resonance parameters, $E_{r} = 0.95$~MeV and $\\Gamma_{r} = 0.78$~MeV, together with the P-wave effective-range parameters, are in good agreement with expected values. A leave-one-out analysis confirms that the reconstruction is stable against the removal of any single data point. These results establish physics-guided machine learning as a reliable route to potential reconstruction from nuclear scattering data."
+        ],
+        "abstract": "Abstract: We develop a physics-informed neural networks (PINNs) framework for the inverse scattering problem in nuclear physics and apply it to the $P_{3/2}$ partial wave of neutron-alpha elastic scattering. The radial potential is represented by a feed-forward network whose output is multiplied by a Gaussian envelope, embedding the finite-range condition directly into the architecture rather than through a soft penalty term. This distinction proves essential: without the envelope, the optimizer produces potentials with non-vanishing tails and the resulting phase shifts remain inconsistent with the data regardless of training duration, demonstrating that hard structural constraints are indispensable for physically meaningful solutions to nuclear inverse problems. Phase shifts are generated at each scattering energy by numerically integrating the variable-phase equation with a fourth-order Runge-Kutta scheme, making the entire pipeline end-to-end this http URL converges stably to a loss near $3\\times10^{-4}$ and recovers a smooth, purely attractive central potential with a well depth of $-60.47$~MeV. Adding the centrifugal barrier to the learned potential reveals a well-defined barrier-well structure that naturally accounts for the $P_{3/2}$ resonance. The extracted resonance parameters, $E_{r} = 0.95$~MeV and $\\Gamma_{r} = 0.78$~MeV, together with the P-wave effective-range parameters, are in good agreement with expected values. A leave-one-out analysis confirms that the reconstruction is stable against the removal of any single data point. These results establish physics-guided machine learning as a reliable route to potential reconstruction from nuclear scattering data."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "B09",
+      "topic": "Anderson_localised_eigenstates",
+      "doi": "10.1016/j.jocs.2023.102136",
+      "arxiv": "2305.06802",
+      "checked_at": "2026-10-04T08:35:02.210831+00:00",
+      "crossref": {
+        "DOI": "10.1016/j.jocs.2023.102136",
+        "title": [
+          "Physics-informed neural networks for discovering localised eigenstates in disordered media"
+        ],
+        "author": [
+          {
+            "given": "Liam",
+            "family": "Harcombe",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6159-1233",
+            "authenticated-orcid": false,
+            "given": "Quanling",
+            "family": "Deng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Computational Science"
+        ],
+        "type": "journal-article",
+        "volume": "73",
+        "issue": null,
+        "page": "102136",
+        "article-number": "102136",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              11
+            ]
+          ]
+        },
+        "published-online": null,
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              11
+            ]
+          ]
+        },
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              15
+            ]
+          ],
+          "date-time": "2023-09-15T05:11:24Z",
+          "timestamp": 1694754684000
+        },
+        "URL": "https://doi.org/10.1016/j.jocs.2023.102136",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Physics-Informed Neural Networks for Discovering Localised Eigenstates in Disordered Media"
+        ],
+        "citation_author": [
+          "Harcombe, Liam",
+          "Deng, Quanling"
+        ],
+        "citation_date": [
+          "2023/05/11"
+        ],
+        "citation_online_date": [
+          "2023/07/12"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2305.06802"
+        ],
+        "citation_arxiv_id": [
+          "2305.06802"
+        ],
+        "citation_abstract": [
+          "The Schr\\\"{o}dinger equation with random potentials is a fundamental model for understanding the behaviour of particles in disordered systems. Disordered media are characterised by complex potentials that lead to the localisation of wavefunctions, also called Anderson localisation. These wavefunctions may have similar scales of eigenenergies which poses difficulty in their discovery. It has been a longstanding challenge due to the high computational cost and complexity of solving the Schr\\\"{o}dinger equation. Recently, machine-learning tools have been adopted to tackle these challenges. In this paper, based upon recent advances in machine learning, we present a novel approach for discovering localised eigenstates in disordered media using physics-informed neural networks (PINNs). We focus on the spectral approximation of Hamiltonians in one dimension with potentials that are randomly generated according to the Bernoulli, normal, and uniform distributions. We introduce a novel feature to the loss function that exploits known physical phenomena occurring in these regions to scan across the domain and successfully discover these eigenstates, regardless of the similarity of their eigenenergies. We present various examples to demonstrate the performance of the proposed approach and compare it with isogeometric analysis."
+        ],
+        "abstract": "Abstract: The Schrödinger equation with random potentials is a fundamental model for understanding the behaviour of particles in disordered systems. Disordered media are characterised by complex potentials that lead to the localisation of wavefunctions, also called Anderson localisation. These wavefunctions may have similar scales of eigenenergies which poses difficulty in their discovery. It has been a longstanding challenge due to the high computational cost and complexity of solving the Schrödinger equation. Recently, machine-learning tools have been adopted to tackle these challenges. In this paper, based upon recent advances in machine learning, we present a novel approach for discovering localised eigenstates in disordered media using physics-informed neural networks (PINNs). We focus on the spectral approximation of Hamiltonians in one dimension with potentials that are randomly generated according to the Bernoulli, normal, and uniform distributions. We introduce a novel feature to the loss function that exploits known physical phenomena occurring in these regions to scan across the domain and successfully discover these eigenstates, regardless of the similarity of their eigenenergies. We present various examples to demonstrate the performance of the proposed approach and compare it with isogeometric analysis."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "O01",
+      "topic": "open_quantum_steady_states",
+      "doi": "10.1103/PhysRevLett.122.250503",
+      "arxiv": "1902.10104",
+      "checked_at": "2026-10-04T08:35:02.231641+00:00",
+      "crossref": {
+        "DOI": "10.1103/physrevlett.122.250503",
+        "title": [
+          "Variational Neural-Network Ansatz for Steady States in Open Quantum Systems"
+        ],
+        "author": [
+          {
+            "given": "Filippo",
+            "family": "Vicentini",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Alberto",
+            "family": "Biella",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nicolas",
+            "family": "Regnault",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1134-7013",
+            "authenticated-orcid": true,
+            "given": "Cristiano",
+            "family": "Ciuti",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physical Review Letters"
+        ],
+        "type": "journal-article",
+        "volume": "122",
+        "issue": "25",
+        "page": null,
+        "article-number": "250503",
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              28
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              28
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              28
+            ]
+          ],
+          "date-time": "2019-06-28T14:46:42Z",
+          "timestamp": 1561733202000
+        },
+        "URL": "https://doi.org/10.1103/physrevlett.122.250503",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Variational neural network ansatz for steady states in open quantum systems"
+        ],
+        "citation_author": [
+          "Vicentini, Filippo",
+          "Biella, Alberto",
+          "Regnault, Nicolas",
+          "Ciuti, Cristiano"
+        ],
+        "citation_doi": [
+          "10.1103/PhysRevLett.122.250503"
+        ],
+        "citation_date": [
+          "2019/02/26"
+        ],
+        "citation_online_date": [
+          "2019/05/28"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1902.10104"
+        ],
+        "citation_arxiv_id": [
+          "1902.10104"
+        ],
+        "citation_abstract": [
+          "We present a general variational approach to determine the steady state of open quantum lattice systems via a neural network approach. The steady-state density matrix of the lattice system is constructed via a purified neural network ansatz in an extended Hilbert space with ancillary degrees of freedom. The variational minimization of cost functions associated to the master equation can be performed using a Markov chain Monte Carlo sampling. As a first application and proof-of-principle, we apply the method to the dissipative quantum transverse Ising model."
+        ],
+        "abstract": "Abstract: We present a general variational approach to determine the steady state of open quantum lattice systems via a neural network approach. The steady-state density matrix of the lattice system is constructed via a purified neural network ansatz in an extended Hilbert space with ancillary degrees of freedom. The variational minimization of cost functions associated to the master equation can be performed using a Markov chain Monte Carlo sampling. As a first application and proof-of-principle, we apply the method to the dissipative quantum transverse Ising model."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "S08",
+      "topic": "scattering_supervised_emulator",
+      "doi": "10.1103/qw54-df4l",
+      "arxiv": "2512.22500",
+      "checked_at": "2026-10-04T08:35:02.327774+00:00",
+      "crossref": {
+        "DOI": "10.1103/qw54-df4l",
+        "title": [
+          "Bidirectional neural networks for global nucleon-nucleus optical model calculations"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2323-2061",
+            "authenticated-orcid": true,
+            "given": "Jin",
+            "family": "Lei",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/03rc6as71",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Tongji University"
+              },
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/03x8rhq63",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Institute of Modern Physics"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physical Review C"
+        ],
+        "type": "journal-article",
+        "volume": "114",
+        "issue": "1",
+        "page": null,
+        "article-number": "014620",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              15
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              15
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              15
+            ]
+          ],
+          "date-time": "2026-06-15T19:50:31Z",
+          "timestamp": 1781553031000
+        },
+        "URL": "https://doi.org/10.1103/qw54-df4l",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Bidirectional Neural Networks for Global Nucleon-Nucleus Optical Model Calculations"
+        ],
+        "citation_author": [
+          "Lei, Jin"
+        ],
+        "citation_doi": [
+          "10.1103/qw54-df4l"
+        ],
+        "citation_date": [
+          "2025/12/27"
+        ],
+        "citation_online_date": [
+          "2026/06/16"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2512.22500"
+        ],
+        "citation_arxiv_id": [
+          "2512.22500"
+        ],
+        "citation_abstract": [
+          "Modern nuclear data evaluation increasingly requires not only accurate scattering calculations, but also efficient methods for uncertainty quantification and parameter optimization, tasks that benefit from differentiable solvers amenable to gradient-based algorithms. I present a neural network emulator based on Bidirectional Liquid Neural Networks (BiLNN) that provides a fully differentiable mapping from optical potential parameters to scattering wave functions. The key innovation enabling generalization across the parameter space is the use of phase-space coordinates $\\rho = kr$ that normalize the oscillation wavelength regardless of projectile energy, allowing a single network to span 1 to 200~MeV. Trained on Numerov solutions for twelve target nuclei (\\nuc{12}{C} to \\nuc{208}{Pb}), both protons and neutrons, and partial waves up to $l=30$, the network achieves an overall relative error of 1.2\\%. The predicted wave functions yield accurate $S$-matrix elements and elastic scattering cross sections, reproducing diffraction patterns spanning four orders of magnitude. Importantly, the model extrapolates successfully to nuclei not included in training (\\nuc{24}{Mg}, \\nuc{63}{Cu}, \\nuc{184}{W}) with comparable accuracy, demonstrating that it has learned the physics of the optical model rather than memorizing specific targets. The differentiable nature of the trained model opens the door to gradient-based optimization of optical model parameters and efficient uncertainty quantification."
+        ],
+        "abstract": "Abstract: Modern nuclear data evaluation increasingly requires not only accurate scattering calculations, but also efficient methods for uncertainty quantification and parameter optimization, tasks that benefit from differentiable solvers amenable to gradient-based algorithms. I present a neural network emulator based on Bidirectional Liquid Neural Networks (BiLNN) that provides a fully differentiable mapping from optical potential parameters to scattering wave functions. The key innovation enabling generalization across the parameter space is the use of phase-space coordinates $\\rho = kr$ that normalize the oscillation wavelength regardless of projectile energy, allowing a single network to span 1 to 200~MeV. Trained on Numerov solutions for twelve target nuclei (\\nuc{12}{C} to \\nuc{208}{Pb}), both protons and neutrons, and partial waves up to $l=30$, the network achieves an overall relative error of 1.2\\%. The predicted wave functions yield accurate $S$-matrix elements and elastic scattering cross sections, reproducing diffraction patterns spanning four orders of magnitude. Importantly, the model extrapolates successfully to nuclei not included in training (\\nuc{24}{Mg}, \\nuc{63}{Cu}, \\nuc{184}{W}) with comparable accuracy, demonstrating that it has learned the physics of the optical model rather than memorizing specific targets. The differentiable nature of the trained model opens the door to gradient-based optimization of optical model parameters and efficient uncertainty quantification."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "S09",
+      "topic": "scattering_reduced_basis",
+      "doi": "10.1103/n24x-d9gm",
+      "arxiv": "2512.17687",
+      "checked_at": "2026-10-04T08:35:03.704627+00:00",
+      "crossref": {
+        "DOI": "10.1103/n24x-d9gm",
+        "title": [
+          "Reduced basis emulator for elastic scattering in continuum-discretized coupled-channels calculations"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2323-2061",
+            "authenticated-orcid": true,
+            "given": "Jin",
+            "family": "Lei",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/03rc6as71",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Tongji University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physical Review C"
+        ],
+        "type": "journal-article",
+        "volume": "113",
+        "issue": "4",
+        "page": null,
+        "article-number": "044610",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              13
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              13
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              13
+            ]
+          ],
+          "date-time": "2026-03-13T15:59:24Z",
+          "timestamp": 1773417564000
+        },
+        "URL": "https://doi.org/10.1103/n24x-d9gm",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Reduced basis emulator for elastic scattering in continuum-discretized coupled-channels calculations"
+        ],
+        "citation_author": [
+          "Lei, Jin"
+        ],
+        "citation_doi": [
+          "10.1103/n24x-d9gm"
+        ],
+        "citation_date": [
+          "2025/12/19"
+        ],
+        "citation_online_date": [
+          "2026/08/27"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2512.17687"
+        ],
+        "citation_arxiv_id": [
+          "2512.17687"
+        ],
+        "citation_abstract": [
+          "I develop a reduced basis emulator for continuum-discretized coupled-channel (CDCC) calculations that achieves speedups of $\\approx 10^2$ while maintaining sub-percent accuracy. The emulator is constructed using the proper orthogonal decomposition (POD) method applied to snapshots of CDCC solutions computed at sampled points in the optical potential parameter space. The prediction is performed via Galerkin projection onto the reduced basis. I demonstrate the method using deuteron scattering on $^{58}$Ni at 21.6 MeV as a test case, emulating 18 optical potential parameters simultaneously. The emulator reproduces elastic scattering cross sections with errors below 0.1% across a wide parameter range. This development enables efficient uncertainty quantification and Bayesian parameter estimation for nuclear reaction calculations that were previously computationally prohibitive."
+        ],
+        "abstract": "Abstract: I develop a reduced basis emulator for continuum-discretized coupled-channel (CDCC) calculations that achieves speedups of $\\approx 10^2$ while maintaining sub-percent accuracy. The emulator is constructed using the proper orthogonal decomposition (POD) method applied to snapshots of CDCC solutions computed at sampled points in the optical potential parameter space. The prediction is performed via Galerkin projection onto the reduced basis. I demonstrate the method using deuteron scattering on $^{58}$Ni at 21.6 MeV as a test case, emulating 18 optical potential parameters simultaneously. The emulator reproduces elastic scattering cross sections with errors below 0.1% across a wide parameter range. This development enables efficient uncertainty quantification and Bayesian parameter estimation for nuclear reaction calculations that were previously computationally prohibitive."
+      },
+      "arxiv_status": "primary_page_verified"
+    },
+    {
+      "id": "S10",
+      "topic": "direct_boundary_matching",
+      "doi": "10.1103/ddcx-cslb",
+      "arxiv": "2512.07111",
+      "checked_at": "2026-10-04T08:35:03.891135+00:00",
+      "crossref": {
+        "DOI": "10.1103/ddcx-cslb",
+        "title": [
+          "Direct boundary matching : A bound-state technique for nuclear scattering with Lagrange-Legendre functions"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2323-2061",
+            "authenticated-orcid": true,
+            "given": "Jin",
+            "family": "Lei",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/03rc6as71",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Tongji University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physical Review C"
+        ],
+        "type": "journal-article",
+        "volume": "113",
+        "issue": "2",
+        "page": null,
+        "article-number": "024614",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              20
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              20
+            ]
+          ]
+        },
+        "published-print": null,
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              5
+            ]
+          ],
+          "date-time": "2026-02-05T16:45:46Z",
+          "timestamp": 1770309946000
+        },
+        "URL": "https://doi.org/10.1103/ddcx-cslb",
+        "abstract": null
+      },
+      "doi_status": "metadata_verified",
+      "arxiv_metadata": {
+        "citation_title": [
+          "Direct Boundary Matching: A Bound-State Technique for Nuclear Scattering with Lagrange-Legendre Functions"
+        ],
+        "citation_author": [
+          "Lei, Jin"
+        ],
+        "citation_doi": [
+          "10.1103/ddcx-cslb"
+        ],
+        "citation_date": [
+          "2025/12/08"
+        ],
+        "citation_online_date": [
+          "2026/08/26"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2512.07111"
+        ],
+        "citation_arxiv_id": [
+          "2512.07111"
+        ],
+        "citation_abstract": [
+          "I present a direct boundary matching method (DBMM) for solving nuclear scattering problems using Lagrange-Legendre basis functions. This approach belongs to the family of bound-state techniques for the continuum, reformulating scattering problems into a localized, square-integrable ($L^2$) representation. The key feature is the direct incorporation of the outgoing wave boundary condition into the last row of the matrix equation, eliminating the need for Bloch operators and two-step matching procedures required in traditional R-matrix methods. Unlike the complex scaling method that rotates coordinates into the complex plane, DBMM operates entirely in real coordinate space. The formalism is extended to coupled-channel problems, where the wave function decomposition naturally leads to an effective source potential that distinguishes between the entrance channel and other channels. Benchmark calculations for p~+~$^{12}$C scattering demonstrate excellent agreement with the Numerov integration method."
+        ],
+        "abstract": "Abstract: I present a direct boundary matching method (DBMM) for solving nuclear scattering problems using Lagrange-Legendre basis functions. This approach belongs to the family of bound-state techniques for the continuum, reformulating scattering problems into a localized, square-integrable ($L^2$) representation. The key feature is the direct incorporation of the outgoing wave boundary condition into the last row of the matrix equation, eliminating the need for Bloch operators and two-step matching procedures required in traditional R-matrix methods. Unlike the complex scaling method that rotates coordinates into the complex plane, DBMM operates entirely in real coordinate space. The formalism is extended to coupled-channel problems, where the wave function decomposition naturally leads to an effective source potential that distinguishes between the entrance channel and other channels. Benchmark calculations for p~+~$^{12}$C scattering demonstrate excellent agreement with the Numerov integration method."
+      },
+      "arxiv_status": "primary_page_verified"
+    }
+  ]
+}

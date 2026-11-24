@@ -1,0 +1,9 @@
+{
+  "recorded_utc": 1791733599.604941,
+  "status": "ENGINEERING_PATH_NORMALIZATION_REPAIRED_BEFORE_ANY_RECEIPT_WRITE",
+  "initial_archive_code_sha256": "9f53e43e5fc67805eff5562439e67bd38f65deee8f2a1436ff46fb0fa30699ce",
+  "error": "KeyError: formal/coupled/T10/joint_hard/seed_810/snapshots/20000/metrics.json",
+  "cause": "Independent CSV uses Windows backslashes; archive looked up POSIX relative path",
+  "no_cohort_receipts_written_before_error": true,
+  "scientific_source_or_training_evidence_changed": false
+}

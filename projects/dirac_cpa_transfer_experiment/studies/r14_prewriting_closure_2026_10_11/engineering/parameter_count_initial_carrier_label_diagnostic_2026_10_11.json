@@ -1,0 +1,4880 @@
+{
+  "updated_utc": 1791722454.8201752,
+  "status": "PASS_AVAILABLE_PARAMETER_RECORDS",
+  "prescribed_attempts": 234,
+  "actual_initial_states_checked": 63,
+  "cost_records_checked": 223,
+  "missing": [
+    "formal/coupled/T10/joint_hard/seed_810",
+    "formal/coupled/T10/no_carrier_hard/seed_810",
+    "formal/coupled/T10/siren/seed_810",
+    "formal/coupled/T10/fourier/seed_810",
+    "formal/coupled/T10/original_pde/seed_811",
+    "formal/coupled/T10/siren/seed_811",
+    "formal/coupled/T10/fourier/seed_811",
+    "formal/coupled/T10/original_pde/seed_812",
+    "formal/coupled/T10/static_pde/seed_812",
+    "formal/coupled/T10/fourier/seed_812",
+    "formal/coupled/T10/original_pde/seed_813",
+    "formal/coupled/T10/static_pde/seed_813",
+    "formal/coupled/T10/original_hard/seed_813",
+    "formal/coupled/T10/static_pde/seed_814",
+    "formal/coupled/T10/original_hard/seed_814",
+    "formal/coupled/T10/learned_hard/seed_814",
+    "formal/carriers/m10/original/seed_810",
+    "formal/carriers/m10/static_frequency/seed_810",
+    "formal/coupled/m10/original_pde/seed_810",
+    "formal/coupled/m10/static_pde/seed_810",
+    "formal/coupled/m10/original_hard/seed_810",
+    "formal/coupled/m10/learned_hard/seed_810",
+    "formal/coupled/m10/analytic_hard/seed_810",
+    "formal/coupled/m10/joint_hard/seed_810",
+    "formal/coupled/m10/no_carrier_hard/seed_810",
+    "formal/coupled/m10/siren/seed_810",
+    "formal/coupled/m10/fourier/seed_810",
+    "formal/carriers/m10/original/seed_811",
+    "formal/carriers/m10/static_frequency/seed_811",
+    "formal/coupled/m10/original_pde/seed_811",
+    "formal/coupled/m10/static_pde/seed_811",
+    "formal/coupled/m10/original_hard/seed_811",
+    "formal/coupled/m10/learned_hard/seed_811",
+    "formal/coupled/m10/analytic_hard/seed_811",
+    "formal/coupled/m10/joint_hard/seed_811",
+    "formal/coupled/m10/no_carrier_hard/seed_811",
+    "formal/coupled/m10/siren/seed_811",
+    "formal/coupled/m10/fourier/seed_811",
+    "formal/carriers/m10/original/seed_812",
+    "formal/carriers/m10/static_frequency/seed_812",
+    "formal/coupled/m10/original_pde/seed_812",
+    "formal/coupled/m10/static_pde/seed_812",
+    "formal/coupled/m10/original_hard/seed_812",
+    "formal/coupled/m10/learned_hard/seed_812",
+    "formal/coupled/m10/analytic_hard/seed_812",
+    "formal/coupled/m10/joint_hard/seed_812",
+    "formal/coupled/m10/no_carrier_hard/seed_812",
+    "formal/coupled/m10/siren/seed_812",
+    "formal/coupled/m10/fourier/seed_812",
+    "formal/carriers/m10/original/seed_813",
+    "formal/carriers/m10/static_frequency/seed_813",
+    "formal/coupled/m10/original_pde/seed_813",
+    "formal/coupled/m10/static_pde/seed_813",
+    "formal/coupled/m10/original_hard/seed_813",
+    "formal/coupled/m10/learned_hard/seed_813",
+    "formal/coupled/m10/analytic_hard/seed_813",
+    "formal/coupled/m10/joint_hard/seed_813",
+    "formal/coupled/m10/no_carrier_hard/seed_813",
+    "formal/coupled/m10/siren/seed_813",
+    "formal/coupled/m10/fourier/seed_813",
+    "formal/carriers/m10/original/seed_814",
+    "formal/carriers/m10/static_frequency/seed_814",
+    "formal/coupled/m10/original_pde/seed_814",
+    "formal/coupled/m10/static_pde/seed_814",
+    "formal/coupled/m10/original_hard/seed_814",
+    "formal/coupled/m10/learned_hard/seed_814",
+    "formal/coupled/m10/analytic_hard/seed_814",
+    "formal/coupled/m10/joint_hard/seed_814",
+    "formal/coupled/m10/no_carrier_hard/seed_814",
+    "formal/coupled/m10/siren/seed_814",
+    "formal/coupled/m10/fourier/seed_814",
+    "formal/carriers/m5T5/original/seed_810",
+    "formal/carriers/m5T5/static_frequency/seed_810",
+    "formal/coupled/m5T5/original_pde/seed_810",
+    "formal/coupled/m5T5/static_pde/seed_810",
+    "formal/coupled/m5T5/original_hard/seed_810",
+    "formal/coupled/m5T5/learned_hard/seed_810",
+    "formal/coupled/m5T5/analytic_hard/seed_810",
+    "formal/coupled/m5T5/joint_hard/seed_810",
+    "formal/coupled/m5T5/no_carrier_hard/seed_810",
+    "formal/coupled/m5T5/siren/seed_810",
+    "formal/coupled/m5T5/fourier/seed_810",
+    "formal/carriers/m5T5/original/seed_811",
+    "formal/carriers/m5T5/static_frequency/seed_811",
+    "formal/coupled/m5T5/original_pde/seed_811",
+    "formal/coupled/m5T5/static_pde/seed_811",
+    "formal/coupled/m5T5/original_hard/seed_811",
+    "formal/coupled/m5T5/learned_hard/seed_811",
+    "formal/coupled/m5T5/analytic_hard/seed_811",
+    "formal/coupled/m5T5/joint_hard/seed_811",
+    "formal/coupled/m5T5/no_carrier_hard/seed_811",
+    "formal/coupled/m5T5/siren/seed_811",
+    "formal/coupled/m5T5/fourier/seed_811",
+    "formal/carriers/m5T5/original/seed_812",
+    "formal/carriers/m5T5/static_frequency/seed_812",
+    "formal/coupled/m5T5/original_pde/seed_812",
+    "formal/coupled/m5T5/static_pde/seed_812",
+    "formal/coupled/m5T5/original_hard/seed_812",
+    "formal/coupled/m5T5/learned_hard/seed_812",
+    "formal/coupled/m5T5/analytic_hard/seed_812",
+    "formal/coupled/m5T5/joint_hard/seed_812",
+    "formal/coupled/m5T5/no_carrier_hard/seed_812",
+    "formal/coupled/m5T5/siren/seed_812",
+    "formal/coupled/m5T5/fourier/seed_812",
+    "formal/carriers/m5T5/original/seed_813",
+    "formal/carriers/m5T5/static_frequency/seed_813",
+    "formal/coupled/m5T5/original_pde/seed_813",
+    "formal/coupled/m5T5/static_pde/seed_813",
+    "formal/coupled/m5T5/original_hard/seed_813",
+    "formal/coupled/m5T5/learned_hard/seed_813",
+    "formal/coupled/m5T5/analytic_hard/seed_813",
+    "formal/coupled/m5T5/joint_hard/seed_813",
+    "formal/coupled/m5T5/no_carrier_hard/seed_813",
+    "formal/coupled/m5T5/siren/seed_813",
+    "formal/coupled/m5T5/fourier/seed_813",
+    "formal/carriers/m5T5/original/seed_814",
+    "formal/carriers/m5T5/static_frequency/seed_814",
+    "formal/coupled/m5T5/original_pde/seed_814",
+    "formal/coupled/m5T5/static_pde/seed_814",
+    "formal/coupled/m5T5/original_hard/seed_814",
+    "formal/coupled/m5T5/learned_hard/seed_814",
+    "formal/coupled/m5T5/analytic_hard/seed_814",
+    "formal/coupled/m5T5/joint_hard/seed_814",
+    "formal/coupled/m5T5/no_carrier_hard/seed_814",
+    "formal/coupled/m5T5/siren/seed_814",
+    "formal/coupled/m5T5/fourier/seed_814",
+    "formal/coupled/V04/learned_hard/seed_810",
+    "formal/coupled/V04/analytic_hard/seed_810",
+    "formal/coupled/V04/fourier/seed_810",
+    "formal/coupled/V04/learned_hard/seed_811",
+    "formal/coupled/V04/analytic_hard/seed_811",
+    "formal/coupled/V04/fourier/seed_811",
+    "formal/coupled/V04/learned_hard/seed_812",
+    "formal/coupled/V04/analytic_hard/seed_812",
+    "formal/coupled/V04/fourier/seed_812",
+    "formal/coupled/V04/learned_hard/seed_813",
+    "formal/coupled/V04/analytic_hard/seed_813",
+    "formal/coupled/V04/fourier/seed_813",
+    "formal/coupled/V04/learned_hard/seed_814",
+    "formal/coupled/V04/analytic_hard/seed_814",
+    "formal/coupled/V04/fourier/seed_814",
+    "formal/coupled/two_harmonics/learned_hard/seed_810",
+    "formal/coupled/two_harmonics/analytic_hard/seed_810",
+    "formal/coupled/two_harmonics/fourier/seed_810",
+    "formal/coupled/two_harmonics/learned_hard/seed_811",
+    "formal/coupled/two_harmonics/analytic_hard/seed_811",
+    "formal/coupled/two_harmonics/fourier/seed_811",
+    "formal/coupled/two_harmonics/learned_hard/seed_812",
+    "formal/coupled/two_harmonics/analytic_hard/seed_812",
+    "formal/coupled/two_harmonics/fourier/seed_812",
+    "formal/coupled/two_harmonics/learned_hard/seed_813",
+    "formal/coupled/two_harmonics/analytic_hard/seed_813",
+    "formal/coupled/two_harmonics/fourier/seed_813",
+    "formal/coupled/two_harmonics/learned_hard/seed_814",
+    "formal/coupled/two_harmonics/analytic_hard/seed_814",
+    "formal/coupled/two_harmonics/fourier/seed_814",
+    "formal/coupled/chirped/learned_hard/seed_810",
+    "formal/coupled/chirped/analytic_hard/seed_810",
+    "formal/coupled/chirped/fourier/seed_810",
+    "formal/coupled/chirped/learned_hard/seed_811",
+    "formal/coupled/chirped/analytic_hard/seed_811",
+    "formal/coupled/chirped/fourier/seed_811",
+    "formal/coupled/chirped/learned_hard/seed_812",
+    "formal/coupled/chirped/analytic_hard/seed_812",
+    "formal/coupled/chirped/fourier/seed_812",
+    "formal/coupled/chirped/learned_hard/seed_813",
+    "formal/coupled/chirped/analytic_hard/seed_813",
+    "formal/coupled/chirped/fourier/seed_813",
+    "formal/coupled/chirped/learned_hard/seed_814",
+    "formal/coupled/chirped/analytic_hard/seed_814",
+    "formal/coupled/chirped/fourier/seed_814"
+  ],
+  "preserved_no_model_dependencies": [],
+  "errors": [],
+  "checks": [
+    {
+      "directory": "development/T10/siren/candidate_0/seed_910",
+      "case": "T10",
+      "group": "siren",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "39261047b0e6524ab38b6bd8fe33454825577882d9151143e44ef227f8924991",
+      "config_sha256": "088ab3d47053eb8e05dcbf82149de7b6ebc9d464400192a02db959d07d5571f1",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/T10/siren/candidate_0/seed_911",
+      "case": "T10",
+      "group": "siren",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "cda356d17f8e3b0adb473bee49a23c743632b15d53d50f4109f85987b89b79dd",
+      "config_sha256": "3b723dde883f8dd807637a7d235af5e873d94a7f5d6a0cf2d198f53fdcda7b99",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/T10/siren/candidate_1/seed_910",
+      "case": "T10",
+      "group": "siren",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "39261047b0e6524ab38b6bd8fe33454825577882d9151143e44ef227f8924991",
+      "config_sha256": "9ff42249a68cec57c304a3cc8abf7fae6765af28c351e03d84619b7dc5960177",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/T10/siren/candidate_1/seed_911",
+      "case": "T10",
+      "group": "siren",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "cda356d17f8e3b0adb473bee49a23c743632b15d53d50f4109f85987b89b79dd",
+      "config_sha256": "106e9eff984cd00eda7da65cc37dd23f31729810648c7c96e5bfbea1dc98e997",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/T10/siren/candidate_2/seed_910",
+      "case": "T10",
+      "group": "siren",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "40dcaba9eb9cd34b48186306e180d0488ebb57cc24943eae5166e9ba60ad12a7",
+      "config_sha256": "c04621e9df8626a495ca5822b98ea7a486c199dfed2bc53bbc4cf90954771b47",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/T10/siren/candidate_2/seed_911",
+      "case": "T10",
+      "group": "siren",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "988bf93c01a6b704271cf47fde24c7491b8ac07bedf736b7a06c7dd0a4c7462c",
+      "config_sha256": "7300d23f253352ddbb423ac7e8cfef404c01a9631047ccc25349cf7faf8e8857",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/T10/fourier/candidate_0/seed_910",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "ee6440c664ffbb3014752261f200c874457428902e38da849e2f824e2546cd9f",
+      "config_sha256": "3a24a7a9cb32b592dc276d7aa77376c98f3976c3ccaac9b5a587fc4156555c77",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/T10/fourier/candidate_0/seed_911",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "f94002799f6ba9ef74c976f3faae4bc03e0ab9726d6405994c51e73df7d633bf",
+      "config_sha256": "a69577d5a0838c42ebe98afeec8af1189f72ed5b9a7b6f21924c233a16ae2c76",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/T10/fourier/candidate_1/seed_910",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "fc86419c3663ad485d6aa14e9b36ae7a0e13e89c0139737b5b72662a17dc6b0a",
+      "config_sha256": "2adbcf367c4ed350e9b198f76b9be574ecea26c5735234f0b35f01245d510fa7",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/T10/fourier/candidate_1/seed_911",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "99d8e470ca8a7c6bd141d2df8cc15845b289432cbb0121b845ef688f04b643be",
+      "config_sha256": "de42cb0f9cff471c0c06b296d8549e330f83b426e89701e904d92fc93e6f3dec",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/T10/fourier/candidate_2/seed_910",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "9a0427174c694c4b8562aee371668a11c96c0d0972ba6bee4fce49339b573340",
+      "config_sha256": "d7eba0d12320400fb7e951a83c3cf241af417f3df5f197e309287a00d5719d3f",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/T10/fourier/candidate_2/seed_911",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "f1adaba45b1b3a5e4021a7879008d0b45bd13362a5c20af7bcf4a1a13580cf53",
+      "config_sha256": "e19984e530c4b038bae3073e4396dba9afaf2e7a86063ba17d754c27c7c269b7",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/siren/candidate_0/seed_910",
+      "case": "m10",
+      "group": "siren",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "39261047b0e6524ab38b6bd8fe33454825577882d9151143e44ef227f8924991",
+      "config_sha256": "fecd61ec362bf4bab2f1462e621b67775c924f798eca48f4a6411282f556ea05",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/siren/candidate_0/seed_911",
+      "case": "m10",
+      "group": "siren",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "cda356d17f8e3b0adb473bee49a23c743632b15d53d50f4109f85987b89b79dd",
+      "config_sha256": "cfeedb00fc5b633378536b1bf62b14f22b821179655120a033cac25c0d2152e2",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/siren/candidate_1/seed_910",
+      "case": "m10",
+      "group": "siren",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "39261047b0e6524ab38b6bd8fe33454825577882d9151143e44ef227f8924991",
+      "config_sha256": "aaeb5a67e3267c0a2c846ceb249a48c26aa9ba132dd8ed2316c0c05a3a2e8d5c",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/siren/candidate_1/seed_911",
+      "case": "m10",
+      "group": "siren",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "cda356d17f8e3b0adb473bee49a23c743632b15d53d50f4109f85987b89b79dd",
+      "config_sha256": "584150743ab2f29ef5effc1098b8340fd63bc1c6693ba482b2eded044a5226f9",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/siren/candidate_2/seed_910",
+      "case": "m10",
+      "group": "siren",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "40dcaba9eb9cd34b48186306e180d0488ebb57cc24943eae5166e9ba60ad12a7",
+      "config_sha256": "845c43121c28602dae4a4bd1fe6f3dd938f3a1fbc32c757c4198b9cab118677c",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/siren/candidate_2/seed_911",
+      "case": "m10",
+      "group": "siren",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "988bf93c01a6b704271cf47fde24c7491b8ac07bedf736b7a06c7dd0a4c7462c",
+      "config_sha256": "48fdeb426ce565806e9beb70bea0e3ee5f46e5da8783f48ed6a609414d0f1a99",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/fourier/candidate_0/seed_910",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "ee6440c664ffbb3014752261f200c874457428902e38da849e2f824e2546cd9f",
+      "config_sha256": "53da7a4752ff3383a25b60a43b2706b9db5b66ef8f4b240c8db0fa0059157074",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/fourier/candidate_0/seed_911",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "f94002799f6ba9ef74c976f3faae4bc03e0ab9726d6405994c51e73df7d633bf",
+      "config_sha256": "8ec28d0e0be2dab33ad2b0a60165d09ac5ec3f2f2c5a2c59efb664635de5b0b6",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/fourier/candidate_1/seed_910",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "fc86419c3663ad485d6aa14e9b36ae7a0e13e89c0139737b5b72662a17dc6b0a",
+      "config_sha256": "401a3eac133e37d44612ce4a605b5aad1889839c1f4dda17c13064476d15c230",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/fourier/candidate_1/seed_911",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "99d8e470ca8a7c6bd141d2df8cc15845b289432cbb0121b845ef688f04b643be",
+      "config_sha256": "d03bfeed2798161cbab341b0791778a5402468600517253fdaefa9e689253722",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/fourier/candidate_2/seed_910",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 910,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "9a0427174c694c4b8562aee371668a11c96c0d0972ba6bee4fce49339b573340",
+      "config_sha256": "921886d2a5a7ed7dcbd85d693669027a65653d87b1b036427647df94f91daf98",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "development/m10/fourier/candidate_2/seed_911",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 911,
+      "stage": "development",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "f1adaba45b1b3a5e4021a7879008d0b45bd13362a5c20af7bcf4a1a13580cf53",
+      "config_sha256": "f546d820639f7309e89d79f9920f05fc603dca535e3ab20bee6390c979d3cc05",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/carriers/T10/original/seed_810",
+      "case": "T10",
+      "group": "original",
+      "seed": 810,
+      "stage": "core",
+      "type": "carrier",
+      "total_parameters": 12802,
+      "active_parameters": 12802,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": null,
+      "saved_parameter_tensor_bytes": 102416,
+      "saved_nonparameter_buffer_bytes": 0,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "07427cbc1760da7d7a97abcb1ce997c0995dd1857e9b7de9cbf57828e04a3a4c",
+      "config_sha256": "6ca6ab3c460c3c69f83cded3daafb4664f50ca7dff98a9c7d54f05ee5b812916",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 4,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "mlp.net.0.weight": [
+          64,
+          2
+        ],
+        "mlp.net.0.bias": [
+          64
+        ],
+        "mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "mlp.net.2.bias": [
+          64
+        ],
+        "mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "mlp.net.4.bias": [
+          64
+        ],
+        "mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "mlp.net.6.bias": [
+          64
+        ],
+        "mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {}
+    },
+    {
+      "directory": "formal/carriers/T10/static_frequency/seed_810",
+      "case": "T10",
+      "group": "static_frequency",
+      "seed": 810,
+      "stage": "core",
+      "type": "carrier",
+      "total_parameters": 12738,
+      "active_parameters": 12738,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": null,
+      "saved_parameter_tensor_bytes": 101904,
+      "saved_nonparameter_buffer_bytes": 0,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "dcbef05cfd9e2a26f9aa172af3376b5f3eecfdbe1b667eb44ffe25fec2310e5b",
+      "config_sha256": "7f90f280796bb29ded35edab6c6400549f0f8c2fdf7393efdeda03ea97eba937",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 4,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "mlp.net.0.bias": [
+          64
+        ],
+        "mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "mlp.net.2.bias": [
+          64
+        ],
+        "mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "mlp.net.4.bias": [
+          64
+        ],
+        "mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "mlp.net.6.bias": [
+          64
+        ],
+        "mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {}
+    },
+    {
+      "directory": "formal/coupled/T10/original_pde/seed_810",
+      "case": "T10",
+      "group": "original_pde",
+      "seed": 810,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25734,
+      "active_parameters": 12932,
+      "frozen_parameters": 12802,
+      "carrier_parameters": 12802,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205872,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "f34b29763360bd34db4f90c3ae6aeb6dfe445e6f92ea985f163cac7519f9e50d",
+      "config_sha256": "804e7a36e9fb7120c7880c7aa6002151f19b5bf69ebe2c8881992055797a5294",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          2
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/static_pde/seed_810",
+      "case": "T10",
+      "group": "static_pde",
+      "seed": 810,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25670,
+      "active_parameters": 12932,
+      "frozen_parameters": 12738,
+      "carrier_parameters": 12738,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205360,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "c6f7ad8f231bba69a7de88ec132356e0117f433deac2f89d343c65c73cbd7c76",
+      "config_sha256": "6e9f7cf9bfb4eaf644508f018bed90dbebe7bea36087a0315dbef69691a5c2d4",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/original_hard/seed_810",
+      "case": "T10",
+      "group": "original_hard",
+      "seed": 810,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25734,
+      "active_parameters": 12932,
+      "frozen_parameters": 12802,
+      "carrier_parameters": 12802,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205872,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "f34b29763360bd34db4f90c3ae6aeb6dfe445e6f92ea985f163cac7519f9e50d",
+      "config_sha256": "db1db149dde7937225ba0d647e647fa3a391b44c2e8b87158ecbb2727b46c27e",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          2
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/learned_hard/seed_810",
+      "case": "T10",
+      "group": "learned_hard",
+      "seed": 810,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25670,
+      "active_parameters": 12932,
+      "frozen_parameters": 12738,
+      "carrier_parameters": 12738,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205360,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "c6f7ad8f231bba69a7de88ec132356e0117f433deac2f89d343c65c73cbd7c76",
+      "config_sha256": "a147edf92ff122a019cdbd5505f946bec7d8a3dda774ee96d866a2a23c727ae5",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/analytic_hard/seed_810",
+      "case": "T10",
+      "group": "analytic_hard",
+      "seed": 810,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "0dfb8638bfe6e86d55f0f33b6d10266e5540eb3664013648d43ce402136e55a7",
+      "config_sha256": "a2b227bea43e8f92ea9470b92dc73c9c252aa5119c89d386e80cca0bd5bc42ac",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 1,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/carriers/T10/original/seed_811",
+      "case": "T10",
+      "group": "original",
+      "seed": 811,
+      "stage": "core",
+      "type": "carrier",
+      "total_parameters": 12802,
+      "active_parameters": 12802,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": null,
+      "saved_parameter_tensor_bytes": 102416,
+      "saved_nonparameter_buffer_bytes": 0,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "90987d56bcdb79984c4c01000a8cc060eb281dd8cf7b1e60770603bc182c0b0c",
+      "config_sha256": "280c29dbe691df285bed90ff9c7bf82c077a4f78b87153cc090678db35f40800",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 4,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "mlp.net.0.weight": [
+          64,
+          2
+        ],
+        "mlp.net.0.bias": [
+          64
+        ],
+        "mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "mlp.net.2.bias": [
+          64
+        ],
+        "mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "mlp.net.4.bias": [
+          64
+        ],
+        "mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "mlp.net.6.bias": [
+          64
+        ],
+        "mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {}
+    },
+    {
+      "directory": "formal/carriers/T10/static_frequency/seed_811",
+      "case": "T10",
+      "group": "static_frequency",
+      "seed": 811,
+      "stage": "core",
+      "type": "carrier",
+      "total_parameters": 12738,
+      "active_parameters": 12738,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": null,
+      "saved_parameter_tensor_bytes": 101904,
+      "saved_nonparameter_buffer_bytes": 0,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "aaaa467b39f646b030347e6324fb580e26594e563a68cf5503e453738022b77a",
+      "config_sha256": "049924dc65ae1795ea888c5e521c3cd589b175817b64aaa826ad09065609198c",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 4,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "mlp.net.0.bias": [
+          64
+        ],
+        "mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "mlp.net.2.bias": [
+          64
+        ],
+        "mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "mlp.net.4.bias": [
+          64
+        ],
+        "mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "mlp.net.6.bias": [
+          64
+        ],
+        "mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {}
+    },
+    {
+      "directory": "formal/coupled/T10/static_pde/seed_811",
+      "case": "T10",
+      "group": "static_pde",
+      "seed": 811,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25670,
+      "active_parameters": 12932,
+      "frozen_parameters": 12738,
+      "carrier_parameters": 12738,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205360,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "7abab98496be4544d028ac6f097b850eba65a93574b6db4458d979a14d45f454",
+      "config_sha256": "d42cdf4eee213bc3d6cd43f8260a11a84864dd8bed7850597568ac1b9cd4cbfb",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/original_hard/seed_811",
+      "case": "T10",
+      "group": "original_hard",
+      "seed": 811,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25734,
+      "active_parameters": 12932,
+      "frozen_parameters": 12802,
+      "carrier_parameters": 12802,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205872,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "95039c6d2b13a82b88fde8ad80a3c6009662fb862c95bc7cb23dca0665b11a92",
+      "config_sha256": "025f30ff3b81637f5835778e295851fb7ca7c3d8a722b31cc75a1ad8bf28ef14",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          2
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/learned_hard/seed_811",
+      "case": "T10",
+      "group": "learned_hard",
+      "seed": 811,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25670,
+      "active_parameters": 12932,
+      "frozen_parameters": 12738,
+      "carrier_parameters": 12738,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205360,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "7abab98496be4544d028ac6f097b850eba65a93574b6db4458d979a14d45f454",
+      "config_sha256": "7644df595ced97311d3892e806aadc089883046054a1c240ec22637999c2bb24",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/analytic_hard/seed_811",
+      "case": "T10",
+      "group": "analytic_hard",
+      "seed": 811,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "47763842dd87fcc1610e60f6729ffcb8910cfd4b47b1ac2cf2e6d684c41f84f5",
+      "config_sha256": "79b9a4e750e817ec453521975a4585e5b3180092e277f21f3d1ccdc00bf9f7bf",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/joint_hard/seed_811",
+      "case": "T10",
+      "group": "joint_hard",
+      "seed": 811,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25670,
+      "active_parameters": 25670,
+      "frozen_parameters": 0,
+      "carrier_parameters": 12738,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205360,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "1c3317a668a519ab0eb24d690c14709fc9f618f7b5d631efbb2058695e956752",
+      "config_sha256": "7932e97d5267f77cdf10d09591e51e36312392456ebaf3b44f4998ebb0709ad0",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 6,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/no_carrier_hard/seed_811",
+      "case": "T10",
+      "group": "no_carrier_hard",
+      "seed": 811,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "47763842dd87fcc1610e60f6729ffcb8910cfd4b47b1ac2cf2e6d684c41f84f5",
+      "config_sha256": "db40b52e9beed8f6e8ff5f1575b32290e862c8f0e4efdf365d671605719479d6",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 2,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/carriers/T10/original/seed_812",
+      "case": "T10",
+      "group": "original",
+      "seed": 812,
+      "stage": "core",
+      "type": "carrier",
+      "total_parameters": 12802,
+      "active_parameters": 12802,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": null,
+      "saved_parameter_tensor_bytes": 102416,
+      "saved_nonparameter_buffer_bytes": 0,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "fecd0f32e6acfb411b9f7eef55acd345759f7702e1574c04d1b75d957f87447f",
+      "config_sha256": "7f36fa1231c5bf8846047234008ac41aaf774639fcb640df6c56a1b8d2a9bcb7",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 4,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "mlp.net.0.weight": [
+          64,
+          2
+        ],
+        "mlp.net.0.bias": [
+          64
+        ],
+        "mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "mlp.net.2.bias": [
+          64
+        ],
+        "mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "mlp.net.4.bias": [
+          64
+        ],
+        "mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "mlp.net.6.bias": [
+          64
+        ],
+        "mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {}
+    },
+    {
+      "directory": "formal/carriers/T10/static_frequency/seed_812",
+      "case": "T10",
+      "group": "static_frequency",
+      "seed": 812,
+      "stage": "core",
+      "type": "carrier",
+      "total_parameters": 12738,
+      "active_parameters": 12738,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": null,
+      "saved_parameter_tensor_bytes": 101904,
+      "saved_nonparameter_buffer_bytes": 0,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "6aa7ec4828a43c9e6217e5e6bd1b067ad8c35834d104cedb37fb03169051d7d1",
+      "config_sha256": "67e652da3e74fe1061ad6763d990da30d68fb1d8592cb5d25a1851f93bcba823",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 4,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "mlp.net.0.bias": [
+          64
+        ],
+        "mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "mlp.net.2.bias": [
+          64
+        ],
+        "mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "mlp.net.4.bias": [
+          64
+        ],
+        "mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "mlp.net.6.bias": [
+          64
+        ],
+        "mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {}
+    },
+    {
+      "directory": "formal/coupled/T10/original_hard/seed_812",
+      "case": "T10",
+      "group": "original_hard",
+      "seed": 812,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25734,
+      "active_parameters": 12932,
+      "frozen_parameters": 12802,
+      "carrier_parameters": 12802,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205872,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "1b0b68e8a506111bdaaf979cedfb78aa6413464bfe077982eef3aca6c5b2e358",
+      "config_sha256": "bb4e22046b5bb3cc319e45353661e58771edb56c49c8757e5ce83830d59cb117",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          2
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/learned_hard/seed_812",
+      "case": "T10",
+      "group": "learned_hard",
+      "seed": 812,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25670,
+      "active_parameters": 12932,
+      "frozen_parameters": 12738,
+      "carrier_parameters": 12738,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205360,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "5640ecf8c42c388b8f5f6821451d673f82b048d50ed6892a0632e955bb24e855",
+      "config_sha256": "440d0f5e84060d4448302cddae80b77994a154b47b0b5ef9178b42241d7be28f",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/analytic_hard/seed_812",
+      "case": "T10",
+      "group": "analytic_hard",
+      "seed": 812,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "cc31cf0860a0aad2b727f9a3b9cdc6969cd1afdadeb559dcd210eb51c9493faa",
+      "config_sha256": "2169dc9ab83cc2f76d2467c1eae29fce060ee550335e85c5c9ba763ed38dde12",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/joint_hard/seed_812",
+      "case": "T10",
+      "group": "joint_hard",
+      "seed": 812,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25670,
+      "active_parameters": 25670,
+      "frozen_parameters": 0,
+      "carrier_parameters": 12738,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205360,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "27966d93be76c54c3080df8bbc356a86dffaa7f8bb8b750a6ae757d806dcce25",
+      "config_sha256": "4aa225d751f588b1c61a8ac402a000f13f96aa9916240d6119fc7e009da52286",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 6,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/no_carrier_hard/seed_812",
+      "case": "T10",
+      "group": "no_carrier_hard",
+      "seed": 812,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "cc31cf0860a0aad2b727f9a3b9cdc6969cd1afdadeb559dcd210eb51c9493faa",
+      "config_sha256": "b81d96ba7d172d009fb4eff80e55e25131312a081ab3d18a39c0793b438ccbef",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 6,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/siren/seed_812",
+      "case": "T10",
+      "group": "siren",
+      "seed": 812,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "cfd50c5bce208d29ead5ee13335e64b22fc543326c4374336210219db473b24e",
+      "config_sha256": "01f6722d09f1ba4e07603c55707ac0682ea999b32851fc52da27e35c46b53c88",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 0,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/carriers/T10/original/seed_813",
+      "case": "T10",
+      "group": "original",
+      "seed": 813,
+      "stage": "core",
+      "type": "carrier",
+      "total_parameters": 12802,
+      "active_parameters": 12802,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": null,
+      "saved_parameter_tensor_bytes": 102416,
+      "saved_nonparameter_buffer_bytes": 0,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "3177f0ad685dcde152f847b048b89ea0cd36cb3098aa004d694c374a0cc29796",
+      "config_sha256": "fa579b78af959861de5c2d0aa71d15a2789372ae3127a9694bafcf2faab6b834",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 4,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "mlp.net.0.weight": [
+          64,
+          2
+        ],
+        "mlp.net.0.bias": [
+          64
+        ],
+        "mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "mlp.net.2.bias": [
+          64
+        ],
+        "mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "mlp.net.4.bias": [
+          64
+        ],
+        "mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "mlp.net.6.bias": [
+          64
+        ],
+        "mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {}
+    },
+    {
+      "directory": "formal/carriers/T10/static_frequency/seed_813",
+      "case": "T10",
+      "group": "static_frequency",
+      "seed": 813,
+      "stage": "core",
+      "type": "carrier",
+      "total_parameters": 12738,
+      "active_parameters": 12738,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": null,
+      "saved_parameter_tensor_bytes": 101904,
+      "saved_nonparameter_buffer_bytes": 0,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "730e00b2f4df9d4a0fe50d0176f3ebb30511c6c791c159fe674a11e7aeff439b",
+      "config_sha256": "55c295967c662192b05e4781ed5dad06ac7ff6c7bd6de3c56858511345705291",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 4,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "mlp.net.0.bias": [
+          64
+        ],
+        "mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "mlp.net.2.bias": [
+          64
+        ],
+        "mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "mlp.net.4.bias": [
+          64
+        ],
+        "mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "mlp.net.6.bias": [
+          64
+        ],
+        "mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {}
+    },
+    {
+      "directory": "formal/coupled/T10/learned_hard/seed_813",
+      "case": "T10",
+      "group": "learned_hard",
+      "seed": 813,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25670,
+      "active_parameters": 12932,
+      "frozen_parameters": 12738,
+      "carrier_parameters": 12738,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205360,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "79070595ae626942f419993ac5caf5949236e4ed74199e355f7d9cb73fd567cd",
+      "config_sha256": "42d3750e72b2728f5ce78f57de90e33546dcfc661d9e23e8419d160fb57a42ad",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/analytic_hard/seed_813",
+      "case": "T10",
+      "group": "analytic_hard",
+      "seed": 813,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "b0e7931d0c928e5f02f154c4e844fde1d217ab2725fe88d5717b82dd0e7ad63b",
+      "config_sha256": "eff3d7eb7964a74491d11858bac7ea8c651e0026b097f89c90e8147e7fd9d62e",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/joint_hard/seed_813",
+      "case": "T10",
+      "group": "joint_hard",
+      "seed": 813,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25670,
+      "active_parameters": 25670,
+      "frozen_parameters": 0,
+      "carrier_parameters": 12738,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205360,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "14dffddba6031fb0b3340704021549054450c7aa38f93455f92f7742d062d628",
+      "config_sha256": "c9c6ffee21b55bab05cc060ec94528ea4fa126540a8470dca2f109874b37e3f2",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 6,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/no_carrier_hard/seed_813",
+      "case": "T10",
+      "group": "no_carrier_hard",
+      "seed": 813,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "b0e7931d0c928e5f02f154c4e844fde1d217ab2725fe88d5717b82dd0e7ad63b",
+      "config_sha256": "e2ca2219fdee5824061eac13b756d48767a1684d5be740816607dbff43e7f048",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 6,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/siren/seed_813",
+      "case": "T10",
+      "group": "siren",
+      "seed": 813,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "b184a98101edeb599a35e4e7f061179afb28859d99ad0ff06cdc10533734d133",
+      "config_sha256": "53e442453b0c923ad4e66adee2a44ebe4d1322bc59a5aa5fb2c39c7fdc4cff50",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 6,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/fourier/seed_813",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 813,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "8e116de2a62ee054dcb601a3eaae31d32647bea18587d5830767f87d33c398ef",
+      "config_sha256": "ad2ad7556937803bbc154a1004ae3bd3daa763b3d1a05e8c187050ad0aefcf51",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 1,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/carriers/T10/original/seed_814",
+      "case": "T10",
+      "group": "original",
+      "seed": 814,
+      "stage": "core",
+      "type": "carrier",
+      "total_parameters": 12802,
+      "active_parameters": 12802,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": null,
+      "saved_parameter_tensor_bytes": 102416,
+      "saved_nonparameter_buffer_bytes": 0,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "2d602a2b0940419fc8efc439155a292525c29cc5d4e1acfcf824445134911111",
+      "config_sha256": "f971e51efdf2461cb921c43757028f7b7c5b6c182bc2cd567fecacc358079fff",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 4,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "mlp.net.0.weight": [
+          64,
+          2
+        ],
+        "mlp.net.0.bias": [
+          64
+        ],
+        "mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "mlp.net.2.bias": [
+          64
+        ],
+        "mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "mlp.net.4.bias": [
+          64
+        ],
+        "mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "mlp.net.6.bias": [
+          64
+        ],
+        "mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {}
+    },
+    {
+      "directory": "formal/carriers/T10/static_frequency/seed_814",
+      "case": "T10",
+      "group": "static_frequency",
+      "seed": 814,
+      "stage": "core",
+      "type": "carrier",
+      "total_parameters": 12738,
+      "active_parameters": 12738,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": null,
+      "saved_parameter_tensor_bytes": 101904,
+      "saved_nonparameter_buffer_bytes": 0,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "156ddee8d07f531de0961432f4b7e3210ff85ba322893bb875c93909c03ecde7",
+      "config_sha256": "a39c0b4c7028331bf93fd8cb947c875bf560c82b480cdcca213b8ac6803421c8",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 4,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "mlp.net.0.bias": [
+          64
+        ],
+        "mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "mlp.net.2.bias": [
+          64
+        ],
+        "mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "mlp.net.4.bias": [
+          64
+        ],
+        "mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "mlp.net.6.bias": [
+          64
+        ],
+        "mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {}
+    },
+    {
+      "directory": "formal/coupled/T10/original_pde/seed_814",
+      "case": "T10",
+      "group": "original_pde",
+      "seed": 814,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25734,
+      "active_parameters": 12932,
+      "frozen_parameters": 12802,
+      "carrier_parameters": 12802,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205872,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "a6998c2d232b91ad99d622dbc537c70887ccf3fdf9a37211a8bcbf2cabb23c3a",
+      "config_sha256": "74b7dee86f5e82b45d81a2a9c5d1ec6c92b52d645162c1c06a70039bf8dba303",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 1,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          2
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/analytic_hard/seed_814",
+      "case": "T10",
+      "group": "analytic_hard",
+      "seed": 814,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "305f5b65d29cc561d3b78c7fcd7839db0fdf3c410ffb5ca15b1b033ccc4e5a43",
+      "config_sha256": "f57767958d4ce82bfc7fd937882d51d344f42b4e35236f5f18396057d4cf108c",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 5,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/joint_hard/seed_814",
+      "case": "T10",
+      "group": "joint_hard",
+      "seed": 814,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 25670,
+      "active_parameters": 25670,
+      "frozen_parameters": 0,
+      "carrier_parameters": 12738,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 205360,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "9dbfacb99f9964e9ef701444a839dcadc7bec224865a176157f420fd09d468eb",
+      "config_sha256": "9fb364edb44e2269522ce74ab42c0b87d2de3fe18a8ded733d5ca968b73a8cb9",
+      "weight_tensor_count": 20,
+      "cost_records_checked": 6,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ],
+        "carrier.mlp.net.0.weight": [
+          64,
+          1
+        ],
+        "carrier.mlp.net.0.bias": [
+          64
+        ],
+        "carrier.mlp.net.2.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.2.bias": [
+          64
+        ],
+        "carrier.mlp.net.4.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.4.bias": [
+          64
+        ],
+        "carrier.mlp.net.6.weight": [
+          64,
+          64
+        ],
+        "carrier.mlp.net.6.bias": [
+          64
+        ],
+        "carrier.mlp.net.8.weight": [
+          2,
+          64
+        ],
+        "carrier.mlp.net.8.bias": [
+          2
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/no_carrier_hard/seed_814",
+      "case": "T10",
+      "group": "no_carrier_hard",
+      "seed": 814,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "305f5b65d29cc561d3b78c7fcd7839db0fdf3c410ffb5ca15b1b033ccc4e5a43",
+      "config_sha256": "bfbad4c69223b9df03caa7b3cd9da0601a764648e0d697842857a946e22fe24e",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 6,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/siren/seed_814",
+      "case": "T10",
+      "group": "siren",
+      "seed": 814,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 12932,
+      "active_parameters": 12932,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 12932,
+      "saved_parameter_tensor_bytes": 103456,
+      "saved_nonparameter_buffer_bytes": 5152,
+      "fixed_Fourier_feature_coefficients": 0,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "223645f2f540b825fbc1d7d4d69758be23e4e2b33263dc8037507c36034cfa74",
+      "config_sha256": "45b0753e554ec7f8c7f436c4c1c238b6cf589d614f3a3507c814798540cc316c",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 6,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          2
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ]
+      }
+    },
+    {
+      "directory": "formal/coupled/T10/fourier/seed_814",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 814,
+      "stage": "core",
+      "type": "coupled",
+      "total_parameters": 16900,
+      "active_parameters": 16900,
+      "frozen_parameters": 0,
+      "carrier_parameters": 0,
+      "envelope_parameters": 16900,
+      "saved_parameter_tensor_bytes": 135200,
+      "saved_nonparameter_buffer_bytes": 5664,
+      "fixed_Fourier_feature_coefficients": 64,
+      "buffers_excluded_from_nn_parameter_count": true,
+      "initial_state_sha256": "94c8cb4e5130601a02211d1cd1d011d55cf89c74ea70ecb9ae98cb2aeb52b8ae",
+      "config_sha256": "f1411d1d4cfed8dfcc50881d25d05285c30e1e0209b7c96e142be3551be2841b",
+      "weight_tensor_count": 10,
+      "cost_records_checked": 6,
+      "pass_check": true,
+      "failed_checks": [],
+      "parameter_shapes": {
+        "networks.0.net.0.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.0.bias": [
+          64
+        ],
+        "networks.0.net.2.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.2.bias": [
+          64
+        ],
+        "networks.0.net.4.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.4.bias": [
+          64
+        ],
+        "networks.0.net.6.weight": [
+          64,
+          64
+        ],
+        "networks.0.net.6.bias": [
+          64
+        ],
+        "networks.0.net.8.weight": [
+          4,
+          64
+        ],
+        "networks.0.net.8.bias": [
+          4
+        ]
+      },
+      "buffer_shapes": {
+        "initial_coeff": [
+          161,
+          2
+        ],
+        "networks.0.B": [
+          32,
+          2
+        ]
+      }
+    }
+  ],
+  "all_prescribed_parameter_records_verified": false,
+  "source_code_sha256": "128368fad2b3c159af9b5b296f221b2cf68631afb68372b4d746064d482a9b2b",
+  "independent_saved_tensor_shapes_without_model_constructor": true,
+  "fixed_buffers_separately_reported": true,
+  "original_states_not_written": true,
+  "counts_are_not_process_peak_memory": true,
+  "whole_goal_complete": false
+}

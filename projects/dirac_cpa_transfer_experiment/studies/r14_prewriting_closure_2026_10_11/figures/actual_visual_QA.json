@@ -1,0 +1,32 @@
+{
+  "whole_figure_package_complete": false,
+  "checks": [
+    {
+      "figure": "reference_calibration",
+      "status": "PASS_ACTUAL_PNG_AND_PDF_VISUAL_CHECK",
+      "checked_utc": 1791696076.9257636,
+      "PNG_sha256": "6df4e7b17737f8d1996e654f35a2413c3311e4cae1de1622b60cca9d9c3d430f",
+      "PDF_sha256": "79413bc2dff7a441df1f27764a1e5a721b76ce4d48d882a37873622efb5448ab",
+      "SVG_sha256": "3baee43b3fb7f671f9a85d354a680288126bfe28a56bf4d5503ddf91da96d47d",
+      "observed": "All panels opened using view_image; labels readable, no cropping or overlap; all prescribed displayed points retained."
+    },
+    {
+      "figure": "development_tuning",
+      "status": "PASS_ACTUAL_PNG_AND_PDF_VISUAL_CHECK",
+      "checked_utc": 1791696076.9530733,
+      "PNG_sha256": "f4c32bd5c5be69d4893c465391ad0f685512aa5352f230b0002eef6240fecd79",
+      "PDF_sha256": "14e471371363f800f909759874c39b9cb10c31e4bc3fe93c57171a79f5e8df24",
+      "SVG_sha256": "60a777324f17b551f5399efc9d36f9a7daa8bb9408cf5348f0ad341a20aa6ec2",
+      "observed": "All panels opened using view_image; labels readable, no cropping or overlap; all prescribed displayed points retained."
+    },
+    {
+      "figure": "TSFP_error_cost",
+      "status": "PASS_ACTUAL_PNG_AND_PDF_VISUAL_CHECK",
+      "checked_utc": 1791696076.9627497,
+      "PNG_sha256": "fcde81999fc1f1fd7de28f234ed324ec0294b7386964234d6187602d5b925992",
+      "PDF_sha256": "19ade15878db81309c7b5848306bc8b46bb2f05499ec269a54d167fbbc10ab81",
+      "SVG_sha256": "9ae44d3f740b52b58eb802077b882b430881c4a01c46274438dccb2cbd199bff",
+      "observed": "All panels opened using view_image; labels readable, no cropping or overlap; all prescribed displayed points retained."
+    }
+  ]
+}

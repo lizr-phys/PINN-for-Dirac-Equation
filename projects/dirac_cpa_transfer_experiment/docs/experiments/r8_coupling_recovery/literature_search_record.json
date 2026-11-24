@@ -1,0 +1,64 @@
+{
+  "access_date": "2026-10-02",
+  "assessment_stage": "after_all_prescribed_R8_training",
+  "bibtex_postconversion_repairs": ["Two distinct Kumar 2026 works assigned unique citation keys", "arXiv identifier incorrectly exported as DOI replaced by verified DataCite DOI and eprint", "Mononym Rajeev normalized", "Misumi article number 014511 added from APS", "Abstract fields omitted from consolidated delivery"],
+  "discovery": "OpenAlex via skill academic_search.py plus public web search",
+  "primary_verification": ["arXiv", "ScienceDirect indexed original article pages", "APS", "Numdam", "Crossref metadata"],
+  "academic_mcp_available": false,
+  "endpoint_preflight": {"PubMed": "OK", "Crossref": "OK", "arXiv": "OK"},
+  "openalex_queries": [
+    {"query": "Dirac physics informed neural networks", "limit": 8, "year_from": null},
+    {"query": "physics informed neural networks phase amplitude", "limit": 8, "year_from": null},
+    {"query": "physics informed neural networks causal time marching", "limit": 8, "year_from": null},
+    {"query": "physics informed neural networks phase amplitude", "limit": 12, "year_from": 2026},
+    {"query": "Dirac physics informed neural networks", "limit": 10, "year_from": 2026}
+  ],
+  "web_queries": [
+    "physics informed neural networks Dirac equation phase amplitude carrier complex envelope",
+    "physics informed neural networks interaction picture Schrodinger neural carrier preconditioning",
+    "physics informed neural networks Dirac equation 2026 phase",
+    "Time-dependent Dirac Equation Lorin arxiv",
+    "A unified scalable framework for causal sweeping strategies",
+    "Dirac physics-informed 2026 spectral",
+    "physics-informed interaction picture neural",
+    "physics-informed learned complex amplitude phase pretraining",
+    "WKB-PINNs 2026 Available online",
+    "Structure-preserving conservative phase-amplitude PINNs Available online",
+    "interaction picture neural networks Schrodinger physics informed carrier",
+    "Dirac PINNs coupled phase amplitude",
+    "physics-informed free carrier phase",
+    "Dirac physics-informed neural July 2026",
+    "Dirac physics-informed neural September 2026",
+    "A unified Python framework for solving Schrodinger and Dirac equations in exotic lepton-antilepton atoms"
+  ],
+  "deduplicated_export_identifiers": [
+    "10.1016/j.cpc.2022.108474",
+    "10.1051/m2an/2015060",
+    "arXiv:2402.00531",
+    "10.1016/j.cma.2024.116813",
+    "10.1016/j.jcp.2023.112464",
+    "10.1016/j.cam.2026.117607",
+    "10.1016/j.cnsns.2026.110653",
+    "10.1016/j.physd.2026.135394",
+    "10.1103/756m-stz5",
+    "10.1016/j.cpc.2026.110335"
+  ],
+  "journal_preprint_deduplication": {
+    "arXiv:2204.02959": "10.1016/j.cpc.2022.108474",
+    "arXiv:2203.07404": "10.1016/j.cma.2024.116813",
+    "arXiv:2302.14227": "10.1016/j.jcp.2023.112464"
+  },
+  "crossref_date_notes": [
+    {"doi": "10.1016/j.cam.2026.117607", "published_print": "2026-10", "created": "2026-03-18", "published_online": null},
+    {"doi": "10.1016/j.cnsns.2026.110653", "published_print": "2026-11", "created": "2026-08-04", "published_online": null},
+    {"doi": "10.1016/j.physd.2026.135394", "published_print": "2026-11", "created": "2026-09-02", "published_online": null}
+  ],
+  "limitations": [
+    "Initial OpenAlex compact Dirac query hit Windows GBK output encoding after partial results; repeated once with python -X utf8 and completed. No network query parameters changed.",
+    "Direct ScienceDirect open calls were blocked by HTTP403; indexed original publisher abstracts and Crossref identities were available. Full WKB implementations were not reviewed.",
+    "Broad OpenAlex queries recalled numerous irrelevant works, including Dirac delta sources and Hamilton-Dirac constrained mechanics. These were not counted as time-dependent spinor overlap.",
+    "A guessed arXiv ID 2203.02984 resolved to an unrelated atmospheric PCA paper and was excluded; the Lorin-Yang paper was then resolved by exact-title search to 2204.02959.",
+    "No exhaustive subscribed Scopus, Web of Science, CNKI or patent review was performed.",
+    "No exact novelty or three-month publication-priority claim is made; record creation dates are not public release dates."
+  ]
+}

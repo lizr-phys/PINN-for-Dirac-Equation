@@ -1,0 +1,42 @@
+{
+  "updated_utc": 1791886340.3307474,
+  "status": "ASSESSED_FIXED_PRIMARY_COMPARISONS",
+  "both_T10_and_m10_accuracy_gate_qualified": false,
+  "both_T10_and_m10_efficiency_gate_qualified": false,
+  "cases": [
+    {
+      "case": "T10",
+      "primary_step": 20000,
+      "status": "QUALIFIED_IN_THIS_CASE",
+      "all_five_paired_and_independently_audited": true,
+      "prescribed_primary_attempts_accounted": true,
+      "accuracy_advantage_qualified": true,
+      "efficiency_claim_qualified": false,
+      "spinor_paired_difference_mean": -0.0012035101338429,
+      "spinor_CI95_upper": -0.0001397113145285,
+      "lower_error_pairs": 5,
+      "complete_auxiliary_cost_included": true,
+      "attributed_training_time_difference_mean": 126.01944795997296
+    },
+    {
+      "case": "m10",
+      "primary_step": 20000,
+      "status": "NOT_QUALIFIED_IN_THIS_CASE",
+      "all_five_paired_and_independently_audited": true,
+      "prescribed_primary_attempts_accounted": true,
+      "accuracy_advantage_qualified": false,
+      "efficiency_claim_qualified": false,
+      "spinor_paired_difference_mean": 0.0067038713993299,
+      "spinor_CI95_upper": 0.0224193603416097,
+      "lower_error_pairs": 2,
+      "complete_auxiliary_cost_included": true,
+      "attributed_training_time_difference_mean": 159.11662732004189
+    }
+  ],
+  "n5_exact_two_sided_minimum_p": 0.0625,
+  "descriptive_t_interval_assumptions_required": true,
+  "no_cross_case_pooling": true,
+  "no_accuracy_driven_extra_budget": true,
+  "entire_study_complete": false,
+  "paper_positioning_waits_for_all_scope_and_baseline_evidence": true
+}

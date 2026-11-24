@@ -1,0 +1,68 @@
+{
+  "status": "FROZEN_EQUATION_DERIVATIONS_REVIEWED_EXPERIMENTAL_CLOSURE_PENDING",
+  "reviewed_utc": 1791761093.7877142,
+  "note": "theory_closure_audit.md",
+  "note_sha256": "dfdc62e5894f651e71ca3ca45d771afeed76def188eff99a9bf0c7a8868f8669",
+  "sources": [
+    {
+      "path": "frozen/source/closure/models.py",
+      "sha256": "430c58d3db564074d7f29ef100f719551b349524caca5450d8f1831819cfa02a"
+    },
+    {
+      "path": "frozen/source/closure/vendor/periodic_potential_models.py",
+      "sha256": "b304f4896c5ef721c417350735c43ef26fe6aea122647872f39dcc6089d1fadd"
+    },
+    {
+      "path": "frozen/source/closure/vendor/r7_models.py",
+      "sha256": "82838edd838802879835766c938e50253c4215f065ef024f965611598dad04a1"
+    },
+    {
+      "path": "frozen/source/closure/vendor/r13_models.py",
+      "sha256": "6b1053087e29d02473665e3f7572e46bf6930840082af4c0212a47408292a99a"
+    },
+    {
+      "path": "frozen/source/closure/vendor/r12_hamiltonian.py",
+      "sha256": "3c8ff582872a4f5a1a8aa4b288e56440ee36976610ef038817d4d6dcc0811113"
+    },
+    {
+      "path": "frozen/source/closure/vendor/r13_residual.py",
+      "sha256": "f0445b03b82f9278b4a49be3175cc42ceba258cc405c1627564e66c2b7bf60e4"
+    }
+  ],
+  "checks": [
+    "Actual old ansatz permits amplitude growth but restricts empty-channel initial imaginary tangent",
+    "Full complex radial norm derivative and its nonzero-domain assumption",
+    "Unitary carrier and basis imply structural norm, not dynamics",
+    "Approximate carrier free defect retained in complete residual",
+    "Exterior Fourier residual separates truncated conservation from full PDE",
+    "Continuous Duhamel relation conditional; sampled/trapezoidal residual is not a certificate",
+    "Static unit-carrier PDE loss equals one quarter of the sum of known free-frequency squared defects averaged over all modes; no unknown-spectrum discovery claim",
+    "Historical real-amplitude tangent restriction does not directly explain R14 original groups, which already use B_complex; carrier repair contrasts a parameterization bundle"
+  ],
+  "no_new_model_parameters_methods_seeds_or_training_budget": true,
+  "new_numeric_experiments_not_claimed": true,
+  "original_history_and_frozen_code_not_written": true,
+  "whole_goal_complete": false,
+  "previous_revision_preserved": "engineering/theory_revisions/before_free_loss_equivalence_20261012",
+  "free_loss_equivalence_is_algebra_not_new_numeric_experiment": true,
+  "real_initial_coefficients_not_real_spatial_wavefunction": true,
+  "wording_revision_preserved": "engineering/theory_revisions/before_real_spectral_initial_wording_20261012",
+  "unitarity_scope_source_checks": [
+    {
+      "live_path": "closure/models.py",
+      "frozen_path": "frozen/source/closure/models.py",
+      "sha256": "430c58d3db564074d7f29ef100f719551b349524caca5450d8f1831819cfa02a",
+      "live_and_frozen_identical": true
+    },
+    {
+      "live_path": "closure/vendor/r9_models.py",
+      "frozen_path": "frozen/source/closure/vendor/r9_models.py",
+      "sha256": "3fdabb7449f9af145facc4382a3b29a5eb015c5ff879760aaae93f5548195538",
+      "live_and_frozen_identical": true
+    }
+  ],
+  "single_trajectory_normalization_is_not_a_unitary_propagator": true,
+  "operator_scope_is_algebra_not_new_initial_condition_experiment": true,
+  "existing_model_buffers_and_weights_not_written": true,
+  "unitarity_scope_revision_preserved": "engineering/theory_revisions/before_unitary_operator_scope_20261012"
+}

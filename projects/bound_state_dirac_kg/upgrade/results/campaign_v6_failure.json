@@ -1,0 +1,8 @@
+{
+  "protocol_version": 6,
+  "verified_complete_runs": 38,
+  "failed_case": "deep_wide/dirac/state_2/derivative/seed_0",
+  "failure": "Overflow in unnormalized norm led to a zero normalized wave, false zero PDE/orthogonality loss and a constant reported training norm of one. Independent evaluation detected zero norm and nonfinite tail ratios.",
+  "path": "results/stable_formal/deep_wide/dirac/state_2/derivative/seed_0",
+  "resolution": "Version 7 uses exactly equivalent global node scaling, x-independent logarithmic scale subtraction and explicit actual norm checks. Verified v6 state 0/1 results retained with protocol labels; all second-excited and remaining runs use v7."
+}

@@ -1,0 +1,238 @@
+{
+  "per_case_candidate": {
+    "T10": {
+      "siren": 2,
+      "fourier": 0
+    },
+    "m10": {
+      "siren": 0,
+      "fourier": 0
+    }
+  },
+  "global_candidate": {
+    "siren": 0,
+    "fourier": 0
+  },
+  "strongest_family": "fourier",
+  "development_rows": [
+    {
+      "case": "T10",
+      "family": "siren",
+      "candidate": 0,
+      "seed": 910,
+      "score": 78.57631766649932,
+      "evidence": "development\\T10\\siren\\candidate_0\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "1452a392c9b16ac946bf838cc8a31be273e4d3b8f01b9a4dc304a5809942fbe1"
+    },
+    {
+      "case": "T10",
+      "family": "siren",
+      "candidate": 0,
+      "seed": 911,
+      "score": 85.50975089364256,
+      "evidence": "development\\T10\\siren\\candidate_0\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "0404554fe2eb95a04901137e412e17a4fea4f3aec50659bd731ec5ec7a6dd88e"
+    },
+    {
+      "case": "T10",
+      "family": "siren",
+      "candidate": 1,
+      "seed": 910,
+      "score": 79.94682217862155,
+      "evidence": "development\\T10\\siren\\candidate_1\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "3447405b1a3b1fcd08aec051a9ee80e8e2659b7676c4d80d836e42d3ab85724d"
+    },
+    {
+      "case": "T10",
+      "family": "siren",
+      "candidate": 1,
+      "seed": 911,
+      "score": 78.84376276365886,
+      "evidence": "development\\T10\\siren\\candidate_1\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "0ac6f838ddd44166b58d359084341ebd516d9f68603bbdee0817fe428e47006d"
+    },
+    {
+      "case": "T10",
+      "family": "siren",
+      "candidate": 2,
+      "seed": 910,
+      "score": 75.82288789044301,
+      "evidence": "development\\T10\\siren\\candidate_2\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "eb262595c8fb9bb94c33a31bf6abb632a50d2013061b74172b728a8de3cfcc3a"
+    },
+    {
+      "case": "T10",
+      "family": "siren",
+      "candidate": 2,
+      "seed": 911,
+      "score": 75.62521704471764,
+      "evidence": "development\\T10\\siren\\candidate_2\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "22dcee5ca25ec855c3c94f67933d2c7527ea7fc1169706d99389de5e175d283d"
+    },
+    {
+      "case": "T10",
+      "family": "fourier",
+      "candidate": 0,
+      "seed": 910,
+      "score": 71.31697236181431,
+      "evidence": "development\\T10\\fourier\\candidate_0\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "5290d8988a98151230215076612eb18614457cb063f626f5b0e1573e36207cf1"
+    },
+    {
+      "case": "T10",
+      "family": "fourier",
+      "candidate": 0,
+      "seed": 911,
+      "score": 74.5741572516511,
+      "evidence": "development\\T10\\fourier\\candidate_0\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "d0df915ae8d84a64adfcae17a232b4e8a20ff187c0ac612d2063ef6086c04f1d"
+    },
+    {
+      "case": "T10",
+      "family": "fourier",
+      "candidate": 1,
+      "seed": 910,
+      "score": 87.32283954601688,
+      "evidence": "development\\T10\\fourier\\candidate_1\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "cd6ce37362e9873e4a27579192c9f1ea5adb5daeea64731ac0fbb63ecb28df14"
+    },
+    {
+      "case": "T10",
+      "family": "fourier",
+      "candidate": 1,
+      "seed": 911,
+      "score": 68.4655023261563,
+      "evidence": "development\\T10\\fourier\\candidate_1\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "e6460452c39619fb9847e1f32f88353788a0c3b10c3438fb7ef9c155cb9ff234"
+    },
+    {
+      "case": "T10",
+      "family": "fourier",
+      "candidate": 2,
+      "seed": 910,
+      "score": 84.46176169944681,
+      "evidence": "development\\T10\\fourier\\candidate_2\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "51876a77a167c3a3b22ffb34a66df5309553f81a69b6de226f308ef982fd474c"
+    },
+    {
+      "case": "T10",
+      "family": "fourier",
+      "candidate": 2,
+      "seed": 911,
+      "score": 79.00136357902426,
+      "evidence": "development\\T10\\fourier\\candidate_2\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "5de2c656a63cf6f7ee5dd558977fc6d70c327986807e75310ea93d701d4bcf19"
+    },
+    {
+      "case": "m10",
+      "family": "siren",
+      "candidate": 0,
+      "seed": 910,
+      "score": 75.65912495841438,
+      "evidence": "development\\m10\\siren\\candidate_0\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "8c05366e0a4b6c0b16e3128d3131d2aeae4d1f41d864bbf218d86704bfe4391c"
+    },
+    {
+      "case": "m10",
+      "family": "siren",
+      "candidate": 0,
+      "seed": 911,
+      "score": 43.820883611373446,
+      "evidence": "development\\m10\\siren\\candidate_0\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "175aec35d4fdd9d1e5d73bbf3a1291e5cd5dd2d5aa03184713bf9e7e3f1d31a0"
+    },
+    {
+      "case": "m10",
+      "family": "siren",
+      "candidate": 1,
+      "seed": 910,
+      "score": 72.38092073891842,
+      "evidence": "development\\m10\\siren\\candidate_1\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "30f13e183c906c9c13dfae5b65e2180e83ff8d6fb8beaefd5e697876763bb9f1"
+    },
+    {
+      "case": "m10",
+      "family": "siren",
+      "candidate": 1,
+      "seed": 911,
+      "score": 78.07895668578925,
+      "evidence": "development\\m10\\siren\\candidate_1\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "6a2084dbf47416d121d988677f9403e596ed1793e4a08e5c643a7085d798434d"
+    },
+    {
+      "case": "m10",
+      "family": "siren",
+      "candidate": 2,
+      "seed": 910,
+      "score": 74.70803806910375,
+      "evidence": "development\\m10\\siren\\candidate_2\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "208df0243c9575a8a082a7a5676a7f7ed2bb594ae40b364bc505dece073228f2"
+    },
+    {
+      "case": "m10",
+      "family": "siren",
+      "candidate": 2,
+      "seed": 911,
+      "score": 73.16367575389694,
+      "evidence": "development\\m10\\siren\\candidate_2\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "4ee1c280349bd8d27040203a7397c75714d84af3b3235f8121de4ffd176ca4e7"
+    },
+    {
+      "case": "m10",
+      "family": "fourier",
+      "candidate": 0,
+      "seed": 910,
+      "score": 56.66903711781923,
+      "evidence": "development\\m10\\fourier\\candidate_0\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "bab544db7243f3da1fa219e776d73a4e9a39800ae8539e2183c3397310828805"
+    },
+    {
+      "case": "m10",
+      "family": "fourier",
+      "candidate": 0,
+      "seed": 911,
+      "score": 68.29828487882372,
+      "evidence": "development\\m10\\fourier\\candidate_0\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "f376c0c63ad40a782167e11fa203e6137719669cc5e5ee8e38b23f10f33761dc"
+    },
+    {
+      "case": "m10",
+      "family": "fourier",
+      "candidate": 1,
+      "seed": 910,
+      "score": 72.55765903054305,
+      "evidence": "development\\m10\\fourier\\candidate_1\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "1585c621df31893ccba610480bb68d82ead57754400ba3c44e243e45215700f2"
+    },
+    {
+      "case": "m10",
+      "family": "fourier",
+      "candidate": 1,
+      "seed": 911,
+      "score": 67.45857717380426,
+      "evidence": "development\\m10\\fourier\\candidate_1\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "0461f97a7b9875dfc1d11bcc1634fc9ade5e3bbd49345608953d9a4bd9f2cd9b"
+    },
+    {
+      "case": "m10",
+      "family": "fourier",
+      "candidate": 2,
+      "seed": 910,
+      "score": 79.7751093940155,
+      "evidence": "development\\m10\\fourier\\candidate_2\\seed_910\\snapshots\\04000\\metrics.json",
+      "sha256": "76ce870b3806e136fdcff27f841407bfe2b628abd9dbd954cd4a625436dc6151"
+    },
+    {
+      "case": "m10",
+      "family": "fourier",
+      "candidate": 2,
+      "seed": 911,
+      "score": 79.1416489172617,
+      "evidence": "development\\m10\\fourier\\candidate_2\\seed_911\\snapshots\\04000\\metrics.json",
+      "sha256": "538c86e6a50ac3a8754593d4450e421a3aae030a7452829a932559b3c4979906"
+    }
+  ],
+  "no_formal_seed_used": true,
+  "fixed_search_finished": true,
+  "no_extra_candidates": true
+}

@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-09-30T09:24:14.800186+00:00",
+  "scope": "Report-only synthesis: no new training, no re-evaluation or alteration of old metrics, no thresholds changed",
+  "metric_records": 110,
+  "learned_training_runs": 106,
+  "trained_oracles": 2,
+  "untrained_oracles": 2,
+  "optimizer_steps_total": 540000,
+  "required_artifacts_present": 656,
+  "all_trained_runs_complete_5000_steps": true,
+  "all_training_configurations_checked": true,
+  "protected_source_count": 1024,
+  "all_protected_sources_unchanged": true,
+  "original_six_audits_pass": true,
+  "decision_mean_reconciliations": [
+    {
+      "round": "R4",
+      "metric": "spinor",
+      "absolute_difference": 0.0
+    },
+    {
+      "round": "R4",
+      "metric": "current",
+      "absolute_difference": 0.0
+    },
+    {
+      "round": "R4",
+      "metric": "fidelity",
+      "absolute_difference": 0.0
+    },
+    {
+      "round": "R5",
+      "metric": "spinor",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "round": "R5",
+      "metric": "current",
+      "absolute_difference": 0.0
+    },
+    {
+      "round": "R5",
+      "metric": "fidelity",
+      "absolute_difference": 0.0
+    },
+    {
+      "round": "R6",
+      "model": "physical_vanilla",
+      "metric": "spinor",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "round": "R6",
+      "model": "physical_vanilla",
+      "metric": "current",
+      "absolute_difference": 0.0
+    },
+    {
+      "round": "R6",
+      "model": "physical_vanilla",
+      "metric": "fidelity",
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "round": "R6",
+      "model": "coupled_shared_spectral_complex",
+      "metric": "spinor",
+      "absolute_difference": 0.0
+    },
+    {
+      "round": "R6",
+      "model": "coupled_shared_spectral_complex",
+      "metric": "current",
+      "absolute_difference": 0.0
+    },
+    {
+      "round": "R6",
+      "model": "coupled_shared_spectral_complex",
+      "metric": "fidelity",
+      "absolute_difference": 0.0
+    },
+    {
+      "round": "R6",
+      "model": "coupled_shared_spectral_ltpb",
+      "metric": "spinor",
+      "absolute_difference": 0.0
+    },
+    {
+      "round": "R6",
+      "model": "coupled_shared_spectral_ltpb",
+      "metric": "current",
+      "absolute_difference": 0.0
+    },
+    {
+      "round": "R6",
+      "model": "coupled_shared_spectral_ltpb",
+      "metric": "fidelity",
+      "absolute_difference": 1.1102230246251565e-16
+    }
+  ],
+  "local_link_occurrences_checked": 421,
+  "unique_local_links": 338,
+  "missing_links": [],
+  "report_sha256": "77d7fd708dae6bd78ed4ccee4f69b98ad1db914c2ecf23d7d26a678aea7fcb0b",
+  "template_sha256": "c3d9fa492e6050e87112c40d9f242e75dec2c96a7431f509dcbf1f636ffa056a",
+  "builder_sha256": "cd0669e54c3afe1524ea921baae730a6b7952ae559f259f00dc33fda67bfbd33",
+  "figure_count_in_full_index": 45,
+  "embedded_existing_figures": 13,
+  "report_turn_full_pytest": {
+    "tests": 137,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "notes": [
+    "Population SD uses ddof=0; n=1 oracle has no empirical uncertainty estimate.",
+    "Untrained oracle steps=5000 template metadata is preserved natively but counted as zero actual optimizer steps.",
+    "Round-one lambda=1 sensitivity reuses main seed 0 and is not counted as a new run.",
+    "Case P absent-branch phases retained in native JSON but suppressed as physical evidence in this report."
+  ]
+}

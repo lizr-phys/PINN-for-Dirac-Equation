@@ -1,0 +1,100 @@
+{
+  "status": "FULL_DYNAMICS_NOT_ESTABLISHED",
+  "experiment": "r9_wavepacket_periodic_potential",
+  "absolute_success": {
+    "A_carrier_complex": {
+      "complete": true,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": true,
+        "current_rel_l2": true,
+        "fidelity_mean": true,
+        "modal_population_rel_l2": true,
+        "max_norm_drift": true
+      },
+      "means": {
+        "spinor_rel_l2_gauge_aligned": 0.03431315709855666,
+        "current_rel_l2": 0.046358009094185026,
+        "fidelity_mean": 0.9987430918925426,
+        "modal_population_rel_l2": 0.010240285866572541,
+        "max_norm_drift": 0.012487291438874015
+      },
+      "joint_pass_count": 3,
+      "joint_pass_seeds": [
+        300,
+        303,
+        304
+      ],
+      "pass_check": false
+    },
+    "B_complex": {
+      "complete": true,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": false,
+        "current_rel_l2": false,
+        "fidelity_mean": false,
+        "modal_population_rel_l2": false,
+        "max_norm_drift": false
+      },
+      "means": {
+        "spinor_rel_l2_gauge_aligned": 0.9371984253628503,
+        "current_rel_l2": 0.9356546076287012,
+        "fidelity_mean": 0.2836802981467431,
+        "modal_population_rel_l2": 0.947165127868111,
+        "max_norm_drift": 0.9992499326863491
+      },
+      "joint_pass_count": 0,
+      "joint_pass_seeds": [],
+      "pass_check": false
+    },
+    "C_double_complex": {
+      "complete": true,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": false,
+        "current_rel_l2": false,
+        "fidelity_mean": false,
+        "modal_population_rel_l2": false,
+        "max_norm_drift": false
+      },
+      "means": {
+        "spinor_rel_l2_gauge_aligned": 0.9396678792392571,
+        "current_rel_l2": 0.9368099054620307,
+        "fidelity_mean": 0.29220827487676077,
+        "modal_population_rel_l2": 0.9479037796095635,
+        "max_norm_drift": 0.9995876963685524
+      },
+      "joint_pass_count": 0,
+      "joint_pass_seeds": [],
+      "pass_check": false
+    }
+  },
+  "A_advantages": {
+    "B_complex": {
+      "spinor_ratio_of_means": 0.03661247839300606,
+      "current_ratio_of_means": 0.049546070436903594,
+      "both_mean_errors_lower": true,
+      "paired_joint_spinor_current_wins": 5,
+      "additional_advantage_threshold_used": false
+    },
+    "C_double_complex": {
+      "spinor_ratio_of_means": 0.03651626053913447,
+      "current_ratio_of_means": 0.04948496896104173,
+      "both_mean_errors_lower": true,
+      "paired_joint_spinor_current_wins": 5,
+      "additional_advantage_threshold_used": false
+    }
+  },
+  "thresholds": {
+    "spinor_rel_l2_gauge_aligned": 0.1,
+    "current_rel_l2": 0.15,
+    "fidelity_mean": 0.98,
+    "modal_population_rel_l2": 0.1,
+    "max_norm_drift": 0.02
+  },
+  "population_sd_ddof": 0,
+  "final_checkpoint_only": true,
+  "optimization_steps_per_run": 20000,
+  "pretraining_causal_effect_isolated": false,
+  "rescue_models_added": false,
+  "capacity_match_relative_difference": 0.005051682598896401,
+  "scope": "known finite Fourier Gaussian initial spectrum in this weak periodic potential only"
+}

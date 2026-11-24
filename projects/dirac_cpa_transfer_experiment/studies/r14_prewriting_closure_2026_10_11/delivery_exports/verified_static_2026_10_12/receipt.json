@@ -1,0 +1,59 @@
+{
+  "exported_utc": 1791784157.5051572,
+  "status": "THREE_VERIFIED_STATIC_DELIVERY_NAMES_EXPORTED",
+  "exports": [
+    {
+      "source": "history/historical_results_all_native_fields.csv",
+      "target": "historical_results.csv",
+      "sha256": "4840508df2750808acbbe273f729f03172f5564cbbbbddac301efb74a5bce811",
+      "bytes": 1235555,
+      "scope": "528 native rows, aliases and native definitions retained; heterogeneous physics not pooled"
+    },
+    {
+      "source": "references/reference_convergence.csv",
+      "target": "reference_convergence.csv",
+      "sha256": "838adbeb4cb190ee9f75bcff93e323ac606b5b3521b071e6bbcf4c8f4fdc1a5e",
+      "bytes": 1374,
+      "scope": "Six frozen main-reference truncation checks; additional wide-reference diagnostics remain separately archived"
+    },
+    {
+      "source": "engineering/tests_and_recovery.json",
+      "target": "tests_and_recovery.json",
+      "sha256": "b1e0d186f3eb8060c1a685e93d92f57f4a11276245a800a70a244dc4fc4aaca3",
+      "bytes": 2930,
+      "scope": "Specified implementation/gradient/R13-equivalence and short exact-recovery checks; not proof that234 planned training attempts are finished"
+    }
+  ],
+  "source_proof_files": [
+    {
+      "path": "history/unified_history_status.json",
+      "sha256": "c03958874f27d971294378d5ea4c965b167e008af441166884622a07e82a48db"
+    },
+    {
+      "path": "history/canonical_row_traceability_audit.json",
+      "sha256": "1ac1ee9f61cea6d8e4f390878b14ff874f76280e783a7d9a5bdbcad31d31116a"
+    },
+    {
+      "path": "references/calibration.json",
+      "sha256": "cf28981433c350d8372ee8a8c9cb2af440386e9963ae86aeea1be6f1aa72bfe0"
+    },
+    {
+      "path": "frozen/reference_manifest.json",
+      "sha256": "0a2e2e35819bcf403ec28fd3799b9cd727cafc10e6b4092ccfaf2fb3c2b3d32d"
+    },
+    {
+      "path": "engineering/tests_and_recovery.json",
+      "sha256": "b1e0d186f3eb8060c1a685e93d92f57f4a11276245a800a70a244dc4fc4aaca3"
+    }
+  ],
+  "export_code_sha256": "7b4743c21faf463891ed0bbda00329f3457e2ec3dc2d1a8830e60860953f93d9",
+  "design_sha256": "ce26182b607b1e048e32b7ebd931221296fb1be071df34f40826f0a0b4dcdf24",
+  "original_sources_and_R1_R13_not_written": true,
+  "no_training_or_scientific_change": true,
+  "final_history_content_rehash_still_required": true,
+  "full_training_and_remaining_validations_still_required": true,
+  "historical_rows_are_not_new_independent_trials": true,
+  "mixed_historical_cost_definitions_not_assumed_uniform": true,
+  "literature_and_live_result_exports_wait_for_final_stable_sources": true,
+  "whole_goal_complete": false
+}

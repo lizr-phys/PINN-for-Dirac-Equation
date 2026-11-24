@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "inherited_truncation": true,
+  "selected_truncation": [
+    -48,
+    80
+  ],
+  "revalidation": {
+    "smaller": [
+      -48,
+      80
+    ],
+    "larger": [
+      -64,
+      96
+    ],
+    "full_complex_zero_padded_relative_difference": 1.4275682535378713e-08,
+    "lower_eight_layers_max_total_occupation": 1.1544937417352277e-12,
+    "upper_eight_layers_max_total_occupation": 3.481447843356365e-15,
+    "hermiticity_max_abs": 0.0,
+    "norm_max_drift": 8.881784197001252e-16,
+    "reversal_relative_error": 3.589033749545601e-14,
+    "independent_expm_max_relative_error": 3.562018229752711e-14,
+    "spectral_pde_residual_l2_rms": 1.162642485047168e-14,
+    "points": 4001,
+    "convergence_pass": true,
+    "validation_pass": true,
+    "pass_check": true
+  },
+  "relative_difference_from_r9": 2.5043472866345814e-14,
+  "source_reference_sha256": "807ec7a4d681f72e54acbc2eeabc2fcf37ce3ac34450b1b15c477eb6a86777fd",
+  "source_calibration_sha256": "e6540a62290289a7076fa3ee51c6a6093acd9628741229914230d87705dbbbbf",
+  "before_formal_training": true,
+  "no_pinn_based_selection": true
+}

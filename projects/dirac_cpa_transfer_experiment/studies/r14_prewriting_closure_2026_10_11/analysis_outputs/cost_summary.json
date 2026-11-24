@@ -1,0 +1,19 @@
+{
+  "updated_utc": 1791886509.5704768,
+  "status": "AVAILABLE_ATTEMPTS_ONLY",
+  "unique_complete": 191,
+  "unique_preserved_failure": 0,
+  "unique_planned": 234,
+  "whole_study_complete": false,
+  "unique_optimization_wall_seconds_recorded": 874073.8684860191,
+  "unique_optimization_cpu_seconds_recorded": 840960.8125,
+  "recorded_unique_pipeline_seconds": 891808.72555552,
+  "retained_replay_records": 0,
+  "uncheckpointed_replay_wall_seconds_known": 0,
+  "replay_missing_fields_not_assumed_zero": false,
+  "dev_all24_optimization_wall_seconds": 24697.24064179986,
+  "unknown_failed_costs_not_filled_with_zero": true,
+  "optimization_CPU_excludes_imports_IO_and_evaluation_child_CPU": true,
+  "launch_span_from_log_creation_and_complete_mtime_is_observed_lifecycle_not_CPU_consumption": true,
+  "concurrent_training_costs_are_not_isolated_hardware_speedup": true
+}

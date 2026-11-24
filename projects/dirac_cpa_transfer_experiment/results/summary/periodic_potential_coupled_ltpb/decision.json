@@ -1,0 +1,259 @@
+{
+  "classification": "INCONCLUSIVE",
+  "transfer_success": false,
+  "comparative_advantage": false,
+  "absolute_results": {
+    "physical_vanilla": {
+      "pass": false,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": {
+          "mean": 1.393442218434125,
+          "population_sd": 0.0022482795625151123,
+          "operator": "<=",
+          "threshold": 0.1,
+          "pass": false
+        },
+        "current_rel_l2": {
+          "mean": 1.7370776103176873,
+          "population_sd": 0.015651514885547946,
+          "operator": "<=",
+          "threshold": 0.15,
+          "pass": false
+        },
+        "fidelity_mean": {
+          "mean": 0.43281655189411194,
+          "population_sd": 0.0027165404265286947,
+          "operator": ">=",
+          "threshold": 0.98,
+          "pass": false
+        },
+        "modal_population_rel_l2": {
+          "mean": 0.22378021351853813,
+          "population_sd": 0.0004403217628223083,
+          "operator": "<=",
+          "threshold": 0.1,
+          "pass": false
+        },
+        "max_norm_drift": {
+          "mean": 0.020194922401738237,
+          "population_sd": 0.022188860936677404,
+          "operator": "<=",
+          "threshold": 0.02,
+          "pass": false
+        }
+      },
+      "joint_absolute_pass_count": 0,
+      "per_seed_joint_pass": [
+        {
+          "seed": 0,
+          "pass": false
+        },
+        {
+          "seed": 1,
+          "pass": false
+        },
+        {
+          "seed": 2,
+          "pass": false
+        },
+        {
+          "seed": 3,
+          "pass": false
+        },
+        {
+          "seed": 4,
+          "pass": false
+        }
+      ]
+    },
+    "coupled_shared_spectral_complex": {
+      "pass": false,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": {
+          "mean": 0.9742012203481714,
+          "population_sd": 0.006983158720196821,
+          "operator": "<=",
+          "threshold": 0.1,
+          "pass": false
+        },
+        "current_rel_l2": {
+          "mean": 0.9919549087225343,
+          "population_sd": 0.002470759646138347,
+          "operator": "<=",
+          "threshold": 0.15,
+          "pass": false
+        },
+        "fidelity_mean": {
+          "mean": 0.23081435560941693,
+          "population_sd": 0.047079944599079084,
+          "operator": ">=",
+          "threshold": 0.98,
+          "pass": false
+        },
+        "modal_population_rel_l2": {
+          "mean": 0.9552783237223622,
+          "population_sd": 0.0031450223964541164,
+          "operator": "<=",
+          "threshold": 0.1,
+          "pass": false
+        },
+        "max_norm_drift": {
+          "mean": 0.9995634550038334,
+          "population_sd": 0.00026410553880995503,
+          "operator": "<=",
+          "threshold": 0.02,
+          "pass": false
+        }
+      },
+      "joint_absolute_pass_count": 0,
+      "per_seed_joint_pass": [
+        {
+          "seed": 0,
+          "pass": false
+        },
+        {
+          "seed": 1,
+          "pass": false
+        },
+        {
+          "seed": 2,
+          "pass": false
+        },
+        {
+          "seed": 3,
+          "pass": false
+        },
+        {
+          "seed": 4,
+          "pass": false
+        }
+      ]
+    },
+    "coupled_shared_spectral_ltpb": {
+      "pass": false,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": {
+          "mean": 0.3667034635741837,
+          "population_sd": 0.00022008227867676195,
+          "operator": "<=",
+          "threshold": 0.1,
+          "pass": false
+        },
+        "current_rel_l2": {
+          "mean": 0.45612075825693754,
+          "population_sd": 0.0006626731959447537,
+          "operator": "<=",
+          "threshold": 0.15,
+          "pass": false
+        },
+        "fidelity_mean": {
+          "mean": 0.8725271056978088,
+          "population_sd": 0.00012719835932302524,
+          "operator": ">=",
+          "threshold": 0.98,
+          "pass": false
+        },
+        "modal_population_rel_l2": {
+          "mean": 0.21650307120772777,
+          "population_sd": 0.002271399860672762,
+          "operator": "<=",
+          "threshold": 0.1,
+          "pass": false
+        },
+        "max_norm_drift": {
+          "mean": 0.010866456503003618,
+          "population_sd": 0.0037731370951085467,
+          "operator": "<=",
+          "threshold": 0.02,
+          "pass": true
+        }
+      },
+      "joint_absolute_pass_count": 0,
+      "per_seed_joint_pass": [
+        {
+          "seed": 0,
+          "pass": false
+        },
+        {
+          "seed": 1,
+          "pass": false
+        },
+        {
+          "seed": 2,
+          "pass": false
+        },
+        {
+          "seed": 3,
+          "pass": false
+        },
+        {
+          "seed": 4,
+          "pass": false
+        }
+      ]
+    }
+  },
+  "paired_joint_win_count": 5,
+  "paired_seed_comparisons": [
+    {
+      "seed": 0,
+      "spinor_rel_l2_gauge_aligned_ltpb_minus_complex": -0.6086329963482091,
+      "spinor_rel_l2_gauge_aligned_ltpb_over_complex": 0.3761402397600887,
+      "current_rel_l2_ltpb_minus_complex": -0.5380281100839368,
+      "current_rel_l2_ltpb_over_complex": 0.4590926298113372,
+      "joint_win": true
+    },
+    {
+      "seed": 1,
+      "spinor_rel_l2_gauge_aligned_ltpb_minus_complex": -0.5947912386928906,
+      "spinor_rel_l2_gauge_aligned_ltpb_over_complex": 0.3811538380297901,
+      "current_rel_l2_ltpb_minus_complex": -0.5315594735248423,
+      "current_rel_l2_ltpb_over_complex": 0.4615941256990131,
+      "joint_win": true
+    },
+    {
+      "seed": 2,
+      "spinor_rel_l2_gauge_aligned_ltpb_minus_complex": -0.6082110443188941,
+      "spinor_rel_l2_gauge_aligned_ltpb_over_complex": 0.37609716910742375,
+      "current_rel_l2_ltpb_minus_complex": -0.5362310291279537,
+      "current_rel_l2_ltpb_over_complex": 0.4597936282700931,
+      "joint_win": true
+    },
+    {
+      "seed": 3,
+      "spinor_rel_l2_gauge_aligned_ltpb_minus_complex": -0.6108290576478347,
+      "spinor_rel_l2_gauge_aligned_ltpb_over_complex": 0.3751181648858547,
+      "current_rel_l2_ltpb_minus_complex": -0.5359026161494662,
+      "current_rel_l2_ltpb_over_complex": 0.46015854804412964,
+      "joint_win": true
+    },
+    {
+      "seed": 4,
+      "spinor_rel_l2_gauge_aligned_ltpb_minus_complex": -0.6150244468621096,
+      "spinor_rel_l2_gauge_aligned_ltpb_over_complex": 0.3736535653712985,
+      "current_rel_l2_ltpb_minus_complex": -0.5374495234417849,
+      "current_rel_l2_ltpb_over_complex": 0.45847214203419595,
+      "joint_win": true
+    }
+  ],
+  "mean_ratios_and_paired_uncertainty": {
+    "spinor_rel_l2_gauge_aligned": {
+      "ltpb_mean": 0.3667034635741837,
+      "complex_mean": 0.9742012203481714,
+      "ltpb_over_complex": 0.37641449827287937,
+      "complex_over_ltpb": 2.656645810903533,
+      "paired_difference_mean": -0.6074977567739877,
+      "paired_difference_population_sd": 0.006797084359526062
+    },
+    "current_rel_l2": {
+      "ltpb_mean": 0.45612075825693754,
+      "complex_mean": 0.9919549087225343,
+      "ltpb_over_complex": 0.45982005255091873,
+      "complex_over_ltpb": 2.1747637895571414,
+      "paired_difference_mean": -0.5358341504655968,
+      "paired_difference_population_sd": 0.0022741130943479994
+    }
+  },
+  "uncertainty_definition": "Population SD across the five paired seed differences; no significance claim",
+  "rescue_models_trained": false
+}

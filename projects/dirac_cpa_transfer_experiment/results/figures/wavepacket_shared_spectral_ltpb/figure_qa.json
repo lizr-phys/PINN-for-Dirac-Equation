@@ -1,0 +1,262 @@
+{
+  "experiment": "wavepacket_shared_spectral_ltpb",
+  "status": "PASS",
+  "backend": "Python/matplotlib",
+  "automated_checks_passed": true,
+  "manual_visual_review_passed": true,
+  "figure_count": 9,
+  "figures": [
+    {
+      "id": "primary_error_comparison",
+      "status": "PASS",
+      "source_rows": 100,
+      "outputs": {
+        "png": {
+          "bytes": 332430,
+          "sha256": "11883121df18fff3b6a79cba3ee12d00cc78e8294ff779af6823e3fd51117f12",
+          "width_px": 4321,
+          "height_px": 1490,
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "svg": {
+          "bytes": 95608,
+          "sha256": "e9a962c55cebf1940059e6cf31197406f79fe3093e72947055135bc5d03c28be"
+        },
+        "pdf": {
+          "bytes": 58978,
+          "sha256": "275682a00d87d70c84128d6956cd63c375353308ec84c1a05714d1e9ccbb56fd"
+        }
+      },
+      "pdf_render_preview": "E:/PINN for Quantum Physics/dirac_cpa_transfer_experiment/tmp/pdfs/wavepacket_shared_spectral_ltpb/primary_error_comparison.png",
+      "problems": []
+    },
+    {
+      "id": "per_seed_results",
+      "status": "PASS",
+      "source_rows": 75,
+      "outputs": {
+        "png": {
+          "bytes": 249498,
+          "sha256": "da325452158dd80a5123e6843adffec5423e5246bf5fbf1837f5f1bbdf425d63",
+          "width_px": 4410,
+          "height_px": 1650,
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "svg": {
+          "bytes": 52166,
+          "sha256": "3529b78f4c91ccbdceed709c43bb8c16c254f072c4cc15d995f247fc8ab544f1"
+        },
+        "pdf": {
+          "bytes": 45494,
+          "sha256": "21cfe5a405bc66a6b04745fd5e1f99935bc554bc5ec320e00224576931d13ab7"
+        }
+      },
+      "pdf_render_preview": "E:/PINN for Quantum Physics/dirac_cpa_transfer_experiment/tmp/pdfs/wavepacket_shared_spectral_ltpb/per_seed_results.png",
+      "problems": []
+    },
+    {
+      "id": "wavepacket_density_spacetime",
+      "status": "PASS",
+      "source_rows": 51456,
+      "outputs": {
+        "png": {
+          "bytes": 229452,
+          "sha256": "5d4e7ca69a72941a9266c395d5624357bdd56f7d039ec83175e1531892b81746",
+          "width_px": 4404,
+          "height_px": 1588,
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "svg": {
+          "bytes": 59755,
+          "sha256": "2e4d0c89c0c59f26e1f9dea7ce1c93e810b972c5eddf372c9080a83fffea4e9f"
+        },
+        "pdf": {
+          "bytes": 69083,
+          "sha256": "611bfdf9dec349f0a5b64f9c9445d79e0c96aa9331438b09f77283f9e628cb5c"
+        }
+      },
+      "pdf_render_preview": "E:/PINN for Quantum Physics/dirac_cpa_transfer_experiment/tmp/pdfs/wavepacket_shared_spectral_ltpb/wavepacket_density_spacetime.png",
+      "problems": []
+    },
+    {
+      "id": "wavepacket_current_spacetime",
+      "status": "PASS",
+      "source_rows": 51456,
+      "outputs": {
+        "png": {
+          "bytes": 249997,
+          "sha256": "7aa12ea0f730ccb505ca27da7710df73fcb35661af9a0d7c1ab53f06174a06dd",
+          "width_px": 4404,
+          "height_px": 1588,
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "svg": {
+          "bytes": 80072,
+          "sha256": "3da729437902e433c3bd458cbaae976ee4f91cc4c00f79ebb28cad8a8a070f35"
+        },
+        "pdf": {
+          "bytes": 80551,
+          "sha256": "3c1a87ae811550294d36d69d217afd577c0776167684cd3e822caa6910ee02c6"
+        }
+      },
+      "pdf_render_preview": "E:/PINN for Quantum Physics/dirac_cpa_transfer_experiment/tmp/pdfs/wavepacket_shared_spectral_ltpb/wavepacket_current_spacetime.png",
+      "problems": []
+    },
+    {
+      "id": "branch_center_width",
+      "status": "PASS",
+      "source_rows": 2010,
+      "outputs": {
+        "png": {
+          "bytes": 325810,
+          "sha256": "0a813d8d6bd820c7dd6a1dce1798d7ec5f4b49d4e4c63a53af4b40655a4d2447",
+          "width_px": 4266,
+          "height_px": 1620,
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "svg": {
+          "bytes": 69501,
+          "sha256": "c440063d2fa6b7a147fd78824236cb05db313ce172374c48ffabeddd3f36b355"
+        },
+        "pdf": {
+          "bytes": 53103,
+          "sha256": "922de17c62c5c4e8534e674274c88384807df8185d52ce2dd03c8872c9f83a91"
+        }
+      },
+      "pdf_render_preview": "E:/PINN for Quantum Physics/dirac_cpa_transfer_experiment/tmp/pdfs/wavepacket_shared_spectral_ltpb/branch_center_width.png",
+      "problems": []
+    },
+    {
+      "id": "phase_slope_train_midpoint",
+      "status": "PASS",
+      "source_rows": 650,
+      "outputs": {
+        "png": {
+          "bytes": 566335,
+          "sha256": "ec28612e7014ddd6adf992520c79ba6c20b738f92c59a4e6163f92b6246f1f30",
+          "width_px": 4312,
+          "height_px": 2644,
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "svg": {
+          "bytes": 241511,
+          "sha256": "88e5b3ef58106eb0ab8d63adc3f54b14ebb9e0386dbe1121db64cfa37f23bfd8"
+        },
+        "pdf": {
+          "bytes": 60099,
+          "sha256": "64e076a1276ab80ba9344e2cc0b9ca9a146c308da8e84e97174cc26cd8aa905f"
+        }
+      },
+      "pdf_render_preview": "E:/PINN for Quantum Physics/dirac_cpa_transfer_experiment/tmp/pdfs/wavepacket_shared_spectral_ltpb/phase_slope_train_midpoint.png",
+      "problems": []
+    },
+    {
+      "id": "spectral_coefficient_errors",
+      "status": "PASS",
+      "source_rows": 66330,
+      "outputs": {
+        "png": {
+          "bytes": 470380,
+          "sha256": "9a00933e2226c8f7c4e8b8d4ef62e5c49c26a287f5f1c110f7f344191e303606",
+          "width_px": 4397,
+          "height_px": 2817,
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "svg": {
+          "bytes": 127679,
+          "sha256": "8089e72fb6e9c9b63cced8b0503510d3eb7661750616d1f0d63c579adfaa39fc"
+        },
+        "pdf": {
+          "bytes": 105144,
+          "sha256": "3286b4bb633e16573d0ffa1c50e61645d0b2b9eae3e31266ab461eace6a684a4"
+        }
+      },
+      "pdf_render_preview": "E:/PINN for Quantum Physics/dirac_cpa_transfer_experiment/tmp/pdfs/wavepacket_shared_spectral_ltpb/spectral_coefficient_errors.png",
+      "problems": []
+    },
+    {
+      "id": "training_curves",
+      "status": "PASS",
+      "source_rows": 12525,
+      "outputs": {
+        "png": {
+          "bytes": 588653,
+          "sha256": "db6c6b2d0c4ccb5c2bad09026509323edc277c500ad54f4ac0e4889ef2966dd0",
+          "width_px": 3111,
+          "height_px": 1782,
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "svg": {
+          "bytes": 488219,
+          "sha256": "dad3b8c81af6e3eb4eefac5ae682c44c36ed7f56a8eca791d91ea53f6ca7390e"
+        },
+        "pdf": {
+          "bytes": 166552,
+          "sha256": "4687d40f28b41d9340c73040174d22b8d37ba530ddaa2361097be7ae6447d0c8"
+        }
+      },
+      "pdf_render_preview": "E:/PINN for Quantum Physics/dirac_cpa_transfer_experiment/tmp/pdfs/wavepacket_shared_spectral_ltpb/training_curves.png",
+      "problems": []
+    },
+    {
+      "id": "accuracy_time_memory",
+      "status": "PASS",
+      "source_rows": 25,
+      "outputs": {
+        "png": {
+          "bytes": 236453,
+          "sha256": "f77bc833b0ffee17c77fbe597838c742dd0e855fb163d6bc8802014f09e81e22",
+          "width_px": 4325,
+          "height_px": 1750,
+          "dpi": [
+            599.9988,
+            599.9988
+          ]
+        },
+        "svg": {
+          "bytes": 42140,
+          "sha256": "8a149ddfab03a89190feb490a834aad0f2e0273e283bab78bbdd77b99b76047b"
+        },
+        "pdf": {
+          "bytes": 46916,
+          "sha256": "9c9fd44f480be183443f3e47986baa13bd3b3a39aec7453c9e12cb3ed9a60539"
+        }
+      },
+      "pdf_render_preview": "E:/PINN for Quantum Physics/dirac_cpa_transfer_experiment/tmp/pdfs/wavepacket_shared_spectral_ltpb/accuracy_time_memory.png",
+      "problems": []
+    }
+  ],
+  "problems": [],
+  "qa_contract": {
+    "source_data_traceable": true,
+    "png_dimensions_checked": true,
+    "svg_editable_text_checked": true,
+    "pdf_rendered_with_poppler": true,
+    "pdf_selectable_text_checked": true,
+    "visual_review_scope": "clipping, overlap, labels, colorbars, legends, panel hierarchy, heatmap comparability, and consistency with the stated conclusion"
+  }
+}

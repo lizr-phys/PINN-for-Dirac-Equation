@@ -1,0 +1,349 @@
+{
+  "analytic_thresholds": {
+    "continuity": true,
+    "current_oscillation": true,
+    "eigen_equation": true,
+    "energy": true,
+    "norm": true,
+    "pde": true
+  },
+  "config_checks": [
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    },
+    {
+      "T": true,
+      "case": true,
+      "collocation": true,
+      "dtype": true,
+      "hidden_layers": true,
+      "hidden_width": true,
+      "k": true,
+      "m": true,
+      "model": true,
+      "seed": true,
+      "steps": true
+    }
+  ],
+  "counts": {
+    "figure_exports": 24,
+    "figure_groups": 8,
+    "main_config_checks": 20,
+    "main_runs": 20,
+    "sensitivity_rows_including_reuse": 3,
+    "summary_rows": 23
+  },
+  "dirac_pinn_simple_sha256": {
+    "README.md": "3473A1932AD49A0D9D34A57405E4B95C67E7E6A78BD3782D0A7F890C082E64BE",
+    "main.py": "A5201276944CD5707B0FDC75BCD5887494BD91F7D04AC48F667A00F2928AA67E"
+  },
+  "expected_dirac_pinn_simple_sha256": {
+    "README.md": "3473A1932AD49A0D9D34A57405E4B95C67E7E6A78BD3782D0A7F890C082E64BE",
+    "main.py": "A5201276944CD5707B0FDC75BCD5887494BD91F7D04AC48F667A00F2928AA67E"
+  },
+  "failures": [],
+  "figure_checks": [
+    {
+      "name": "01_main_metric_comparison",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 67
+    },
+    {
+      "name": "02_case_M_current_x0",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 21
+    },
+    {
+      "name": "03_case_M_relative_phase_x0",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 20
+    },
+    {
+      "name": "04_case_M_spacetime_error_maps",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 88
+    },
+    {
+      "name": "05_case_M_conservation_diagnostics",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 51
+    },
+    {
+      "name": "06_training_loss_curves",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 79
+    },
+    {
+      "name": "07_lambda_struct_sensitivity",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 60
+    },
+    {
+      "name": "08_gradient_cosine_similarity",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 28
+    }
+  ],
+  "report_complete": true,
+  "status": "PASS"
+}

@@ -1,0 +1,18 @@
+{
+  "protocol_version": 5,
+  "completed_base_dirac_runs": 8,
+  "failed_case": "base/dirac/state_0/derivative/seed_8",
+  "failure": "Energy rounded to E=m, kappa=0, followed by nonfinite derivative gradients",
+  "initial_energy": 0.9,
+  "checkpoint_and_history": "results/formal/base/dirac/state_0/derivative/seed_8",
+  "nonfinite_model_parameters": [
+    "raw_energy",
+    "net.0.weight",
+    "net.0.bias",
+    "net.2.weight",
+    "net.2.bias",
+    "net.4.weight",
+    "net.4.bias"
+  ],
+  "retention": "Unmodified v5 raw run and frozen sources retained; final v6 campaign is rerun in full with one physics-only mid-gap retry rule."
+}

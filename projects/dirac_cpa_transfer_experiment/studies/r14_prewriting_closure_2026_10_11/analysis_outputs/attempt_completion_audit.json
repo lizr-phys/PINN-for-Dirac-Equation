@@ -1,0 +1,7590 @@
+{
+  "updated_utc": 1791886115.6009357,
+  "status": "INCOMPLETE",
+  "planned_development": 24,
+  "planned_formal": 210,
+  "counts": {
+    "development": {
+      "COMPLETE_VERIFIED": 24,
+      "FAILURE_PRESERVED": 0,
+      "INCOMPLETE": 0,
+      "INVALID_COMPLETION": 0,
+      "INVALID_FAILURE": 0
+    },
+    "core": {
+      "COMPLETE_VERIFIED": 165,
+      "FAILURE_PRESERVED": 0,
+      "INCOMPLETE": 0,
+      "INVALID_COMPLETION": 0,
+      "INVALID_FAILURE": 0
+    },
+    "extension": {
+      "COMPLETE_VERIFIED": 1,
+      "FAILURE_PRESERVED": 0,
+      "INCOMPLETE": 44,
+      "INVALID_COMPLETION": 0,
+      "INVALID_FAILURE": 0
+    }
+  },
+  "unexpected_attempts": [],
+  "all_training_attempts_verified": false,
+  "entire_evidence_package_complete": false,
+  "failure_is_not_success": true,
+  "missing_endpoint_is_not_complete": true,
+  "rows": [
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "siren",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/T10/siren/candidate_0/seed_910",
+      "candidate": 0,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "siren",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/T10/siren/candidate_0/seed_911",
+      "candidate": 0,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "siren",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/T10/siren/candidate_1/seed_910",
+      "candidate": 1,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "siren",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/T10/siren/candidate_1/seed_911",
+      "candidate": 1,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "siren",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/T10/siren/candidate_2/seed_910",
+      "candidate": 2,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "siren",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/T10/siren/candidate_2/seed_911",
+      "candidate": 2,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/T10/fourier/candidate_0/seed_910",
+      "candidate": 0,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/T10/fourier/candidate_0/seed_911",
+      "candidate": 0,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/T10/fourier/candidate_1/seed_910",
+      "candidate": 1,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/T10/fourier/candidate_1/seed_911",
+      "candidate": 1,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/T10/fourier/candidate_2/seed_910",
+      "candidate": 2,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/T10/fourier/candidate_2/seed_911",
+      "candidate": 2,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "siren",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/m10/siren/candidate_0/seed_910",
+      "candidate": 0,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "siren",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/m10/siren/candidate_0/seed_911",
+      "candidate": 0,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "siren",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/m10/siren/candidate_1/seed_910",
+      "candidate": 1,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "siren",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/m10/siren/candidate_1/seed_911",
+      "candidate": 1,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "siren",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/m10/siren/candidate_2/seed_910",
+      "candidate": 2,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "siren",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/m10/siren/candidate_2/seed_911",
+      "candidate": 2,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/m10/fourier/candidate_0/seed_910",
+      "candidate": 0,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/m10/fourier/candidate_0/seed_911",
+      "candidate": 0,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/m10/fourier/candidate_1/seed_910",
+      "candidate": 1,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/m10/fourier/candidate_1/seed_911",
+      "candidate": 1,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 910,
+      "budget": 4000,
+      "directory": "development/m10/fourier/candidate_2/seed_910",
+      "candidate": 2,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "development",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 911,
+      "budget": 4000,
+      "directory": "development/m10/fourier/candidate_2/seed_911",
+      "candidate": 2,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 1,
+      "prescribed_snapshots": 1,
+      "snapshot_checks": [
+        {
+          "step": 4000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "T10",
+      "kind": "original",
+      "seed": 810,
+      "budget": 6000,
+      "directory": "formal/carriers/T10/original/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "T10",
+      "kind": "static_frequency",
+      "seed": 810,
+      "budget": 6000,
+      "directory": "formal/carriers/T10/static_frequency/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "original_pde",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/original_pde/seed_810",
+      "source": "formal/carriers/T10/original/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "static_pde",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/static_pde/seed_810",
+      "source": "formal/carriers/T10/static_frequency/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "original_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/original_hard/seed_810",
+      "source": "formal/carriers/T10/original/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "learned_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/learned_hard/seed_810",
+      "source": "formal/carriers/T10/static_frequency/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "analytic_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/analytic_hard/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "joint_hard",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/joint_hard/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "no_carrier_hard",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/no_carrier_hard/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "siren",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/siren/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/fourier/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "T10",
+      "kind": "original",
+      "seed": 811,
+      "budget": 6000,
+      "directory": "formal/carriers/T10/original/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "T10",
+      "kind": "static_frequency",
+      "seed": 811,
+      "budget": 6000,
+      "directory": "formal/carriers/T10/static_frequency/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "original_pde",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/original_pde/seed_811",
+      "source": "formal/carriers/T10/original/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "static_pde",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/static_pde/seed_811",
+      "source": "formal/carriers/T10/static_frequency/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "original_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/original_hard/seed_811",
+      "source": "formal/carriers/T10/original/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "learned_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/learned_hard/seed_811",
+      "source": "formal/carriers/T10/static_frequency/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "analytic_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/analytic_hard/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "joint_hard",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/joint_hard/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "no_carrier_hard",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/no_carrier_hard/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "siren",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/siren/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/fourier/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "T10",
+      "kind": "original",
+      "seed": 812,
+      "budget": 6000,
+      "directory": "formal/carriers/T10/original/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "T10",
+      "kind": "static_frequency",
+      "seed": 812,
+      "budget": 6000,
+      "directory": "formal/carriers/T10/static_frequency/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "original_pde",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/original_pde/seed_812",
+      "source": "formal/carriers/T10/original/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "static_pde",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/static_pde/seed_812",
+      "source": "formal/carriers/T10/static_frequency/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "original_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/original_hard/seed_812",
+      "source": "formal/carriers/T10/original/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "learned_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/learned_hard/seed_812",
+      "source": "formal/carriers/T10/static_frequency/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "analytic_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/analytic_hard/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "joint_hard",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/joint_hard/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "no_carrier_hard",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/no_carrier_hard/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "siren",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/siren/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/fourier/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "T10",
+      "kind": "original",
+      "seed": 813,
+      "budget": 6000,
+      "directory": "formal/carriers/T10/original/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "T10",
+      "kind": "static_frequency",
+      "seed": 813,
+      "budget": 6000,
+      "directory": "formal/carriers/T10/static_frequency/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "original_pde",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/original_pde/seed_813",
+      "source": "formal/carriers/T10/original/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "static_pde",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/static_pde/seed_813",
+      "source": "formal/carriers/T10/static_frequency/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "original_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/original_hard/seed_813",
+      "source": "formal/carriers/T10/original/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "learned_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/learned_hard/seed_813",
+      "source": "formal/carriers/T10/static_frequency/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "analytic_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/analytic_hard/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "joint_hard",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/joint_hard/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "no_carrier_hard",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/no_carrier_hard/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "siren",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/siren/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/fourier/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "T10",
+      "kind": "original",
+      "seed": 814,
+      "budget": 6000,
+      "directory": "formal/carriers/T10/original/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "T10",
+      "kind": "static_frequency",
+      "seed": 814,
+      "budget": 6000,
+      "directory": "formal/carriers/T10/static_frequency/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "original_pde",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/original_pde/seed_814",
+      "source": "formal/carriers/T10/original/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "static_pde",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/static_pde/seed_814",
+      "source": "formal/carriers/T10/static_frequency/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "original_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/original_hard/seed_814",
+      "source": "formal/carriers/T10/original/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "learned_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/learned_hard/seed_814",
+      "source": "formal/carriers/T10/static_frequency/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "analytic_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/T10/analytic_hard/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "joint_hard",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/joint_hard/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "no_carrier_hard",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/no_carrier_hard/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "siren",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/siren/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "T10",
+      "group": "fourier",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/T10/fourier/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m10",
+      "kind": "original",
+      "seed": 810,
+      "budget": 6000,
+      "directory": "formal/carriers/m10/original/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m10",
+      "kind": "static_frequency",
+      "seed": 810,
+      "budget": 6000,
+      "directory": "formal/carriers/m10/static_frequency/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "original_pde",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/original_pde/seed_810",
+      "source": "formal/carriers/m10/original/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "static_pde",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/static_pde/seed_810",
+      "source": "formal/carriers/m10/static_frequency/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "original_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/original_hard/seed_810",
+      "source": "formal/carriers/m10/original/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "learned_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/learned_hard/seed_810",
+      "source": "formal/carriers/m10/static_frequency/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "analytic_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/analytic_hard/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "joint_hard",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/joint_hard/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "no_carrier_hard",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/no_carrier_hard/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "siren",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/siren/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/fourier/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m10",
+      "kind": "original",
+      "seed": 811,
+      "budget": 6000,
+      "directory": "formal/carriers/m10/original/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m10",
+      "kind": "static_frequency",
+      "seed": 811,
+      "budget": 6000,
+      "directory": "formal/carriers/m10/static_frequency/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "original_pde",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/original_pde/seed_811",
+      "source": "formal/carriers/m10/original/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "static_pde",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/static_pde/seed_811",
+      "source": "formal/carriers/m10/static_frequency/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "original_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/original_hard/seed_811",
+      "source": "formal/carriers/m10/original/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "learned_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/learned_hard/seed_811",
+      "source": "formal/carriers/m10/static_frequency/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "analytic_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/analytic_hard/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "joint_hard",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/joint_hard/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "no_carrier_hard",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/no_carrier_hard/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "siren",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/siren/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/fourier/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m10",
+      "kind": "original",
+      "seed": 812,
+      "budget": 6000,
+      "directory": "formal/carriers/m10/original/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m10",
+      "kind": "static_frequency",
+      "seed": 812,
+      "budget": 6000,
+      "directory": "formal/carriers/m10/static_frequency/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "original_pde",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/original_pde/seed_812",
+      "source": "formal/carriers/m10/original/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "static_pde",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/static_pde/seed_812",
+      "source": "formal/carriers/m10/static_frequency/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "original_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/original_hard/seed_812",
+      "source": "formal/carriers/m10/original/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "learned_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/learned_hard/seed_812",
+      "source": "formal/carriers/m10/static_frequency/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "analytic_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/analytic_hard/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "joint_hard",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/joint_hard/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "no_carrier_hard",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/no_carrier_hard/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "siren",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/siren/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/fourier/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m10",
+      "kind": "original",
+      "seed": 813,
+      "budget": 6000,
+      "directory": "formal/carriers/m10/original/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m10",
+      "kind": "static_frequency",
+      "seed": 813,
+      "budget": 6000,
+      "directory": "formal/carriers/m10/static_frequency/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "original_pde",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/original_pde/seed_813",
+      "source": "formal/carriers/m10/original/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "static_pde",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/static_pde/seed_813",
+      "source": "formal/carriers/m10/static_frequency/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "original_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/original_hard/seed_813",
+      "source": "formal/carriers/m10/original/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "learned_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/learned_hard/seed_813",
+      "source": "formal/carriers/m10/static_frequency/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "analytic_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/analytic_hard/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "joint_hard",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/joint_hard/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "no_carrier_hard",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/no_carrier_hard/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "siren",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/siren/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/fourier/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m10",
+      "kind": "original",
+      "seed": 814,
+      "budget": 6000,
+      "directory": "formal/carriers/m10/original/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m10",
+      "kind": "static_frequency",
+      "seed": 814,
+      "budget": 6000,
+      "directory": "formal/carriers/m10/static_frequency/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "original_pde",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/original_pde/seed_814",
+      "source": "formal/carriers/m10/original/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "static_pde",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/static_pde/seed_814",
+      "source": "formal/carriers/m10/static_frequency/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "original_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/original_hard/seed_814",
+      "source": "formal/carriers/m10/original/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "learned_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/learned_hard/seed_814",
+      "source": "formal/carriers/m10/static_frequency/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "analytic_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/m10/analytic_hard/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "joint_hard",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/joint_hard/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "no_carrier_hard",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/no_carrier_hard/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "siren",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/siren/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m10",
+      "group": "fourier",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/m10/fourier/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m5T5",
+      "kind": "original",
+      "seed": 810,
+      "budget": 6000,
+      "directory": "formal/carriers/m5T5/original/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m5T5",
+      "kind": "static_frequency",
+      "seed": 810,
+      "budget": 6000,
+      "directory": "formal/carriers/m5T5/static_frequency/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "original_pde",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/original_pde/seed_810",
+      "source": "formal/carriers/m5T5/original/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "static_pde",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/static_pde/seed_810",
+      "source": "formal/carriers/m5T5/static_frequency/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "original_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/original_hard/seed_810",
+      "source": "formal/carriers/m5T5/original/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "learned_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/learned_hard/seed_810",
+      "source": "formal/carriers/m5T5/static_frequency/seed_810",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "analytic_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/analytic_hard/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "joint_hard",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/joint_hard/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "no_carrier_hard",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/no_carrier_hard/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "siren",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/siren/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "fourier",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/fourier/seed_810",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m5T5",
+      "kind": "original",
+      "seed": 811,
+      "budget": 6000,
+      "directory": "formal/carriers/m5T5/original/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m5T5",
+      "kind": "static_frequency",
+      "seed": 811,
+      "budget": 6000,
+      "directory": "formal/carriers/m5T5/static_frequency/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "original_pde",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/original_pde/seed_811",
+      "source": "formal/carriers/m5T5/original/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "static_pde",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/static_pde/seed_811",
+      "source": "formal/carriers/m5T5/static_frequency/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "original_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/original_hard/seed_811",
+      "source": "formal/carriers/m5T5/original/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "learned_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/learned_hard/seed_811",
+      "source": "formal/carriers/m5T5/static_frequency/seed_811",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "analytic_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/analytic_hard/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "joint_hard",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/joint_hard/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "no_carrier_hard",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/no_carrier_hard/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "siren",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/siren/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "fourier",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/fourier/seed_811",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m5T5",
+      "kind": "original",
+      "seed": 812,
+      "budget": 6000,
+      "directory": "formal/carriers/m5T5/original/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m5T5",
+      "kind": "static_frequency",
+      "seed": 812,
+      "budget": 6000,
+      "directory": "formal/carriers/m5T5/static_frequency/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "original_pde",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/original_pde/seed_812",
+      "source": "formal/carriers/m5T5/original/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "static_pde",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/static_pde/seed_812",
+      "source": "formal/carriers/m5T5/static_frequency/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "original_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/original_hard/seed_812",
+      "source": "formal/carriers/m5T5/original/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "learned_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/learned_hard/seed_812",
+      "source": "formal/carriers/m5T5/static_frequency/seed_812",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "analytic_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/analytic_hard/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "joint_hard",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/joint_hard/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "no_carrier_hard",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/no_carrier_hard/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "siren",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/siren/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "fourier",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/fourier/seed_812",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m5T5",
+      "kind": "original",
+      "seed": 813,
+      "budget": 6000,
+      "directory": "formal/carriers/m5T5/original/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m5T5",
+      "kind": "static_frequency",
+      "seed": 813,
+      "budget": 6000,
+      "directory": "formal/carriers/m5T5/static_frequency/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "original_pde",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/original_pde/seed_813",
+      "source": "formal/carriers/m5T5/original/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "static_pde",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/static_pde/seed_813",
+      "source": "formal/carriers/m5T5/static_frequency/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "original_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/original_hard/seed_813",
+      "source": "formal/carriers/m5T5/original/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "learned_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/learned_hard/seed_813",
+      "source": "formal/carriers/m5T5/static_frequency/seed_813",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "analytic_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/analytic_hard/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "joint_hard",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/joint_hard/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "no_carrier_hard",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/no_carrier_hard/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "siren",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/siren/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "fourier",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/fourier/seed_813",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m5T5",
+      "kind": "original",
+      "seed": 814,
+      "budget": 6000,
+      "directory": "formal/carriers/m5T5/original/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "carrier",
+      "stage": "core",
+      "case": "m5T5",
+      "kind": "static_frequency",
+      "seed": 814,
+      "budget": 6000,
+      "directory": "formal/carriers/m5T5/static_frequency/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 3,
+      "snapshot_checks": [
+        {
+          "step": 1000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 3000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 6000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "original_pde",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/original_pde/seed_814",
+      "source": "formal/carriers/m5T5/original/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "static_pde",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/static_pde/seed_814",
+      "source": "formal/carriers/m5T5/static_frequency/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "original_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/original_hard/seed_814",
+      "source": "formal/carriers/m5T5/original/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "learned_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/learned_hard/seed_814",
+      "source": "formal/carriers/m5T5/static_frequency/seed_814",
+      "reuse_source": false,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "analytic_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/m5T5/analytic_hard/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "joint_hard",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/joint_hard/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "no_carrier_hard",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/no_carrier_hard/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "siren",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/siren/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "core",
+      "case": "m5T5",
+      "group": "fourier",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/m5T5/fourier/seed_814",
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 5,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "learned_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/V04/learned_hard/seed_810",
+      "source": "formal/carriers/m5T5/static_frequency/seed_810",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 2,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "analytic_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/V04/analytic_hard/seed_810",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "fourier",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/V04/fourier/seed_810",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "learned_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/V04/learned_hard/seed_811",
+      "source": "formal/carriers/m5T5/static_frequency/seed_811",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "analytic_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/V04/analytic_hard/seed_811",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "fourier",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/V04/fourier/seed_811",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "learned_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/V04/learned_hard/seed_812",
+      "source": "formal/carriers/m5T5/static_frequency/seed_812",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "analytic_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/V04/analytic_hard/seed_812",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "fourier",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/V04/fourier/seed_812",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "learned_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/V04/learned_hard/seed_813",
+      "source": "formal/carriers/m5T5/static_frequency/seed_813",
+      "reuse_source": true,
+      "state": "COMPLETE_VERIFIED",
+      "terminal_artifacts_verified": true,
+      "available_snapshots": 4,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "analytic_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/V04/analytic_hard/seed_813",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "fourier",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/V04/fourier/seed_813",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "learned_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/V04/learned_hard/seed_814",
+      "source": "formal/carriers/m5T5/static_frequency/seed_814",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "analytic_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/V04/analytic_hard/seed_814",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 3,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": true
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "V04",
+      "group": "fourier",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/V04/fourier/seed_814",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "learned_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/two_harmonics/learned_hard/seed_810",
+      "source": "formal/carriers/m5T5/static_frequency/seed_810",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "analytic_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/two_harmonics/analytic_hard/seed_810",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "fourier",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/two_harmonics/fourier/seed_810",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "learned_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/two_harmonics/learned_hard/seed_811",
+      "source": "formal/carriers/m5T5/static_frequency/seed_811",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "analytic_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/two_harmonics/analytic_hard/seed_811",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "fourier",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/two_harmonics/fourier/seed_811",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "learned_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/two_harmonics/learned_hard/seed_812",
+      "source": "formal/carriers/m5T5/static_frequency/seed_812",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "analytic_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/two_harmonics/analytic_hard/seed_812",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "fourier",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/two_harmonics/fourier/seed_812",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "learned_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/two_harmonics/learned_hard/seed_813",
+      "source": "formal/carriers/m5T5/static_frequency/seed_813",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "analytic_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/two_harmonics/analytic_hard/seed_813",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "fourier",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/two_harmonics/fourier/seed_813",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "learned_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/two_harmonics/learned_hard/seed_814",
+      "source": "formal/carriers/m5T5/static_frequency/seed_814",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "analytic_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/two_harmonics/analytic_hard/seed_814",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "two_harmonics",
+      "group": "fourier",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/two_harmonics/fourier/seed_814",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "learned_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/chirped/learned_hard/seed_810",
+      "source": "formal/carriers/m5T5/static_frequency/seed_810",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "analytic_hard",
+      "seed": 810,
+      "budget": 20000,
+      "directory": "formal/coupled/chirped/analytic_hard/seed_810",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "fourier",
+      "seed": 810,
+      "budget": 26000,
+      "directory": "formal/coupled/chirped/fourier/seed_810",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "learned_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/chirped/learned_hard/seed_811",
+      "source": "formal/carriers/m5T5/static_frequency/seed_811",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "analytic_hard",
+      "seed": 811,
+      "budget": 20000,
+      "directory": "formal/coupled/chirped/analytic_hard/seed_811",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "fourier",
+      "seed": 811,
+      "budget": 26000,
+      "directory": "formal/coupled/chirped/fourier/seed_811",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "learned_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/chirped/learned_hard/seed_812",
+      "source": "formal/carriers/m5T5/static_frequency/seed_812",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "analytic_hard",
+      "seed": 812,
+      "budget": 20000,
+      "directory": "formal/coupled/chirped/analytic_hard/seed_812",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "fourier",
+      "seed": 812,
+      "budget": 26000,
+      "directory": "formal/coupled/chirped/fourier/seed_812",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "learned_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/chirped/learned_hard/seed_813",
+      "source": "formal/carriers/m5T5/static_frequency/seed_813",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "analytic_hard",
+      "seed": 813,
+      "budget": 20000,
+      "directory": "formal/coupled/chirped/analytic_hard/seed_813",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "fourier",
+      "seed": 813,
+      "budget": 26000,
+      "directory": "formal/coupled/chirped/fourier/seed_813",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "learned_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/chirped/learned_hard/seed_814",
+      "source": "formal/carriers/m5T5/static_frequency/seed_814",
+      "reuse_source": true,
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "analytic_hard",
+      "seed": 814,
+      "budget": 20000,
+      "directory": "formal/coupled/chirped/analytic_hard/seed_814",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 4,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "type": "coupled",
+      "stage": "extension",
+      "case": "chirped",
+      "group": "fourier",
+      "seed": 814,
+      "budget": 26000,
+      "directory": "formal/coupled/chirped/fourier/seed_814",
+      "state": "INCOMPLETE",
+      "terminal_artifacts_verified": false,
+      "available_snapshots": 0,
+      "prescribed_snapshots": 5,
+      "snapshot_checks": [
+        {
+          "step": 5000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 10000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 15000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 20000,
+          "artifacts_verified": false
+        },
+        {
+          "step": 26000,
+          "artifacts_verified": false
+        }
+      ],
+      "issues": []
+    }
+  ]
+}

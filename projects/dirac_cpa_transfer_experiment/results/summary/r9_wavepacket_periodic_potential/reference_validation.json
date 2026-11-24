@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "comparisons": [
+    {
+      "smaller": [
+        -32,
+        64
+      ],
+      "larger": [
+        -48,
+        80
+      ],
+      "full_complex_zero_padded_relative_difference": 6.516900702321161e-06,
+      "lower_eight_layers_max_total_occupation": 7.189560068946537e-08,
+      "upper_eight_layers_max_total_occupation": 1.2337994871799285e-09,
+      "hermiticity_max_abs": 0.0,
+      "norm_max_drift": 8.881784197001252e-16,
+      "reversal_relative_error": 2.810708435701288e-14,
+      "independent_expm_max_relative_error": 2.8049977622224927e-14,
+      "spectral_pde_residual_l2_rms": 9.893291896641617e-15,
+      "points": 4001,
+      "convergence_pass": false,
+      "validation_pass": true,
+      "pass_check": false
+    },
+    {
+      "smaller": [
+        -48,
+        80
+      ],
+      "larger": [
+        -64,
+        96
+      ],
+      "full_complex_zero_padded_relative_difference": 1.427568257504716e-08,
+      "lower_eight_layers_max_total_occupation": 1.1544937415844432e-12,
+      "upper_eight_layers_max_total_occupation": 3.4814478425626547e-15,
+      "hermiticity_max_abs": 0.0,
+      "norm_max_drift": 1.5543122344752192e-15,
+      "reversal_relative_error": 2.794283785040562e-14,
+      "independent_expm_max_relative_error": 2.815802219306216e-14,
+      "spectral_pde_residual_l2_rms": 1.1633996244377561e-14,
+      "points": 4001,
+      "convergence_pass": true,
+      "validation_pass": true,
+      "pass_check": true
+    }
+  ],
+  "selected_truncation": [
+    -48,
+    80
+  ],
+  "selection_before_pinn": true,
+  "fixed_initial_support": [
+    0,
+    32
+  ],
+  "only_zero_padding": true,
+  "no_renormalization": true,
+  "boundary_definition": "separate total occupation of each outer eight-index block",
+  "physical_parameters_changed": false
+}

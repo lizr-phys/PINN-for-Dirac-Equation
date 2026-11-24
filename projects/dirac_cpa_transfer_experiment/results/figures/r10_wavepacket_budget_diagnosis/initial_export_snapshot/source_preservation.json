@@ -1,0 +1,14 @@
+{
+  "reason": "False clipping flag for an undrawn tick at -3e-17; tolerance must scale with axis coordinates.",
+  "source_csv_sha256": {
+    "branch_trajectories_series.csv": "a3c7e305403eb8d3ff33fce2e9edc9a36bc25e73bd8c2ad1616f2f38832e644b",
+    "budget_and_residuals_costs.csv": "a203ea35aee4955a2c98333cc5f3f6ae78186cb071a95fc05da11d8a81248d86",
+    "budget_and_residuals_diagnostics.csv": "9b4a2559f84419b36a37b90d37015ea5ed4903e26b341ee6dfd14d32283598e5",
+    "dynamics_seed300_physical_grid.csv": "d0d77a6274ebb9dea72c2591e41d9d5fef55a305c386d6dec1c3f7195c5b2a47",
+    "dynamics_seed300_series.csv": "5ac0ba8525221196c81c2a13c80fcc965c1046d905bc070cc06de4092fceb689",
+    "norm_balance_all_seeds_balance.csv": "98f272ba2bbe0769b95543bfc31ef00b04c7fd16fdbb8c6e9170222840614a0f",
+    "paired_primary_metrics_values.csv": "d65074c5c738acbd46f8a67449c12751c9ee68358555351433f6e384209e6c33",
+    "residual_decomposition_balance.csv": "98f272ba2bbe0769b95543bfc31ef00b04c7fd16fdbb8c6e9170222840614a0f",
+    "residual_decomposition_decomposition.csv": "91f71460a1186ca30dd1194c6dcde6da0984a406e69219a5475a41847d2380df"
+  }
+}

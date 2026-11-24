@@ -1,0 +1,42 @@
+{
+  "path": "formal/coupled/T10/fourier/seed_812/snapshots/20000/metrics.json",
+  "case": "T10",
+  "group": "fourier",
+  "seed": 812,
+  "step": 20000,
+  "pass_check": false,
+  "failed_checks": [
+    "independent_JVP_and_convolution",
+    "independent_exterior_convolution",
+    "independent_norm_projection",
+    "residual_norm_samples"
+  ],
+  "checkpoint_sha256": "4db584fe9568a6da476c35a047d8e56878392dfdceb09316117b2299616b2a92",
+  "prediction_sha256": "d9882c629525340f85e684afcda2b6578f0d83384bfa6c12695ca7d691756082",
+  "metric_sha256": "8a96c49a23a996219fd98660f8e0d5e41bec7143356d0a43de49c41a584d57c8",
+  "residual_table_sha256": "845393ba1b8eb01038370e608241dfdd14669c7f2893dad776855c8584d27b46",
+  "by_mode_table_sha256": "419c4ae03662113e7e1633736bad6dc1e20c3bbc6935e8e705185b3e643d26a8",
+  "script_sha256": "d12068bd4bea2d359d4e9a264ccd8fe44c0acdf72543340b3a48c9cf066408ad",
+  "independent_sample_times": 201,
+  "independent_unit_spinor_residual_points": 32361,
+  "full_table_time_points": 8001,
+  "maximum_residual_abs_difference": 8.54238955414267e-08,
+  "maximum_archived_residual": 0.389641786483792,
+  "independent_exterior_max_difference": 1.5959350627061525e-10,
+  "metric_differences": {
+    "fine_unweighted_pde_loss": 1.0842021724855044e-19,
+    "residual_integral_fine": 7.993605777301127e-15,
+    "residual_integral_coarse": 0.0,
+    "residual_quadrature_relative_difference": 3.4484977095856472e-15,
+    "exterior_residual_leakage_max_l2_norm": 2.688821387764051e-17,
+    "exterior_residual_integral": 4.9439619065339e-16,
+    "full_physical_residual_integral": 0.0,
+    "max_norm_drift_fine": 2.220446049250313e-16,
+    "norm_residual_projection_max": 0.0
+  },
+  "evaluation_wall_seconds": 3.9208170999991125,
+  "no_reference_trajectory_loaded": true,
+  "no_optimizer_or_weight_update": true,
+  "discrete_residual_audit_is_not_continuous_error_certificate": true,
+  "norm_projection_is_not_dynamics_accuracy": true
+}

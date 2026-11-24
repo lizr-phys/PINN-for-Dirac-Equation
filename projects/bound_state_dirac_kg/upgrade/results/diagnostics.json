@@ -1,0 +1,28 @@
+{
+  "kg_same_parity_reference": [
+    {
+      "kind": "kg",
+      "seed": -1,
+      "source": "reference",
+      "state_n": 0,
+      "state_m": 2,
+      "ordinary_l2": -0.07628885454806081,
+      "physical_overlap": -1.2709436182484584e-15,
+      "estimated_tail_correction": -3.2255791071918857e-21,
+      "normalized_physical_overlap": -5.638819534963357e-16
+    }
+  ],
+  "bvp_timing": {
+    "dirac": {
+      "mean": 0.03641892000086955,
+      "min": 0.014067500000237487,
+      "max": 0.0615274000010686
+    },
+    "kg": {
+      "mean": 0.0355016866660056,
+      "min": 0.0130868999985978,
+      "max": 0.062077899998257635
+    }
+  },
+  "timing_policy": "Serial single CPU thread; warm-up excluded; BVP starts from analytic trial with a physics-only energy guess, not a stored reference wavefunction."
+}

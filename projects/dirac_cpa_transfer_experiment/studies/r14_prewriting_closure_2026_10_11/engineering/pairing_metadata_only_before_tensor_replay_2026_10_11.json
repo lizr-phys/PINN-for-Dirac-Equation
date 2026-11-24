@@ -1,0 +1,322 @@
+{
+  "updated_utc": 1791719020.3819785,
+  "status": "PASS_AVAILABLE_COMPLETE_SEED_BLOCKS",
+  "seed_blocks": 0,
+  "blocks_accounted": 0,
+  "checks": [],
+  "prescribed_block_status": [
+    {
+      "case": "T10",
+      "seed": 810,
+      "groups_with_20000_provenance": 3,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "learned_hard",
+        "analytic_hard",
+        "joint_hard",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "T10",
+      "seed": 811,
+      "groups_with_20000_provenance": 5,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "T10",
+      "seed": 812,
+      "groups_with_20000_provenance": 4,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "T10",
+      "seed": 813,
+      "groups_with_20000_provenance": 4,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "T10",
+      "seed": 814,
+      "groups_with_20000_provenance": 3,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard",
+        "learned_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "m10",
+      "seed": 810,
+      "groups_with_20000_provenance": 0,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard",
+        "learned_hard",
+        "analytic_hard",
+        "joint_hard",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "m10",
+      "seed": 811,
+      "groups_with_20000_provenance": 0,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard",
+        "learned_hard",
+        "analytic_hard",
+        "joint_hard",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "m10",
+      "seed": 812,
+      "groups_with_20000_provenance": 0,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard",
+        "learned_hard",
+        "analytic_hard",
+        "joint_hard",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "m10",
+      "seed": 813,
+      "groups_with_20000_provenance": 0,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard",
+        "learned_hard",
+        "analytic_hard",
+        "joint_hard",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "m10",
+      "seed": 814,
+      "groups_with_20000_provenance": 0,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard",
+        "learned_hard",
+        "analytic_hard",
+        "joint_hard",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "m5T5",
+      "seed": 810,
+      "groups_with_20000_provenance": 0,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard",
+        "learned_hard",
+        "analytic_hard",
+        "joint_hard",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "m5T5",
+      "seed": 811,
+      "groups_with_20000_provenance": 0,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard",
+        "learned_hard",
+        "analytic_hard",
+        "joint_hard",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "m5T5",
+      "seed": 812,
+      "groups_with_20000_provenance": 0,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard",
+        "learned_hard",
+        "analytic_hard",
+        "joint_hard",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "m5T5",
+      "seed": 813,
+      "groups_with_20000_provenance": 0,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard",
+        "learned_hard",
+        "analytic_hard",
+        "joint_hard",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    },
+    {
+      "case": "m5T5",
+      "seed": 814,
+      "groups_with_20000_provenance": 0,
+      "scientific_failure_groups": [],
+      "missing_or_unexplained_groups": [
+        "original_pde",
+        "static_pde",
+        "original_hard",
+        "learned_hard",
+        "analytic_hard",
+        "joint_hard",
+        "no_carrier_hard"
+      ],
+      "status": "INCOMPLETE"
+    }
+  ],
+  "missing": [
+    "formal\\coupled\\T10\\learned_hard\\seed_810",
+    "formal\\coupled\\T10\\analytic_hard\\seed_810",
+    "formal\\coupled\\T10\\joint_hard\\seed_810",
+    "formal\\coupled\\T10\\no_carrier_hard\\seed_810",
+    "formal\\coupled\\T10\\original_pde\\seed_811",
+    "formal\\coupled\\T10\\no_carrier_hard\\seed_811",
+    "formal\\coupled\\T10\\original_pde\\seed_812",
+    "formal\\coupled\\T10\\static_pde\\seed_812",
+    "formal\\coupled\\T10\\no_carrier_hard\\seed_812",
+    "formal\\coupled\\T10\\original_pde\\seed_813",
+    "formal\\coupled\\T10\\static_pde\\seed_813",
+    "formal\\coupled\\T10\\original_hard\\seed_813",
+    "formal\\coupled\\T10\\original_pde\\seed_814",
+    "formal\\coupled\\T10\\static_pde\\seed_814",
+    "formal\\coupled\\T10\\original_hard\\seed_814",
+    "formal\\coupled\\T10\\learned_hard\\seed_814",
+    "formal\\coupled\\m10\\original_pde\\seed_810",
+    "formal\\coupled\\m10\\static_pde\\seed_810",
+    "formal\\coupled\\m10\\original_hard\\seed_810",
+    "formal\\coupled\\m10\\learned_hard\\seed_810",
+    "formal\\coupled\\m10\\analytic_hard\\seed_810",
+    "formal\\coupled\\m10\\joint_hard\\seed_810",
+    "formal\\coupled\\m10\\no_carrier_hard\\seed_810",
+    "formal\\coupled\\m10\\original_pde\\seed_811",
+    "formal\\coupled\\m10\\static_pde\\seed_811",
+    "formal\\coupled\\m10\\original_hard\\seed_811",
+    "formal\\coupled\\m10\\learned_hard\\seed_811",
+    "formal\\coupled\\m10\\analytic_hard\\seed_811",
+    "formal\\coupled\\m10\\joint_hard\\seed_811",
+    "formal\\coupled\\m10\\no_carrier_hard\\seed_811",
+    "formal\\coupled\\m10\\original_pde\\seed_812",
+    "formal\\coupled\\m10\\static_pde\\seed_812",
+    "formal\\coupled\\m10\\original_hard\\seed_812",
+    "formal\\coupled\\m10\\learned_hard\\seed_812",
+    "formal\\coupled\\m10\\analytic_hard\\seed_812",
+    "formal\\coupled\\m10\\joint_hard\\seed_812",
+    "formal\\coupled\\m10\\no_carrier_hard\\seed_812",
+    "formal\\coupled\\m10\\original_pde\\seed_813",
+    "formal\\coupled\\m10\\static_pde\\seed_813",
+    "formal\\coupled\\m10\\original_hard\\seed_813",
+    "formal\\coupled\\m10\\learned_hard\\seed_813",
+    "formal\\coupled\\m10\\analytic_hard\\seed_813",
+    "formal\\coupled\\m10\\joint_hard\\seed_813",
+    "formal\\coupled\\m10\\no_carrier_hard\\seed_813",
+    "formal\\coupled\\m10\\original_pde\\seed_814",
+    "formal\\coupled\\m10\\static_pde\\seed_814",
+    "formal\\coupled\\m10\\original_hard\\seed_814",
+    "formal\\coupled\\m10\\learned_hard\\seed_814",
+    "formal\\coupled\\m10\\analytic_hard\\seed_814",
+    "formal\\coupled\\m10\\joint_hard\\seed_814",
+    "formal\\coupled\\m10\\no_carrier_hard\\seed_814",
+    "formal\\coupled\\m5T5\\original_pde\\seed_810",
+    "formal\\coupled\\m5T5\\static_pde\\seed_810",
+    "formal\\coupled\\m5T5\\original_hard\\seed_810",
+    "formal\\coupled\\m5T5\\learned_hard\\seed_810",
+    "formal\\coupled\\m5T5\\analytic_hard\\seed_810",
+    "formal\\coupled\\m5T5\\joint_hard\\seed_810",
+    "formal\\coupled\\m5T5\\no_carrier_hard\\seed_810",
+    "formal\\coupled\\m5T5\\original_pde\\seed_811",
+    "formal\\coupled\\m5T5\\static_pde\\seed_811",
+    "formal\\coupled\\m5T5\\original_hard\\seed_811",
+    "formal\\coupled\\m5T5\\learned_hard\\seed_811",
+    "formal\\coupled\\m5T5\\analytic_hard\\seed_811",
+    "formal\\coupled\\m5T5\\joint_hard\\seed_811",
+    "formal\\coupled\\m5T5\\no_carrier_hard\\seed_811",
+    "formal\\coupled\\m5T5\\original_pde\\seed_812",
+    "formal\\coupled\\m5T5\\static_pde\\seed_812",
+    "formal\\coupled\\m5T5\\original_hard\\seed_812",
+    "formal\\coupled\\m5T5\\learned_hard\\seed_812",
+    "formal\\coupled\\m5T5\\analytic_hard\\seed_812",
+    "formal\\coupled\\m5T5\\joint_hard\\seed_812",
+    "formal\\coupled\\m5T5\\no_carrier_hard\\seed_812",
+    "formal\\coupled\\m5T5\\original_pde\\seed_813",
+    "formal\\coupled\\m5T5\\static_pde\\seed_813",
+    "formal\\coupled\\m5T5\\original_hard\\seed_813",
+    "formal\\coupled\\m5T5\\learned_hard\\seed_813",
+    "formal\\coupled\\m5T5\\analytic_hard\\seed_813",
+    "formal\\coupled\\m5T5\\joint_hard\\seed_813",
+    "formal\\coupled\\m5T5\\no_carrier_hard\\seed_813",
+    "formal\\coupled\\m5T5\\original_pde\\seed_814",
+    "formal\\coupled\\m5T5\\static_pde\\seed_814",
+    "formal\\coupled\\m5T5\\original_hard\\seed_814",
+    "formal\\coupled\\m5T5\\learned_hard\\seed_814",
+    "formal\\coupled\\m5T5\\analytic_hard\\seed_814",
+    "formal\\coupled\\m5T5\\joint_hard\\seed_814",
+    "formal\\coupled\\m5T5\\no_carrier_hard\\seed_814"
+  ],
+  "mismatches": [],
+  "entire_study_pairing_complete": false,
+  "all_prescribed_blocks_accounted": false,
+  "scientific_failure_does_not_imply_bitwise_pairing_verified": true
+}

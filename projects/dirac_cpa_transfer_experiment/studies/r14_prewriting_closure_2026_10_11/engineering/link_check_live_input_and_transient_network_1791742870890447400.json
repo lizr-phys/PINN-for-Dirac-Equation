@@ -1,0 +1,965 @@
+{
+  "updated_utc": 1791742817.6876695,
+  "status": "REQUIRES_REVIEW",
+  "local_links": 68,
+  "external_links": 29,
+  "missing_local_links": [],
+  "unresolved_external_links": [
+    {
+      "url": "https://arxiv.org/abs/2112.03616",
+      "checked_utc": 1791742794.330911,
+      "status": "NETWORK_ERROR_REQUIRES_REVIEW",
+      "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='arxiv.org', port=443): Max retries exceeded with url: /abs/2112.03616 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))\"))",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    }
+  ],
+  "access_limited_links": [
+    "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5901547",
+    "https://www.sciencedirect.com/science/article/abs/pii/S1007570426010075",
+    "https://www.sciencedirect.com/science/article/pii/S0167278926002903",
+    "https://www.sciencedirect.com/science/article/pii/S0377042726002505"
+  ],
+  "pending_final_documents": [
+    "total_report.md",
+    "claims_evidence.csv",
+    "code_data_manifest.json",
+    "submission_positioning.md"
+  ],
+  "whole_delivery_link_check_complete": false,
+  "structured_documents": [],
+  "structured_document_errors": [
+    {
+      "error": "INPUT_CHANGED_DURING_CHECK_REQUIRES_REPEAT",
+      "paths": [
+        "progress.md"
+      ]
+    }
+  ],
+  "link_completeness_is_not_whole_scientific_acceptance": true,
+  "access_limit_does_not_confirm_fulltext_reading": true,
+  "documents": [
+    {
+      "path": "CONTINUE.md",
+      "sha256": "101990bed9fcf18205890c6a70fe015701564252296c5a1753a3c25ed9544058"
+    },
+    {
+      "path": "figure_contract.md",
+      "sha256": "b551ff67a1d2b2c521a41e99820632b0c419e9eb49bb874905a86ea909cd96ce"
+    },
+    {
+      "path": "history_review.md",
+      "sha256": "5c890f673cb056369602740b68df089cd6a165d5044824b719c2937878e2a536"
+    },
+    {
+      "path": "metric_and_cost_definitions.md",
+      "sha256": "1a369d9d15e8ed1424ef2f9e544a5cf03d5c0661d0f134403d3259ac6753c14c"
+    },
+    {
+      "path": "preregistration.md",
+      "sha256": "652208bc36f3d296997b160f7f6ff3d7b66aae54224d212fa2be68554a095045"
+    },
+    {
+      "path": "progress.md",
+      "sha256": "30918f1b3e42fcbd777406efeb264aaa4d501902c638f198ecfb206a079a62ba"
+    },
+    {
+      "path": "reproduce.md",
+      "sha256": "aaf9b9aafb6670876e7518bae081e3348e694d1d594cccf1e37a735eb71deb30"
+    },
+    {
+      "path": "theory_closure_audit.md",
+      "sha256": "17b955c3d472131fcca3d6c2d56abdffa555ac017b243d4249339b488827e975"
+    },
+    {
+      "path": "verification_notes_2026_10_11.md",
+      "sha256": "c434946721e48f4f2cea2c9d609dd592c33f49450b4f93b3239742dbd8e82199"
+    },
+    {
+      "path": "verification_progress.md",
+      "sha256": "8d6735838c6ac4528b942680ab1bb47703aa1f2a5e00d30cfae3a5ceeac4c0c1"
+    },
+    {
+      "path": "visual_QA.md",
+      "sha256": "d872264bc848d7f1f16055a914685dfb03784d1a8d582e580fbf8bd80850bbda"
+    },
+    {
+      "path": "literature/report.md",
+      "sha256": "4caed290d6761b983aa7fe79de4d1f30f414ac940b8074625464e1af02e8446e"
+    },
+    {
+      "path": "literature/prior_art_map.csv",
+      "sha256": "3fd2f4096e00b61b94c1d8e593fadde4261c463da6a669f64eb07784fd5e6b9c"
+    },
+    {
+      "path": "literature/references.bib",
+      "sha256": "98486c626adeaec233c055e50c81543166c39d3abd592334aa78026ddc71a854"
+    }
+  ],
+  "link_check_code_sha256": "798ca5d64827f52b376471f92495864b2a51bfe54b62c332bc2bc7678f86ab1c",
+  "input_sources_unchanged_during_check": false,
+  "local": [
+    {
+      "document": "history_review.md",
+      "label": "formal_evidence_read_log.json",
+      "target": "history/formal_evidence_read_log.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\history\\formal_evidence_read_log.json"
+    },
+    {
+      "document": "history_review.md",
+      "label": "历史统一表",
+      "target": "history/historical_results_all_native_fields.csv",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\history\\historical_results_all_native_fields.csv"
+    },
+    {
+      "document": "history_review.md",
+      "label": "CSV来源清单",
+      "target": "history/canonical_csv_index.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\history\\canonical_csv_index.json"
+    },
+    {
+      "document": "history_review.md",
+      "label": "原判定",
+      "target": "history/original_decisions.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\history\\original_decisions.json"
+    },
+    {
+      "document": "history_review.md",
+      "label": "metadata_only_change_verification.json",
+      "target": "history/metadata_only_change_verification.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\history\\metadata_only_change_verification.json"
+    },
+    {
+      "document": "preregistration.md",
+      "label": "frozen/design.json",
+      "target": "frozen/design.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\design.json"
+    },
+    {
+      "document": "progress.md",
+      "label": "冻结方案",
+      "target": "preregistration.md",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\preregistration.md"
+    },
+    {
+      "document": "progress.md",
+      "label": "完整协议",
+      "target": "frozen/design.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\design.json"
+    },
+    {
+      "document": "progress.md",
+      "label": "资源估算",
+      "target": "resource_estimate.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\resource_estimate.json"
+    },
+    {
+      "document": "progress.md",
+      "label": "实时状态",
+      "target": "progress.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\progress.json"
+    },
+    {
+      "document": "reproduce.md",
+      "label": "环境冻结",
+      "target": "frozen/environment.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\environment.json"
+    },
+    {
+      "document": "reproduce.md",
+      "label": "源码清单",
+      "target": "frozen/source_manifest.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\source_manifest.json"
+    },
+    {
+      "document": "reproduce.md",
+      "label": "历史哈希清单",
+      "target": "history/protected_sha256.jsonl",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\history\\protected_sha256.jsonl"
+    },
+    {
+      "document": "reproduce.md",
+      "label": "runtime/postprocessing_progress.json",
+      "target": "runtime/postprocessing_progress.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\runtime\\postprocessing_progress.json"
+    },
+    {
+      "document": "reproduce.md",
+      "label": "逐行追溯",
+      "target": "history/canonical_row_traceability.csv",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\history\\canonical_row_traceability.csv"
+    },
+    {
+      "document": "reproduce.md",
+      "label": "视觉记录",
+      "target": "visual_QA.md",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\visual_QA.md"
+    },
+    {
+      "document": "reproduce.md",
+      "label": "独立复核补充",
+      "target": "verification_notes_2026_10_11.md",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\verification_notes_2026_10_11.md"
+    },
+    {
+      "document": "reproduce.md",
+      "label": "理论闭环核验",
+      "target": "theory_closure_audit.md",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\theory_closure_audit.md"
+    },
+    {
+      "document": "reproduce.md",
+      "label": "推导来源记录",
+      "target": "engineering/theory_closure_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\engineering\\theory_closure_audit.json"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "原LTPB源码",
+      "target": "frozen/source/closure/vendor/periodic_potential_models.py",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\source\\closure\\vendor\\periodic_potential_models.py"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "释放源码",
+      "target": "frozen/source/closure/vendor/r7_models.py",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\source\\closure\\vendor\\r7_models.py"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "历史切向核验",
+      "target": "frozen/source/closure/vendor/r7_theory.py",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\source\\closure\\vendor\\r7_theory.py"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "同形B_complex复包络",
+      "target": "frozen/source/closure/models.py",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\source\\closure\\models.py"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "最终源码",
+      "target": "frozen/source/closure/models.py",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\source\\closure\\models.py"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "投影与导数源码",
+      "target": "frozen/source/closure/vendor/r13_models.py",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\source\\closure\\vendor\\r13_models.py"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "独立指标检查",
+      "target": "engineering/independent_metric_tests.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\engineering\\independent_metric_tests.json"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "完整残差源码",
+      "target": "frozen/source/closure/models.py",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\source\\closure\\models.py"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "实际自由残差",
+      "target": "frozen/source/closure/vendor/r13_residual.py",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\source\\closure\\vendor\\r13_residual.py"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "本轮free_loss",
+      "target": "frozen/source/closure/models.py",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\source\\closure\\models.py"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "Hamiltonian及谱外源码",
+      "target": "frozen/source/closure/vendor/r12_hamiltonian.py",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\frozen\\source\\closure\\vendor\\r12_hamiltonian.py"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "导数/参数梯度及精确恢复",
+      "target": "engineering/tests_and_recovery.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\engineering\\tests_and_recovery.json"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "载波初态控制",
+      "target": "analysis_outputs/carrier_initialization_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\carrier_initialization_audit.json"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "实际权重及随机流配对",
+      "target": "analysis_outputs/pairing_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\pairing_audit.json"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "独立残差",
+      "target": "analysis_outputs/residual_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\residual_audit.json"
+    },
+    {
+      "document": "theory_closure_audit.md",
+      "label": "参考校准",
+      "target": "references/calibration.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\references\\calibration.json"
+    },
+    {
+      "document": "verification_notes_2026_10_11.md",
+      "label": "首次完整判定",
+      "target": "analysis_outputs/cohort_receipts/T10_no_carrier_hard_20000_first/receipt.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\cohort_receipts\\T10_no_carrier_hard_20000_first\\receipt.json"
+    },
+    {
+      "document": "verification_notes_2026_10_11.md",
+      "label": "26000首次判定",
+      "target": "analysis_outputs/cohort_receipts/T10_no_carrier_hard_26000_first/receipt.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\cohort_receipts\\T10_no_carrier_hard_26000_first\\receipt.json"
+    },
+    {
+      "document": "verification_notes_2026_10_11.md",
+      "label": "理论闭环核验",
+      "target": "theory_closure_audit.md",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\theory_closure_audit.md"
+    },
+    {
+      "document": "verification_notes_2026_10_11.md",
+      "label": "调用诊断",
+      "target": "engineering/residual_invocation_dtype_diagnostic_20261011.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\engineering\\residual_invocation_dtype_diagnostic_20261011.json"
+    },
+    {
+      "document": "verification_notes_2026_10_11.md",
+      "label": "修复来源",
+      "target": "engineering/residual_invocation_repair_20261011.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\engineering\\residual_invocation_repair_20261011.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "FROZEN_EQUATION_DERIVATIONS_REVIEWED_EXPERIMENTAL_CLOSURE_PENDING",
+      "target": "engineering/theory_closure_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\engineering\\theory_closure_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "INCOMPLETE",
+      "target": "analysis_outputs/attempt_completion_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\attempt_completion_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_AVAILABLE_SNAPSHOTS",
+      "target": "analysis_outputs/independent_metric_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\independent_metric_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_AVAILABLE_FIXED_ENDPOINTS",
+      "target": "analysis_outputs/residual_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\residual_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_CURRENT_RESIDUAL_SOURCE_CHAIN",
+      "target": "analysis_outputs/residual_provenance_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\residual_provenance_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "WAITING_FOR_FROZEN_TRAINING",
+      "target": "runtime/postprocessing_progress.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\runtime\\postprocessing_progress.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_AVAILABLE_COST_RECORDS",
+      "target": "analysis_outputs/independent_cost_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\independent_cost_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "AVAILABLE_ATTEMPTS_ONLY",
+      "target": "analysis_outputs/cost_summary.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\cost_summary.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_AVAILABLE_STATISTICAL_TABLES",
+      "target": "analysis_outputs/independent_statistical_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\independent_statistical_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_AVAILABLE_INFERENCE_RECORDS",
+      "target": "isolated_inference/independent_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\isolated_inference\\independent_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_AVAILABLE_PARAMETER_RECORDS",
+      "target": "analysis_outputs/independent_parameter_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\independent_parameter_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS",
+      "target": "analysis_outputs/independent_TSFP_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\independent_TSFP_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_AVAILABLE_ACTUAL_INITIALIZERS_AND_TERMINAL_TRACES",
+      "target": "analysis_outputs/pairing_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\pairing_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_AVAILABLE_PHASE_DIAGNOSTICS",
+      "target": "analysis_outputs/carrier_phase_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\carrier_phase_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_AVAILABLE_INITIAL_CARRIER_CONTROLS",
+      "target": "analysis_outputs/carrier_initialization_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\carrier_initialization_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "INCOMPLETE",
+      "target": "analysis_outputs/learning_advantage_assessment.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\analysis_outputs\\learning_advantage_assessment.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "WAITING_FOR_FIXED_ENDPOINTS",
+      "target": "isolated_inference/status.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\isolated_inference\\status.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_AVAILABLE_LEGACY_ENDPOINTS",
+      "target": "history/independent_R1_R8_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\history\\independent_R1_R8_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS",
+      "target": "history/independent_R9_R13_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\history\\independent_R9_R13_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_CANONICAL_SNAPSHOTS",
+      "target": "history/independent_canonical_snapshot_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\history\\independent_canonical_snapshot_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_CANONICAL_ROW_LINKS",
+      "target": "history/canonical_row_traceability_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\history\\canonical_row_traceability_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "WAITING_FOR_PRESCRIBED_DIAGNOSTICS",
+      "target": "zero_shot/independent_audit.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\zero_shot\\independent_audit.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "PASS_EXISTING_LINKS_WITH_ACCESS_LIMITS",
+      "target": "link_check.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\link_check.json"
+    },
+    {
+      "document": "verification_progress.md",
+      "label": "ACTUAL_VISUAL_CHECK_RECORDS",
+      "target": "figures/actual_visual_QA.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\figures\\actual_visual_QA.json"
+    },
+    {
+      "document": "literature/report.md",
+      "label": "retrieval_log.json",
+      "target": "retrieval_log.json",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\literature\\retrieval_log.json"
+    },
+    {
+      "document": "literature/report.md",
+      "label": "screening_all_candidates.csv",
+      "target": "screening_all_candidates.csv",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\literature\\screening_all_candidates.csv"
+    },
+    {
+      "document": "literature/report.md",
+      "label": "prior_art_map.csv",
+      "target": "prior_art_map.csv",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\literature\\prior_art_map.csv"
+    },
+    {
+      "document": "literature/report.md",
+      "label": "references.bib",
+      "target": "references.bib",
+      "exists": true,
+      "resolved": "E:\\PINN for Quantum Physics\\projects\\dirac_cpa_transfer_experiment\\studies\\r14_prewriting_closure_2026_10_11\\literature\\references.bib"
+    }
+  ],
+  "external": [
+    {
+      "url": "http://arxiv.org/abs/1711.07193v2",
+      "checked_utc": 1791742789.3781095,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/1711.07193v2",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "http://arxiv.org/abs/2006.09661v1",
+      "checked_utc": 1791742789.3873122,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2006.09661v1",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "http://arxiv.org/abs/2006.10739v1",
+      "checked_utc": 1791742789.394145,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2006.10739v1",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "http://arxiv.org/abs/2112.03616v1",
+      "checked_utc": 1791742791.1594944,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2112.03616v1",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "http://arxiv.org/abs/2204.02959v1",
+      "checked_utc": 1791742791.2230754,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2204.02959v1",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "http://arxiv.org/abs/2402.07251v1",
+      "checked_utc": 1791742791.3067238,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2402.07251v1",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.15087v1",
+      "checked_utc": 1791742793.0937524,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.15087v1",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.09661",
+      "checked_utc": 1791742793.1009111,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2006.09661",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.10739",
+      "checked_utc": 1791742793.4080164,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2006.10739",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2112.03616",
+      "checked_utc": 1791742794.330911,
+      "status": "NETWORK_ERROR_REQUIRES_REVIEW",
+      "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='arxiv.org', port=443): Max retries exceeded with url: /abs/2112.03616 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))\"))",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2204.02959",
+      "checked_utc": 1791742795.0996766,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2204.02959",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.03934",
+      "checked_utc": 1791742795.2119646,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2303.03934",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.07251",
+      "checked_utc": 1791742795.3402832,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2402.07251",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15087",
+      "checked_utc": 1791742796.7541595,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.15087",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/prior_art_map.csv"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2408.16414v2",
+      "checked_utc": 1791742797.1431823,
+      "http_status": 200,
+      "final_url": "https://arxiv.org/html/2408.16414v2",
+      "content_type": "text/html; charset=utf-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cam.2025.117178",
+      "checked_utc": 1791742797.6816359,
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0377042725006922",
+      "content_type": "text/html;charset=UTF-8",
+      "status": "RESOLVES",
+      "CrossRef_status": 200,
+      "DOI_metadata_verified": true,
+      "DOI_title": [
+        "Spectral informed neural networks"
+      ],
+      "DOI_metadata_url": "https://doi.org/10.1016/j.cam.2025.117178",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cam.2026.117607",
+      "checked_utc": 1791742797.7550023,
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0377042726002505",
+      "content_type": "text/html;charset=UTF-8",
+      "status": "RESOLVES",
+      "CrossRef_status": 429,
+      "DOI_metadata_verified": false,
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cnsns.2026.109926",
+      "checked_utc": 1791742798.1017904,
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1007570426002856",
+      "content_type": "text/html;charset=UTF-8",
+      "status": "RESOLVES",
+      "CrossRef_status": 200,
+      "DOI_metadata_verified": true,
+      "DOI_title": [
+        "Structure-Preserving helmholtz PINNs for absorbing media with transparent boundaries"
+      ],
+      "DOI_metadata_url": "https://doi.org/10.1016/j.cnsns.2026.109926",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/references.bib",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cnsns.2026.110653",
+      "checked_utc": 1791742803.8477423,
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1007570426010075",
+      "content_type": "text/html;charset=UTF-8",
+      "status": "RESOLVES",
+      "CrossRef_status": 200,
+      "DOI_metadata_verified": true,
+      "DOI_title": [
+        "A deep learning WKB-PINNs framework for forward and inverse problems of semiclassical nonlinear Schrödinger equations"
+      ],
+      "DOI_metadata_url": "https://doi.org/10.1016/j.cnsns.2026.110653",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cpc.2022.108474",
+      "checked_utc": 1791742803.8825958,
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S001046552200193X",
+      "content_type": "text/html;charset=UTF-8",
+      "status": "RESOLVES",
+      "CrossRef_status": 200,
+      "DOI_metadata_verified": true,
+      "DOI_title": [
+        "Time-dependent Dirac Equation with Physics-Informed Neural Networks: Computation and Properties"
+      ],
+      "DOI_metadata_url": "https://doi.org/10.1016/j.cpc.2022.108474",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.physd.2026.135394",
+      "checked_utc": 1791742803.8960605,
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0167278926002903",
+      "content_type": "text/html;charset=UTF-8",
+      "status": "RESOLVES",
+      "CrossRef_status": 200,
+      "DOI_metadata_verified": true,
+      "DOI_title": [
+        "WKB-PINNs: Physics-informed neural networks for highly oscillatory Schrödinger–type equations"
+      ],
+      "DOI_metadata_url": "https://doi.org/10.1016/j.physd.2026.135394",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1088/1674-1137/acc518",
+      "checked_utc": 1791742809.995016,
+      "http_status": 200,
+      "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/?ssa=c74eaca6-445a-47ab-abfe-47d2ef4c777b&ssb=56295206610&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1674-1137%2Facc518&ssi=d2d8cf26-cnvj-42e0-94cc-137397a1b013&ssk=botmanager_support@radware.com&ssm=95514675750930867109912319725760&ssn=4c2edde352cf0c929a00c140ec4efcb54c2e00e854ef-5529-408b-a1c248&sso=accbd83d-b9cebe466b4f86d6e61c4c2114d81d595b58292b6cee7615&ssp=47087012561791729839179176889682423&ssq=32373174281712347777142817483396698696312&ssr=NDUuMjAyLjI1NC43OA==&sst=R14-prewriting-evidence-link-verification/1.0&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAwMGU4NTRlZi01NTI5LTQwOGItYTgzZC1iOWNlYmU0NjZiNGYxLTE3OTE3NDI4MTc5NjAwLTAwNWEzNjM3Y2RkYzg1NTY1ZTQxMCIsInJkIjoiaW9wLm9yZyIsInV6bXgiOiI3ZmMwMDBjYzJlZTI5NC0xMGQxLTRhNTYtYmI4Mi02ZDliYTI4NmIzMjExLTE3OTE3NDI4MTc5NjAwLTAwOGQ3MjFmMTllYzkzODA2OTIxMCJ9",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "RESOLVES",
+      "CrossRef_status": 200,
+      "DOI_metadata_verified": true,
+      "DOI_title": [
+        "Solving Schrodinger equations using a physically constrained neural network*"
+      ],
+      "DOI_metadata_url": "https://doi.org/10.1088/1674-1137/acc518",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1109/jlt.2007.909373",
+      "checked_utc": 1791742810.292592,
+      "http_status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/4397001/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "RESOLVES",
+      "CrossRef_status": 200,
+      "DOI_metadata_verified": true,
+      "DOI_title": [
+        "A Fourth-Order Runge–Kutta in the Interaction Picture Method for Simulating Supercontinuum Generation in Optical Fibers"
+      ],
+      "DOI_metadata_url": "https://doi.org/10.1109/jlt.2007.909373",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/references.bib"
+      ]
+    },
+    {
+      "url": "https://hepnp.ihep.ac.cn/fileZGWLC/journal/article/zgwlc/2023/5/PDF/CPC-2023-0002.pdf",
+      "checked_utc": 1791742810.4368846,
+      "http_status": 200,
+      "final_url": "https://hepnp.ihep.ac.cn/fileZGWLC/journal/article/zgwlc/2023/5/PDF/CPC-2023-0002.pdf",
+      "content_type": "application/pdf",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://opg.optica.org/jlt/abstract.cfm?uri=JLT-25-12-3770",
+      "checked_utc": 1791742811.916845,
+      "http_status": 200,
+      "final_url": "https://opg.optica.org/jlt/abstract.cfm?uri=JLT-25-12-3770",
+      "content_type": "text/html;charset=UTF-8",
+      "status": "RESOLVES",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5901547",
+      "checked_utc": 1791742814.182855,
+      "http_status": 403,
+      "final_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5901547",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "ACCESS_LIMITED",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1007570426010075",
+      "checked_utc": 1791742815.0442905,
+      "http_status": 403,
+      "final_url": "https://www.sciencedirect.com/science/article/abs/pii/S1007570426010075",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "ACCESS_LIMITED",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167278926002903",
+      "checked_utc": 1791742815.3914347,
+      "http_status": 403,
+      "final_url": "https://www.sciencedirect.com/science/article/pii/S0167278926002903",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "ACCESS_LIMITED",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042726002505",
+      "checked_utc": 1791742816.0881217,
+      "http_status": 403,
+      "final_url": "https://www.sciencedirect.com/science/article/pii/S0377042726002505",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "ACCESS_LIMITED",
+      "citing_documents": [
+        "literature/prior_art_map.csv",
+        "literature/report.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "stage": "EXPLORATORY_SELECTION_ONLY",
+  "selection_formula": "mean((spinor/.10 + current/.15 + sideband_complex/.10)/3)",
+  "ranking": [
+    {
+      "model": "A_carrier_complex",
+      "score": 0.22459536855668183,
+      "exploration_absolute": {
+        "pass_check": true,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": true,
+          "current_rel_l2": true,
+          "fidelity_mean": true,
+          "modal_population_rel_l2": true,
+          "max_norm_drift": true
+        },
+        "joint_pass_count": 2,
+        "per_seed_joint_pass": {
+          "0": true,
+          "1": true,
+          "2": false
+        }
+      }
+    },
+    {
+      "model": "C_release_windows",
+      "score": 5.6115051726042156,
+      "exploration_absolute": {
+        "pass_check": false,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 0,
+        "per_seed_joint_pass": {
+          "0": false,
+          "1": false,
+          "2": false
+        }
+      }
+    },
+    {
+      "model": "D_carrier_windows",
+      "score": 6.663764656202769,
+      "exploration_absolute": {
+        "pass_check": false,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 0,
+        "per_seed_joint_pass": {
+          "0": false,
+          "1": false,
+          "2": false
+        }
+      }
+    },
+    {
+      "model": "B_free_correction",
+      "score": 7.90964135841556,
+      "exploration_absolute": {
+        "pass_check": false,
+        "complete": true,
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": true
+        },
+        "joint_pass_count": 0,
+        "per_seed_joint_pass": {
+          "0": false,
+          "1": false,
+          "2": false
+        }
+      }
+    }
+  ],
+  "selected_candidates": [
+    "A_carrier_complex",
+    "C_release_windows"
+  ],
+  "validation_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "thresholds_unchanged": {
+    "spinor_rel_l2_gauge_aligned": 0.1,
+    "current_rel_l2": 0.15,
+    "fidelity_mean": 0.98,
+    "modal_population_rel_l2": 0.1,
+    "max_norm_drift": 0.02
+  }
+}

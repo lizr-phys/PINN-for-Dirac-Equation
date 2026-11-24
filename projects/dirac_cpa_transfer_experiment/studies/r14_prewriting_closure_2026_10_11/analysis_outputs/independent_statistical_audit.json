@@ -1,0 +1,33 @@
+{
+  "updated_utc": 1791886153.1834452,
+  "status": "PASS_AVAILABLE_STATISTICAL_TABLES",
+  "group_endpoints_checked": 159,
+  "prescribed_pair_contrasts_checked": 627,
+  "full_five_pair_estimates_checked": 495,
+  "factor_interactions_checked": 18,
+  "complete_factor_estimates_checked": 18,
+  "source_snapshots_checked": 615,
+  "pending_independent_source_audits": [
+    "formal/coupled/V04/learned_hard/seed_813/snapshots/20000/metrics.json"
+  ],
+  "errors": [],
+  "new_live_snapshots_require_reaggregation_not_false_completion": true,
+  "source_table_sha256": {
+    "all_snapshots_metrics.csv": "dd1b144f138caf76adfec485b665d21e39d0f48a04762ce7f496b89ac4e873c2",
+    "summary_metrics.csv": "dde22538e88b1a41c0e40e953e0a078f8590819783be384dfe69707013545d78",
+    "paired_statistics.csv": "433be497c1d0f5b0bd849a3862b7fd1987054187f574c5e8114a41a4b7b62b7d",
+    "paired_per_seed.csv": "c34803f2972588ce4462dd5a3900f3f7794d582bee7cc27d21a10013323c107d",
+    "factor_interactions.csv": "eff56da43424c10abc3398acca77d2135ea14f7a66282a8925334a64979811f7",
+    "factor_interactions_per_seed.csv": "8304ac96106246c6a6e70a2f7e377d73cebad16000fadd31dfbd1f85d1fc2723",
+    "independent_metrics_per_snapshot.csv": "cbe77aafccd3d36b73dc3cfc0ce6ee8c6ed3747802316cc92b1937ca690891a6",
+    "attempt_completion_audit.json": "bcacf65ab08cd19a1f3340b50ee3d5e7cc629f96f0796eac7895a3ee1c7976e7"
+  },
+  "audit_code_sha256": "fd1128a051fa8e43b3daddfde6df40cbf5c31533fd1f20b8cc80b3b09e89c603",
+  "separate_csv_math_implementation": true,
+  "archived_dynamics_inputs_independently_FFT_validated": true,
+  "student_t_df4_critical_constant": 2.7764451051977987,
+  "no_survivor_five_seed_mean": true,
+  "exact_sign_flip_minimum_two_sided_p": 0.0625,
+  "all_prescribed_statistics_verified": false,
+  "whole_goal_complete": false
+}

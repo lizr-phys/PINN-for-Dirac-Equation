@@ -1,0 +1,52 @@
+{
+  "verification_date": "2026-10-04",
+  "scope": "含时与定态方法的结合；束缚/散射谱联系；依现有项目提出待验证选题",
+  "workflow": [
+    "multi-source-search",
+    "citation-verification"
+  ],
+  "sources_used": [
+    "author arXiv",
+    "original publisher pages",
+    "Crossref DOI lookup"
+  ],
+  "academic_mcp_available": false,
+  "queries": [
+    "physics informed neural networks quantum eigenstates time evolution spectral decomposition stationary bound scattering",
+    "neural quantum states spectral dynamics excited states time evolution bound continuum",
+    "time dependent Dirac bound state ionization neural network spectral basis",
+    "bound scattering states unified neural network Green function resolvent quantum 2025 2026",
+    "\"WKB-PINNs\" \"DOI\"",
+    "Dirac equation Levinson theorem bound scattering one dimension 2004",
+    "neural networks bound states dynamics joint spectral time dependent quantum",
+    "\"WKB-PINNs\" \"stationary\" \"time-dependent\"",
+    "\"WKB-PINNs\" \"135394\"",
+    "\"Highly resolved spectral functions\" \"10.1103\"",
+    "\"Time delay\" \"scattering\" Wigner 1955",
+    "neural eigenfunctions eigenvalues time evolution spectral decomposition physics informed quantum joint learning",
+    "\"PINN\" \"bound states\" \"time evolution\"",
+    "\"WKB-PINNs\" \"135394\" \"Available online\"",
+    "time dependent Dirac bound state transition continuum ionization neural PINN 2025 2026",
+    "\"First principles physics-informed neural network for quantum wavefunctions and eigenvalue surfaces\" DOI",
+    "\"WKB-PINNs\" \"135394\" \"September\" \"2026\""
+  ],
+  "selected_count": 7,
+  "doi_verified_count": 6,
+  "arxiv_without_journal_status_count": 1,
+  "deduplication": "DOI normalized case-insensitively; journal/arXiv versions treated as one work; supplement separate from original 40-paper snapshot",
+  "evidence_levels": {
+    "C01": "Original publisher abstract, introduction and method/benchmark overviews; full methods and performance not reproduced",
+    "C02": "Original APS/arXiv abstract",
+    "C03": "Original arXiv full HTML; training data and operator interpretation checked",
+    "C04": "Original arXiv abstract and journal linkage",
+    "C05": "Crossref title/metadata; interpretation checked against primary papers citing Wigner; no full original article access",
+    "C06": "Original publisher abstract and indexed method summary",
+    "C07": "Original arXiv abstract and metadata"
+  },
+  "limitations": [
+    "Representative search, not an exhaustive novelty audit",
+    "WKB-PINNs November 2026 issue known; individual online-publication date not established",
+    "No external performance replication",
+    "Recommendations are research proposals, not achieved outcomes"
+  ]
+}

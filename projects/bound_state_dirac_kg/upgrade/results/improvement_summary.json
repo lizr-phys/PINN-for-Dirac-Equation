@@ -1,0 +1,72 @@
+{
+  "improvements": {
+    "dirac": {
+      "wavefunction_factor": 9.405077122217918,
+      "energy_factor": 350.73280173540627
+    },
+    "kg": {
+      "wavefunction_factor": 3.198148701662193,
+      "energy_factor": 88.85586476000138
+    }
+  },
+  "formal_runs": 50,
+  "reliable_runs": 49,
+  "failed_runs": [
+    {
+      "case": "deep_wide",
+      "kind": "dirac",
+      "state": 2,
+      "variant": "derivative",
+      "seed": 8,
+      "protocol_version": 7,
+      "test_points": 8001,
+      "energy": 0.9999976452927086,
+      "reference_energy": 0.7600068388849356,
+      "energy_abs_error": 0.239990806407773,
+      "energy_rel_error": 0.3157745353448161,
+      "binding_energy_rel_error": 0.9999901884400354,
+      "wavefunction_rel_l2": 0.9771191005111493,
+      "normalization": 1.0048340080781806,
+      "normalization_error": 0.0048340080781805,
+      "residual_l2": 2.183823191753348,
+      "residual_rms": 0.2729778989691684,
+      "residual_max": 7.992907523410565,
+      "boundary_amplitude": 9.85990062741875e-31,
+      "boundary_to_peak": 1.8665304786123598e-30,
+      "upper_log_slope": 0.0021701172867089,
+      "expected_kappa": 0.0021701172867089,
+      "boundary_log_slope": 0.0021701172867089,
+      "tail_norm_estimate": 4.47983346236591e-58,
+      "nodes": 2,
+      "parity_error": 1.4044321261508232e-14,
+      "charge": 1.0048340080781806,
+      "charge_density_min": 7.945021546331485e-119,
+      "alignment_sign": 1.0,
+      "seconds": 222.8489944000012,
+      "parameters": 723,
+      "initial_energy": 0.8999999999999999,
+      "stop_reason": "iteration_budget",
+      "effective_initial_energy": 0.5,
+      "restart_count": 1,
+      "rejected_trial_count": 1,
+      "teacher_training_seconds": 84.04963259999931,
+      "final_loss": 0.0321269927817336,
+      "lbfgs_iterations": 300,
+      "relative_robin": 1.387900739425831e-18,
+      "run": "results/stable_v7/deep_wide/dirac/state_2/derivative/seed_8",
+      "component_0_rel_l2": 0.9120005223973896,
+      "component_1_rel_l2": 1.512675617009367,
+      "reliable": false,
+      "evaluation_seconds": 1.1375934999996389,
+      "purpose": "formal",
+      "group": "stable_v7"
+    }
+  ],
+  "restarted_runs": 15,
+  "cumulative_training_seconds": 4247.005328799996,
+  "recorded_development_training_seconds": 2180.555001699999,
+  "strict_stop_counts": {
+    "iteration_budget": 41,
+    "physics_tolerance": 9
+  }
+}

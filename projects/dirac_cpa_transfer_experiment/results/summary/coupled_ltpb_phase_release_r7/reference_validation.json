@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "reference_only": true,
+  "prior_authorization": "2026-09-29: 用户明确回复‘允许这一处修订，继续正式实验’",
+  "main": {
+    "half_width": 6,
+    "comparison_half_width": 8,
+    "time_points": 8001,
+    "time_horizon": 5.0,
+    "checks": {
+      "hermiticity_max_abs": 0.0,
+      "norm_initial": 0.999999999999999,
+      "norm_max_drift": 1.6653345369377348e-15,
+      "time_reversal_relative_l2": 1.1106290177201632e-15,
+      "spectral_pde_residual_rms": 1.2000651977623947e-15,
+      "initial_state_relative_l2": 1.148942666790116e-15
+    },
+    "observables": {
+      "max_total_occupation_outside_center": 0.3209004147184005,
+      "time_of_max_total_occupation_outside_center": 5.0,
+      "max_outer_layer_total_occupation": 2.1854817818931975e-10,
+      "max_outer_single_mode_occupation": 2.1783442196633845e-10,
+      "max_left_outer_mode_occupation": 2.1783442196633845e-10,
+      "max_right_outer_mode_occupation": 7.55623717710623e-13
+    },
+    "comparison": {
+      "padded_full_trajectory_spinor_relative_l2": 2.189977761531533e-07,
+      "padded_full_trajectory_global_phase_aligned_relative_l2": 2.1899777615315287e-07,
+      "padded_max_time_spinor_relative_l2": 7.816467454723579e-07,
+      "padded_final_spinor_relative_l2": 7.816467454723579e-07,
+      "common_full_trajectory_spinor_relative_l2": 1.321362133529372e-08,
+      "common_full_trajectory_global_phase_aligned_relative_l2": 1.3213621335284e-08,
+      "common_max_time_spinor_relative_l2": 5.0771039683086035e-08,
+      "common_final_spinor_relative_l2": 5.0771039683086035e-08,
+      "common_modal_population_relative_l2": 2.28304216052227e-13,
+      "common_modal_population_max_absolute_error": 8.105139204127085e-13
+    },
+    "expm_max_absolute_error": 1.8222919831159998e-14,
+    "gates": {
+      "outer_total_occupation": true,
+      "padded_complex_trajectory": true,
+      "hermiticity": true,
+      "norm": true,
+      "reversibility": true,
+      "expm_agreement": true
+    },
+    "pass": true
+  },
+  "prior_truncation_value_absolute_difference": 0.0,
+  "long_trials": [
+    {
+      "half_width": 8,
+      "comparison_half_width": 10,
+      "time_points": 8001,
+      "time_horizon": 8.0,
+      "checks": {
+        "hermiticity_max_abs": 0.0,
+        "norm_initial": 1.0000000000000002,
+        "norm_max_drift": 1.5543122344752192e-15,
+        "time_reversal_relative_l2": 1.2295408905078879e-15,
+        "spectral_pde_residual_rms": 1.2585353445836968e-15,
+        "initial_state_relative_l2": 8.154865830006496e-16
+      },
+      "observables": {
+        "max_total_occupation_outside_center": 0.4655506002220946,
+        "time_of_max_total_occupation_outside_center": 8.0,
+        "max_outer_layer_total_occupation": 1.2951238475865704e-13,
+        "max_outer_single_mode_occupation": 1.2951238010912415e-13,
+        "max_left_outer_mode_occupation": 1.2951238010912415e-13,
+        "max_right_outer_mode_occupation": 5.181884484922411e-19
+      },
+      "comparison": {
+        "padded_full_trajectory_spinor_relative_l2": 3.6828875371046645e-09,
+        "padded_full_trajectory_global_phase_aligned_relative_l2": 3.6828875370951643e-09,
+        "padded_max_time_spinor_relative_l2": 1.1611777189196796e-08,
+        "padded_final_spinor_relative_l2": 1.1611777189196796e-08,
+        "common_full_trajectory_spinor_relative_l2": 1.6780432793714182e-10,
+        "common_full_trajectory_global_phase_aligned_relative_l2": 1.6780432772853434e-10,
+        "common_max_time_spinor_relative_l2": 5.107850401459004e-10,
+        "common_final_spinor_relative_l2": 5.107850401459004e-10,
+        "common_modal_population_relative_l2": 6.558169699367824e-15,
+        "common_modal_population_max_absolute_error": 8.1601392309949e-15
+      },
+      "expm_max_absolute_error": 3.366547621551067e-14,
+      "gates": {
+        "outer_total_occupation": true,
+        "padded_complex_trajectory": true,
+        "hermiticity": true,
+        "norm": true,
+        "reversibility": true,
+        "expm_agreement": true
+      },
+      "pass": true
+    }
+  ],
+  "selected_long_half_width": 8,
+  "long_reference_pass": true
+}

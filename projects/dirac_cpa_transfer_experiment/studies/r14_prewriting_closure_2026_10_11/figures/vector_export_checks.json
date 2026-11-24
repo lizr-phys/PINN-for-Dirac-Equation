@@ -1,0 +1,49 @@
+[
+  {
+    "figure": "reference_calibration",
+    "pdf_sha256": "79413bc2dff7a441df1f27764a1e5a721b76ce4d48d882a37873622efb5448ab",
+    "svg_sha256": "3baee43b3fb7f671f9a85d354a680288126bfe28a56bf4d5503ddf91da96d47d",
+    "rendered_PDF_png": "figures/pdf_render/reference_calibration_PDF.png",
+    "rendered_PDF_png_sha256": "8f35729df9799e67ad7d5f75daaaf010cb9780325f5dbacdf890652840c3a754",
+    "pdf_fonts": [
+      "GZROMK+ArialMT",
+      "GZROMK+Arial-BoldMT",
+      "GCWXDV+DejaVuSans-Oblique",
+      "BMQQDV+DejaVuSans"
+    ],
+    "pdf_text_boxes_inside_page": true,
+    "svg_editable_text_nodes": 45,
+    "automatic_export_checks_pass": true,
+    "actual_visual_check_required": true
+  },
+  {
+    "figure": "development_tuning",
+    "pdf_sha256": "14e471371363f800f909759874c39b9cb10c31e4bc3fe93c57171a79f5e8df24",
+    "svg_sha256": "60a777324f17b551f5399efc9d36f9a7daa8bb9408cf5348f0ad341a20aa6ec2",
+    "rendered_PDF_png": "figures/pdf_render/development_tuning_PDF.png",
+    "rendered_PDF_png_sha256": "4fd7c2058cf132303acb6829e37963a3ea4f0367ec05082f7e0702c2164ee63a",
+    "pdf_fonts": [
+      "GZROMK+ArialMT",
+      "GZROMK+Arial-BoldMT"
+    ],
+    "pdf_text_boxes_inside_page": true,
+    "svg_editable_text_nodes": 93,
+    "automatic_export_checks_pass": true,
+    "actual_visual_check_required": true
+  },
+  {
+    "figure": "TSFP_error_cost",
+    "pdf_sha256": "19ade15878db81309c7b5848306bc8b46bb2f05499ec269a54d167fbbc10ab81",
+    "svg_sha256": "9ae44d3f740b52b58eb802077b882b430881c4a01c46274438dccb2cbd199bff",
+    "rendered_PDF_png": "figures/pdf_render/TSFP_error_cost_PDF.png",
+    "rendered_PDF_png_sha256": "80244d3323878d36e0f0468bc4aaf841332f91264fefcab9e1cc3e962ddb61a0",
+    "pdf_fonts": [
+      "GZROMK+ArialMT",
+      "GZROMK+Arial-BoldMT"
+    ],
+    "pdf_text_boxes_inside_page": true,
+    "svg_editable_text_nodes": 64,
+    "automatic_export_checks_pass": true,
+    "actual_visual_check_required": true
+  }
+]

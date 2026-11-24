@@ -1,0 +1,256 @@
+{
+  "status": "REQUIREMENT_EVIDENCE_MAP_NOT_ACCEPTANCE",
+  "basis": "用户五项工作、执行前冻结要求和frozen/design.json；不新增或缩减科学验收条件",
+  "design_sha256": "ce26182b607b1e048e32b7ebd931221296fb1be071df34f40826f0a0b4dcdf24",
+  "scientific_source_sha256": "0c2bf352f6bfd12ad106b75ae0814e09abf9af51ac75b59dbc3e6665d595f0c9",
+  "whole_goal_accepted": false,
+  "requirements": [
+    {
+      "id": "history_read_and_preserve",
+      "requirement": "审计评估文件、R1–R13最新正式报告/预注册/判定；不重复旧训练，不覆盖配置、指标、检查点、源码、历史结论",
+      "proof": "66个已读入口、13轮528原CSV行完整保留原字段/判据；33301个原保护文件最终实际SHA复核与初始清单一致；1258规范路径mtime变化仅内容不变",
+      "sources": [
+        "history/formal_evidence_read_log.json",
+        "history/original_decisions.json",
+        "history/historical_results_all_native_fields.csv",
+        "history/canonical_row_traceability.csv",
+        "history/protected_sha256.jsonl",
+        "history/final_integrity_report.json",
+        "history/metadata_only_change_verification.json"
+      ],
+      "manual_check": "别名不算独立重复，R10续训不算新复现；最终内容重验不能由清单本身的哈希代替"
+    },
+    {
+      "id": "prior_metric_recalculation",
+      "requirement": "历史主张与规范表主要指标可由原始数组独立核对",
+      "proof": "R1–R8现存228终点、R9–R13现存191终点、规范表用到的75中间检查点独立重算；528规范行对应原始指标/数组；其他旧中间点不作全量覆盖声明",
+      "sources": [
+        "history/independent_R1_R8_audit.json",
+        "history/independent_R9_R13_audit.json",
+        "history/independent_canonical_snapshot_audit.json",
+        "history/canonical_row_traceability_audit.json"
+      ]
+    },
+    {
+      "id": "freeze_seeds_resources",
+      "requirement": "独立新目录先冻结科学方案、未用配对种子、预算、调参网格、成功与停止规则；先估算算力/耗时/磁盘，分批和精确恢复",
+      "proof": "不可变设计/源码/参考SHA；正式810–814、开发910–911无历史使用；24开发+210正式任务，4326000优化步；资源估算、批次/进程和每500步恢复记录",
+      "sources": [
+        "preregistration.md",
+        "frozen/design.json",
+        "frozen/source_manifest.json",
+        "frozen/reference_manifest.json",
+        "history/used_seed_audit.json",
+        "resource_estimate.json",
+        "engineering/tests_and_recovery.json",
+        "analysis_outputs/prescribed_attempt_status.csv"
+      ],
+      "manual_check": "科学失败保持失败；工程恢复保持原Adam/权重/RNG/采样，不按误差增加预算"
+    },
+    {
+      "id": "all_prescribed_training_attempts",
+      "requirement": "全部24开发与210正式训练确实到固定终点，或按冻结停止规则保留数值/依赖失败；缺训练/缺评价不完成",
+      "proof": "独立234项清点，全部COMPLETE_VERIFIED或FAILURE_PRESERVED；无意外任务/无效完成/重复活跃进程；终点检查点与最终副本SHA一致",
+      "sources": [
+        "analysis_outputs/attempt_completion_audit.json",
+        "analysis_outputs/prescribed_attempt_status.csv",
+        "analysis_outputs/preserved_failures.json",
+        "verification_progress.json"
+      ]
+    },
+    {
+      "id": "same_structure_and_minimal_ablations",
+      "requirement": "T10/m10严格同硬范数复包络学习/解析载波五配对；三核心条件完整7组机制消融，区分载波修复、范数结构、联合训练和无载波",
+      "proof": "三个核心条件各9组×5种子（机制7组+性能族2组）；主比较20000耦合步、相关组26000事前终点；15核心种子块同形包络初始化与20000时间流哈希逐元素核对",
+      "sources": [
+        "frozen/design.json",
+        "analysis_outputs/pairing_audit.json",
+        "analysis_outputs/carrier_initialization_audit.json",
+        "analysis_outputs/all_snapshots_metrics.csv",
+        "analysis_outputs/factor_interactions.csv",
+        "analysis_outputs/factor_interactions_per_seed.csv"
+      ],
+      "manual_check": "因科学失败无法核对的整块明确标未验证，不能冒称bitwise通过；联合对照不能唯一拆分预初始化/辅助任务/冻结贡献；静态载波少64参数须披露"
+    },
+    {
+      "id": "strong_neural_benchmarks",
+      "requirement": "至少两类可靠振荡神经基准；机制控制变量与允许固定小规模调参的性能基准分开",
+      "proof": "SIREN和Fourier特征的固定3配置×2开发种子×2条件共24次4000步；只由预定开发分数冻结选项和扩展族；正式全5种子从头26000步并保留20000点",
+      "sources": [
+        "frozen/baseline_selection.json",
+        "analysis_outputs/baseline_selection_audit.json",
+        "analysis_outputs/development_costs_all_candidates.csv",
+        "analysis_outputs/summary_metrics.csv",
+        "literature/references.bib"
+      ],
+      "manual_check": "具体谱PINN/硬范数适配和SIREN初始化差异明确，不能声称逐字复现原求解器或覆盖所有强基准；不得按正式结果换最强族"
+    },
+    {
+      "id": "mature_spectral_integrator",
+      "requirement": "至少一种成熟谱时间算法，并独立验证其误差/成本/工作量",
+      "proof": "TSFP2六条件×3空间分辨率×6时间步长108配置，各5成本观测；自由解精度/二阶收敛PASS；主161和宽289参考全谱误差由双线性卷积独立重算；全108结果保留",
+      "sources": [
+        "engineering/TSFP_tests.json",
+        "spectral_benchmark/error_cost.csv",
+        "spectral_benchmark/complete.json",
+        "spectral_reference_check/audit.json",
+        "spectral_reference_check/spectral_error_cost_wide_reference.csv",
+        "analysis_outputs/independent_TSFP_audit.json",
+        "analysis_outputs/independent_TSFP_metrics_costs.csv"
+      ],
+      "manual_check": "参考对角化不算积分器成本，残差点数不当FFT公共FLOP口径；原OS峰值为累计基准进程峰值，不是每配置隔离内存峰值"
+    },
+    {
+      "id": "reference_and_grid_before_learning",
+      "requirement": "六条件参考解、截断、评价网格先独立校准",
+      "proof": "冻结161模态、六条件与193相邻截断全部达原阈值；厄米/逆演化/独立矩阵指数/PDE/范数、Nx1024/2048、Nt201/401通过；后续宽参考仅高精度诊断且主参考SHA不变",
+      "sources": [
+        "references/calibration.json",
+        "references/reference_convergence.csv",
+        "references/evaluation_grid_calibration.csv",
+        "frozen/reference_manifest.json",
+        "spectral_reference_check/reference_convergence.csv"
+      ],
+      "manual_check": "双谐波主161约7.7e-7参考底限明确；不依神经误差选择/放宽参考"
+    },
+    {
+      "id": "training_reference_separation",
+      "requirement": "学习载波训练与未来参考轨迹隔离，解析对照明确先验",
+      "proof": "冻结训练调用初态/算符残差，评价独立进程；保存配置和采样/RNG未受评价改变测试；载波无E(k)标签；解析exp(±iEt)先验及全组自由能支基底公开",
+      "sources": [
+        "frozen/source/closure/train.py",
+        "frozen/source/closure/models.py",
+        "frozen/source/closure/config.py",
+        "engineering/tests_and_recovery.json",
+        "engineering/full_pipeline_check.json",
+        "metric_and_cost_definitions.md",
+        "theory_closure_audit.md",
+        "engineering/theory_closure_audit.json"
+      ],
+      "manual_check": "训练允许先校准的截断信息，不将已知自由本征基说成无解析先验；不得以配置自述代替源码/实际外部评价证据；静态自由残差等价已知本征频率回归，不以未显式输入E数组声称发现未知自由谱"
+    },
+    {
+      "id": "scope_retraining_and_carrier_reuse",
+      "requirement": "最终法在原m5T5、V04、等RMS双谐波和新chirped初态实际执行；扩展学习/同结构解析/固定开发族精简比较；每算例分别判定",
+      "proof": "m5T5全9组×5；三扩展各3组×5共45耦合训练；源载波同种子m5T5复用SHA，包络/Adam新建；六条件的主/终点五种子规则逐项表",
+      "sources": [
+        "analysis_outputs/prescribed_attempt_status.csv",
+        "analysis_outputs/summary_metrics.csv",
+        "analysis_outputs/algorithm_costs_with_search_overhead.csv",
+        "frozen/design.json"
+      ],
+      "manual_check": "未执行的扩展不归完成；重训、载波复用、零样本分别标注；不推广到通用势/未见m/无限初谱"
+    },
+    {
+      "id": "zero_shot_45",
+      "requirement": "45项原样m5T5完整模型零样本诊断及独立重算；初态不修正，失败不省略",
+      "proof": "3扩展×3方法×5种子全部原样推理或保留源失败；模型含初态buffer状态digest前后不变；FFT生产指标由直接空间另一实现重算；9逐条件/组判定含初态差异",
+      "sources": [
+        "zero_shot/complete.json",
+        "zero_shot/independent_audit.json",
+        "zero_shot/independent_per_seed_metrics.csv",
+        "zero_shot/summary_metrics.csv"
+      ],
+      "manual_check": "源失败不能说成已执行有效推理；变初态模型仍原样保持旧初态，保留实际不匹配"
+    },
+    {
+      "id": "new_metric_and_residual_validation",
+      "requirement": "新结果独立重算和实际验证，不以硬范数恒等式充当动力学证据",
+      "proof": "所有已出固定快照201谱数组及主/终点401指标独立FFT/基底旋转复核；每有效固定主/终点独立JVP、势卷积和谱外残差，完整残差表求和；来源SHA重新核验；载波直接展开相位与斜率独立核对",
+      "sources": [
+        "analysis_outputs/independent_metric_audit.json",
+        "analysis_outputs/independent_metrics_per_snapshot.csv",
+        "analysis_outputs/residual_audit.json",
+        "analysis_outputs/residual_provenance_audit.json",
+        "analysis_outputs/carrier_phase_audit.json"
+      ],
+      "manual_check": "available状态不能单独支持全轮完成；离散残差不是连续误差证书；展开潜相位不是圆周相位，联合相位无唯一物理解读"
+    },
+    {
+      "id": "uniform_complete_cost_accounting",
+      "requirement": "统一误差、成功率、训练/推理成本、内存与残差工作量；辅助预训练/全候选费用保留，不能仅比较步数",
+      "proof": "成本独立核对：完整6000来源归属，每唯一来源实际只计一次；开发全部24，相关搜索及全搜索口径；优化墙钟/CPU、建立/评价/落盘；255主/终点推理七次中位数和RSS；失败/中断未知项不填零；假定复用1/5/10/100单列",
+      "sources": [
+        "metric_and_cost_definitions.md",
+        "analysis_outputs/independent_cost_audit.json",
+        "analysis_outputs/independent_parameter_audit.json",
+        "analysis_outputs/cost_summary.json",
+        "analysis_outputs/unique_incurred_costs_completed_and_failures.csv",
+        "analysis_outputs/algorithm_costs_with_search_overhead.csv",
+        "isolated_inference/independent_audit.json",
+        "analysis_outputs/carrier_amortization_examples.csv",
+        "analysis_outputs/engineering_replay_costs.csv"
+      ],
+      "manual_check": "真实并行运行墙钟不等于隔离硬件加速，独立推理进程不保证整机空闲；成本缓存不可按快慢重测挑选；未完成作业当时已花费用不冒称零"
+    },
+    {
+      "id": "paired_statistics_and_advantage_gate",
+      "requirement": "全部种子配对、失败记录与各算例判定；学习优势按冻结主比较资格判断",
+      "proof": "159预定组/端点行、627预定指标配对和18组2×2交互全部核对；全5差值/比率、ddof0、t(df4)95%描述区间、32符号翻转重算；T10/m10主20000分别过完整绝对/优势门槛；未齐与失败不做幸存子集统计",
+      "sources": [
+        "analysis_outputs/paired_statistics.csv",
+        "analysis_outputs/paired_per_seed.csv",
+        "analysis_outputs/independent_statistical_audit.json",
+        "analysis_outputs/learning_advantage_assessment.json",
+        "engineering/statistical_acceptance_checks.json"
+      ],
+      "manual_check": "n=5双侧最小p=.0625，不泛称总体显著；不跨条件合并；优势未建立或反向如实写，不按精度补预算"
+    },
+    {
+      "id": "original_literature_novelty",
+      "requirement": "更新原始Dirac PINN、谱PINN、WKB相位/复包络、相互作用绘景、范数约束先例检索和贡献对应",
+      "proof": "原始API/作者/出版商响应、查询/时间/SHA；最初147候选元数据完整保留，新增1定向记录，共148筛选；13先例对应、15BibTeX、8独立全文/9PDF版本；原文证据与摘要受限分开；投稿前结果时间点再次核对近期检索需要",
+      "sources": [
+        "literature/retrieval_log.json",
+        "literature/screening_all_candidates.csv",
+        "literature/prior_art_map.csv",
+        "literature/references.bib",
+        "literature/fulltext_retrieval_log.json",
+        "literature/report.md",
+        "theory_closure_audit.md",
+        "engineering/theory_closure_audit.json"
+      ],
+      "manual_check": "403全文限制与首发日期不确定不能隐藏，DOI创建日/卷期日不冒充首发；未发现完整重复不能当优先权证明；静态自由残差等价已知本征频率回归，不以未显式输入E数组声称发现未知自由谱"
+    },
+    {
+      "id": "all_figures_traceable_and_viewed",
+      "requirement": "参考/消融/范围/全部失败/误差成本/动力学相干图可追溯，逐图实际视觉检查",
+      "proof": "3已生成静态图+13正式图，全种子且动力学固定810；每图CSV/图注/源码SHA及PNG/SVG/PDF；向量实际渲染；16张最终图全部实际打开，视觉记录绑定当前文件SHA",
+      "sources": [
+        "figure_contract.md",
+        "figures/formal_generation_status.json",
+        "figures/actual_visual_QA.json",
+        "figures/vector_export_checks.json",
+        "visual_QA.md"
+      ],
+      "manual_check": "生成代码、automatic bbox或旧SHA记录不能替代实际看最终图；标注norm结构恒等式、解析先验、n/预算、缺项与失败"
+    },
+    {
+      "id": "complete_documents_and_inventory",
+      "requirement": "总报告、主张—证据表、代码数据清单、复现说明和基于实际结果的投稿定位可直接支撑后续写作",
+      "proof": "total_report.md、claims_evidence.csv、code_data_manifest.json、submission_positioning.md及冻结deliverables全部实物/来源映射；代码/数据/图/原始失败和原报告可查SHA；复现命令与目录真实可用",
+      "sources": [
+        "total_report.md",
+        "claims_evidence.csv",
+        "code_data_manifest.json",
+        "submission_positioning.md",
+        "reproduce.md",
+        "frozen/design.json"
+      ],
+      "manual_check": "每项科学结论对应正确条件/终点/完整种子，不混原始与对齐误差；若学习载波仍不如解析，定位收窄到失效诊断与结构修复；本阶段不写正文"
+    },
+    {
+      "id": "links_and_final_acceptance",
+      "requirement": "最终所有链接、实物、科学结论一致性与复现说明核验；仅整体验收真完成才关闭目标/心跳",
+      "proof": "最终文档/CSV来源/清单链接真实存在、外链可解析或明示权限限制；每要求逐项证据实查并无训练/工程/验证缺项；最终历史/源码/参考SHA再验；验收记录明确科学失败数量和未完成零",
+      "sources": [
+        "link_check.json",
+        "acceptance.json",
+        "history/final_integrity_report.json",
+        "verification_progress.json",
+        "claims_evidence.csv"
+      ],
+      "manual_check": "验收不能仅文件存在或脚本PASS推断，需实际逐项核实；只有此后update_goal complete、停止r14心跳并释放临时唤醒守护"
+    }
+  ]
+}

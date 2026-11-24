@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "checks_passed": 9,
+  "checks_total": 9,
+  "checks": [
+    {
+      "name": "frozen_scientific_code_unchanged",
+      "pass": true,
+      "detail": {
+        "manifest_sha256": "b0e6680c160651036646220c9e5f6314c9726b3a9a72e4d1f626867d42b5e5a3"
+      }
+    },
+    {
+      "name": "prior_887_artifacts_unchanged",
+      "pass": true,
+      "detail": {
+        "status": "PASS",
+        "file_count": 887,
+        "changed": [],
+        "missing": []
+      }
+    },
+    {
+      "name": "formal_inventory",
+      "pass": true,
+      "detail": {
+        "runs": 15,
+        "artifacts": 90,
+        "selective_retries": 0
+      }
+    },
+    {
+      "name": "configurations_streams_checkpoints_and_predictions",
+      "pass": true,
+      "detail": {
+        "paired_seed_streams_reconstructed": 5,
+        "checkpoints_reloaded": 15,
+        "physical_parameters": 12996,
+        "spectral_parameters": 12932
+      }
+    },
+    {
+      "name": "raw_metrics_masks_gauge_and_parseval",
+      "pass": true,
+      "detail": {
+        "runs_recomputed": 15,
+        "max_absolute_metric_difference": 4.551914400963142e-15,
+        "mask_threshold": 1e-06
+      }
+    },
+    {
+      "name": "aggregation_and_decision_recomputed",
+      "pass": true,
+      "detail": {
+        "classification": "INCONCLUSIVE",
+        "population_sd_ddof": 0
+      }
+    },
+    {
+      "name": "figures_source_data_hashes_and_visual_qa",
+      "pass": true,
+      "detail": {
+        "figures": 8,
+        "formats": 24,
+        "seed0_fixed": true,
+        "visual_qa": "PASS"
+      }
+    },
+    {
+      "name": "formal_logs_and_fixed_budget",
+      "pass": true,
+      "detail": {
+        "completed_without_retries": 15
+      }
+    },
+    {
+      "name": "report_and_evidence_links",
+      "pass": true,
+      "detail": {
+        "verified_links": 173,
+        "raw_artifact_links": 90
+      }
+    }
+  ]
+}

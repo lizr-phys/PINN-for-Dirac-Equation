@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "automated_pass": true,
+  "visual_review_passed": true,
+  "figures": [
+    {
+      "id": "calibration_modal_transfer",
+      "status": "PASS",
+      "png_dimensions": [
+        2966,
+        2126
+      ],
+      "pdf_preview": "pdf_previews/calibration_modal_transfer.png",
+      "source_files": [
+        "source_data/calibration_modal_transfer_trajectories.csv",
+        "source_data/calibration_modal_transfer_gates.csv",
+        "source_data/calibration_modal_transfer_approved_revision.csv"
+      ],
+      "problems": []
+    },
+    {
+      "id": "all_seed_primary_metrics",
+      "status": "PASS",
+      "png_dimensions": [
+        2966,
+        1966
+      ],
+      "pdf_preview": "pdf_previews/all_seed_primary_metrics.png",
+      "source_files": [
+        "source_data/all_seed_primary_metrics.csv"
+      ],
+      "problems": []
+    },
+    {
+      "id": "modal_occupation_heatmaps_seed0",
+      "status": "PASS",
+      "png_dimensions": [
+        2965,
+        1206
+      ],
+      "pdf_preview": "pdf_previews/modal_occupation_heatmaps_seed0.png",
+      "source_files": [
+        "source_data/modal_occupation_heatmaps_seed0.csv"
+      ],
+      "problems": []
+    },
+    {
+      "id": "center_sideband_trajectories_seed0",
+      "status": "PASS",
+      "png_dimensions": [
+        2966,
+        1166
+      ],
+      "pdf_preview": "pdf_previews/center_sideband_trajectories_seed0.png",
+      "source_files": [
+        "source_data/center_sideband_trajectories_seed0.csv"
+      ],
+      "problems": []
+    },
+    {
+      "id": "energy_branch_occupations_seed0",
+      "status": "PASS",
+      "png_dimensions": [
+        2964,
+        1926
+      ],
+      "pdf_preview": "pdf_previews/energy_branch_occupations_seed0.png",
+      "source_files": [
+        "source_data/energy_branch_occupations_seed0.csv"
+      ],
+      "problems": []
+    },
+    {
+      "id": "density_current_spacetime_seed0",
+      "status": "PASS",
+      "png_dimensions": [
+        2964,
+        1926
+      ],
+      "pdf_preview": "pdf_previews/density_current_spacetime_seed0.png",
+      "source_files": [
+        "source_data/density_current_spacetime_seed0.csv"
+      ],
+      "problems": []
+    },
+    {
+      "id": "active_channel_diagnostics_seed0",
+      "status": "PASS",
+      "png_dimensions": [
+        2966,
+        2006
+      ],
+      "pdf_preview": "pdf_previews/active_channel_diagnostics_seed0.png",
+      "source_files": [
+        "source_data/active_channel_diagnostics_seed0_channels.csv",
+        "source_data/active_channel_diagnostics_seed0_tangent.csv"
+      ],
+      "problems": []
+    },
+    {
+      "id": "training_efficiency_comparison",
+      "status": "PASS",
+      "png_dimensions": [
+        2966,
+        2046
+      ],
+      "pdf_preview": "pdf_previews/training_efficiency_comparison.png",
+      "source_files": [
+        "source_data/training_efficiency_comparison_loss.csv",
+        "source_data/training_efficiency_comparison_resources.csv"
+      ],
+      "problems": []
+    }
+  ],
+  "problems": [],
+  "backend": "Python/matplotlib; Python-invoked Poppler rendering"
+}

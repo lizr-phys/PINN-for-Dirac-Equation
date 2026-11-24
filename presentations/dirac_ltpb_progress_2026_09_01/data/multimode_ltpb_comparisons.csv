@@ -1,0 +1,4 @@
+metric,direction,best_baseline,best_baseline_mean,multi_ltpb_mean,ratio_best_baseline_over_multi_ltpb
+spinor_rel_l2_gauge_aligned,lower,multi_branch_complex,0.9398189908353123,0.006594204115051035,142.52197451550052
+current_rel_l2,lower,multi_branch_complex,0.9573635792963227,0.010975922187402617,87.22397653247911
+fidelity_mean,higher,multi_branch_complex,0.3171560066963372,0.9999651663235379,0.31716705479090823

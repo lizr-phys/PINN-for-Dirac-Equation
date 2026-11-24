@@ -1,0 +1,328 @@
+{
+  "study": "r14_prewriting_closure_2026_10_11",
+  "formal_seeds": [
+    810,
+    811,
+    812,
+    813,
+    814
+  ],
+  "development_seeds": [
+    910,
+    911
+  ],
+  "core_cases": [
+    "T10",
+    "m10",
+    "m5T5"
+  ],
+  "extension_cases": [
+    "V04",
+    "two_harmonics",
+    "chirped"
+  ],
+  "mechanism_groups": [
+    "original_pde",
+    "static_pde",
+    "original_hard",
+    "learned_hard",
+    "analytic_hard",
+    "joint_hard",
+    "no_carrier_hard"
+  ],
+  "thresholds": {
+    "spinor_rel_l2_gauge_aligned": 0.1,
+    "current_rel_l2": 0.15,
+    "fidelity_mean": 0.98,
+    "modal_population_rel_l2": 0.1,
+    "max_norm_drift": 0.02
+  },
+  "required_joint_successes": 4,
+  "all_five_seeds_required": true,
+  "success_scope": "separate per case, group, and prescribed endpoint",
+  "reference_policy": {
+    "candidate_bounds": [
+      [
+        -64,
+        96
+      ],
+      [
+        -80,
+        112
+      ],
+      [
+        -96,
+        128
+      ],
+      [
+        -112,
+        144
+      ],
+      [
+        -128,
+        160
+      ]
+    ],
+    "comparison": "choose first smaller passing ALL six cases vs next larger",
+    "trajectory_relative_error_max_exclusive": 1e-06,
+    "boundary_sixteen_layer_occupation_max_exclusive": 1e-08,
+    "hermiticity_max": 0.0,
+    "validation_error_max_exclusive": 1e-12,
+    "dt": 0.00125,
+    "test_t_points": 201,
+    "time_grid_validation_points": 401,
+    "test_x_points": 1024,
+    "double_x_points": 2048,
+    "no_learning_metric_used": true,
+    "all_fail_stop": true,
+    "fixed_feature_scale": 10.0
+  },
+  "initial_data": {
+    "original": "unchanged normalized Gaussian on n=0..32, k0=2, sigma=.5, equal +/- branches; zero padding",
+    "chirped": "same amplitudes; both branches multiplied by exp(0.5 i (k-2)^2), minus branch additionally exp(i*pi/3); no renormalization"
+  },
+  "physical": {
+    "length": "16*pi",
+    "hbar": 1.0,
+    "c": 1.0,
+    "k": "n/8",
+    "mass": "10 for m10, else 5",
+    "T": "10 for T10, else 5",
+    "potential": "0.4*cos(x) for V04; 0.2*(cos(x)+cos(2*x))/sqrt(2) for two_harmonics; else 0.2*cos(x)"
+  },
+  "mechanism": {
+    "network": "4 hidden layers, width64, tanh, float64/complex128",
+    "Adam_lr": 0.001,
+    "carrier_steps": 6000,
+    "coupled_primary_steps": 20000,
+    "fresh_sorted_uniform_times": 32,
+    "all_modes": true,
+    "hard_norm": "full complex branch spectrum r/sqrt(sum |r|^2); exact derivative; no clamp; forward used in loss and evaluation",
+    "original_carrier": "exp(i tau q(k,tau))",
+    "static_carrier": "exp(-i t omega(k)); one-input net initialized to original t=0 rate",
+    "analytic_carrier": "exp(-i t (+/- sqrt(k^2+m^2))); explicit known-free-operator prior",
+    "learned_carrier_training": "complete H0 spinor residual, both nonzero unit initial branches; no energy labels or reference",
+    "primary_equal_coupled_budget": true,
+    "initialization_streams": {
+      "envelope": 800000,
+      "carrier": 900000
+    },
+    "sampling_streams": {
+      "coupled": 920000,
+      "free": 910000
+    },
+    "joint": "static carrier and same envelope from scratch; no free loss; joint full PDE; primary 20000, prescribed 26000 cost-budget endpoint",
+    "no_carrier": "same single tanh complex envelope, same full hard norm; primary20000, prescribed26000 endpoint",
+    "factors": "original/static pretrained carrier x PDE-only/hard norm; analytic hard; joint static hard; no carrier hard",
+    "pairing": "bitwise same-shaped envelope initialization, same time RNG, phase/rate-matched carrier initial condition",
+    "inference_precomputed_carrier": "none; all network and carrier evaluations included"
+  },
+  "baselines": {
+    "families": [
+      "siren",
+      "fourier"
+    ],
+    "architecture": "spectral PINN adaptations with same hard IC, full hard norm and PDE, not literal published solver reproduction",
+    "tuning_configs": {
+      "siren": [
+        {
+          "omega": 30.0,
+          "lr": 0.001
+        },
+        {
+          "omega": 30.0,
+          "lr": 0.0001
+        },
+        {
+          "omega": 60.0,
+          "lr": 0.0001
+        }
+      ],
+      "fourier": [
+        {
+          "scale": 1.0,
+          "lr": 0.001
+        },
+        {
+          "scale": 4.0,
+          "lr": 0.001
+        },
+        {
+          "scale": 8.0,
+          "lr": 0.0003
+        }
+      ]
+    },
+    "tuning_cases": [
+      "T10",
+      "m10"
+    ],
+    "tuning_seeds": [
+      910,
+      911
+    ],
+    "tuning_steps": 4000,
+    "final_steps": 26000,
+    "primary_20000_snapshot": true,
+    "selected_without_formal_metrics": true,
+    "candidate_score": "mean dev spinor/.10 + current/.15 + modal/.10 + (1-fidelity)/.02; all failed last, fixed index tie-break",
+    "per_core_case_selection": true,
+    "global_selection_for_m5T5_and_extensions": true,
+    "strongest_family": "best global development score, fixed family order tie-break",
+    "no_second_search": true,
+    "no_reference_labels_in_gradient_training": true
+  },
+  "extensions": {
+    "groups": [
+      "learned_hard",
+      "analytic_hard",
+      "strongest_neural"
+    ],
+    "seeds": [
+      810,
+      811,
+      812,
+      813,
+      814
+    ],
+    "learned_carrier_reuse": "m5T5 static same seed; same m,k,domain and T, only V or IC differs; envelope retrained from matched new Adam",
+    "separate_retrain_and_reuse_labels": true,
+    "zero_shot": "evaluate unchanged m5T5 complete solution checkpoint on V04/two_harmonics/chirped; no correction of IC or weights; all 3 methods and 5 seeds; diagnostic only",
+    "zero_shot_no_accuracy_selection": true
+  },
+  "spectral_integrator": {
+    "method": "Strang time-splitting Fourier pseudospectral (TSFP2)",
+    "grid_points": [
+      256,
+      512,
+      1024
+    ],
+    "time_steps": [
+      0.025,
+      0.0125,
+      0.00625,
+      0.003125,
+      0.0015625,
+      0.00078125
+    ],
+    "per_case_repeats": 5,
+    "known_H0_prior": true,
+    "include_setup_fft_free_exp_propagation": true,
+    "no_training": true,
+    "reference_diagonalization": "independent calibration, not algorithm timing"
+  },
+  "snapshots": {
+    "coupled": [
+      5000,
+      10000,
+      15000,
+      20000,
+      26000
+    ],
+    "carrier": [
+      1000,
+      3000,
+      6000
+    ],
+    "fixed_endpoint_only": true,
+    "save_dense_test_spectrum_all": true,
+    "save_full_fine_arrays": false,
+    "save_full_residual_summary_and_201point_complex_residual": true,
+    "reconstruct_fine_from_checkpoint": true
+  },
+  "statistics": {
+    "ddof": 0,
+    "paired_all_seeds": true,
+    "primary_pair": "learned_hard vs analytic_hard at20000 in T10 and m10",
+    "exact_sign_flip_two_sided": true,
+    "confidence_interval": "paired difference Student-t df4 95%; descriptive assumptions; all seeds shown",
+    "learning_advantage_gate": "in EACH T10 and m10, paired spinor mean difference<0, upper95CI<0, >=4/5 lower error, absolute pass; lower total attributed training time for efficiency claim",
+    "small_n_limitation": true,
+    "no_cross_case_pooling": true,
+    "no_outlier_deletion": true
+  },
+  "costs": {
+    "record": [
+      "training_wall_seconds",
+      "process_cpu_seconds",
+      "setup_seconds",
+      "evaluation_seconds",
+      "checkpoint_io_seconds",
+      "inference_median_seconds_201_times_all_modes",
+      "inference_samples",
+      "peak_RSS",
+      "active_frozen_total_parameters",
+      "unit_spinor_residual_points",
+      "complex_scalar_residual_components",
+      "auxiliary_pretraining",
+      "development_tuning"
+    ],
+    "incurred": "each unique carrier and tuning run once",
+    "attributed": "standalone method includes full6000 auxiliary cost; tuning cost separately and as all-benchmark-development overhead",
+    "reuse": "actual m5 carrier reuse disclosed; amortized examples1,5,10,100; no break-even claims without measured benefit",
+    "concurrent_wall_time_is_not_isolated_speedup": true
+  },
+  "resources": {
+    "workers": 5,
+    "physical_core_masks": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "control_mask": 128,
+    "threads_per_worker": 1,
+    "reserve_free_E_gib": 4.0,
+    "estimated_new_storage_gib": 4.5,
+    "estimated_peak_RAM_gib": 6.0,
+    "preflight_time_estimate": "historical coupled4000-7200 sec, carrier~1400 sec; 300-400 bound-core hours + evaluation; 3-5 days at five workers",
+    "exact_recovery_every_steps": 500,
+    "batch_sequence": [
+      "references",
+      "development",
+      "core:T10",
+      "core:m10",
+      "core:m5T5",
+      "extensions",
+      "zero_shot",
+      "independent_audit",
+      "report"
+    ]
+  },
+  "stop_conditions": [
+    "reference/calibration fails: no formal training",
+    "numeric failure retained, no fresh rerun; dependencies marked failed",
+    "engineering interruption: exact optimizer/weights/RNG resume, same plan and budget",
+    "free E space below4GiB: stop checkpoint boundary, operational storage correction only",
+    "all preset attempts, verification, visual QA, literature and links executed: finish, regardless of scientific failures"
+  ],
+  "forbidden": [
+    "historical evidence overwrite",
+    "accuracy-driven budget extension",
+    "seed selection",
+    "checkpoint selection",
+    "reference training leakage",
+    "claim structural norm conservation demonstrates dynamics",
+    "claim pretraining necessary without comparison",
+    "claim all failures uniquely explained"
+  ],
+  "deliverables": [
+    "total_report.md",
+    "claims_evidence.csv",
+    "historical_results.csv",
+    "per_seed_metrics.csv",
+    "paired_statistics.csv",
+    "reference_convergence.csv",
+    "ablation_and_cost_curves",
+    "literature_prior_art_map.csv",
+    "references.bib",
+    "code_data_manifest.json",
+    "independent_metric_audit.json",
+    "tests_and_recovery.json",
+    "visual_QA.md",
+    "link_check.json",
+    "reproduce.md",
+    "submission_positioning.md"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "experiment": "r10_wavepacket_budget_diagnosis",
+  "status": "CONDITIONAL_BUDGET_RECOVERY",
+  "absolute_success": {
+    "R9 step20000": {
+      "complete": true,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": true,
+        "current_rel_l2": true,
+        "fidelity_mean": true,
+        "modal_population_rel_l2": true,
+        "max_norm_drift": true
+      },
+      "means": {
+        "spinor_rel_l2_gauge_aligned": 0.03431315709855666,
+        "current_rel_l2": 0.046358009094185026,
+        "fidelity_mean": 0.9987430918925426,
+        "modal_population_rel_l2": 0.010240285866572541,
+        "max_norm_drift": 0.012487291438874015
+      },
+      "joint_pass_count": 3,
+      "joint_pass_seeds": [
+        300,
+        303,
+        304
+      ],
+      "pass_check": false
+    },
+    "R10 step26000": {
+      "complete": true,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": true,
+        "current_rel_l2": true,
+        "fidelity_mean": true,
+        "modal_population_rel_l2": true,
+        "max_norm_drift": true
+      },
+      "means": {
+        "spinor_rel_l2_gauge_aligned": 0.022780561459616894,
+        "current_rel_l2": 0.03171597144172556,
+        "fidelity_mean": 0.9994739720900332,
+        "modal_population_rel_l2": 0.006899834419055377,
+        "max_norm_drift": 0.006635672261389525
+      },
+      "joint_pass_count": 5,
+      "joint_pass_seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "pass_check": true
+    }
+  },
+  "thresholds": {
+    "spinor_rel_l2_gauge_aligned": 0.1,
+    "current_rel_l2": 0.15,
+    "fidelity_mean": 0.98,
+    "modal_population_rel_l2": 0.1,
+    "max_norm_drift": 0.02
+  },
+  "population_sd_ddof": 0,
+  "inherited_optimizer_steps": 20000,
+  "additional_optimizer_steps": 6000,
+  "fixed_final_step": 26000,
+  "all_five_ancestries_included": true,
+  "fresh_independent_seed_replication": false,
+  "r9_original_classification_unchanged": true,
+  "total_budget_matched_comparison_to_r9_C": false,
+  "pretraining_causal_effect_isolated": false,
+  "rescue_structure_added": false,
+  "scope": "same five R9 training ancestries; known finite Fourier Gaussian spectrum and fixed weak periodic potential"
+}

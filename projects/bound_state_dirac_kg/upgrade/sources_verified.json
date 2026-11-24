@@ -1,0 +1,40 @@
+{
+  "verified_on": "2026-10-03",
+  "scope": "stationary bound states; primary sources only; no claim of exhaustive state of the art",
+  "sources": [
+    {
+      "authors": "Du; Zhang",
+      "year": 2026,
+      "title": "Solving nuclear Dirac Woods–Saxon potential with a physics-informed neural network",
+      "doi": "10.1088/1572-9494/ae1a5c",
+      "url": "https://ctp.itp.ac.cn/EN/10.1088/1572-9494/ae1a5c",
+      "fulltext": "https://ctp.itp.ac.cn/EN/PDF/10.1088/1572-9494/ae1a5c",
+      "supported_comparison": "Residual PINN, nontrivial and orthogonality constraints, nuclear radial Woods–Saxon scalar/vector potentials; different energy conventions and error metrics."
+    },
+    {
+      "authors": "Wang; Naito; Li; Liang",
+      "year": 2025,
+      "title": "A deep neural network approach to solve the Dirac equation",
+      "doi": "10.1140/epja/s10050-025-01630-5",
+      "url": "https://link.springer.com/article/10.1140/epja/s10050-025-01630-5",
+      "fulltext": "https://arxiv.org/html/2412.03090v2",
+      "supported_comparison": "Inverse Hamiltonian avoids variational collapse; low excited states; equation 11 reconstructs the small component from the large component."
+    },
+    {
+      "authors": "Kalitenko; Pronin",
+      "year": 2024,
+      "title": "On the possibility of using the NNQS for the Klein–Gordon–Fock equation",
+      "doi": "10.26089/NumMet.v25r435",
+      "url": "https://en.num-meth.ru/index.php/journal/article/view/1379",
+      "supported_comparison": "Stationary KG–Fock neural quantum states for Coulomb and relativistic oscillator; different potentials and algorithm."
+    },
+    {
+      "authors": "Jin; Mattheakis; Protopapas",
+      "year": 2022,
+      "title": "Physics-Informed Neural Networks for Quantum Eigenvalue Problems",
+      "doi": "10.48550/arXiv.2203.00451",
+      "url": "https://arxiv.org/abs/2203.00451",
+      "supported_comparison": "Normalization, orthogonality, parity and boundary embedding in eigenvalue PINNs predate this project."
+    }
+  ]
+}

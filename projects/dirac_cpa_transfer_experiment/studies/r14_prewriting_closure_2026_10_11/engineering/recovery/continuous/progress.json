@@ -1,0 +1,44 @@
+{
+  "job": {
+    "type": "coupled",
+    "stage": "engineering",
+    "case": "m5T5",
+    "group": "joint_hard",
+    "seed": 999003,
+    "budget": 8,
+    "snapshots": [
+      8
+    ],
+    "bounds": [
+      0,
+      32
+    ],
+    "directory": "engineering/recovery/continuous"
+  },
+  "fixed_endpoint_reached": true,
+  "utc": 1791684812.9887605,
+  "training_wall_seconds": 0.3630525000007765,
+  "training_cpu_seconds": 0.359375,
+  "evaluation_seconds": 0.0,
+  "checkpoint_io_seconds": 0.06863200000043435,
+  "setup_seconds": 2.7409700000007433,
+  "peak_rss_bytes": 341364736,
+  "total_parameters": 25670,
+  "active_parameters": 25670,
+  "frozen_parameters": 0,
+  "step": 8,
+  "source_pretraining_wall_seconds": 0.0,
+  "source_pretraining_cpu_seconds": 0.0,
+  "attributed_training_wall_seconds": 0.3630525000007765,
+  "attributed_training_cpu_seconds": 0.359375,
+  "carrier_pretraining_reused": false,
+  "incurred_pipeline_seconds": 3.172654500001954,
+  "attributed_pipeline_seconds": 3.172654500001954,
+  "unit_spinor_residual_points": 8448,
+  "attributed_unit_spinor_residual_points": 8448,
+  "complex_scalar_residual_components": 16896,
+  "free_steps": 0,
+  "coupled_steps": 8,
+  "peak_rss_includes_process_runtime_and_cache": true,
+  "engineering": true
+}

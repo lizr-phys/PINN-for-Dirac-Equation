@@ -1,0 +1,36 @@
+{
+  "pdf_text_inspection": [
+    {
+      "file": "01_potential_energy.pdf",
+      "pages": 1,
+      "selectable_text_characters": 280
+    },
+    {
+      "file": "02_dirac_components.pdf",
+      "pages": 1,
+      "selectable_text_characters": 317
+    },
+    {
+      "file": "03_kg_wavefunction_charge.pdf",
+      "pages": 1,
+      "selectable_text_characters": 338
+    },
+    {
+      "file": "04_residuals_tails.pdf",
+      "pages": 1,
+      "selectable_text_characters": 516
+    },
+    {
+      "file": "05_training.pdf",
+      "pages": 1,
+      "selectable_text_characters": 548
+    },
+    {
+      "file": "06_reference_convergence.pdf",
+      "pages": 1,
+      "selectable_text_characters": 473
+    }
+  ],
+  "visual_inspection": "All six Matplotlib PNG previews inspected; wavefunction legends relocated to avoid curves; doublets separated by disclosed horizontal display offsets. PNG/SVG/PDF share the same Matplotlib figure.",
+  "editable_svg_text": true
+}

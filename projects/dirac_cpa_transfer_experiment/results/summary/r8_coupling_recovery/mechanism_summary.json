@@ -1,0 +1,77 @@
+{
+  "stage": "INDEPENDENT_VALIDATION",
+  "no_additional_posthoc_success_threshold": true,
+  "windowing_changes_stored_capacity_and_optimization": true,
+  "models": [
+    {
+      "model": "A_carrier_complex",
+      "independently_validated_absolute_success": true,
+      "joint_absolute_pass_count": 4,
+      "mean_first_sideband_complex_error": 0.02858363687884783,
+      "mean_max_outside_center_occupation": 0.3156064602412529,
+      "reference_max_outside_center_occupation": 0.32090041471839953,
+      "comparisons": {
+        "complex": {
+          "spinor_mean_error_ratio": 0.02157044462233574,
+          "current_mean_error_ratio": 0.03038669151008028,
+          "spinor_current_joint_wins": 5
+        },
+        "phase_release": {
+          "spinor_mean_error_ratio": 0.051324935891984225,
+          "current_mean_error_ratio": 0.06193853155027967,
+          "spinor_current_joint_wins": 5
+        }
+      }
+    },
+    {
+      "model": "C_release_windows",
+      "independently_validated_absolute_success": false,
+      "joint_absolute_pass_count": 0,
+      "mean_first_sideband_complex_error": 0.9982286718747894,
+      "mean_max_outside_center_occupation": 0.0019283349721940831,
+      "reference_max_outside_center_occupation": 0.32090041471839953,
+      "comparisons": {
+        "complex": {
+          "spinor_mean_error_ratio": 0.41891691016075816,
+          "current_mean_error_ratio": 0.4876135708008105,
+          "spinor_current_joint_wins": 5
+        },
+        "phase_release": {
+          "spinor_mean_error_ratio": 0.99677516780555,
+          "current_mean_error_ratio": 0.9939242161118954,
+          "spinor_current_joint_wins": 3
+        }
+      }
+    },
+    {
+      "model": "complex",
+      "independently_validated_absolute_success": false,
+      "joint_absolute_pass_count": 0,
+      "mean_first_sideband_complex_error": 1.0032765532922525,
+      "mean_max_outside_center_occupation": 0.0025784044163491794,
+      "reference_max_outside_center_occupation": 0.32090041471839953,
+      "comparisons": {
+        "phase_release": {
+          "spinor_mean_error_ratio": 2.379410197174997,
+          "current_mean_error_ratio": 2.0383440405064364,
+          "spinor_current_joint_wins": 0
+        }
+      }
+    },
+    {
+      "model": "phase_release",
+      "independently_validated_absolute_success": false,
+      "joint_absolute_pass_count": 0,
+      "mean_first_sideband_complex_error": 0.9997003371780165,
+      "mean_max_outside_center_occupation": 0.0002751069128229893,
+      "reference_max_outside_center_occupation": 0.32090041471839953,
+      "comparisons": {
+        "complex": {
+          "spinor_mean_error_ratio": 0.4202722175383086,
+          "current_mean_error_ratio": 0.4905943158405905,
+          "spinor_current_joint_wins": 5
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "updated_utc": 1791886104.230672,
+  "status": "PASS_AVAILABLE_SNAPSHOTS",
+  "snapshots_audited": 638,
+  "missing": [],
+  "metric_mismatches": [],
+  "independent_implementation": "FFT quadrature and independent NumPy branch rotation",
+  "source_code_sha256": "f3aca5242d0eaf45fe7b0ce66fc91520a8b03b2f7022c3a48f7a49dccc61b6f5",
+  "independent_metric_code_sha256": "861e28da7d688436bbaee3a92b89acac8b5b0fe7ecc5d1d3f856c007efe576d1",
+  "required_401_and_spatial_grid_diagnostics_checked": true,
+  "entire_study_complete": false,
+  "does_not_mark_missing_training_complete": true
+}

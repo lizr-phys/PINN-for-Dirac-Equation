@@ -1,0 +1,30 @@
+{
+  "experiment": "wavepacket_shared_spectral_ltpb",
+  "created_at_utc": "2026-09-01T09:44:30.308178+00:00",
+  "scope": "layout_only",
+  "figure": "per_seed_results",
+  "reason": "Formal visual QA found that the axes-level external legend and tight save boundary compressed the three data axes. The unchanged 75-row source CSV was redrawn with fixed subplot margins and a figure legend.",
+  "source_data": "results/figures/wavepacket_shared_spectral_ltpb/source_data/per_seed_results.csv",
+  "source_sha256": "62354bd70535f679258c712c682771f545e670d873f700d753dcfff91cec3399",
+  "original_outputs_sha256": {
+    "png": "dd2ed8f7170a3041c8ff83dff73a4c78ee86f79c5807c6771c62fa17fb0011c0",
+    "svg": "5c3cce3b3abe66c985cfc3052749b3ac330ec396631b0fe8597beef4f0c6a170",
+    "pdf": "ea9ae718ea85950df956b1b75ff85bc72542c2e084cb9e453b5fde66253f572c"
+  },
+  "repaired_outputs_sha256": {
+    "png": "da325452158dd80a5123e6843adffec5423e5246bf5fbf1837f5f1bbdf425d63",
+    "svg": "3529b78f4c91ccbdceed709c43bb8c16c254f072c4cc15d995f247fc8ab544f1",
+    "pdf": "21cfe5a405bc66a6b04745fd5e1f99935bc554bc5ec320e00224576931d13ab7"
+  },
+  "backup_directory": "results/figures/wavepacket_shared_spectral_ltpb/pre_layout_correction",
+  "unchanged": [
+    "formal learned run artifacts",
+    "oracle artifacts",
+    "models and checkpoints",
+    "physics and residual",
+    "metrics and aggregate CSVs",
+    "preregistered decision JSON and thresholds",
+    "all figure source data",
+    "frozen formal code and its SHA-256 manifest"
+  ]
+}

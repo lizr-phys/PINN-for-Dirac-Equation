@@ -1,0 +1,756 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[section]{placeins}
+\usepackage[hidelinks]{hyperref}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\renewcommand{\arraystretch}{1.16}
+\setlength{\emergencystretch}{2em}
+
+\title{Learnable Dual-Phase PINNs with Positive- and Negative-Energy
+Eigenspace Decomposition for the Time-Dependent Dirac Equation\\
+\large Research Overview and Interim Progress Report}
+\author{}
+\date{September 1, 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{quote}
+\noindent\textbf{Current status.}
+The theoretical analysis, single-wavenumber transfer test, method construction,
+mechanism ablation, two-wavenumber extension, and continuous-wave-packet
+experiment have been completed. The next stage introduces momentum coupling
+through an external potential.
+\end{quote}
+
+\begin{abstract}
+This study investigates long-time phase approximation in physics-informed
+neural networks for the time-dependent Dirac equation. For superpositions of
+the positive- and negative-energy branches, a single common phase does not
+separate both rapid temporal factors with opposite signs. Its numerical benefit
+therefore deteriorates under a fixed network size and training budget. A
+learnable two-phase branch-aligned network, denoted by LTPB, is introduced to
+address this difficulty. The spinor is first projected onto the positive- and
+negative-energy eigenspaces of the free Dirac Hamiltonian, after which an
+independent real amplitude and learnable phase are assigned to each component.
+Single-wavenumber experiments, parameter-matched ablations, and a
+two-wavenumber test show that eigenspace alignment and phase separation play
+complementary roles. A shared-spectral LTPB subsequently represents 33 Fourier
+modes with a fixed parameter count and preserves the correct dispersion phase
+at untrained midpoint wavenumbers. Relative to a general Dirac PINN and a
+single-common-phase CPA representation, the proposed coordinates may improve
+the conditioning of mixed-energy, strongly oscillatory problems by extracting
+their rapid phases explicitly. Relative to mature spectral solvers, the
+prospective value lies in continuous surrogate construction, sparse-data
+assimilation, and parameter inference. These latter advantages remain to be
+established through external-potential, noisy-data, and cost-comparison studies.
+\end{abstract}
+
+\section{Problem formulation}
+
+Consider the one-dimensional time-dependent Dirac equation
+\begin{equation}
+i\hbar\partial_t\psi=
+\left(-i\hbar c\sigma_x\partial_x+mc^2\sigma_z+V(x,t)I_2\right)\psi,
+\qquad
+\psi=(\psi_1,\psi_2)^{\mathsf T}.
+\end{equation}
+Hermiticity of the Dirac Hamiltonian yields the probability density, probability
+current density, and continuity equation
+\begin{equation}
+\rho=\psi^\dagger\psi,
+\qquad
+j=c\psi^\dagger\sigma_x\psi,
+\qquad
+\partial_t\rho+\partial_xj=0.
+\end{equation}
+
+Suppose that the spinor is parameterized by a common phase,
+\begin{equation}
+\psi=Ae^{iS/\hbar}.
+\end{equation}
+Direct substitution gives
+\begin{equation}
+\rho=A^\dagger A,
+\qquad
+j=cA^\dagger\sigma_xA.
+\end{equation}
+The global \(U(1)\) phase \(S\) cancels from both quantities. If the two spinor
+components are instead written as
+\begin{equation}
+\psi_j=a_je^{iS_j/\hbar},
+\end{equation}
+with real amplitudes \(a_j\), then
+\begin{equation}
+j=2ca_1a_2\cos\!\left(\frac{S_2-S_1}{\hbar}\right).
+\end{equation}
+The current density is therefore sensitive to the internal relative phase.
+Positive- and negative-energy eigenstates of the free Dirac Hamiltonian carry
+the temporal factors \(e^{-iEt}\) and \(e^{+iEt}\), respectively. A single
+common phase can absorb at most one of these rapid factors, leaving the other
+oscillation to be represented by the complex-amplitude network.
+
+Throughout this report, performance deterioration refers to increased
+optimization difficulty and approximation error under a fixed architecture and
+training budget. The single-common-phase ansatz retains sufficient formal
+representation capacity.
+
+\section{Research program}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Research program and current status}
+\begin{tabularx}{\textwidth}{@{}c l c Y@{}}
+\toprule
+Stage & Task & Status & Main result or objective \\
+\midrule
+1 & Theoretical analysis & Complete &
+The common phase does not directly encode the relative phase between the
+positive- and negative-energy eigenspaces. \\
+2 & Single-mode transfer test & Complete &
+CPA-PINN is accurate on a pure positive-energy state, whereas its improvement is
+substantially reduced for a mixed-energy state. \\
+3 & LTPB construction & Complete &
+Independent learnable phases recover the mixed-energy dynamics. \\
+4 & Structural ablation & Complete &
+Eigenspace alignment and phase separation jointly determine the observed
+accuracy. \\
+5 & Two-wavenumber test & Complete &
+The representation extends from two temporal frequencies to four energy
+components. \\
+6 & Continuous wave packet & Complete &
+A shared-spectral network represents 33 modes and interpolates to untrained
+wavenumbers. \\
+7 & External potential or scattering & Next &
+Test the method under dynamically coupled momentum channels. \\
+8 & Sparse noisy data & Planned &
+Assess state reconstruction and parameter inference. \\
+9 & Full benchmark & Planned &
+Compare accuracy, stability, and cost with modern PINNs and classical solvers. \\
+10 & Manuscript development & Planned &
+Assemble the theory, algorithm, ablations, scope, and data applications into a
+complete argument. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Stage I: theoretical analysis}
+
+\subsection{Free positive- and negative-energy branches}
+
+In natural units \(\hbar=c=1\), spatial Fourier transformation reduces the free
+Dirac Hamiltonian at wavenumber \(k\) to
+\begin{equation}
+H(k)=k\sigma_x+m\sigma_z,
+\qquad
+H(k)u_\pm=\pm E_k u_\pm,
+\qquad
+E_k=\sqrt{k^2+m^2}.
+\end{equation}
+As \(k\) varies, the eigenvalues \(+E_k\) and \(-E_k\) form the positive- and
+negative-energy branches of the dispersion relation. At fixed \(k\), their
+normalized eigenvectors are denoted by \(u_\pm(k)\). A mixed-energy state is
+\begin{equation}
+\psi_\eta(x,t)=
+\frac{e^{ikx}}{\sqrt{L(1+\eta^2)}}
+\left(u_+e^{-iE_kt}+\eta u_-e^{+iE_kt}\right).
+\end{equation}
+For \(\eta=1\), the total norm remains constant while the current density
+contains an interference term at frequency \(2E_k\). This single-mode state is
+the minimal problem for testing relative-phase approximation.
+
+\subsection{Information carried by conservation constraints}
+
+Let \(R_D=i\partial_t\psi-H_D\psi\) be the Dirac-equation residual. Direct
+calculation gives
+\begin{equation}
+\partial_t\rho+\partial_xj
+=2\operatorname{Im}(\psi^\dagger R_D).
+\end{equation}
+The continuity equation is a real projection of the governing residual along
+the state, whereas total norm and total energy are integral constraints. These
+conditions restrict the global evolution but do not determine the local
+relative phase between the positive- and negative-energy components. This
+observation motivates an explicit phase variable for each eigenspace.
+
+\section{Stage II: transfer test of a single-common-phase CPA representation}
+
+\subsection{Experimental setting}
+
+The parameters are \(m=5\), \(k=2\), \(T=5\), and \(L=2\pi\), with periodic
+boundary conditions. Two cases are considered:
+\begin{itemize}
+  \item \texttt{Case P}: a pure positive-energy state;
+  \item \texttt{Case M}: an equal-weight superposition of the positive- and
+  negative-energy states.
+\end{itemize}
+Every trainable model uses four hidden layers with 64 \texttt{tanh} neurons per
+layer. Adam optimization is run for 5000 steps with 1024 collocation points per
+step. Three random seeds are used.
+
+\subsection{Results}
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{Transfer-test results for the single-common-phase CPA representation}
+\begin{tabularx}{\textwidth}{@{}Ycccc@{}}
+\toprule
+Model &
+\shortstack{Case P\\spinor error} &
+\shortstack{Case M\\spinor error} &
+\shortstack{Case M\\current error} &
+\shortstack{Case M\\fidelity} \\
+\midrule
+Vanilla & 0.9228 & 0.9452 & 0.9693 & 0.2254 \\
+SP-CPA & \textbf{0.0067} & 0.7991 & 0.9392 & 0.5935 \\
+SP-CPA-Conservative & 0.0111 & 1.0785 & 1.0698 & 0.1631 \\
+Analytic two-frequency reference & 0.0079 & \textbf{0.0062} &
+\textbf{0.0105} & 0.999990 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/01_main_metric_comparison.png}
+\caption{The single-common-phase representation is accurate on the pure
+positive-energy state, while its improvement is much smaller for the
+mixed-energy state.}
+\label{fig:cpa-main-en}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/02_case_M_current_x0.png}
+\caption{SP-CPA gives a large error for the rapid current oscillation generated
+by coherence between the two energy eigenspaces.}
+\label{fig:cpa-current-en}
+\end{figure}
+
+Relative to Vanilla, SP-CPA reduces the spinor error by \(99.3\%\) in Case P
+and by \(15.5\%\) in Case M. Adding continuity, norm, and energy penalties does
+not recover the current density or the eigenspace-relative phase. An analytic
+wrong-phase construction further shows that nearly correct global invariants
+can coexist with substantial local errors in the spinor and current density.
+
+\noindent\textbf{Stage conclusion.}
+The common-phase CPA representation remains effective for a pure energy
+component. Its rapid-phase extraction is incomplete for a positive/negative
+superposition, and its fixed-budget accuracy deteriorates accordingly.
+
+\section{Stage III: LTPB formulation and pilot validation}
+
+\subsection{Method}
+
+Projection onto the eigenspaces of the free Dirac Hamiltonian gives the
+learnable two-phase branch-aligned representation
+\begin{equation}
+\widehat\psi=e^{ikx}
+\left[
+a_+(x,t)u_+e^{iS_+(x,t)}
++a_-(x,t)u_-e^{iS_-(x,t)}
+\right].
+\end{equation}
+For continuity with the experimental code, this representation is denoted by
+LTPB. Here branch alignment is implemented through alignment with the
+positive- and negative-energy eigenspaces. The hard initial-condition ansatz is
+\begin{equation}
+a_\pm=a_{\pm,0}+\tau r_\pm,
+\qquad
+S_\pm=\tau q_\pm,
+\qquad
+\tau=t/T.
+\end{equation}
+Neither the exact energy \(E_k\) nor the exact temporal frequency is supplied
+to the forward representation, loss functional, or optimizer. Both phases are
+identified from the Dirac residual and the prescribed initial and boundary
+conditions.
+
+\subsection{Results}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Comparison between SP-CPA and LTPB}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Metric & SP-CPA & LTPB & SP-CPA/LTPB \\
+\midrule
+Case M spinor error & 0.7991 & \textbf{0.0025} & about 320 \\
+Current-density error & 0.9392 & \textbf{0.0046} & about 204 \\
+Relative-phase RMSE & 1.5864 & \textbf{0.0030} & about 529 \\
+Fidelity & 0.5935 & \textbf{0.999996} & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/learned_two_phase_pilot/01_main_metric_comparison.png}
+\caption{LTPB attains low errors for both pure- and mixed-energy states without
+receiving the exact frequency.}
+\label{fig:ltpb-main-en}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/learned_two_phase_pilot/02_learned_branch_phases.png}
+\caption{The two phases identified from the governing residual approach
+\(-E_kt\) and \(+E_kt\).}
+\label{fig:ltpb-phase-en}
+\end{figure}
+
+The exact slopes are \(\mp 5.3851648\), while the identified slopes are
+\(-5.3855\) and \(+5.3854\). The linear fits have \(R^2\) values close to
+unity, and the relative amplitude drift is below \(0.3\%\).
+
+\noindent\textbf{Stage conclusion.}
+Independent phase functions assigned to the two energy eigenspaces recover the
+relative phase and its associated current oscillation.
+
+\section{Stage IV: structural ablation}
+
+\subsection{Ablation design}
+
+All five models have approximately 12,996 trainable parameters and use paired
+initializations and collocation sequences.
+
+\begin{table}[htbp]
+\centering
+\caption{Structural ablation design}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Model & Eigenspace aligned & Independent amplitude/phase \\
+\midrule
+LTPB & Yes & Yes \\
+BranchComplex & Yes & No \\
+ComponentPolar & No & Yes \\
+Rotated LTPB \(15^\circ\) & Partly disrupted & Yes \\
+Rotated LTPB \(30^\circ\) & Further disrupted & Yes \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Results}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Structural ablation results}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Model & Spinor error & Current error & Relative-phase RMSE \\
+\midrule
+LTPB & \textbf{0.0025} & \textbf{0.0045} & \textbf{0.0029} \\
+BranchComplex & 0.9014 & 0.9342 & 1.6268 \\
+ComponentPolar & 0.8907 & 0.9309 & 1.4802 \\
+Rotated LTPB \(15^\circ\) & 0.8996 & 0.9426 & 1.5579 \\
+Rotated LTPB \(30^\circ\) & 0.9306 & 0.9590 & 1.6830 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/ltpb_mechanism_ablation/01_core_error_comparison.png}
+\caption{An eigenspace basis alone and a generic polar representation alone
+both remain less accurate than the complete LTPB construction.}
+\label{fig:ablation-core-en}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/ltpb_mechanism_ablation/05_rotation_degradation.png}
+\caption{Rotation away from the energy eigenspaces rapidly moves the model to a
+high-error plateau.}
+\label{fig:ablation-rotation-en}
+\end{figure}
+
+The preregistered strong criterion required at least a factor of 1.25 error
+growth at each additional rotation level. The model had already entered a
+high-error plateau at \(15^\circ\), and the increase from \(15^\circ\) to
+\(30^\circ\) was only about \(1.02\)--\(1.08\). The strong criterion was
+therefore not satisfied. The controlled experiment supports the narrower
+conclusion that eigenspace alignment and phase separation are both required for
+low error on the present benchmark.
+
+\noindent\textbf{Stage conclusion.}
+Parameter matching rules out parameter count and a generic polar
+parameterization as sufficient explanations. The observed low error is
+associated with the joint eigenspace-aligned, phase-separated construction.
+Mechanistic attribution remains limited to the present free single-mode test
+because the strong rotation-degradation criterion was not met.
+
+\section{Stage V: two wavenumbers and four energy components}
+
+\subsection{Problem and method}
+
+For \(k_1=2\) and \(k_2=5\), consider
+\begin{equation}
+\psi=\frac{1}{2\sqrt L}\sum_{l=1}^2
+\left[
+u_+(k_l)e^{ik_lx-iE_lt}
++u_-(k_l)e^{ik_lx+iE_lt}
+\right].
+\end{equation}
+Multi-LTPB assigns a learnable phase to each of the four \((k_l,\pm)\)
+components without using the exact \(E_l\). Five trainable models use nearly
+identical parameter counts, 5000 optimization steps, and five paired random
+seeds.
+
+\subsection{Results}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Two-wavenumber, four-component results}
+\begin{tabularx}{\textwidth}{@{}Yrrr@{}}
+\toprule
+Metric & Multi-LTPB & \shortstack{Best trainable\\baseline} &
+\shortstack{Baseline/\\LTPB} \\
+\midrule
+Spinor error & \textbf{0.006594} & 0.939819 & 142.52 \\
+Current-density error & \textbf{0.010976} & 0.957364 & 87.22 \\
+Fidelity & \textbf{0.999965} & 0.3172 & -- \\
+Paired seeds & \textbf{5/5 pass} & -- & -- \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/multimode_ltpb/primary_error_comparison.png}
+\caption{Multi-LTPB retains low error for two wavenumbers and four energy
+components.}
+\label{fig:multi-error-en}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/multimode_ltpb/learned_four_phases.png}
+\caption{All four projected phase slopes agree with the exact temporal
+frequencies; the mean relative slope error is approximately \(0.03\%\).}
+\label{fig:multi-phase-en}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/multimode_ltpb/representative_density_current.png}
+\caption{The model recovers the density and current interference generated by
+multiple spatial modes and both energy eigenspaces.}
+\label{fig:multi-current-en}
+\end{figure}
+
+\noindent\textbf{Stage conclusion.}
+All preregistered accuracy criteria are satisfied. Phase separation extends to
+multiple known discrete energy components, while the wavenumbers and
+eigenspinor basis remain prescribed from the initial state.
+
+\section{Stage VI: continuous Gaussian wave packet and shared-spectral LTPB}
+
+\subsection{Problem}
+
+On \(L=16\pi\) with \(m=5\) and \(T=5\), 33 wavenumbers
+\(k_n=n/8\in[0,4]\) are used. The initial momentum distribution is Gaussian
+with center \(k_0=2\) and width \(\sigma_k=0.5\), with equal positive- and
+negative-energy weights. The evolution contains dozens of dispersion
+frequencies, so assigning separate network outputs to every mode would make the
+parameter count grow with spectral resolution.
+
+\subsection{Shared-spectral formulation}
+
+A single network receives \((k,t)\) and returns the two amplitudes and phases:
+\begin{equation}
+\widehat{\widetilde\psi}(k,t)=
+a_+(k,t)u_+(k)e^{iS_+(k,t)}
++a_-(k,t)u_-(k)e^{iS_-(k,t)}.
+\end{equation}
+Training uses the spinor-form spectral residual
+\begin{equation}
+R_k=i\partial_t\widetilde\psi
+-(k\sigma_x+m\sigma_z)\widetilde\psi.
+\end{equation}
+The exact dispersion \(E(k)\) is not supplied as supervision. For the free
+periodic problem, Parseval's identity makes this residual equivalent to the
+corresponding physical-space residual. The parameter count remains 12,932 and
+does not scale linearly with the number of modes.
+
+\subsection{Results}
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{Continuous Gaussian-wave-packet results}
+\begin{tabularx}{\textwidth}{@{}Y r r r@{}}
+\toprule
+Metric & \shortstack{Shared-Spectral-\\LTPB} &
+\shortstack{Best trainable\\baseline} & Criterion \\
+\midrule
+Spinor error & \textbf{0.041038} & 0.909412 & 22.16 \\
+Density error & \textbf{0.015262} & 0.487106 & -- \\
+Current-density error & \textbf{0.048057} & 0.884010 & 18.40 \\
+Fidelity & \textbf{0.998249} & 0.386112 & Pass \\
+Paired seeds & \textbf{5/5 pass} & -- & Pass \\
+Phase error at training points & \textbf{0.115\%} & -- & \(<1\%\) \\
+Phase error at unseen midpoints & \textbf{0.115\%} & -- & \(<2\%\) \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/wavepacket_shared_spectral_ltpb/primary_error_comparison.png}
+\caption{With a fixed parameter count, shared-spectral LTPB is more accurate
+than the physical-space and same-basis complex-coefficient models.}
+\label{fig:wavepacket-error-en}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/wavepacket_shared_spectral_ltpb/phase_slope_train_midpoint.png}
+\caption{The shared network preserves the phase slope at midpoint wavenumbers
+that were excluded from training.}
+\label{fig:wavepacket-phase-en}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/wavepacket_shared_spectral_ltpb/wavepacket_density_spacetime.png}
+\caption{Probability-density evolution and absolute error for the reconstructed
+Gaussian wave packet.}
+\label{fig:wavepacket-density-en}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.88\textwidth]{results/figures/wavepacket_shared_spectral_ltpb/branch_center_width.png}
+\caption{The positive- and negative-energy packets propagate in opposite
+directions, with center velocities and widths satisfying the preregistered
+criteria.}
+\label{fig:wavepacket-branch-en}
+\end{figure}
+
+The mean group velocities of the positive- and negative-energy packets are
+\(+0.3665\) and \(-0.3659\), respectively. The residual root-mean-square at
+untrained midpoint wavenumbers is \(0.0017\)--\(0.0033\). The spinor error
+increases from \(0.0066\) in the two-wavenumber experiment to \(0.0410\),
+indicating that approximation becomes harder as the represented spectral
+interval broadens. For every one of the five random seeds, both the spinor and
+current errors remain more than one order of magnitude below the best
+trainable baseline.
+
+\noindent\textbf{Stage conclusion.}
+All preregistered criteria are satisfied. The phase representation has been
+extended from discrete energy components to continuous functions
+\(S_\pm(k,t)\) over a prescribed interval of the free Dirac spectrum. Momentum
+coupling induced by an external potential remains outside the present model.
+
+\section{Synthesis of the current evidence}
+
+\subsection{Established findings}
+
+\begin{enumerate}
+  \item \textbf{Scope of a single common phase.}
+  It is effective for a pure positive-energy state. For a
+  positive/negative-energy superposition, one of the rapid temporal factors
+  remains in the complex amplitude and the fixed-budget error increases.
+  \item \textbf{Role of eigenspace decomposition.}
+  Projection onto the positive- and negative-energy eigenspaces, followed by
+  an independent phase for each component, recovers the relative phase and
+  current oscillation.
+  \item \textbf{Key structural evidence.}
+  Parameter-matched ablations associate low error with the joint use of
+  eigenspace alignment and phase separation.
+  \item \textbf{Validated scope.}
+  Tests now cover a single-wavenumber superposition, a two-wavenumber discrete
+  spectrum, and a Gaussian packet over a prescribed interval of the free
+  spectrum.
+\end{enumerate}
+
+\subsection{Accuracy as problem complexity increases}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Accuracy across problems of increasing spectral complexity}
+\begin{tabularx}{\textwidth}{@{}Y Y r r r@{}}
+\toprule
+Problem & Method & Spinor error & Current error & Fidelity \\
+\midrule
+Single-wavenumber positive/negative superposition & LTPB &
+0.0025 & 0.0046 & 0.999996 \\
+Two wavenumbers, four energy components & Multi-LTPB &
+0.0066 & 0.0110 & 0.999965 \\
+33-mode Gaussian packet & Shared-Spectral-LTPB &
+0.0410 & 0.0481 & 0.998249 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+As the number of spectral components increases, the spinor error rises from
+\(0.0025\) to \(0.0410\), while fidelity remains above \(0.998\). Phase
+separation continues to provide a stable coordinate system for the free
+problem, although the remaining accuracy margin narrows with spectral width.
+The central next question is whether such coordinates remain stable when
+momentum channels become dynamically coupled.
+
+\subsection{Relationship to prior work and prospective advantages}
+
+Kumar et al.\ introduced CPA-PINNs for semiclassical Schr\"odinger-type
+equations, combining a WKB-style phase-amplitude decomposition with continuity,
+mass, and energy constraints for forward reconstruction and noisy inverse
+problems \cite{kumar2026}. In the scalar Schr\"odinger setting, the probability
+current explicitly contains the spatial gradient of the common phase. The
+Dirac current is the spinor bilinear
+\(\psi^\dagger\sigma_x\psi\), from which a global phase cancels. LTPB retains
+rapid-phase extraction while assigning phases according to the spectral
+projectors of the Dirac Hamiltonian. Its expected advantage therefore concerns
+long-time evolution with coherent contributions from multiple energy branches.
+
+Lorin and Yang developed a general PINN formulation for the time-dependent
+Dirac equation and studied norm constraints, curved-space settings, and
+fermion-doubling issues \cite{lorin2022}. Their direct spinor representation
+requires little prior spectral structure. LTPB introduces a stronger physical
+coordinate system when the free spectral decomposition is known. Under the
+present matched budgets, it reduces the single-mode mixed-state spinor error
+from \(0.7991\) for SP-CPA to \(0.0025\), and lowers the 33-mode wave-packet
+error by a factor of about 22 relative to the best trainable baseline. These
+results support the hypothesis that eigenspace-aligned coordinates improve
+optimization conditioning and long-time phase accuracy for spectrally
+resolvable, strongly oscillatory Dirac problems.
+
+Fourier pseudospectral and multiscale time-integrator methods provide
+high-accuracy forward solvers with rigorous error estimates, including in the
+nonrelativistic limit \cite{bao2016}. The current evidence does not establish a
+single-query forward-cost advantage for LTPB. Its prospective role lies in
+combining governing equations with sparse noisy observations, constructing a
+continuously differentiable space-time surrogate, and performing state or
+parameter inference in the same computational framework. These uses remain
+research hypotheses.
+
+\section{Next stage}
+
+\subsection{Stage VII: weak smooth periodic potential}
+
+The first external-potential test uses
+\begin{equation}
+V(x)=V_0\cos(qx)I_2.
+\end{equation}
+In Fourier space, neighboring momentum channels satisfy
+\begin{equation}
+i\partial_t\widetilde\psi_k=
+H(k)\widetilde\psi_k+\frac{V_0}{2}
+\left(\widetilde\psi_{k-q}+\widetilde\psi_{k+q}\right).
+\end{equation}
+This model introduces nontrivial momentum transfer while retaining a smooth
+potential and a transparent physical mechanism. The experiment will test
+recovery of modal population exchange, current density, and coherence between
+energy components. At low-occupancy or newly generated modes, the amplitude
+approaches zero and a polar phase can become ill-conditioned. Candidate
+extensions include phase regularization near zero amplitude and hybrid
+complex/polar coordinates.
+
+\subsection{Subsequent stages}
+
+\begin{itemize}
+  \item \textbf{Stage VIII:} add sparse noisy density or current observations
+  for state reconstruction and inference of \(m\) and potential parameters.
+  \item \textbf{Stage IX:} conduct a unified benchmark against adaptive-sampling
+  PINNs, loss-balancing methods, Fourier spectral solvers, and split-operator
+  methods.
+  \item \textbf{Stage X:} assemble the theory, architecture, ablations,
+  applicability, data experiments, complexity, and failure boundaries into a
+  submission-ready study.
+\end{itemize}
+
+\section{Current scope of the conclusions}
+
+The available experiments support the following statement: for the
+one-dimensional free Dirac equation, a prescribed Fourier expansion, and a
+fixed training budget, independent learnable phases aligned with the positive-
+and negative-energy eigenspaces substantially reduce the spinor, current, and
+relative-phase errors of mixed-energy states.
+
+The following questions remain open:
+\begin{itemize}
+  \item automatic identification of unknown spectra and eigenspaces from data
+  and equation residuals;
+  \item validity under general external potentials, in higher dimensions, and
+  for strongly coupled Dirac equations;
+  \item forward accuracy and computational efficiency relative to mature
+  spectral and split-operator solvers;
+  \item generality, strict novelty, and reproducible boundaries of the method.
+\end{itemize}
+
+A submission at the intended journal or conference level requires at least one
+external-potential experiment, a sparse noisy-data application, classical
+solver references, and a complete cost analysis.
+
+\enlargethispage{3\baselineskip}
+\begin{thebibliography}{9}
+\raggedright
+\footnotesize
+
+\bibitem{kumar2026}
+S. Kumar, H. K. Dwivedi, and Rajeev,
+\emph{Structure-preserving conservative phase-amplitude PINNs for semiclassical
+Schr\"odinger-type equations},
+\textit{Journal of Computational and Applied Mathematics}, vol. 485, 117607,
+2026.
+\href{https://doi.org/10.1016/j.cam.2026.117607}{doi:10.1016/j.cam.2026.117607}.
+
+\bibitem{lorin2022}
+E. Lorin and X. Yang,
+\emph{Time-dependent Dirac equation with physics-informed neural networks:
+Computation and properties},
+\textit{Computer Physics Communications}, vol. 280, 108474, 2022.
+\href{https://doi.org/10.1016/j.cpc.2022.108474}{doi:10.1016/j.cpc.2022.108474}.
+
+\bibitem{bao2016}
+W. Bao, Y. Cai, X. Jia, and Q. Tang,
+\emph{A uniformly accurate multiscale time integrator pseudospectral method for
+the Dirac equation in the nonrelativistic limit regime},
+\textit{SIAM Journal on Numerical Analysis}, vol. 54, no. 3, pp. 1785--1812,
+2016.
+\href{https://doi.org/10.1137/15M1032375}{doi:10.1137/15M1032375}.
+
+\end{thebibliography}
+
+\section{Project source material}
+
+\begin{itemize}
+  \item Research proposal: limitations of CPA-PINN transfer to the Dirac
+  equation and a spinor dual-phase formulation.
+  \item Direct-transfer report: \path{EXPERIMENT_REPORT.md}
+  \item LTPB pilot report: \path{LEARNED_TWO_PHASE_PILOT_REPORT.md}
+  \item Mechanism-ablation preregistration:\newline
+  \path{LTPB_MECHANISM_ABLATION_PREREGISTRATION.md}
+  \item Mechanism-ablation report:
+  \path{LTPB_MECHANISM_ABLATION_REPORT.md}
+  \item Two-wavenumber preregistration:\newline
+  \path{MULTIMODE_LTPB_PREREGISTRATION.md}
+  \item Two-wavenumber report:
+  \path{MULTIMODE_LTPB_EXPERIMENT_REPORT.md}
+  \item Wave-packet preregistration:\newline
+  \path{WAVEPACKET_SHARED_SPECTRAL_LTPB_PREREGISTRATION.md}
+  \item Wave-packet report:\newline
+  \path{WAVEPACKET_SHARED_SPECTRAL_LTPB_REPORT.md}
+\end{itemize}
+
+All figures are referenced directly from the existing
+\path{results/figures/} directory.
+
+\end{document}

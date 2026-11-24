@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "independent_FFT_vs_direct_quadrature": {
+    "spinor_rel_l2_raw": 0.0,
+    "spinor_rel_l2_gauge_aligned": 0.0,
+    "current_rel_l2": 0.0,
+    "density_rel_l2": 1.6653345369377348e-16,
+    "fidelity_mean": 0.0,
+    "fidelity_min": 0.0,
+    "modal_population_rel_l2": 5.551115123125783e-17,
+    "branch_population_rel_l2": 0.0,
+    "max_norm_drift": 0.0,
+    "active_coherence_rel_l2": 0.0,
+    "active_coherence_pair_count": 0,
+    "phase_defined_reference_active_coverage": 0.0,
+    "active_phase_circular_rmse": 0.0,
+    "global_spacetime_constant_phase": 0.0
+  },
+  "constant_phase_only_verified": true,
+  "structural_norm_counterexample_verified": true
+}

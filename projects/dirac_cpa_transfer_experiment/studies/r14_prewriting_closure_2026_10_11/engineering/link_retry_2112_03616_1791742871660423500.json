@@ -1,0 +1,16 @@
+{
+  "original_link_check": "engineering/link_check_live_input_and_transient_network_1791742870890447400.json",
+  "original_sha256": "a29ad3cb64b0726f3e94c13837913c08c3e3576deafa755b32f511924be650e2",
+  "retry": {
+    "url": "https://arxiv.org/abs/2112.03616",
+    "checked_utc": 1791742870.9210916,
+    "http_status": 200,
+    "final_url": "https://arxiv.org/abs/2112.03616",
+    "content_type": "text/html; charset=utf-8",
+    "status": "RESOLVES"
+  },
+  "does_not_override_full_document_source_stability": true,
+  "whole_delivery_complete": false,
+  "advisory_label_initial_value": false,
+  "advisory_label_correction": "Stand-alone successful retry does not revalidate the changing progress.md input of the full link check."
+}

@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "summary": "34 passed in 11.12s",
+  "command": "python -m pytest bound_state_dirac_kg/tests bound_state_dirac_kg/upgrade/tests -q"
+}

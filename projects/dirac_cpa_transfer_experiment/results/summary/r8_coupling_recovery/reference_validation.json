@@ -1,0 +1,286 @@
+{
+  "status": "PASS",
+  "reference_only": true,
+  "cases": {
+    "main": {
+      "selected_half_width": 6,
+      "trials": [
+        {
+          "half_width": 6,
+          "comparison_half_width": 8,
+          "gates": {
+            "outer_total": true,
+            "padded_complex": true,
+            "hermiticity": true,
+            "norm": true,
+            "reversibility": true,
+            "expm": true
+          },
+          "pass_check": true,
+          "checks": {
+            "hermiticity_max_abs": 0.0,
+            "norm_initial": 0.999999999999999,
+            "norm_max_drift": 1.6653345369377348e-15,
+            "time_reversal_relative_l2": 1.1106290177201632e-15,
+            "spectral_pde_residual_rms": 1.2000651977623947e-15,
+            "initial_state_relative_l2": 1.148942666790116e-15
+          },
+          "observables": {
+            "max_total_occupation_outside_center": 0.3209004147184005,
+            "time_of_max_total_occupation_outside_center": 5.0,
+            "max_outer_layer_total_occupation": 2.1854817818931975e-10,
+            "max_outer_single_mode_occupation": 2.1783442196633845e-10,
+            "max_left_outer_mode_occupation": 2.1783442196633845e-10,
+            "max_right_outer_mode_occupation": 7.55623717710623e-13
+          },
+          "comparison": {
+            "padded_full_trajectory_spinor_relative_l2": 2.189977761531533e-07,
+            "padded_full_trajectory_global_phase_aligned_relative_l2": 2.1899777615315287e-07,
+            "padded_max_time_spinor_relative_l2": 7.816467454723579e-07,
+            "padded_final_spinor_relative_l2": 7.816467454723579e-07,
+            "common_full_trajectory_spinor_relative_l2": 1.321362133529372e-08,
+            "common_full_trajectory_global_phase_aligned_relative_l2": 1.3213621335284e-08,
+            "common_max_time_spinor_relative_l2": 5.0771039683086035e-08,
+            "common_final_spinor_relative_l2": 5.0771039683086035e-08,
+            "common_modal_population_relative_l2": 2.28304216052227e-13,
+            "common_modal_population_max_absolute_error": 8.105139204127085e-13
+          },
+          "expm_max_abs": 1.8222919831159998e-14
+        }
+      ]
+    },
+    "T8": {
+      "selected_half_width": 8,
+      "trials": [
+        {
+          "half_width": 6,
+          "comparison_half_width": 8,
+          "gates": {
+            "outer_total": false,
+            "padded_complex": false,
+            "hermiticity": true,
+            "norm": true,
+            "reversibility": true,
+            "expm": true
+          },
+          "pass_check": false,
+          "checks": {
+            "hermiticity_max_abs": 0.0,
+            "norm_initial": 0.999999999999999,
+            "norm_max_drift": 1.4432899320127035e-15,
+            "time_reversal_relative_l2": 1.0764861345997085e-15,
+            "spectral_pde_residual_rms": 1.1450087845104415e-15,
+            "initial_state_relative_l2": 1.148942666790116e-15
+          },
+          "observables": {
+            "max_total_occupation_outside_center": 0.4655506002220199,
+            "time_of_max_total_occupation_outside_center": 8.0,
+            "max_outer_layer_total_occupation": 2.148582886371338e-08,
+            "max_outer_single_mode_occupation": 2.148579726502979e-08,
+            "max_left_outer_mode_occupation": 2.148579726502979e-08,
+            "max_right_outer_mode_occupation": 7.55623655845535e-13
+          },
+          "comparison": {
+            "padded_full_trajectory_spinor_relative_l2": 2.6748950947930602e-06,
+            "padded_full_trajectory_global_phase_aligned_relative_l2": 2.6748950947930594e-06,
+            "padded_max_time_spinor_relative_l2": 8.604283595771703e-06,
+            "padded_final_spinor_relative_l2": 8.604283595771703e-06,
+            "common_full_trajectory_spinor_relative_l2": 2.466647993411784e-07,
+            "common_full_trajectory_global_phase_aligned_relative_l2": 2.4666479934117667e-07,
+            "common_max_time_spinor_relative_l2": 8.426983768565129e-07,
+            "common_final_spinor_relative_l2": 8.426983768565129e-07,
+            "common_modal_population_relative_l2": 1.0629538490409932e-10,
+            "common_modal_population_max_absolute_error": 3.2728359306006513e-10
+          },
+          "expm_max_abs": 3.000260585836223e-14
+        },
+        {
+          "half_width": 8,
+          "comparison_half_width": 10,
+          "gates": {
+            "outer_total": true,
+            "padded_complex": true,
+            "hermiticity": true,
+            "norm": true,
+            "reversibility": true,
+            "expm": true
+          },
+          "pass_check": true,
+          "checks": {
+            "hermiticity_max_abs": 0.0,
+            "norm_initial": 1.0000000000000002,
+            "norm_max_drift": 1.5543122344752192e-15,
+            "time_reversal_relative_l2": 1.2295408905078879e-15,
+            "spectral_pde_residual_rms": 1.2585353445836968e-15,
+            "initial_state_relative_l2": 8.154865830006496e-16
+          },
+          "observables": {
+            "max_total_occupation_outside_center": 0.4655506002220946,
+            "time_of_max_total_occupation_outside_center": 8.0,
+            "max_outer_layer_total_occupation": 1.2951238475865704e-13,
+            "max_outer_single_mode_occupation": 1.2951238010912415e-13,
+            "max_left_outer_mode_occupation": 1.2951238010912415e-13,
+            "max_right_outer_mode_occupation": 5.181884484922411e-19
+          },
+          "comparison": {
+            "padded_full_trajectory_spinor_relative_l2": 3.6828875371046645e-09,
+            "padded_full_trajectory_global_phase_aligned_relative_l2": 3.6828875370951643e-09,
+            "padded_max_time_spinor_relative_l2": 1.1611777189196796e-08,
+            "padded_final_spinor_relative_l2": 1.1611777189196796e-08,
+            "common_full_trajectory_spinor_relative_l2": 1.6780432793714182e-10,
+            "common_full_trajectory_global_phase_aligned_relative_l2": 1.6780432772853434e-10,
+            "common_max_time_spinor_relative_l2": 5.107850401459004e-10,
+            "common_final_spinor_relative_l2": 5.107850401459004e-10,
+            "common_modal_population_relative_l2": 6.558169699367824e-15,
+            "common_modal_population_max_absolute_error": 8.1601392309949e-15
+          },
+          "expm_max_abs": 3.366547621551067e-14
+        }
+      ]
+    },
+    "V01": {
+      "selected_half_width": 6,
+      "trials": [
+        {
+          "half_width": 6,
+          "comparison_half_width": 8,
+          "gates": {
+            "outer_total": true,
+            "padded_complex": true,
+            "hermiticity": true,
+            "norm": true,
+            "reversibility": true,
+            "expm": true
+          },
+          "pass_check": true,
+          "checks": {
+            "hermiticity_max_abs": 0.0,
+            "norm_initial": 1.0,
+            "norm_max_drift": 8.881784197001252e-16,
+            "time_reversal_relative_l2": 9.239546479978118e-16,
+            "spectral_pde_residual_rms": 1.2416514886300583e-15,
+            "initial_state_relative_l2": 5.422796413240761e-16
+          },
+          "observables": {
+            "max_total_occupation_outside_center": 0.08918520613737324,
+            "time_of_max_total_occupation_outside_center": 5.0,
+            "max_outer_layer_total_occupation": 5.591928494733863e-14,
+            "max_outer_single_mode_occupation": 5.574111974612868e-14,
+            "max_left_outer_mode_occupation": 5.574111974612868e-14,
+            "max_right_outer_mode_occupation": 1.8873473720054894e-16
+          },
+          "comparison": {
+            "padded_full_trajectory_spinor_relative_l2": 1.738367066533959e-09,
+            "padded_full_trajectory_global_phase_aligned_relative_l2": 1.7383670665268355e-09,
+            "padded_max_time_spinor_relative_l2": 6.2192933328888486e-09,
+            "padded_final_spinor_relative_l2": 6.2192933328888486e-09,
+            "common_full_trajectory_spinor_relative_l2": 5.2418378263806075e-11,
+            "common_full_trajectory_global_phase_aligned_relative_l2": 5.2418378027647484e-11,
+            "common_max_time_spinor_relative_l2": 2.0179711216479294e-10,
+            "common_final_spinor_relative_l2": 2.0179711216479294e-10,
+            "common_modal_population_relative_l2": 1.072728642490596e-15,
+            "common_modal_population_max_absolute_error": 2.4424906541753444e-15
+          },
+          "expm_max_abs": 1.7369442393172562e-14
+        }
+      ]
+    },
+    "V04": {
+      "selected_half_width": 8,
+      "trials": [
+        {
+          "half_width": 6,
+          "comparison_half_width": 8,
+          "gates": {
+            "outer_total": false,
+            "padded_complex": false,
+            "hermiticity": true,
+            "norm": true,
+            "reversibility": true,
+            "expm": true
+          },
+          "pass_check": false,
+          "checks": {
+            "hermiticity_max_abs": 0.0,
+            "norm_initial": 0.9999999999999996,
+            "norm_max_drift": 1.3322676295501878e-15,
+            "time_reversal_relative_l2": 9.529076295543024e-16,
+            "spectral_pde_residual_rms": 1.3543728089435948e-15,
+            "initial_state_relative_l2": 5.179872097806091e-16
+          },
+          "observables": {
+            "max_total_occupation_outside_center": 0.8439911906471742,
+            "time_of_max_total_occupation_outside_center": 5.0,
+            "max_outer_layer_total_occupation": 7.410627168127988e-07,
+            "max_outer_single_mode_occupation": 7.383893979671877e-07,
+            "max_left_outer_mode_occupation": 7.383893979671877e-07,
+            "max_right_outer_mode_occupation": 2.823820681390122e-09
+          },
+          "comparison": {
+            "padded_full_trajectory_spinor_relative_l2": 2.6301191795787803e-05,
+            "padded_full_trajectory_global_phase_aligned_relative_l2": 2.630119179578779e-05,
+            "padded_max_time_spinor_relative_l2": 9.29769323553429e-05,
+            "padded_final_spinor_relative_l2": 9.29769323553429e-05,
+            "common_full_trajectory_spinor_relative_l2": 3.1799823205940008e-06,
+            "common_full_trajectory_global_phase_aligned_relative_l2": 3.1799823205938127e-06,
+            "common_max_time_spinor_relative_l2": 1.2123604379713592e-05,
+            "common_final_spinor_relative_l2": 1.2123604379713592e-05,
+            "common_modal_population_relative_l2": 3.833314540725463e-09,
+            "common_modal_population_max_absolute_error": 1.1260079311050753e-08
+          },
+          "expm_max_abs": 1.807689376723183e-14
+        },
+        {
+          "half_width": 8,
+          "comparison_half_width": 10,
+          "gates": {
+            "outer_total": true,
+            "padded_complex": true,
+            "hermiticity": true,
+            "norm": true,
+            "reversibility": true,
+            "expm": true
+          },
+          "pass_check": true,
+          "checks": {
+            "hermiticity_max_abs": 0.0,
+            "norm_initial": 1.0000000000000009,
+            "norm_max_drift": 1.1102230246251565e-15,
+            "time_reversal_relative_l2": 1.340703507844974e-15,
+            "spectral_pde_residual_rms": 1.4008132063295669e-15,
+            "initial_state_relative_l2": 9.076210838025201e-16
+          },
+          "observables": {
+            "max_total_occupation_outside_center": 0.8439911906493587,
+            "time_of_max_total_occupation_outside_center": 5.0,
+            "max_outer_layer_total_occupation": 5.87773328826544e-11,
+            "max_outer_single_mode_occupation": 5.87554220488927e-11,
+            "max_left_outer_mode_occupation": 5.87554220488927e-11,
+            "max_right_outer_mode_occupation": 3.2154320478532074e-14
+          },
+          "comparison": {
+            "padded_full_trajectory_spinor_relative_l2": 1.4112358573066168e-07,
+            "padded_full_trajectory_global_phase_aligned_relative_l2": 1.4112358573066165e-07,
+            "padded_max_time_spinor_relative_l2": 5.198250172930529e-07,
+            "padded_final_spinor_relative_l2": 5.198250172930529e-07,
+            "common_full_trajectory_spinor_relative_l2": 1.2482923012087179e-08,
+            "common_full_trajectory_global_phase_aligned_relative_l2": 1.2482923012087139e-08,
+            "common_max_time_spinor_relative_l2": 4.81217519948149e-08,
+            "common_final_spinor_relative_l2": 4.81217519948149e-08,
+            "common_modal_population_relative_l2": 2.6518880758463145e-13,
+            "common_modal_population_max_absolute_error": 8.840313408482581e-13
+          },
+          "expm_max_abs": 2.2730150286985577e-14
+        }
+      ]
+    },
+    "free_packet": {
+      "selected_half_width": 16,
+      "initial_support": "same 33 Gaussian coefficients, zero-padded outside",
+      "padded_trajectory_relative_l2": 3.588286614765516e-17,
+      "max_norm_drift": 3.3306690738754696e-16,
+      "time_reversal_relative_l2": 4.171310000525771e-15,
+      "pass_check": true
+    }
+  }
+}

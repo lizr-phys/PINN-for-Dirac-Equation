@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "development_attempts": 24,
+  "recomputed_per_case_candidate": {
+    "T10": {
+      "siren": 2,
+      "fourier": 0
+    },
+    "m10": {
+      "siren": 0,
+      "fourier": 0
+    }
+  },
+  "recomputed_global_candidate": {
+    "siren": 0,
+    "fourier": 0
+  },
+  "recomputed_strongest_family": "fourier",
+  "selection_sha256": "07495412a4b6a20d5337a31673cc80296c0ae6f8c31aed2cea7d36cfd448d1d3",
+  "no_formal_outcomes_used": true,
+  "no_extra_candidates": true
+}

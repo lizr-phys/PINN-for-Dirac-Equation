@@ -1,0 +1,22 @@
+{
+  "updated_utc": 1791720002.330814,
+  "status": "PASS",
+  "fixed_configurations_checked": 108,
+  "prescribed_configurations": 108,
+  "cost_repetitions_per_configuration": 5,
+  "five_cost_samples_recomputed_without_rerunning_solver": true,
+  "all_spectral_benchmark_records_verified": true,
+  "primary_and_wide_reference_metrics_independently_recomputed": true,
+  "bilinear_L2_from_full_convolution_not_spatial_quadrature": true,
+  "missing": [],
+  "errors": [],
+  "source_code_sha256": "29b1c72ea0f6869787a0658727bfb34c3ac7eedab60d0e239e055bdcdca4d664",
+  "source_table_sha256": {
+    "spectral_benchmark\\error_cost.csv": "9d52d49b1169c5ca6c55208de4a62d9c7beaca0e3127d2d8df164134d61302c7",
+    "spectral_reference_check\\spectral_error_cost_wide_reference.csv": "158af5756949c83fe7f523625f3f96e23d5769d28322cdf597e5b1464b57e7a7"
+  },
+  "original_records_references_and_training_unchanged": true,
+  "benchmark_OS_peak_RSS_is_cumulative_not_isolated_per_configuration": true,
+  "elapsed_wall_seconds": 87.99928889999865,
+  "whole_goal_complete": false
+}

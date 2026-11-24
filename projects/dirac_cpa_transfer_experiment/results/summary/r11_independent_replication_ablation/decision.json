@@ -1,0 +1,257 @@
+{
+  "experiment": "r11_independent_replication_ablation",
+  "status": "INDEPENDENT_REPLICATION_SUCCESS",
+  "absolute_success": {
+    "final": {
+      "A_pretrained_frozen": {
+        "complete": true,
+        "means": {
+          "spinor_rel_l2_gauge_aligned": 0.031198826842946642,
+          "current_rel_l2": 0.04466183220224283,
+          "fidelity_mean": 0.9989381149296304,
+          "modal_population_rel_l2": 0.008762211265087657,
+          "max_norm_drift": 0.01083692400509637
+        },
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": true,
+          "current_rel_l2": true,
+          "fidelity_mean": true,
+          "modal_population_rel_l2": true,
+          "max_norm_drift": true
+        },
+        "joint_pass_count": 4,
+        "joint_pass_seeds": [
+          400,
+          401,
+          403,
+          404
+        ],
+        "pass_check": true
+      },
+      "B_random_frozen": {
+        "complete": true,
+        "means": {
+          "spinor_rel_l2_gauge_aligned": 0.9262123870855093,
+          "current_rel_l2": 0.9181587078303478,
+          "fidelity_mean": 0.2991745176339319,
+          "modal_population_rel_l2": 0.9370992032139043,
+          "max_norm_drift": 0.9983955536881417
+        },
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 0,
+        "joint_pass_seeds": [],
+        "pass_check": false
+      },
+      "C_joint": {
+        "complete": true,
+        "means": {
+          "spinor_rel_l2_gauge_aligned": 0.04345423723423,
+          "current_rel_l2": 0.0559150782612469,
+          "fidelity_mean": 0.9980123126119848,
+          "modal_population_rel_l2": 0.03014072621722111,
+          "max_norm_drift": 0.013495450423858357
+        },
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": true,
+          "current_rel_l2": true,
+          "fidelity_mean": true,
+          "modal_population_rel_l2": true,
+          "max_norm_drift": true
+        },
+        "joint_pass_count": 5,
+        "joint_pass_seeds": [
+          400,
+          401,
+          402,
+          403,
+          404
+        ],
+        "pass_check": true
+      },
+      "D_double_complex": {
+        "complete": true,
+        "means": {
+          "spinor_rel_l2_gauge_aligned": 0.9254607774765777,
+          "current_rel_l2": 0.9179503208398639,
+          "fidelity_mean": 0.29865940499228516,
+          "modal_population_rel_l2": 0.9382403304230579,
+          "max_norm_drift": 0.9990865948878527
+        },
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 0,
+        "joint_pass_seeds": [],
+        "pass_check": false
+      },
+      "E_exact_carrier_diagnostic": {
+        "complete": true,
+        "means": {
+          "spinor_rel_l2_gauge_aligned": 0.032254879604237494,
+          "current_rel_l2": 0.04610871583291336,
+          "fidelity_mean": 0.9987434670773798,
+          "modal_population_rel_l2": 0.009584615279285955,
+          "max_norm_drift": 0.010775548235701083
+        },
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": true,
+          "current_rel_l2": true,
+          "fidelity_mean": true,
+          "modal_population_rel_l2": true,
+          "max_norm_drift": true
+        },
+        "joint_pass_count": 4,
+        "joint_pass_seeds": [
+          400,
+          401,
+          402,
+          403
+        ],
+        "pass_check": true
+      }
+    },
+    "coupled_20000": {
+      "A_pretrained_frozen": {
+        "complete": true,
+        "means": {
+          "spinor_rel_l2_gauge_aligned": 0.031198826842946642,
+          "current_rel_l2": 0.04466183220224283,
+          "fidelity_mean": 0.9989381149296304,
+          "modal_population_rel_l2": 0.008762211265087657,
+          "max_norm_drift": 0.01083692400509637
+        },
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": true,
+          "current_rel_l2": true,
+          "fidelity_mean": true,
+          "modal_population_rel_l2": true,
+          "max_norm_drift": true
+        },
+        "joint_pass_count": 4,
+        "joint_pass_seeds": [
+          400,
+          401,
+          403,
+          404
+        ],
+        "pass_check": true
+      },
+      "B_random_frozen": {
+        "complete": true,
+        "means": {
+          "spinor_rel_l2_gauge_aligned": 0.94134476356367,
+          "current_rel_l2": 0.9372847670366034,
+          "fidelity_mean": 0.26095912905026236,
+          "modal_population_rel_l2": 0.9461157936308672,
+          "max_norm_drift": 0.999004817786815
+        },
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 0,
+        "joint_pass_seeds": [],
+        "pass_check": false
+      },
+      "C_joint": {
+        "complete": true,
+        "means": {
+          "spinor_rel_l2_gauge_aligned": 0.1889906894500709,
+          "current_rel_l2": 0.21824884217440305,
+          "fidelity_mean": 0.9649747395986287,
+          "modal_population_rel_l2": 0.15359522365794623,
+          "max_norm_drift": 0.07777284287782109
+        },
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 0,
+        "joint_pass_seeds": [],
+        "pass_check": false
+      },
+      "D_double_complex": {
+        "complete": true,
+        "means": {
+          "spinor_rel_l2_gauge_aligned": 0.9412025849791451,
+          "current_rel_l2": 0.9359841697417742,
+          "fidelity_mean": 0.23673141202453502,
+          "modal_population_rel_l2": 0.9464824231093585,
+          "max_norm_drift": 0.9987316218638709
+        },
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": false,
+          "current_rel_l2": false,
+          "fidelity_mean": false,
+          "modal_population_rel_l2": false,
+          "max_norm_drift": false
+        },
+        "joint_pass_count": 0,
+        "joint_pass_seeds": [],
+        "pass_check": false
+      },
+      "E_exact_carrier_diagnostic": {
+        "complete": true,
+        "means": {
+          "spinor_rel_l2_gauge_aligned": 0.032254879604237494,
+          "current_rel_l2": 0.04610871583291336,
+          "fidelity_mean": 0.9987434670773798,
+          "modal_population_rel_l2": 0.009584615279285955,
+          "max_norm_drift": 0.010775548235701083
+        },
+        "mean_checks": {
+          "spinor_rel_l2_gauge_aligned": true,
+          "current_rel_l2": true,
+          "fidelity_mean": true,
+          "modal_population_rel_l2": true,
+          "max_norm_drift": true
+        },
+        "joint_pass_count": 4,
+        "joint_pass_seeds": [
+          400,
+          401,
+          402,
+          403
+        ],
+        "pass_check": true
+      }
+    }
+  },
+  "primary_groups": [
+    "A_pretrained_frozen",
+    "B_random_frozen",
+    "C_joint",
+    "D_double_complex"
+  ],
+  "thresholds": {
+    "spinor_rel_l2_gauge_aligned": 0.1,
+    "current_rel_l2": 0.15,
+    "fidelity_mean": 0.98,
+    "modal_population_rel_l2": 0.1,
+    "max_norm_drift": 0.02
+  },
+  "population_sd_ddof": 0,
+  "fresh_seed_replication": true,
+  "fixed_checkpoint_only": true,
+  "analytic_diagnostic_excluded_from_learned_success": true,
+  "pretraining_vs_freezing_single_factor_isolated": false,
+  "selective_reruns": false,
+  "additional_advantage_threshold": false,
+  "scope": "known finite Fourier Gaussian initial spectrum, this fixed weak periodic potential"
+}

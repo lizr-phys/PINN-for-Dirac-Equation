@@ -1,0 +1,250 @@
+{
+  "backend": "Python matplotlib",
+  "all_seeds_shown": true,
+  "fixed_dynamics_seeds": [
+    600,
+    700
+  ],
+  "figures": [
+    {
+      "name": "bridge_metrics",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/bridge_metrics.csv",
+      "source_sha256": "6d0582a8f358b76324f6e3d09fcd70db6f6721039602d7ef45e29f5803e1c626",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/bridge_metrics.png",
+          "sha256": "b513f7deecc5cc339d99efd8b56004ff9d88861b34f0162ffd0e8c5ae361d494"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/bridge_metrics.svg",
+          "sha256": "1f9e7d096926cafc64d8db69a9bff5e0bf8b57ed427b2d099ca9d538d8d00f1c"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/bridge_metrics.pdf",
+          "sha256": "9534015a0187b257f81f99ac5ec5f4ce314b32a2caedb71e680409082fd32e2b"
+        }
+      },
+      "contract": "All fixed seeds; points and population SD(ddof0); dashed preregistered limits; infidelity displayed explicitly"
+    },
+    {
+      "name": "exact_envelope_metrics",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/exact_envelope_metrics.csv",
+      "source_sha256": "f1c395a415712872a379a98f1c7e3df78e048f3be2e1ab077cb846750f9a8266",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/exact_envelope_metrics.png",
+          "sha256": "8cc39f7c6cc810886aac687b17f14aa34de3b85fe88373520d6dd6c5c6c5c5eb"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/exact_envelope_metrics.svg",
+          "sha256": "8c722ad2b3d7b3895d298794b7086f62f01383e03a6f51432f431380c6a227c0"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/exact_envelope_metrics.pdf",
+          "sha256": "33d1f81f807f6fc5bb546aab0b806fa07e82c2b13b5b93014b7834d24278a2e0"
+        }
+      },
+      "contract": "All fixed seeds; points and population SD(ddof0); dashed preregistered limits; infidelity displayed explicitly"
+    },
+    {
+      "name": "factorial_T10",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/factorial_T10.csv",
+      "source_sha256": "76c3cde5f877d7e3cc8401041472e835e0d11dd46c184f59038ed65cb9b78895",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/factorial_T10.png",
+          "sha256": "1b0dfa6c5344bc1843efd9d1d8df2f85d18d646d1e180f8e0009eddafab1072a"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/factorial_T10.svg",
+          "sha256": "39623f7a499fcb88acaa35061d814b03ceb4fc9d8071f51347c4150de02b8459"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/factorial_T10.pdf",
+          "sha256": "e9bc586eeefca19e01f84e8a00f7953cd5bc0879bd070801b5a241f510553e01"
+        }
+      },
+      "contract": "All fixed seeds; points and population SD(ddof0); dashed preregistered limits; infidelity displayed explicitly"
+    },
+    {
+      "name": "validation_metrics",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/validation_metrics.csv",
+      "source_sha256": "92e3a070c58d1f393dac05732f30c417b16529d45e7793ef1a0a77ba71bae740",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/validation_metrics.png",
+          "sha256": "d0520728ccd59ec1567332adca936c18c473caacaaa1e1b2951e6dc2356c66d8"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/validation_metrics.svg",
+          "sha256": "e5a0f42b414b21ae413abdfa8e512b1f751754c500df5369496f7f1ba76d87f5"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/validation_metrics.pdf",
+          "sha256": "c2673adae81ba6f4d76f1ca7ca0980fa919635c5312cfd0872aa952f285b4242"
+        }
+      },
+      "contract": "All fixed seeds; points and population SD(ddof0); dashed preregistered limits; infidelity displayed explicitly"
+    },
+    {
+      "name": "free_phase_time_T10",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/free_phase_time_T10.csv",
+      "source_sha256": "3788a43710c4ee7a36bedb0abb108d2a2c4d46532ccb93577a55f8a8cd69b358",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/free_phase_time_T10.png",
+          "sha256": "b23247d0f4312b25be9c4f33a8ede67c79e5b88335c1c61b24c8556585646f20"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/free_phase_time_T10.svg",
+          "sha256": "cf025bacd91601604729756ca6db440bafa4128176e9e3241327357387e2d9de"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/free_phase_time_T10.pdf",
+          "sha256": "bd95d3710fd0ea168eaee115b8d203fc957e6eac09c3d3a15f339f4aff44fb22"
+        }
+      },
+      "contract": "No phase alignment; each of the three seeds is a separate line; weights fixed by original Gaussian"
+    },
+    {
+      "name": "free_phase_time_m10",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/free_phase_time_m10.csv",
+      "source_sha256": "1de603684140bd376ee72793547fd52dc630b455463f55db17c2e39e92d341bb",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/free_phase_time_m10.png",
+          "sha256": "18d013bc595eb170ade9e480ad617d56ac29d964f2c44417072211a08801992d"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/free_phase_time_m10.svg",
+          "sha256": "e47d253303e991152e7c4aba23e23011e9eca0fe9eee855286ba158f2ed2ae47"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/free_phase_time_m10.pdf",
+          "sha256": "b76c5478320f018c341c2aa0ddc7b2669c5f210e04fe98f16023ab1ab34adced"
+        }
+      },
+      "contract": "No phase alignment; each of the three seeds is a separate line; weights fixed by original Gaussian"
+    },
+    {
+      "name": "free_phase_training",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/free_phase_training.csv",
+      "source_sha256": "17e6fa5aa4ff7ff8fea93ec971a187917b85a4debed7e1c2ca8e19440f4108c6",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/free_phase_training.png",
+          "sha256": "4937a8bb7840a9acbc25cbac1a7a96862701255318e7b7540d58f98599a4d256"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/free_phase_training.svg",
+          "sha256": "a0a31dc1a3bdc76cf3dd805a0cf4d93c20c04dbfdf0c7fdb5b6e6d99b572c5ad"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/free_phase_training.pdf",
+          "sha256": "12a819f98e2ff48e6ca8b272c33c429d4da0a79781c49dcf0a73f822fd50a044"
+        }
+      },
+      "contract": "Only prescribed 1000/3000/6000; all seeds; no best-checkpoint selection"
+    },
+    {
+      "name": "error_vs_total_cost",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/error_vs_total_cost.csv",
+      "source_sha256": "f9d026216d1ace66b5cd7746364a50e0c2bfb4d11491551a872949e4302875a8",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/error_vs_total_cost.png",
+          "sha256": "f55f4aaff0fddbde4507c56f7f3ab700142cf92056562f8fc4f9601dadcac545"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/error_vs_total_cost.svg",
+          "sha256": "60352820b0f1fb2e77186cbea94f1ba96317c27c82a32f6c368c4d6aa6592602"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/error_vs_total_cost.pdf",
+          "sha256": "6b6693924b49bf016a6dadc19617c340f8b2b0f494d16f8f0b4449c7677c28c3"
+        }
+      },
+      "contract": "All fixed checkpoints and seeds; carrier source cost fully attributed; concurrent times are not isolated hardware speed"
+    },
+    {
+      "name": "norm_current_coherence",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/norm_current_coherence.csv",
+      "source_sha256": "c1bb0fe445c541b288788e7d2e5d24fe5237c56e246fb3b7309aabda3911da78",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/norm_current_coherence.png",
+          "sha256": "923b480b948e489e7a5e2d6b8092d3e23644fcec94833dd42fbcc4f1a5eae7dc"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/norm_current_coherence.svg",
+          "sha256": "c62fd040a30f7e360648e9761ce2f67ca9bbd1ce4f60b0675f9b44736510ace4"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/norm_current_coherence.pdf",
+          "sha256": "c9aa1e3de7b80bac0a159a2de78dc98b2e32ae0a697aa4b0c7c92f41b3e99688"
+        }
+      },
+      "contract": "All five independent seeds; reference-defined coherence mask retains collapsed predictions; no posthoc norm correction"
+    },
+    {
+      "name": "dynamics_independent_validation_T10_seed700",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/dynamics_independent_validation_T10_seed700.csv",
+      "source_sha256": "d7035f386e562a821a8736958974c1bfe9a2a8eb8352df4e564e9a825320c266",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/dynamics_independent_validation_T10_seed700.png",
+          "sha256": "e173bc308eb0d804179480f86deb717b85479c273d4ffae7602495a2e3d83683"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/dynamics_independent_validation_T10_seed700.svg",
+          "sha256": "d7ea855fc281bf21937d3323dcf9df5e83725b75c20171142f9a91fd12afd589"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/dynamics_independent_validation_T10_seed700.pdf",
+          "sha256": "42e5795dd7774b1866e09170738e4309acdcda7ac89de98ce45b98570e6756d3"
+        }
+      },
+      "contract": "Preregistered seed; shared physical ranges include every shown prediction; signed errors separately scaled; no smoothing"
+    },
+    {
+      "name": "dynamics_independent_validation_m10_seed700",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/dynamics_independent_validation_m10_seed700.csv",
+      "source_sha256": "3c3af41c37f8977dd2dccb053bd088820ab6dfe1e5275866bd6d97605a48b22c",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/dynamics_independent_validation_m10_seed700.png",
+          "sha256": "8ef66748a955c1c5f5d94a18405d27d593142606f92eea594731fa039e3f702a"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/dynamics_independent_validation_m10_seed700.svg",
+          "sha256": "db6c5b5c8743b1e9a370a6b47466f981a1c2d1ff5d03f85acf0b402af07203a0"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/dynamics_independent_validation_m10_seed700.pdf",
+          "sha256": "6e58cc246ff6b820bafaa0ea828b056e0c53581898f19f75f142de276d04e71f"
+        }
+      },
+      "contract": "Preregistered seed; shared physical ranges include every shown prediction; signed errors separately scaled; no smoothing"
+    },
+    {
+      "name": "dynamics_T10_factorial_T10_seed600",
+      "source_csv": "results/figures/r13_long_time_recovery/source_data/dynamics_T10_factorial_T10_seed600.csv",
+      "source_sha256": "b76ee23ac5fb23a68c59ee7f8af4ffd147d34172b1b6d8195456e42eb7a06bba",
+      "exports": {
+        "png": {
+          "path": "results/figures/r13_long_time_recovery/dynamics_T10_factorial_T10_seed600.png",
+          "sha256": "8aea3d36e7581b6eedea74c82c566d0a552e16f5392515a1c31cc8ac5ef74f14"
+        },
+        "svg": {
+          "path": "results/figures/r13_long_time_recovery/dynamics_T10_factorial_T10_seed600.svg",
+          "sha256": "bd9d762ac77266d3d4d431a51f73e547b57cdaeaf9ff36cbb21cd2f00efd3389"
+        },
+        "pdf": {
+          "path": "results/figures/r13_long_time_recovery/dynamics_T10_factorial_T10_seed600.pdf",
+          "sha256": "4b5149d612043431f0695c34940671ee3a3b564e1411b95c2b1eb1578adcf371"
+        }
+      },
+      "contract": "Preregistered seed; shared physical ranges include every shown prediction; signed errors separately scaled; no smoothing"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "job": {
+    "type": "coupled",
+    "stage": "engineering",
+    "case": "T10",
+    "group": "joint_hard",
+    "seed": 999004,
+    "budget": 3,
+    "snapshots": [
+      3
+    ],
+    "bounds": [
+      -64,
+      96
+    ],
+    "directory": "engineering/full_pipeline"
+  },
+  "status": "COMPLETE",
+  "fixed_endpoint_reached": true,
+  "source_sha256": null,
+  "initial_hash": {
+    "all": "7be777a65277b6e94945479ccf1e3f1054432d5e09515b5b27145a7cc76ee22a",
+    "envelope": "e1fd1ca1beaa356296de4a7f3b959dd9537da7c311ba0aa561bd197e26a845fc",
+    "carrier": "669cc87691f9bcfc9c129e22cf1bdf9e1c2380537b94416f8f6f29ba0a47cd58"
+  },
+  "time_stream_sha256": "7b5eed7a506b0a019560b499b102fed9abdacd107910fc32025e5ee28830b8b4",
+  "normalized_time_stream_sha256": "964492e8c0ead0e322926e594e0f47b51b503e556eaa3b6117708be26bde7ba7",
+  "training_wall_seconds": 0.6987608000008549,
+  "training_cpu_seconds": 0.609375,
+  "evaluation_seconds": 44.3943177000001,
+  "checkpoint_io_seconds": 0.06473210000058316,
+  "setup_seconds": 3.8305913000003784,
+  "peak_rss_bytes": 377688064,
+  "total_parameters": 25670,
+  "active_parameters": 25670,
+  "frozen_parameters": 0,
+  "step": 3,
+  "source_pretraining_wall_seconds": 0.0,
+  "source_pretraining_cpu_seconds": 0.0,
+  "attributed_training_wall_seconds": 0.6987608000008549,
+  "attributed_training_cpu_seconds": 0.609375,
+  "carrier_pretraining_reused": false,
+  "incurred_pipeline_seconds": 48.98840190000192,
+  "attributed_pipeline_seconds": 48.98840190000192,
+  "unit_spinor_residual_points": 15456,
+  "attributed_unit_spinor_residual_points": 15456,
+  "complex_scalar_residual_components": 30912,
+  "free_steps": 0,
+  "coupled_steps": 3,
+  "peak_rss_includes_process_runtime_and_cache": true,
+  "engineering": true
+}

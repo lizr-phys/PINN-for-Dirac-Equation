@@ -1,0 +1,1544 @@
+{
+  "baseline_protection": {
+    "main_expected_file_count": 120,
+    "main_extra": [],
+    "main_file_count": 120,
+    "main_missing": [],
+    "original_reproducibility_audit": {
+      "failures": [],
+      "passed": true,
+      "raised": null,
+      "status": "PASS",
+      "stdout": "{\n  \"summary_rows\": 23,\n  \"main_runs\": 20,\n  \"sensitivity_rows_including_reuse\": 3,\n  \"main_config_checks\": 20,\n  \"figure_groups\": 8,\n  \"figure_exports\": 24\n}\nstatus=PASS",
+      "write_suppressed": true
+    },
+    "sensitivity_expected_file_count": 13,
+    "sensitivity_extra": [],
+    "sensitivity_file_count": 13,
+    "sensitivity_missing": []
+  },
+  "counts": {
+    "checked_formal_runs": 6,
+    "complete_six_piece_runs": 6,
+    "expected_figure_exports": 18,
+    "expected_figure_groups": 6,
+    "expected_formal_runs": 6
+  },
+  "failures": [],
+  "figure_checks": [
+    {
+      "editable_svg_text": true,
+      "name": "01_main_metric_comparison",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 72
+    },
+    {
+      "editable_svg_text": true,
+      "name": "02_learned_branch_phases",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 60
+    },
+    {
+      "editable_svg_text": true,
+      "name": "03_case_M_current_x0",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 20
+    },
+    {
+      "editable_svg_text": true,
+      "name": "04_case_M_relative_phase_x0",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 20
+    },
+    {
+      "editable_svg_text": true,
+      "name": "05_amplitude_and_occupations",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 47
+    },
+    {
+      "editable_svg_text": true,
+      "name": "06_loss_histories",
+      "pdf": true,
+      "png": true,
+      "svg": true,
+      "svg_text_nodes": 31
+    }
+  ],
+  "notes": {
+    "baseline_audit": "The original audit was executed with its write function replaced by an in-memory capture, so this audit does not rewrite baseline artifacts.",
+    "loss_finiteness": "All six actual loss columns and elapsed_seconds must be finite. gradient_cosine may be blank because LTPB-CPA is trained with PDE loss only."
+  },
+  "pilot_inventory": {
+    "actual_file_count": 36,
+    "actual_run_count": 6,
+    "expected_file_count": 36,
+    "expected_run_count": 6,
+    "extra_files": [],
+    "extra_seed_directories": [],
+    "missing_files": [],
+    "missing_seed_directories": []
+  },
+  "run_checks": [
+    {
+      "artifacts": {
+        "config.json": true,
+        "dense_grid.npz": true,
+        "loss_history.csv": true,
+        "metrics.json": true,
+        "model_state.pt": true,
+        "time_series.csv": true
+      },
+      "baseline_random_source_checks": {
+        "collocation_seed_matches_main": true,
+        "initialization_matches_main": true,
+        "reference_config_present": true,
+        "structure_seed_matches_main": true
+      },
+      "case": "P",
+      "config_checks": {
+        "adam_steps": true,
+        "case": true,
+        "collocation_generator_seed": true,
+        "collocation_points": true,
+        "collocation_resampled_each_step": true,
+        "dtype": true,
+        "eta": true,
+        "experiment": true,
+        "hidden_layers": true,
+        "hidden_width": true,
+        "initialization": true,
+        "lambda_struct": true,
+        "learning_rate": true,
+        "mass": true,
+        "model": true,
+        "periodic_endpoint_excluded": true,
+        "run_name": true,
+        "seed": true,
+        "steps": true,
+        "structure_generator_seed": true,
+        "t_max": true,
+        "test_t_points": true,
+        "test_x_points": true,
+        "wave_number": true,
+        "x_max": true,
+        "x_min": true
+      },
+      "dense_grid": {
+        "coordinate_checks": {
+          "t_finite": true,
+          "t_grid": true,
+          "t_shape_dtype": true,
+          "x_finite": true,
+          "x_periodic_grid": true,
+          "x_shape_dtype": true
+        },
+        "field_count": 22,
+        "hard_initial_condition": {
+          "amplitude_minus": true,
+          "amplitude_plus": true,
+          "phase_minus": true,
+          "phase_plus": true,
+          "psi": true
+        },
+        "missing_fields": [],
+        "readable": true,
+        "scalar_field_checks": {
+          "amplitude_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "continuity": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "energy_density": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          }
+        },
+        "spinor_checks": {
+          "psi_exact": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          },
+          "psi_predicted": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          }
+        }
+      },
+      "directory": "E:\\PINN for Quantum Physics\\dirac_cpa_transfer_experiment\\results\\raw\\learned_two_phase_pilot\\case_P\\ltpb_cpa\\seed_0",
+      "loss_history": {
+        "all_loss_values_finite": true,
+        "gradient_cosine_non_null_values_finite": true,
+        "missing_columns": [],
+        "pde_only": true,
+        "readable": true,
+        "rows": 501,
+        "schedule_matches_5000_steps": true
+      },
+      "metrics": {
+        "case_P_null_semantics": {
+          "amplitude_minus_drift_rel_max": true,
+          "amplitude_minus_drift_rel_rms": true
+        },
+        "identity": {
+          "case": true,
+          "eta": true,
+          "experiment": true,
+          "lambda_struct": true,
+          "model": true,
+          "parameter_count": true,
+          "seed": true,
+          "steps": true
+        },
+        "missing_required_keys": [],
+        "non_finite_required_metrics": [],
+        "pde_only": {
+          "continuity_zero": true,
+          "energy_zero": true,
+          "norm_zero": true,
+          "structure_zero": true,
+          "total_equals_pde": true
+        },
+        "phase_slope_targets": {
+          "phase_minus_slope_target": true,
+          "phase_plus_slope_target": true
+        },
+        "readable": true
+      },
+      "model_state": {
+        "all_state_tensors_finite": true,
+        "all_state_tensors_float64": true,
+        "experiment_config_matches": true,
+        "parameter_count": 12996,
+        "parameter_count_ok": true,
+        "readable": true,
+        "run_spec_matches": true
+      },
+      "seed": 0,
+      "time_series": {
+        "all_required_values_finite": true,
+        "missing_columns": [],
+        "readable": true,
+        "rows": 201,
+        "time_grid_matches": true
+      }
+    },
+    {
+      "artifacts": {
+        "config.json": true,
+        "dense_grid.npz": true,
+        "loss_history.csv": true,
+        "metrics.json": true,
+        "model_state.pt": true,
+        "time_series.csv": true
+      },
+      "baseline_random_source_checks": {
+        "collocation_seed_matches_main": true,
+        "initialization_matches_main": true,
+        "reference_config_present": true,
+        "structure_seed_matches_main": true
+      },
+      "case": "P",
+      "config_checks": {
+        "adam_steps": true,
+        "case": true,
+        "collocation_generator_seed": true,
+        "collocation_points": true,
+        "collocation_resampled_each_step": true,
+        "dtype": true,
+        "eta": true,
+        "experiment": true,
+        "hidden_layers": true,
+        "hidden_width": true,
+        "initialization": true,
+        "lambda_struct": true,
+        "learning_rate": true,
+        "mass": true,
+        "model": true,
+        "periodic_endpoint_excluded": true,
+        "run_name": true,
+        "seed": true,
+        "steps": true,
+        "structure_generator_seed": true,
+        "t_max": true,
+        "test_t_points": true,
+        "test_x_points": true,
+        "wave_number": true,
+        "x_max": true,
+        "x_min": true
+      },
+      "dense_grid": {
+        "coordinate_checks": {
+          "t_finite": true,
+          "t_grid": true,
+          "t_shape_dtype": true,
+          "x_finite": true,
+          "x_periodic_grid": true,
+          "x_shape_dtype": true
+        },
+        "field_count": 22,
+        "hard_initial_condition": {
+          "amplitude_minus": true,
+          "amplitude_plus": true,
+          "phase_minus": true,
+          "phase_plus": true,
+          "psi": true
+        },
+        "missing_fields": [],
+        "readable": true,
+        "scalar_field_checks": {
+          "amplitude_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "continuity": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "energy_density": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          }
+        },
+        "spinor_checks": {
+          "psi_exact": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          },
+          "psi_predicted": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          }
+        }
+      },
+      "directory": "E:\\PINN for Quantum Physics\\dirac_cpa_transfer_experiment\\results\\raw\\learned_two_phase_pilot\\case_P\\ltpb_cpa\\seed_1",
+      "loss_history": {
+        "all_loss_values_finite": true,
+        "gradient_cosine_non_null_values_finite": true,
+        "missing_columns": [],
+        "pde_only": true,
+        "readable": true,
+        "rows": 501,
+        "schedule_matches_5000_steps": true
+      },
+      "metrics": {
+        "case_P_null_semantics": {
+          "amplitude_minus_drift_rel_max": true,
+          "amplitude_minus_drift_rel_rms": true
+        },
+        "identity": {
+          "case": true,
+          "eta": true,
+          "experiment": true,
+          "lambda_struct": true,
+          "model": true,
+          "parameter_count": true,
+          "seed": true,
+          "steps": true
+        },
+        "missing_required_keys": [],
+        "non_finite_required_metrics": [],
+        "pde_only": {
+          "continuity_zero": true,
+          "energy_zero": true,
+          "norm_zero": true,
+          "structure_zero": true,
+          "total_equals_pde": true
+        },
+        "phase_slope_targets": {
+          "phase_minus_slope_target": true,
+          "phase_plus_slope_target": true
+        },
+        "readable": true
+      },
+      "model_state": {
+        "all_state_tensors_finite": true,
+        "all_state_tensors_float64": true,
+        "experiment_config_matches": true,
+        "parameter_count": 12996,
+        "parameter_count_ok": true,
+        "readable": true,
+        "run_spec_matches": true
+      },
+      "seed": 1,
+      "time_series": {
+        "all_required_values_finite": true,
+        "missing_columns": [],
+        "readable": true,
+        "rows": 201,
+        "time_grid_matches": true
+      }
+    },
+    {
+      "artifacts": {
+        "config.json": true,
+        "dense_grid.npz": true,
+        "loss_history.csv": true,
+        "metrics.json": true,
+        "model_state.pt": true,
+        "time_series.csv": true
+      },
+      "baseline_random_source_checks": {
+        "collocation_seed_matches_main": true,
+        "initialization_matches_main": true,
+        "reference_config_present": true,
+        "structure_seed_matches_main": true
+      },
+      "case": "P",
+      "config_checks": {
+        "adam_steps": true,
+        "case": true,
+        "collocation_generator_seed": true,
+        "collocation_points": true,
+        "collocation_resampled_each_step": true,
+        "dtype": true,
+        "eta": true,
+        "experiment": true,
+        "hidden_layers": true,
+        "hidden_width": true,
+        "initialization": true,
+        "lambda_struct": true,
+        "learning_rate": true,
+        "mass": true,
+        "model": true,
+        "periodic_endpoint_excluded": true,
+        "run_name": true,
+        "seed": true,
+        "steps": true,
+        "structure_generator_seed": true,
+        "t_max": true,
+        "test_t_points": true,
+        "test_x_points": true,
+        "wave_number": true,
+        "x_max": true,
+        "x_min": true
+      },
+      "dense_grid": {
+        "coordinate_checks": {
+          "t_finite": true,
+          "t_grid": true,
+          "t_shape_dtype": true,
+          "x_finite": true,
+          "x_periodic_grid": true,
+          "x_shape_dtype": true
+        },
+        "field_count": 22,
+        "hard_initial_condition": {
+          "amplitude_minus": true,
+          "amplitude_plus": true,
+          "phase_minus": true,
+          "phase_plus": true,
+          "psi": true
+        },
+        "missing_fields": [],
+        "readable": true,
+        "scalar_field_checks": {
+          "amplitude_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "continuity": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "energy_density": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          }
+        },
+        "spinor_checks": {
+          "psi_exact": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          },
+          "psi_predicted": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          }
+        }
+      },
+      "directory": "E:\\PINN for Quantum Physics\\dirac_cpa_transfer_experiment\\results\\raw\\learned_two_phase_pilot\\case_P\\ltpb_cpa\\seed_2",
+      "loss_history": {
+        "all_loss_values_finite": true,
+        "gradient_cosine_non_null_values_finite": true,
+        "missing_columns": [],
+        "pde_only": true,
+        "readable": true,
+        "rows": 501,
+        "schedule_matches_5000_steps": true
+      },
+      "metrics": {
+        "case_P_null_semantics": {
+          "amplitude_minus_drift_rel_max": true,
+          "amplitude_minus_drift_rel_rms": true
+        },
+        "identity": {
+          "case": true,
+          "eta": true,
+          "experiment": true,
+          "lambda_struct": true,
+          "model": true,
+          "parameter_count": true,
+          "seed": true,
+          "steps": true
+        },
+        "missing_required_keys": [],
+        "non_finite_required_metrics": [],
+        "pde_only": {
+          "continuity_zero": true,
+          "energy_zero": true,
+          "norm_zero": true,
+          "structure_zero": true,
+          "total_equals_pde": true
+        },
+        "phase_slope_targets": {
+          "phase_minus_slope_target": true,
+          "phase_plus_slope_target": true
+        },
+        "readable": true
+      },
+      "model_state": {
+        "all_state_tensors_finite": true,
+        "all_state_tensors_float64": true,
+        "experiment_config_matches": true,
+        "parameter_count": 12996,
+        "parameter_count_ok": true,
+        "readable": true,
+        "run_spec_matches": true
+      },
+      "seed": 2,
+      "time_series": {
+        "all_required_values_finite": true,
+        "missing_columns": [],
+        "readable": true,
+        "rows": 201,
+        "time_grid_matches": true
+      }
+    },
+    {
+      "artifacts": {
+        "config.json": true,
+        "dense_grid.npz": true,
+        "loss_history.csv": true,
+        "metrics.json": true,
+        "model_state.pt": true,
+        "time_series.csv": true
+      },
+      "baseline_random_source_checks": {
+        "collocation_seed_matches_main": true,
+        "initialization_matches_main": true,
+        "reference_config_present": true,
+        "structure_seed_matches_main": true
+      },
+      "case": "M",
+      "config_checks": {
+        "adam_steps": true,
+        "case": true,
+        "collocation_generator_seed": true,
+        "collocation_points": true,
+        "collocation_resampled_each_step": true,
+        "dtype": true,
+        "eta": true,
+        "experiment": true,
+        "hidden_layers": true,
+        "hidden_width": true,
+        "initialization": true,
+        "lambda_struct": true,
+        "learning_rate": true,
+        "mass": true,
+        "model": true,
+        "periodic_endpoint_excluded": true,
+        "run_name": true,
+        "seed": true,
+        "steps": true,
+        "structure_generator_seed": true,
+        "t_max": true,
+        "test_t_points": true,
+        "test_x_points": true,
+        "wave_number": true,
+        "x_max": true,
+        "x_min": true
+      },
+      "dense_grid": {
+        "coordinate_checks": {
+          "t_finite": true,
+          "t_grid": true,
+          "t_shape_dtype": true,
+          "x_finite": true,
+          "x_periodic_grid": true,
+          "x_shape_dtype": true
+        },
+        "field_count": 22,
+        "hard_initial_condition": {
+          "amplitude_minus": true,
+          "amplitude_plus": true,
+          "phase_minus": true,
+          "phase_plus": true,
+          "psi": true
+        },
+        "missing_fields": [],
+        "readable": true,
+        "scalar_field_checks": {
+          "amplitude_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "continuity": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "energy_density": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          }
+        },
+        "spinor_checks": {
+          "psi_exact": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          },
+          "psi_predicted": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          }
+        }
+      },
+      "directory": "E:\\PINN for Quantum Physics\\dirac_cpa_transfer_experiment\\results\\raw\\learned_two_phase_pilot\\case_M\\ltpb_cpa\\seed_0",
+      "loss_history": {
+        "all_loss_values_finite": true,
+        "gradient_cosine_non_null_values_finite": true,
+        "missing_columns": [],
+        "pde_only": true,
+        "readable": true,
+        "rows": 501,
+        "schedule_matches_5000_steps": true
+      },
+      "metrics": {
+        "case_P_null_semantics": {},
+        "identity": {
+          "case": true,
+          "eta": true,
+          "experiment": true,
+          "lambda_struct": true,
+          "model": true,
+          "parameter_count": true,
+          "seed": true,
+          "steps": true
+        },
+        "missing_required_keys": [],
+        "non_finite_required_metrics": [],
+        "pde_only": {
+          "continuity_zero": true,
+          "energy_zero": true,
+          "norm_zero": true,
+          "structure_zero": true,
+          "total_equals_pde": true
+        },
+        "phase_slope_targets": {
+          "phase_minus_slope_target": true,
+          "phase_plus_slope_target": true
+        },
+        "readable": true
+      },
+      "model_state": {
+        "all_state_tensors_finite": true,
+        "all_state_tensors_float64": true,
+        "experiment_config_matches": true,
+        "parameter_count": 12996,
+        "parameter_count_ok": true,
+        "readable": true,
+        "run_spec_matches": true
+      },
+      "seed": 0,
+      "time_series": {
+        "all_required_values_finite": true,
+        "missing_columns": [],
+        "readable": true,
+        "rows": 201,
+        "time_grid_matches": true
+      }
+    },
+    {
+      "artifacts": {
+        "config.json": true,
+        "dense_grid.npz": true,
+        "loss_history.csv": true,
+        "metrics.json": true,
+        "model_state.pt": true,
+        "time_series.csv": true
+      },
+      "baseline_random_source_checks": {
+        "collocation_seed_matches_main": true,
+        "initialization_matches_main": true,
+        "reference_config_present": true,
+        "structure_seed_matches_main": true
+      },
+      "case": "M",
+      "config_checks": {
+        "adam_steps": true,
+        "case": true,
+        "collocation_generator_seed": true,
+        "collocation_points": true,
+        "collocation_resampled_each_step": true,
+        "dtype": true,
+        "eta": true,
+        "experiment": true,
+        "hidden_layers": true,
+        "hidden_width": true,
+        "initialization": true,
+        "lambda_struct": true,
+        "learning_rate": true,
+        "mass": true,
+        "model": true,
+        "periodic_endpoint_excluded": true,
+        "run_name": true,
+        "seed": true,
+        "steps": true,
+        "structure_generator_seed": true,
+        "t_max": true,
+        "test_t_points": true,
+        "test_x_points": true,
+        "wave_number": true,
+        "x_max": true,
+        "x_min": true
+      },
+      "dense_grid": {
+        "coordinate_checks": {
+          "t_finite": true,
+          "t_grid": true,
+          "t_shape_dtype": true,
+          "x_finite": true,
+          "x_periodic_grid": true,
+          "x_shape_dtype": true
+        },
+        "field_count": 22,
+        "hard_initial_condition": {
+          "amplitude_minus": true,
+          "amplitude_plus": true,
+          "phase_minus": true,
+          "phase_plus": true,
+          "psi": true
+        },
+        "missing_fields": [],
+        "readable": true,
+        "scalar_field_checks": {
+          "amplitude_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "continuity": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "energy_density": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          }
+        },
+        "spinor_checks": {
+          "psi_exact": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          },
+          "psi_predicted": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          }
+        }
+      },
+      "directory": "E:\\PINN for Quantum Physics\\dirac_cpa_transfer_experiment\\results\\raw\\learned_two_phase_pilot\\case_M\\ltpb_cpa\\seed_1",
+      "loss_history": {
+        "all_loss_values_finite": true,
+        "gradient_cosine_non_null_values_finite": true,
+        "missing_columns": [],
+        "pde_only": true,
+        "readable": true,
+        "rows": 501,
+        "schedule_matches_5000_steps": true
+      },
+      "metrics": {
+        "case_P_null_semantics": {},
+        "identity": {
+          "case": true,
+          "eta": true,
+          "experiment": true,
+          "lambda_struct": true,
+          "model": true,
+          "parameter_count": true,
+          "seed": true,
+          "steps": true
+        },
+        "missing_required_keys": [],
+        "non_finite_required_metrics": [],
+        "pde_only": {
+          "continuity_zero": true,
+          "energy_zero": true,
+          "norm_zero": true,
+          "structure_zero": true,
+          "total_equals_pde": true
+        },
+        "phase_slope_targets": {
+          "phase_minus_slope_target": true,
+          "phase_plus_slope_target": true
+        },
+        "readable": true
+      },
+      "model_state": {
+        "all_state_tensors_finite": true,
+        "all_state_tensors_float64": true,
+        "experiment_config_matches": true,
+        "parameter_count": 12996,
+        "parameter_count_ok": true,
+        "readable": true,
+        "run_spec_matches": true
+      },
+      "seed": 1,
+      "time_series": {
+        "all_required_values_finite": true,
+        "missing_columns": [],
+        "readable": true,
+        "rows": 201,
+        "time_grid_matches": true
+      }
+    },
+    {
+      "artifacts": {
+        "config.json": true,
+        "dense_grid.npz": true,
+        "loss_history.csv": true,
+        "metrics.json": true,
+        "model_state.pt": true,
+        "time_series.csv": true
+      },
+      "baseline_random_source_checks": {
+        "collocation_seed_matches_main": true,
+        "initialization_matches_main": true,
+        "reference_config_present": true,
+        "structure_seed_matches_main": true
+      },
+      "case": "M",
+      "config_checks": {
+        "adam_steps": true,
+        "case": true,
+        "collocation_generator_seed": true,
+        "collocation_points": true,
+        "collocation_resampled_each_step": true,
+        "dtype": true,
+        "eta": true,
+        "experiment": true,
+        "hidden_layers": true,
+        "hidden_width": true,
+        "initialization": true,
+        "lambda_struct": true,
+        "learning_rate": true,
+        "mass": true,
+        "model": true,
+        "periodic_endpoint_excluded": true,
+        "run_name": true,
+        "seed": true,
+        "steps": true,
+        "structure_generator_seed": true,
+        "t_max": true,
+        "test_t_points": true,
+        "test_x_points": true,
+        "wave_number": true,
+        "x_max": true,
+        "x_min": true
+      },
+      "dense_grid": {
+        "coordinate_checks": {
+          "t_finite": true,
+          "t_grid": true,
+          "t_shape_dtype": true,
+          "x_finite": true,
+          "x_periodic_grid": true,
+          "x_shape_dtype": true
+        },
+        "field_count": 22,
+        "hard_initial_condition": {
+          "amplitude_minus": true,
+          "amplitude_plus": true,
+          "phase_minus": true,
+          "phase_plus": true,
+          "psi": true
+        },
+        "missing_fields": [],
+        "readable": true,
+        "scalar_field_checks": {
+          "amplitude_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "amplitude_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "branch_relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "continuity": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "current_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "energy_density": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_minus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "phase_plus_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "relative_phase_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_exact": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          },
+          "rho_predicted": {
+            "dtype_ok": true,
+            "finite": true,
+            "shape_ok": true
+          }
+        },
+        "spinor_checks": {
+          "psi_exact": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          },
+          "psi_predicted": {
+            "dtype": "complex128",
+            "dtype_ok": true,
+            "finite": true,
+            "shape": [
+              201,
+              128,
+              2
+            ],
+            "shape_ok": true
+          }
+        }
+      },
+      "directory": "E:\\PINN for Quantum Physics\\dirac_cpa_transfer_experiment\\results\\raw\\learned_two_phase_pilot\\case_M\\ltpb_cpa\\seed_2",
+      "loss_history": {
+        "all_loss_values_finite": true,
+        "gradient_cosine_non_null_values_finite": true,
+        "missing_columns": [],
+        "pde_only": true,
+        "readable": true,
+        "rows": 501,
+        "schedule_matches_5000_steps": true
+      },
+      "metrics": {
+        "case_P_null_semantics": {},
+        "identity": {
+          "case": true,
+          "eta": true,
+          "experiment": true,
+          "lambda_struct": true,
+          "model": true,
+          "parameter_count": true,
+          "seed": true,
+          "steps": true
+        },
+        "missing_required_keys": [],
+        "non_finite_required_metrics": [],
+        "pde_only": {
+          "continuity_zero": true,
+          "energy_zero": true,
+          "norm_zero": true,
+          "structure_zero": true,
+          "total_equals_pde": true
+        },
+        "phase_slope_targets": {
+          "phase_minus_slope_target": true,
+          "phase_plus_slope_target": true
+        },
+        "readable": true
+      },
+      "model_state": {
+        "all_state_tensors_finite": true,
+        "all_state_tensors_float64": true,
+        "experiment_config_matches": true,
+        "parameter_count": 12996,
+        "parameter_count_ok": true,
+        "readable": true,
+        "run_spec_matches": true
+      },
+      "seed": 2,
+      "time_series": {
+        "all_required_values_finite": true,
+        "missing_columns": [],
+        "readable": true,
+        "rows": 201,
+        "time_grid_matches": true
+      }
+    }
+  ],
+  "status": "PASS",
+  "summary_checks": [
+    {
+      "expected_rows": 6,
+      "experiment_ok": true,
+      "model_ok": true,
+      "name": "learned_two_phase_pilot_runs.csv",
+      "non_finite_numeric_cells": 6,
+      "present": true,
+      "row_count_ok": true,
+      "rows": 6,
+      "six_run_identities_ok": true
+    },
+    {
+      "expected_rows": 2,
+      "name": "learned_two_phase_pilot_summary.csv",
+      "non_finite_numeric_cells": 2,
+      "present": true,
+      "row_count_ok": true,
+      "rows": 2,
+      "three_seeds_per_case": true
+    },
+    {
+      "expected_rows": 26,
+      "name": "learned_two_phase_pilot_comparison.csv",
+      "non_finite_numeric_cells": 546,
+      "present": true,
+      "row_count_ok": true,
+      "rows": 26
+    }
+  ]
+}

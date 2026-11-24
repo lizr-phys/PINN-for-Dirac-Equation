@@ -1,0 +1,129 @@
+{
+  "job": {
+    "type": "coupled",
+    "stage": "engineering",
+    "case": "m5T5",
+    "group": "joint_hard",
+    "seed": 999003,
+    "budget": 8,
+    "snapshots": [
+      8
+    ],
+    "bounds": [
+      0,
+      32
+    ],
+    "directory": "engineering/recovery/continuous"
+  },
+  "bounds": [
+    0,
+    32
+  ],
+  "configuration": {
+    "n_min": 0,
+    "n_max": 32,
+    "mass": 5.0,
+    "t_max": 5.0,
+    "potential_strength": 0.2,
+    "coupling_wave_number": 1.0,
+    "k0": 2.0,
+    "sigma_k": 0.5,
+    "x_min": -25.132741228718345,
+    "x_max": 25.132741228718345,
+    "hidden_layers": 4,
+    "hidden_width": 64,
+    "adam_steps": 20000,
+    "carrier_steps": 6000,
+    "learning_rate": 0.001,
+    "spectral_time_points": 32,
+    "test_x_points": 1024,
+    "test_t_points": 201,
+    "residual_time_points": 4001,
+    "history_every": 25,
+    "log_every": 500,
+    "recovery_every": 500,
+    "active_occupation_threshold": 1e-06,
+    "case": "m5T5",
+    "potential_harmonics": [
+      [
+        1,
+        0.2
+      ]
+    ],
+    "norm_regularization_weight": 0.01,
+    "length": 50.26548245743669,
+    "mode_count": 33,
+    "wave_numbers": [
+      0.0,
+      0.125,
+      0.25,
+      0.375,
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      1.0,
+      1.125,
+      1.25,
+      1.375,
+      1.5,
+      1.625,
+      1.75,
+      1.875,
+      2.0,
+      2.125,
+      2.25,
+      2.375,
+      2.5,
+      2.625,
+      2.75,
+      2.875,
+      3.0,
+      3.125,
+      3.25,
+      3.375,
+      3.5,
+      3.625,
+      3.75,
+      3.875,
+      4.0
+    ],
+    "coupling_index_shift": 8,
+    "coupling_terms": [
+      [
+        8,
+        0.1
+      ]
+    ],
+    "potential_rms": 0.14142135623730953,
+    "initial_support": [
+      0,
+      32
+    ],
+    "zero_padding_only": true
+  },
+  "source_sha256": null,
+  "initial_hash": {
+    "all": "9a5dc526ee0b40d097f6cbdafd3d553467071a518f86eeee97406c672e0b6127",
+    "envelope": "54bbc4b0ce390a39922daa2ce7838977efff3a503e07135f3ed5e0728180e5b4",
+    "carrier": "0fcb195e3c18909fb7133f5c1b14721ffb31a61988a4d20edaf21dd68d250463"
+  },
+  "source_manifest_sha256": "ENGINEERING_NOT_SCIENCE",
+  "analytic_prior": false,
+  "no_future_reference_in_training": true,
+  "reference_evaluation_separate_process": true,
+  "torch_version": "2.12.0+cpu",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "cpu_mask": 0,
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "threads": 1
+}

@@ -1,0 +1,407 @@
+{
+  "verification_date": "2026-10-04",
+  "scope": "Supplement; original 40-paper snapshot preserved",
+  "records": [
+    {
+      "id": "C01",
+      "doi": "10.1016/j.physd.2026.135394",
+      "topic": "相位振幅统一定态/含时表示",
+      "title": "WKB-PINNs: Physics-informed neural networks for highly oscillatory Schrödinger–type equations",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9360-8821",
+          "authenticated-orcid": false,
+          "given": "Jinxia",
+          "family": "Cen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2829-8764",
+          "authenticated-orcid": false,
+          "given": "Himanshu Kumar",
+          "family": "Dwivedi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-4547-0906",
+          "authenticated-orcid": false,
+          "given": "Shubham",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0787-1517",
+          "authenticated-orcid": false,
+          "family": "Rajeev",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1818-842X",
+          "authenticated-orcid": false,
+          "given": "Shengda",
+          "family": "Zeng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Physica D: Nonlinear Phenomena",
+      "dates": {
+        "published": [
+          [
+            2026,
+            11
+          ]
+        ],
+        "published-print": [
+          [
+            2026,
+            11
+          ]
+        ],
+        "created": [
+          [
+            2026,
+            9,
+            2
+          ]
+        ]
+      },
+      "status": "DOI metadata verified",
+      "url": "https://doi.org/10.1016/j.physd.2026.135394"
+    },
+    {
+      "id": "C02",
+      "doi": "10.1103/PhysRevLett.131.046501",
+      "topic": "由动力学提取激发谱",
+      "title": "Highly Resolved Spectral Functions of Two-Dimensional Systems with Neural Quantum States",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6827-5260",
+          "authenticated-orcid": true,
+          "given": "Tiago",
+          "family": "Mendes-Santos",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Markus",
+          "family": "Schmitt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Markus",
+          "family": "Heyl",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Physical Review Letters",
+      "dates": {
+        "published": [
+          [
+            2023,
+            7,
+            27
+          ]
+        ],
+        "published-online": [
+          [
+            2023,
+            7,
+            27
+          ]
+        ],
+        "created": [
+          [
+            2023,
+            7,
+            27
+          ]
+        ]
+      },
+      "status": "DOI metadata verified",
+      "url": "https://doi.org/10.1103/PhysRevLett.131.046501"
+    },
+    {
+      "id": "C03",
+      "doi": "10.1103/PhysRevD.108.L101701",
+      "topic": "含时波包散射神经算子",
+      "title": "Scattering with neural operators",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8066-5891",
+          "authenticated-orcid": true,
+          "given": "Sebastian",
+          "family": "Mizera",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Physical Review D",
+      "dates": {
+        "published": [
+          [
+            2023,
+            11,
+            16
+          ]
+        ],
+        "published-online": [
+          [
+            2023,
+            11,
+            16
+          ]
+        ],
+        "created": [
+          [
+            2023,
+            11,
+            16
+          ]
+        ]
+      },
+      "status": "DOI metadata verified",
+      "url": "https://doi.org/10.1103/PhysRevD.108.L101701"
+    },
+    {
+      "id": "C04",
+      "doi": "10.1103/PhysRevLett.93.180405",
+      "topic": "Dirac 束缚计数与阈值相移",
+      "title": "Strong Levinson Theorem for the Dirac Equation",
+      "authors": [
+        {
+          "given": "Alex",
+          "family": "Calogeracos",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Norman",
+          "family": "Dombey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Physical Review Letters",
+      "dates": {
+        "published": [
+          [
+            2004,
+            10,
+            29
+          ]
+        ],
+        "published-online": [
+          [
+            2004,
+            10,
+            29
+          ]
+        ],
+        "created": [
+          [
+            2004,
+            10,
+            29
+          ]
+        ]
+      },
+      "status": "DOI metadata verified",
+      "url": "https://doi.org/10.1103/PhysRevLett.93.180405"
+    },
+    {
+      "id": "C05",
+      "doi": "10.1103/PhysRev.98.145",
+      "topic": "散射相位与时间延迟",
+      "title": "Lower Limit for the Energy Derivative of the Scattering Phase Shift",
+      "authors": [
+        {
+          "given": "Eugene P.",
+          "family": "Wigner",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": "Physical Review",
+      "dates": {
+        "published": [
+          [
+            1955,
+            4,
+            1
+          ]
+        ],
+        "published-online": [
+          [
+            1955,
+            4,
+            1
+          ]
+        ],
+        "created": [
+          [
+            2002,
+            7,
+            27
+          ]
+        ]
+      },
+      "status": "DOI metadata verified",
+      "url": "https://doi.org/10.1103/PhysRev.98.145"
+    },
+    {
+      "id": "C06",
+      "doi": "10.1016/j.jcp.2004.02.020",
+      "topic": "传统 Dirac 束缚初态与驱动动力学",
+      "title": "Quantum dynamics of relativistic electrons",
+      "authors": [
+        {
+          "given": "Guido R.",
+          "family": "Mocken",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Christoph H.",
+          "family": "Keitel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "journal": "Journal of Computational Physics",
+      "dates": {
+        "published": [
+          [
+            2004,
+            9
+          ]
+        ],
+        "published-print": [
+          [
+            2004,
+            9
+          ]
+        ],
+        "created": [
+          [
+            2004,
+            4,
+            14
+          ]
+        ]
+      },
+      "status": "DOI metadata verified",
+      "url": "https://doi.org/10.1016/j.jcp.2004.02.020"
+    },
+    {
+      "id": "C07",
+      "arxiv": "2211.04607",
+      "doi": null,
+      "topic": "参数化未知本征谱先例",
+      "title": "First principles physics-informed neural network for quantum wavefunctions and eigenvalue surfaces",
+      "authors": [
+        "Mattheakis, Marios",
+        "Schleder, Gabriel R.",
+        "Larson, Daniel T.",
+        "Kaxiras, Efthimios"
+      ],
+      "dates": {
+        "arxiv": [
+          "2022/11/08"
+        ]
+      },
+      "status": "arXiv version verified; journal status not established",
+      "url": "https://arxiv.org/abs/2211.04607"
+    }
+  ]
+}

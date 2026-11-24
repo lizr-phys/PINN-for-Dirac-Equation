@@ -1,0 +1,302 @@
+{
+  "updated_utc": 1791886195.0929494,
+  "status": "ALL_INITIAL_CARRIER_CONTROLS_VERIFIED",
+  "prescribed_pairs": 15,
+  "actual_carrier_pairs_checked": 15,
+  "actual_joint_initializers_checked": 15,
+  "missing_carrier_pairs": [],
+  "missing_joint_initializers": [],
+  "errors": [],
+  "checks": [
+    {
+      "case": "T10",
+      "seed": 810,
+      "original_initial_state": "formal/carriers/T10/original/seed_810/initial_state.pt",
+      "original_sha256": "07427cbc1760da7d7a97abcb1ce997c0995dd1857e9b7de9cbf57828e04a3a4c",
+      "static_initial_state": "formal/carriers/T10/static_frequency/seed_810/initial_state.pt",
+      "static_sha256": "dcbef05cfd9e2a26f9aa172af3376b5f3eecfdbe1b667eb44ffe25fec2310e5b",
+      "joint_initial_state_sha256": "1a35c8a6c4007d76acd87a02ed008c4bb3e946af4bd4939fdb4da4a261271f98",
+      "original_static_initial_rate_max_abs_difference": 2.2551405187698492e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "T10",
+      "seed": 811,
+      "original_initial_state": "formal/carriers/T10/original/seed_811/initial_state.pt",
+      "original_sha256": "90987d56bcdb79984c4c01000a8cc060eb281dd8cf7b1e60770603bc182c0b0c",
+      "static_initial_state": "formal/carriers/T10/static_frequency/seed_811/initial_state.pt",
+      "static_sha256": "aaaa467b39f646b030347e6324fb580e26594e563a68cf5503e453738022b77a",
+      "joint_initial_state_sha256": "1c3317a668a519ab0eb24d690c14709fc9f618f7b5d631efbb2058695e956752",
+      "original_static_initial_rate_max_abs_difference": 2.0816681711721685e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "T10",
+      "seed": 812,
+      "original_initial_state": "formal/carriers/T10/original/seed_812/initial_state.pt",
+      "original_sha256": "fecd0f32e6acfb411b9f7eef55acd345759f7702e1574c04d1b75d957f87447f",
+      "static_initial_state": "formal/carriers/T10/static_frequency/seed_812/initial_state.pt",
+      "static_sha256": "6aa7ec4828a43c9e6217e5e6bd1b067ad8c35834d104cedb37fb03169051d7d1",
+      "joint_initial_state_sha256": "27966d93be76c54c3080df8bbc356a86dffaa7f8bb8b750a6ae757d806dcce25",
+      "original_static_initial_rate_max_abs_difference": 1.0408340855860843e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "T10",
+      "seed": 813,
+      "original_initial_state": "formal/carriers/T10/original/seed_813/initial_state.pt",
+      "original_sha256": "3177f0ad685dcde152f847b048b89ea0cd36cb3098aa004d694c374a0cc29796",
+      "static_initial_state": "formal/carriers/T10/static_frequency/seed_813/initial_state.pt",
+      "static_sha256": "730e00b2f4df9d4a0fe50d0176f3ebb30511c6c791c159fe674a11e7aeff439b",
+      "joint_initial_state_sha256": "14dffddba6031fb0b3340704021549054450c7aa38f93455f92f7742d062d628",
+      "original_static_initial_rate_max_abs_difference": 1.5612511283791264e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "T10",
+      "seed": 814,
+      "original_initial_state": "formal/carriers/T10/original/seed_814/initial_state.pt",
+      "original_sha256": "2d602a2b0940419fc8efc439155a292525c29cc5d4e1acfcf824445134911111",
+      "static_initial_state": "formal/carriers/T10/static_frequency/seed_814/initial_state.pt",
+      "static_sha256": "156ddee8d07f531de0961432f4b7e3210ff85ba322893bb875c93909c03ecde7",
+      "joint_initial_state_sha256": "9dbfacb99f9964e9ef701444a839dcadc7bec224865a176157f420fd09d468eb",
+      "original_static_initial_rate_max_abs_difference": 1.0408340855860843e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "m10",
+      "seed": 810,
+      "original_initial_state": "formal/carriers/m10/original/seed_810/initial_state.pt",
+      "original_sha256": "07427cbc1760da7d7a97abcb1ce997c0995dd1857e9b7de9cbf57828e04a3a4c",
+      "static_initial_state": "formal/carriers/m10/static_frequency/seed_810/initial_state.pt",
+      "static_sha256": "5ee2dee65e3c14bd5727ed965708ea2985a6237a63170e03af20a108e55ccf30",
+      "joint_initial_state_sha256": "0e237c8ea4a8d33375c062ae691ce3f63133e87f114ea9f15f208cc88c3b2bc3",
+      "original_static_initial_rate_max_abs_difference": 4.5102810375396984e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "m10",
+      "seed": 811,
+      "original_initial_state": "formal/carriers/m10/original/seed_811/initial_state.pt",
+      "original_sha256": "90987d56bcdb79984c4c01000a8cc060eb281dd8cf7b1e60770603bc182c0b0c",
+      "static_initial_state": "formal/carriers/m10/static_frequency/seed_811/initial_state.pt",
+      "static_sha256": "9c58a55cd62f56f11df199a82259e9ae17273ecbd0c25f7504ecb24e314a67ca",
+      "joint_initial_state_sha256": "3b969427953f0a62cbf536d935db150c57ee834051523028ad04fe3e663db906",
+      "original_static_initial_rate_max_abs_difference": 4.163336342344337e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "m10",
+      "seed": 812,
+      "original_initial_state": "formal/carriers/m10/original/seed_812/initial_state.pt",
+      "original_sha256": "fecd0f32e6acfb411b9f7eef55acd345759f7702e1574c04d1b75d957f87447f",
+      "static_initial_state": "formal/carriers/m10/static_frequency/seed_812/initial_state.pt",
+      "static_sha256": "3c15ed1f0e30ed2928821500046e3e7155d876c2cb2d04b694a7b83f0016c3ae",
+      "joint_initial_state_sha256": "5b14b8ddd5a8fbcb754ffa3ee0fa5ae9f61605ca53deb48bf8c78b68d862c8e2",
+      "original_static_initial_rate_max_abs_difference": 2.0816681711721685e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "m10",
+      "seed": 813,
+      "original_initial_state": "formal/carriers/m10/original/seed_813/initial_state.pt",
+      "original_sha256": "3177f0ad685dcde152f847b048b89ea0cd36cb3098aa004d694c374a0cc29796",
+      "static_initial_state": "formal/carriers/m10/static_frequency/seed_813/initial_state.pt",
+      "static_sha256": "cba503de2c84246b049e016dd8ecaf52e4c3f8dd4c423daf8a13646abfc6803e",
+      "joint_initial_state_sha256": "9dbce7060d982980500cce6e4126eff87a3ebd635274ab009c65ca1f5b66c82c",
+      "original_static_initial_rate_max_abs_difference": 3.122502256758253e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "m10",
+      "seed": 814,
+      "original_initial_state": "formal/carriers/m10/original/seed_814/initial_state.pt",
+      "original_sha256": "2d602a2b0940419fc8efc439155a292525c29cc5d4e1acfcf824445134911111",
+      "static_initial_state": "formal/carriers/m10/static_frequency/seed_814/initial_state.pt",
+      "static_sha256": "c110ff86dc8125c74a774cefc5c5044e6f256901e6acebb52e80948d7a43c0d2",
+      "joint_initial_state_sha256": "56ebd9561be56e570b9fa8f042f25e4902b8624f0914d6a1db3d05dd538d66a8",
+      "original_static_initial_rate_max_abs_difference": 2.0816681711721685e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "m5T5",
+      "seed": 810,
+      "original_initial_state": "formal/carriers/m5T5/original/seed_810/initial_state.pt",
+      "original_sha256": "07427cbc1760da7d7a97abcb1ce997c0995dd1857e9b7de9cbf57828e04a3a4c",
+      "static_initial_state": "formal/carriers/m5T5/static_frequency/seed_810/initial_state.pt",
+      "static_sha256": "5ee2dee65e3c14bd5727ed965708ea2985a6237a63170e03af20a108e55ccf30",
+      "joint_initial_state_sha256": "0e237c8ea4a8d33375c062ae691ce3f63133e87f114ea9f15f208cc88c3b2bc3",
+      "original_static_initial_rate_max_abs_difference": 4.5102810375396984e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "m5T5",
+      "seed": 811,
+      "original_initial_state": "formal/carriers/m5T5/original/seed_811/initial_state.pt",
+      "original_sha256": "90987d56bcdb79984c4c01000a8cc060eb281dd8cf7b1e60770603bc182c0b0c",
+      "static_initial_state": "formal/carriers/m5T5/static_frequency/seed_811/initial_state.pt",
+      "static_sha256": "9c58a55cd62f56f11df199a82259e9ae17273ecbd0c25f7504ecb24e314a67ca",
+      "joint_initial_state_sha256": "3b969427953f0a62cbf536d935db150c57ee834051523028ad04fe3e663db906",
+      "original_static_initial_rate_max_abs_difference": 4.163336342344337e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "m5T5",
+      "seed": 812,
+      "original_initial_state": "formal/carriers/m5T5/original/seed_812/initial_state.pt",
+      "original_sha256": "fecd0f32e6acfb411b9f7eef55acd345759f7702e1574c04d1b75d957f87447f",
+      "static_initial_state": "formal/carriers/m5T5/static_frequency/seed_812/initial_state.pt",
+      "static_sha256": "3c15ed1f0e30ed2928821500046e3e7155d876c2cb2d04b694a7b83f0016c3ae",
+      "joint_initial_state_sha256": "5b14b8ddd5a8fbcb754ffa3ee0fa5ae9f61605ca53deb48bf8c78b68d862c8e2",
+      "original_static_initial_rate_max_abs_difference": 2.0816681711721685e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "m5T5",
+      "seed": 813,
+      "original_initial_state": "formal/carriers/m5T5/original/seed_813/initial_state.pt",
+      "original_sha256": "3177f0ad685dcde152f847b048b89ea0cd36cb3098aa004d694c374a0cc29796",
+      "static_initial_state": "formal/carriers/m5T5/static_frequency/seed_813/initial_state.pt",
+      "static_sha256": "cba503de2c84246b049e016dd8ecaf52e4c3f8dd4c423daf8a13646abfc6803e",
+      "joint_initial_state_sha256": "9dbce7060d982980500cce6e4126eff87a3ebd635274ab009c65ca1f5b66c82c",
+      "original_static_initial_rate_max_abs_difference": 3.122502256758253e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    },
+    {
+      "case": "m5T5",
+      "seed": 814,
+      "original_initial_state": "formal/carriers/m5T5/original/seed_814/initial_state.pt",
+      "original_sha256": "2d602a2b0940419fc8efc439155a292525c29cc5d4e1acfcf824445134911111",
+      "static_initial_state": "formal/carriers/m5T5/static_frequency/seed_814/initial_state.pt",
+      "static_sha256": "c110ff86dc8125c74a774cefc5c5044e6f256901e6acebb52e80948d7a43c0d2",
+      "joint_initial_state_sha256": "56ebd9561be56e570b9fa8f042f25e4902b8624f0914d6a1db3d05dd538d66a8",
+      "original_static_initial_rate_max_abs_difference": 2.0816681711721685e-17,
+      "zero_time_phases_both_zero_by_frozen_ansatz": true,
+      "no_eigenfrequency_labels_or_future_trajectory_loaded": true,
+      "checks": {
+        "initial_rates_match": true,
+        "original_has_two_inputs": true,
+        "static_has_one_input": true,
+        "joint_starts_from_same_untrained_static_weights": true
+      },
+      "pass_check": true
+    }
+  ],
+  "independently_evaluated_saved_weights_with_NumPy": true,
+  "source_code_sha256": "b289686ef7e50c60a90ec6b7814bcf0b01b92103daab279095579341f0ecd07d",
+  "all_initial_carrier_controls_verified": true,
+  "original_weights_not_written": true,
+  "whole_goal_complete": false
+}

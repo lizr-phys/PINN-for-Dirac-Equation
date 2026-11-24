@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "n5_two_sided_minimum_sign_flip_p": 0.0625,
+  "incomplete_pairs_do_not_generate_statistics": true,
+  "missing_seeds_do_not_generate_five_seed_means": true,
+  "numerical_failures_remain_in_denominator": true,
+  "all_failed_groups_remain_visible": true,
+  "three_of_five_cannot_pass_despite_acceptable_means": true,
+  "later_terminal_failure_does_not_rewrite_an_earlier_verified_primary_endpoint": true
+}

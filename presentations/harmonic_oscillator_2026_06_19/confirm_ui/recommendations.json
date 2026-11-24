@@ -1,0 +1,115 @@
+{
+  "lang": "zh",
+  "recommend": {
+    "canvas": "ppt169",
+    "mode": "instructional",
+    "visual_style": "swiss-minimal",
+    "icons": "tabler-outline",
+    "image_usage": "provided",
+    "formula_policy": "mixed",
+    "generation_mode": "continuous"
+  },
+  "page_count": {
+    "value": "12"
+  },
+  "audience": {
+    "value": "课题组/课程汇报听众：了解量子力学与基础数值计算，但不一定熟悉 PINN 程序实现"
+  },
+  "color": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "学术蓝 + 琥珀强调",
+        "name_en": "Academic blue with amber accent",
+        "note_zh": "白底、深蓝主色、琥珀色只用于强调关键损失项和误差结果；适合学术汇报和程序原理讲解。",
+        "note_en": "White field, deep blue primary, amber highlights for key losses and validation results.",
+        "palette": {
+          "background": "#FAFBFC",
+          "secondary_bg": "#EEF3F8",
+          "primary": "#1C4E80",
+          "accent": "#D88C2D",
+          "secondary_accent": "#4FA3A5",
+          "body_text": "#1F2933"
+        }
+      },
+      {
+        "name_zh": "黑白网格 + 单点蓝色",
+        "name_en": "Monochrome grid with blue signal",
+        "note_zh": "更克制，接近论文版式；蓝色只标记模型输出和迁移方向。",
+        "note_en": "More restrained and paper-like; blue marks model output and migration cues only.",
+        "palette": {
+          "background": "#FFFFFF",
+          "secondary_bg": "#F4F5F7",
+          "primary": "#111827",
+          "accent": "#2563EB",
+          "secondary_accent": "#6B7280",
+          "body_text": "#111827"
+        }
+      },
+      {
+        "name_zh": "浅青科技 + 深灰文字",
+        "name_en": "Soft teal technical",
+        "note_zh": "更偏科学可视化，适合突出自动微分、正交约束和后续 Dirac 方向。",
+        "note_en": "A scientific visualization tone for automatic differentiation, orthogonality, and Dirac-facing implications.",
+        "palette": {
+          "background": "#F8FCFC",
+          "secondary_bg": "#EAF5F5",
+          "primary": "#176B73",
+          "accent": "#C7772D",
+          "secondary_accent": "#3D8DA8",
+          "body_text": "#1E2A32"
+        }
+      }
+    ]
+  },
+  "typography": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name_zh": "安全单一无衬线",
+        "name_en": "Safe single sans",
+        "note_zh": "符合 swiss-minimal 的严谨网格感，标题靠字重而不是字体变化形成层次。",
+        "note_en": "Matches Swiss-minimal discipline; hierarchy comes from weight and size.",
+        "heading": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "\"Microsoft YaHei\", Arial, sans-serif",
+          "sample_cjk": "一维线性谐振子 PINN",
+          "sample_latin": "PINN Harmonic Oscillator"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "\"Microsoft YaHei\", Arial, sans-serif",
+          "sample_cjk": "边界参数化、正交损失与多态训练",
+          "sample_latin": "Boundary parameterization and orthogonality loss"
+        },
+        "body_size": 20
+      },
+      {
+        "name_zh": "学术衬线标题 + 无衬线正文",
+        "name_en": "Academic serif title with sans body",
+        "note_zh": "标题更像论文汇报，正文仍保持清晰；适合强调论文理解部分。",
+        "note_en": "More paper-like headings while keeping body text clear.",
+        "heading": {
+          "cjk": "SimSun",
+          "latin": "Cambria",
+          "css": "Cambria, SimSun, serif",
+          "sample_cjk": "一维线性谐振子 PINN",
+          "sample_latin": "PINN Harmonic Oscillator"
+        },
+        "body": {
+          "cjk": "Microsoft YaHei",
+          "latin": "Arial",
+          "css": "\"Microsoft YaHei\", Arial, sans-serif",
+          "sample_cjk": "边界参数化、正交损失与多态训练",
+          "sample_latin": "Boundary parameterization and orthogonality loss"
+        },
+        "body_size": 20
+      }
+    ]
+  },
+  "refine_spec": {
+    "value": false
+  }
+}

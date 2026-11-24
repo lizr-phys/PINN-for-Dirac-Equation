@@ -1,0 +1,720 @@
+{
+  "reuse_policy": "38 completed v6 state 0/1 runs passed independent grids/reference/normalization checks. Their models, training configurations/history and frozen source remain immutable; derived evaluations are regenerated with protocol labels. Exact scale invariance is regression-tested; all remaining runs use v7 guards and stable algebra. Versions are reported, not silently pooled as one identical protocol.",
+  "runs": [
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 1,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 2,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 3,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 5,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 6,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 7,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 9,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 1,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 2,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 3,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 5,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 6,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 7,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 9,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "shallow",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "shallow",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "shallow",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "shallow",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "shallow",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "shallow",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "narrow",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "narrow",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "narrow",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "narrow",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "narrow",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "narrow",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "deep_wide",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "deep_wide",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "deep_wide",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "deep_wide",
+      "kind": "dirac",
+      "state": 1,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "deep_wide",
+      "kind": "dirac",
+      "state": 1,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_formal",
+      "case": "deep_wide",
+      "kind": "dirac",
+      "state": 1,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 6
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "dirac",
+      "state": 2,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {
+        "lower_group": "stable_formal"
+      },
+      "protocol_version": 7
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "dirac",
+      "state": 2,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {
+        "lower_group": "stable_formal"
+      },
+      "protocol_version": 7
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "dirac",
+      "state": 2,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {
+        "lower_group": "stable_formal"
+      },
+      "protocol_version": 7
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "kg",
+      "state": 1,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "kg",
+      "state": 1,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "kg",
+      "state": 1,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "kg",
+      "state": 2,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {
+        "lower_group": "stable_v7"
+      },
+      "protocol_version": 7
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "kg",
+      "state": 2,
+      "variant": "derivative",
+      "seed": 4,
+      "overrides": {
+        "lower_group": "stable_v7"
+      },
+      "protocol_version": 7
+    },
+    {
+      "purpose": "formal",
+      "group": "stable_v7",
+      "case": "deep_wide",
+      "kind": "kg",
+      "state": 2,
+      "variant": "derivative",
+      "seed": 8,
+      "overrides": {
+        "lower_group": "stable_v7"
+      },
+      "protocol_version": 7
+    },
+    {
+      "purpose": "ablations",
+      "group": "ablations",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "independent",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "ablations",
+      "group": "ablations",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "independent",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "ablations",
+      "group": "ablations",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "independent",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "ablations",
+      "group": "ablations",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "legacy",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "ablations",
+      "group": "ablations",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "legacy",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "ablations",
+      "group": "ablations",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "legacy",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "ablations",
+      "group": "ablations",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "legacy",
+      "seed": 0,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "ablations",
+      "group": "ablations",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "legacy",
+      "seed": 4,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "ablations",
+      "group": "ablations",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "legacy",
+      "seed": 8,
+      "overrides": {},
+      "protocol_version": 7
+    },
+    {
+      "purpose": "grid_refined",
+      "group": "grid_refined",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {
+        "collocation_points": 512,
+        "quadrature_points": 384
+      },
+      "protocol_version": 7
+    },
+    {
+      "purpose": "grid_refined",
+      "group": "grid_refined",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {
+        "collocation_points": 512,
+        "quadrature_points": 384
+      },
+      "protocol_version": 7
+    },
+    {
+      "purpose": "domain_extended",
+      "group": "domain_extended",
+      "case": "base",
+      "kind": "dirac",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {
+        "half_length_override": 24.0
+      },
+      "protocol_version": 7
+    },
+    {
+      "purpose": "domain_extended",
+      "group": "domain_extended",
+      "case": "base",
+      "kind": "kg",
+      "state": 0,
+      "variant": "derivative",
+      "seed": 0,
+      "overrides": {
+        "half_length_override": 24.0
+      },
+      "protocol_version": 7
+    }
+  ]
+}

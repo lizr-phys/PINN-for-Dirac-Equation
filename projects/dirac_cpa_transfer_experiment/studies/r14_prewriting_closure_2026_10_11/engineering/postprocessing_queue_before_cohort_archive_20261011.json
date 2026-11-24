@@ -1,0 +1,260 @@
+{
+  "scientific_source_sha256": "0c2bf352f6bfd12ad106b75ae0814e09abf9af51ac75b59dbc3e6665d595f0c9",
+  "status": "OPERATIONAL_FIXED_EVIDENCE_QUEUE",
+  "all_training_attempts_before_dependent_work": true,
+  "does_not_accept_goal_or_publish_manuscript": true,
+  "phases": [
+    {
+      "id": "initial_verification_ledger",
+      "python_arguments": [
+        "verification_progress.py"
+      ],
+      "required_output_checks": []
+    },
+    {
+      "id": "completeness",
+      "python_arguments": [
+        "-m",
+        "analysis.completeness"
+      ],
+      "required_output_checks": [
+        [
+          "analysis_outputs/attempt_completion_audit.json",
+          "all_training_attempts_verified",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "metrics",
+      "python_arguments": [
+        "-m",
+        "analysis.audit_new_metrics"
+      ],
+      "required_output_checks": [
+        [
+          "analysis_outputs/independent_metric_audit.json",
+          "status",
+          "PASS_AVAILABLE_SNAPSHOTS"
+        ]
+      ]
+    },
+    {
+      "id": "residual_JVP",
+      "python_arguments": [
+        "-m",
+        "analysis.residual_checks"
+      ],
+      "required_output_checks": [
+        [
+          "analysis_outputs/residual_audit.json",
+          "status",
+          "PASS_AVAILABLE_FIXED_ENDPOINTS"
+        ]
+      ]
+    },
+    {
+      "id": "residual_provenance",
+      "python_arguments": [
+        "-m",
+        "analysis.residual_provenance"
+      ],
+      "required_output_checks": [
+        [
+          "analysis_outputs/residual_provenance_audit.json",
+          "status",
+          "PASS_CURRENT_RESIDUAL_SOURCE_CHAIN"
+        ]
+      ]
+    },
+    {
+      "id": "costs",
+      "python_arguments": [
+        "-m",
+        "analysis.cost_audit"
+      ],
+      "required_output_checks": [
+        [
+          "analysis_outputs/independent_cost_audit.json",
+          "all_prescribed_cost_records_present",
+          true
+        ],
+        [
+          "analysis_outputs/independent_cost_audit.json",
+          "status",
+          "PASS_AVAILABLE_COST_RECORDS"
+        ]
+      ]
+    },
+    {
+      "id": "parameter_count_audit",
+      "python_arguments": ["-m", "analysis.parameter_audit"],
+      "required_output_checks": [["analysis_outputs/independent_parameter_audit.json", "all_prescribed_parameter_records_verified", true]]
+    },
+    {
+      "id": "carrier_initial_controls",
+      "python_arguments": ["-m", "analysis.carrier_initialization_audit"],
+      "required_output_checks": [["analysis_outputs/carrier_initialization_audit.json", "all_initial_carrier_controls_verified", true]]
+    },
+    {
+      "id": "pairing",
+      "python_arguments": [
+        "-m",
+        "analysis.pairing_audit"
+      ],
+      "required_output_checks": [
+        [
+          "analysis_outputs/pairing_audit.json",
+          "all_prescribed_blocks_accounted",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "carrier_phase",
+      "python_arguments": [
+        "-m",
+        "analysis.carrier_phase_audit"
+      ],
+      "required_output_checks": [
+        [
+          "analysis_outputs/carrier_phase_audit.json",
+          "status",
+          "PASS_AVAILABLE_PHASE_DIAGNOSTICS"
+        ]
+      ]
+    },
+    {
+      "id": "inference",
+      "python_arguments": [
+        "-m",
+        "analysis.inference_benchmark"
+      ],
+      "required_output_checks": [
+        [
+          "isolated_inference/status.json",
+          "status",
+          "ALL_AVAILABLE_ENDPOINTS_MEASURED_FAILURES_ACCOUNTED"
+        ]
+      ]
+    },
+    {
+      "id": "inference_cost_provenance",
+      "python_arguments": ["-m", "analysis.audit_inference"],
+      "required_output_checks": [["isolated_inference/independent_audit.json", "all_prescribed_inference_records_verified", true]]
+    },
+    {
+      "id": "aggregate",
+      "python_arguments": [
+        "-m",
+        "analysis.aggregate"
+      ],
+      "required_output_checks": []
+    },
+    {
+      "id": "independent_statistics",
+      "python_arguments": ["-m", "analysis.audit_statistics"],
+      "required_output_checks": [["analysis_outputs/independent_statistical_audit.json", "all_prescribed_statistics_verified", true]]
+    },
+    {
+      "id": "cost_summary",
+      "python_arguments": [
+        "-m",
+        "analysis.cost_summary"
+      ],
+      "required_output_checks": []
+    },
+    {
+      "id": "learning_advantage",
+      "python_arguments": [
+        "-m",
+        "analysis.learning_advantage"
+      ],
+      "required_output_checks": []
+    },
+    {
+      "id": "zero_shot",
+      "python_arguments": [
+        "-m",
+        "analysis.zero_shot"
+      ],
+      "required_output_checks": [
+        [
+          "zero_shot/complete.json",
+          "attempts_accounted",
+          45
+        ]
+      ]
+    },
+    {
+      "id": "zero_shot_audit",
+      "python_arguments": [
+        "-m",
+        "analysis.audit_zero_shot"
+      ],
+      "required_output_checks": [
+        [
+          "zero_shot/independent_audit.json",
+          "entire_zero_shot_validation_complete",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "spectral_benchmark_audit",
+      "python_arguments": ["-m", "analysis.audit_spectral_benchmark"],
+      "required_output_checks": [["analysis_outputs/independent_TSFP_audit.json", "all_spectral_benchmark_records_verified", true]]
+    },
+    {
+      "id": "formal_figures",
+      "python_arguments": [
+        "-m",
+        "analysis.plot_formal"
+      ],
+      "required_output_checks": [
+        [
+          "figures/formal_generation_status.json",
+          "generated",
+          13
+        ]
+      ]
+    },
+    {
+      "id": "figure_vector_exports",
+      "python_arguments": [
+        "-m",
+        "analysis.figure_export_audit"
+      ],
+      "required_output_checks": []
+    },
+    {
+      "id": "historical_integrity",
+      "python_arguments": [
+        "-m",
+        "analysis.verify_history_integrity"
+      ],
+      "required_output_checks": [
+        [
+          "history/final_integrity_report.json",
+          "status",
+          "PASS"
+        ]
+      ]
+    },
+    {
+      "id": "links",
+      "python_arguments": [
+        "-m",
+        "analysis.link_check"
+      ],
+      "required_output_checks": []
+    },
+    {
+      "id": "verification_ledger",
+      "python_arguments": [
+        "verification_progress.py"
+      ],
+      "required_output_checks": []
+    }
+  ]
+}

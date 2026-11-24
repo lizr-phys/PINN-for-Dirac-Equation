@@ -1,0 +1,46 @@
+model,model_label,seed,metric,metric_label,value,group_mean,population_sd,group_ratio_to_ltpb
+ltpb_cpa,LTPB-CPA,0,spinor_rel_l2,Spinor relative L2,0.00208385302589,0.00245759348449,0.000313109050432,1
+ltpb_cpa,LTPB-CPA,1,spinor_rel_l2,Spinor relative L2,0.00285011990357,0.00245759348449,0.000313109050432,1
+ltpb_cpa,LTPB-CPA,2,spinor_rel_l2,Spinor relative L2,0.00243880752401,0.00245759348449,0.000313109050432,1
+branch_complex,Branch-Complex,0,spinor_rel_l2,Spinor relative L2,0.893689221729,0.901358803743,0.00554063905759,366.764808513
+branch_complex,Branch-Complex,1,spinor_rel_l2,Spinor relative L2,0.903803934524,0.901358803743,0.00554063905759,366.764808513
+branch_complex,Branch-Complex,2,spinor_rel_l2,Spinor relative L2,0.906583254976,0.901358803743,0.00554063905759,366.764808513
+component_polar,Component-Polar,0,spinor_rel_l2,Spinor relative L2,0.881944811317,0.890683802904,0.00687607965967,362.421128036
+component_polar,Component-Polar,1,spinor_rel_l2,Spinor relative L2,0.891359624813,0.890683802904,0.00687607965967,362.421128036
+component_polar,Component-Polar,2,spinor_rel_l2,Spinor relative L2,0.898746972581,0.890683802904,0.00687607965967,362.421128036
+rotated_ltpb_15,Rotated-LTPB $15^\circ$,0,spinor_rel_l2,Spinor relative L2,0.892833558101,0.899600165975,0.00511505273717,366.049215077
+rotated_ltpb_15,Rotated-LTPB $15^\circ$,1,spinor_rel_l2,Spinor relative L2,0.900768653853,0.899600165975,0.00511505273717,366.049215077
+rotated_ltpb_15,Rotated-LTPB $15^\circ$,2,spinor_rel_l2,Spinor relative L2,0.90519828597,0.899600165975,0.00511505273717,366.049215077
+rotated_ltpb_30,Rotated-LTPB $30^\circ$,0,spinor_rel_l2,Spinor relative L2,0.919954006126,0.930637808886,0.00978365834793,378.67849779
+rotated_ltpb_30,Rotated-LTPB $30^\circ$,1,spinor_rel_l2,Spinor relative L2,0.9283657609,0.930637808886,0.00978365834793,378.67849779
+rotated_ltpb_30,Rotated-LTPB $30^\circ$,2,spinor_rel_l2,Spinor relative L2,0.943593659631,0.930637808886,0.00978365834793,378.67849779
+ltpb_cpa,LTPB-CPA,0,current_rel_l2,Current relative L2,0.00382396508753,0.00454682228285,0.000656815228447,1
+ltpb_cpa,LTPB-CPA,1,current_rel_l2,Current relative L2,0.00541344141176,0.00454682228285,0.000656815228447,1
+ltpb_cpa,LTPB-CPA,2,current_rel_l2,Current relative L2,0.00440306034927,0.00454682228285,0.000656815228447,1
+branch_complex,Branch-Complex,0,current_rel_l2,Current relative L2,0.928832892826,0.934158456251,0.00387492516991,205.453039098
+branch_complex,Branch-Complex,1,current_rel_l2,Current relative L2,0.935702601178,0.934158456251,0.00387492516991,205.453039098
+branch_complex,Branch-Complex,2,current_rel_l2,Current relative L2,0.93793987475,0.934158456251,0.00387492516991,205.453039098
+component_polar,Component-Polar,0,current_rel_l2,Current relative L2,0.92592893193,0.930902840875,0.00371789905621,204.737019167
+component_polar,Component-Polar,1,current_rel_l2,Current relative L2,0.934866051573,0.930902840875,0.00371789905621,204.737019167
+component_polar,Component-Polar,2,current_rel_l2,Current relative L2,0.931913539121,0.930902840875,0.00371789905621,204.737019167
+rotated_ltpb_15,Rotated-LTPB $15^\circ$,0,current_rel_l2,Current relative L2,0.951240774473,0.94256429617,0.0061744158698,207.301767594
+rotated_ltpb_15,Rotated-LTPB $15^\circ$,1,current_rel_l2,Current relative L2,0.937375080992,0.94256429617,0.0061744158698,207.301767594
+rotated_ltpb_15,Rotated-LTPB $15^\circ$,2,current_rel_l2,Current relative L2,0.939077033045,0.94256429617,0.0061744158698,207.301767594
+rotated_ltpb_30,Rotated-LTPB $30^\circ$,0,current_rel_l2,Current relative L2,0.952831111441,0.959017301758,0.00501424643453,210.920339987
+rotated_ltpb_30,Rotated-LTPB $30^\circ$,1,current_rel_l2,Current relative L2,0.959108349618,0.959017301758,0.00501424643453,210.920339987
+rotated_ltpb_30,Rotated-LTPB $30^\circ$,2,current_rel_l2,Current relative L2,0.965112444215,0.959017301758,0.00501424643453,210.920339987
+ltpb_cpa,LTPB-CPA,0,relative_phase_rmse_rad,Component relative-phase RMSE (rad),0.00288210733596,0.00292168855756,0.000587692432071,1
+ltpb_cpa,LTPB-CPA,1,relative_phase_rmse_rad,Component relative-phase RMSE (rad),0.00366043576458,0.00292168855756,0.000587692432071,1
+ltpb_cpa,LTPB-CPA,2,relative_phase_rmse_rad,Component relative-phase RMSE (rad),0.00222252257214,0.00292168855756,0.000587692432071,1
+branch_complex,Branch-Complex,0,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.60209635662,1.62679868724,0.017619385226,556.800855117
+branch_complex,Branch-Complex,1,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.63631961398,1.62679868724,0.017619385226,556.800855117
+branch_complex,Branch-Complex,2,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.6419800911,1.62679868724,0.017619385226,556.800855117
+component_polar,Component-Polar,0,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.69074083381,1.48019095349,0.178681556551,506.621744353
+component_polar,Component-Polar,1,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.49592100868,1.48019095349,0.178681556551,506.621744353
+component_polar,Component-Polar,2,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.25391101797,1.48019095349,0.178681556551,506.621744353
+rotated_ltpb_15,Rotated-LTPB $15^\circ$,0,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.64068293047,1.55788644849,0.0586183857865,533.214412761
+rotated_ltpb_15,Rotated-LTPB $15^\circ$,1,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.520056072,1.55788644849,0.0586183857865,533.214412761
+rotated_ltpb_15,Rotated-LTPB $15^\circ$,2,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.512920343,1.55788644849,0.0586183857865,533.214412761
+rotated_ltpb_30,Rotated-LTPB $30^\circ$,0,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.69028286634,1.68295057703,0.0296161648297,576.019840539
+rotated_ltpb_30,Rotated-LTPB $30^\circ$,1,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.64357233388,1.68295057703,0.0296161648297,576.019840539
+rotated_ltpb_30,Rotated-LTPB $30^\circ$,2,relative_phase_rmse_rad,Component relative-phase RMSE (rad),1.71499653087,1.68295057703,0.0296161648297,576.019840539

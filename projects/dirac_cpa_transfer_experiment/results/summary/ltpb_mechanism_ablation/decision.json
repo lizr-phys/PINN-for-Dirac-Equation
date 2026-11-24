@@ -1,0 +1,95 @@
+{
+  "core_metrics": [
+    "spinor_rel_l2",
+    "current_rel_l2",
+    "relative_phase_rmse_rad"
+  ],
+  "ltpb_dominance": {
+    "current_rel_l2": {
+      "ltpb_over_branch_complex": 0.0048672923232935626,
+      "ltpb_over_component_polar": 0.004884314541976591,
+      "passes": true
+    },
+    "relative_phase_rmse_rad": {
+      "ltpb_over_branch_complex": 0.0017959742532884882,
+      "ltpb_over_component_polar": 0.0019738592177421677,
+      "passes": true
+    },
+    "spinor_rel_l2": {
+      "ltpb_over_branch_complex": 0.002726542941928181,
+      "ltpb_over_component_polar": 0.002759221034981817,
+      "passes": true
+    }
+  },
+  "ltpb_dominance_passes": true,
+  "proximity": {
+    "branch_complex": {
+      "error_ratios_over_ltpb": {
+        "current_rel_l2": 205.45303909819978,
+        "relative_phase_rmse_rad": 556.8008551174756,
+        "spinor_rel_l2": 366.7648085134544
+      },
+      "fidelity_absolute_gap": 0.4319446378486512,
+      "passes": false
+    },
+    "component_polar": {
+      "error_ratios_over_ltpb": {
+        "current_rel_l2": 204.73701916734433,
+        "relative_phase_rmse_rad": 506.6217443531089,
+        "spinor_rel_l2": 362.42112803644596
+      },
+      "fidelity_absolute_gap": 0.3656887417064564,
+      "passes": false
+    }
+  },
+  "rotation_30_degradation": {
+    "current_rel_l2": {
+      "passes": true,
+      "rot30_over_ltpb": 210.92033998655924
+    },
+    "relative_phase_rmse_rad": {
+      "passes": true,
+      "rot30_over_ltpb": 576.0198405390702
+    },
+    "spinor_rel_l2": {
+      "passes": true,
+      "rot30_over_ltpb": 378.6784977901527
+    }
+  },
+  "rotation_30_passes": true,
+  "rotation_30_passing_metric_count": 3,
+  "rotation_trend": {
+    "current_rel_l2": {
+      "paired_seed_increases_0_to_15": 3,
+      "paired_seed_increases_15_to_30": 3,
+      "passes": false,
+      "rot15_over_ltpb": 207.30176759378665,
+      "rot30_over_rot15": 1.0174555790564375
+    },
+    "relative_phase_rmse_rad": {
+      "paired_seed_increases_0_to_15": 3,
+      "paired_seed_increases_15_to_30": 3,
+      "passes": false,
+      "rot15_over_ltpb": 533.2144127608235,
+      "rot30_over_rot15": 1.0802780771746456
+    },
+    "spinor_rel_l2": {
+      "paired_seed_increases_0_to_15": 3,
+      "paired_seed_increases_15_to_30": 3,
+      "passes": false,
+      "rot15_over_ltpb": 366.04921507652665,
+      "rot30_over_rot15": 1.0345015975815868
+    }
+  },
+  "rotation_trend_passes": false,
+  "rotation_trend_passing_metric_count": 0,
+  "strong_mechanism_support": false,
+  "thresholds": {
+    "dominance_ratio_max": 0.2,
+    "proximity_error_ratio_max": 2.0,
+    "proximity_fidelity_gap_max": 0.01,
+    "rotation_30_ratio_min": 3.0,
+    "rotation_paired_seeds_min": 2,
+    "rotation_step_ratio_min": 1.25
+  }
+}

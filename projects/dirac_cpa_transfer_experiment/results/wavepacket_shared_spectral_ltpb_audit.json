@@ -1,0 +1,129 @@
+{
+  "audit": "wavepacket_shared_spectral_ltpb",
+  "status": "PASS",
+  "checks_passed": 14,
+  "checks_total": 14,
+  "checks": [
+    {
+      "name": "formal_inventory_25_runs_exactly_six_artifacts",
+      "pass": true,
+      "detail": {
+        "runs": 25,
+        "artifacts": 150
+      }
+    },
+    {
+      "name": "formal_configs_random_streams_parameter_budget_and_no_leakage",
+      "pass": true,
+      "detail": {
+        "configs": 25,
+        "shared_pair_initial_hashes": 5
+      }
+    },
+    {
+      "name": "checkpoint_metadata_state_and_no_frequency_buffers",
+      "pass": true,
+      "detail": {
+        "checkpoints": 25
+      }
+    },
+    {
+      "name": "loss_history_501_rows_pde_only",
+      "pass": true,
+      "detail": {
+        "rows_per_run": 501,
+        "runs": 25
+      }
+    },
+    {
+      "name": "dense_shapes_finite_hard_initial_and_heldout_isolation",
+      "pass": true,
+      "detail": {
+        "runs": 25,
+        "dense_grid": [
+          201,
+          256
+        ],
+        "training_modes": 33,
+        "midpoints": 32
+      }
+    },
+    {
+      "name": "metrics_independently_recomputed_from_dense_raw",
+      "pass": true,
+      "detail": {
+        "runs": 25,
+        "maximum_absolute_difference": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "spectral_physical_parseval_residual_equivalence",
+      "pass": true,
+      "detail": {
+        "spectral_runs": 10,
+        "maximum_rms_difference": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "aggregates_population_sd_and_decision_recomputed",
+      "pass": true,
+      "detail": {
+        "runs": 25,
+        "population_sd_ddof": 0,
+        "overall_pass": true
+      }
+    },
+    {
+      "name": "spectral_oracle_exact_and_excluded_from_ranking",
+      "pass": true,
+      "detail": {
+        "spinor": 0.0,
+        "pde": 8.245778910631441e-17
+      }
+    },
+    {
+      "name": "figure_manifest_source_formats_and_visual_qa",
+      "pass": true,
+      "detail": {
+        "figures": 9,
+        "formats": [
+          "PNG",
+          "SVG",
+          "PDF"
+        ],
+        "qa": "PASS"
+      }
+    },
+    {
+      "name": "all_670_protected_prior_files_unchanged",
+      "pass": true,
+      "detail": {
+        "checked": 670,
+        "aggregate_sha256": "5fa6382c7c0d88721ace5fe5067c6a1e60a33a9682933e0e8acb68a2a28164a5"
+      }
+    },
+    {
+      "name": "preregistration_and_formal_code_freeze_hashes",
+      "pass": true,
+      "detail": {
+        "checked": 18,
+        "aggregate_sha256": "f2e64c219a7fa456af1a9dd42921f3cd905f7babe8b937a967afc901d1b9301c"
+      }
+    },
+    {
+      "name": "formal_logs_complete_without_tracebacks",
+      "pass": true,
+      "detail": {
+        "log_files": 5
+      }
+    },
+    {
+      "name": "report_links_exist_including_all_150_raw_artifacts",
+      "pass": true,
+      "detail": {
+        "checked_links": 177,
+        "expected_raw_links": 150
+      }
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "B01",
+    "topic": "bound",
+    "doi": "10.1109/IJCNN55064.2022.9891944",
+    "arxiv": "2203.00451"
+  },
+  {
+    "id": "B02",
+    "topic": "bound_dirac",
+    "doi": "10.1140/epja/s10050-025-01630-5",
+    "arxiv": "2412.03090"
+  },
+  {
+    "id": "B03",
+    "topic": "bound_dirac",
+    "doi": "10.1088/1572-9494/ae1a5c",
+    "arxiv": null
+  },
+  {
+    "id": "B04",
+    "topic": "manybody_excited",
+    "doi": "10.1126/science.adn0137",
+    "arxiv": "2308.16848"
+  },
+  {
+    "id": "B05",
+    "topic": "manybody",
+    "doi": "10.1126/science.aag2302",
+    "arxiv": null
+  },
+  {
+    "id": "B06",
+    "topic": "manybody",
+    "doi": "10.1103/PhysRevResearch.2.033429",
+    "arxiv": null
+  },
+  {
+    "id": "B07",
+    "topic": "manybody",
+    "doi": "10.1038/s41557-020-0544-y",
+    "arxiv": null
+  },
+  {
+    "id": "B08",
+    "topic": "manybody_excited_preprint",
+    "doi": null,
+    "arxiv": "2603.14515"
+  },
+  {
+    "id": "S01",
+    "topic": "stationary_scattering",
+    "doi": "10.1088/1674-1137/add9fc",
+    "arxiv": null
+  },
+  {
+    "id": "S02",
+    "topic": "scattering_error_bounds",
+    "doi": "10.1088/1751-8121/aea52e",
+    "arxiv": "2605.17139"
+  },
+  {
+    "id": "S03",
+    "topic": "nuclear_scattering_preprint",
+    "doi": null,
+    "arxiv": "2605.27807"
+  },
+  {
+    "id": "S04",
+    "topic": "dirac_scattering",
+    "doi": "10.1103/PhysRevA.67.052707",
+    "arxiv": null
+  },
+  {
+    "id": "S05",
+    "topic": "kg_scattering_bound",
+    "doi": "10.1140/epjp/i2019-12571-8",
+    "arxiv": "1902.02872"
+  },
+  {
+    "id": "R01",
+    "topic": "resonance",
+    "doi": "10.1016/0375-9474(68)90593-9",
+    "arxiv": null
+  },
+  {
+    "id": "R02",
+    "topic": "BIC",
+    "doi": "10.1103/PhysRevA.32.3231",
+    "arxiv": null
+  },
+  {
+    "id": "R03",
+    "topic": "dirac_resonance",
+    "doi": "10.1088/1674-1137/ae6a85",
+    "arxiv": null
+  },
+  {
+    "id": "A01",
+    "topic": "bloch",
+    "doi": "10.1007/BF01339455",
+    "arxiv": null
+  },
+  {
+    "id": "A02",
+    "topic": "bloch_thesis",
+    "doi": null,
+    "arxiv": "2512.21349"
+  },
+  {
+    "id": "T01",
+    "topic": "time_dirac",
+    "doi": "10.1016/j.cpc.2022.108474",
+    "arxiv": "2204.02959"
+  },
+  {
+    "id": "T02",
+    "topic": "time_scattering_operator",
+    "doi": "10.1103/PhysRevD.108.L101701",
+    "arxiv": "2308.14789"
+  },
+  {
+    "id": "T03",
+    "topic": "quantum_control",
+    "doi": "10.1103/PhysRevLett.132.010801",
+    "arxiv": null
+  },
+  {
+    "id": "M01",
+    "topic": "PIELM",
+    "doi": "10.1016/j.neucom.2019.12.099",
+    "arxiv": "1907.03507"
+  },
+  {
+    "id": "M02",
+    "topic": "PINN_training",
+    "doi": "10.1016/j.jcp.2021.110768",
+    "arxiv": "2007.14527"
+  },
+  {
+    "id": "M03",
+    "topic": "spectral_pinn",
+    "doi": "10.1016/j.cam.2025.117178",
+    "arxiv": "2408.16414"
+  },
+  {
+    "id": "P01",
+    "topic": "eigen_benchmark_preprint",
+    "doi": null,
+    "arxiv": "2609.22189"
+  },
+  {
+    "id": "R04",
+    "topic": "BIC_rigorous",
+    "doi": "10.1137/25M1733926",
+    "arxiv": "2504.19573"
+  },
+  {
+    "id": "X01",
+    "topic": "graphene_transport",
+    "doi": "10.1038/nphys1198",
+    "arxiv": null
+  },
+  {
+    "id": "X02",
+    "topic": "graphene_STM",
+    "doi": "10.1126/science.1234320",
+    "arxiv": "1510.02890"
+  },
+  {
+    "id": "X03",
+    "topic": "trapped_ion_time_dirac",
+    "doi": "10.1038/nature08688",
+    "arxiv": "0909.0674"
+  },
+  {
+    "id": "X04",
+    "topic": "trapped_ion_scattering",
+    "doi": "10.1103/PhysRevLett.106.060503",
+    "arxiv": "1007.3683"
+  },
+  {
+    "id": "X05",
+    "topic": "phononic_scattering",
+    "doi": "10.1126/science.abe2011",
+    "arxiv": null
+  },
+  {
+    "id": "X06",
+    "topic": "nonlinear_KG_boson_star_preprint",
+    "doi": null,
+    "arxiv": "2608.21845"
+  },
+  {
+    "id": "M04",
+    "topic": "operator_learning",
+    "doi": "10.1038/s42256-021-00302-5",
+    "arxiv": null
+  },
+  {
+    "id": "S06",
+    "topic": "ECS_PINN_scattering",
+    "doi": "10.1103/sjz4-pq6p",
+    "arxiv": "2602.04553"
+  },
+  {
+    "id": "S07",
+    "topic": "inverse_scattering_PINN",
+    "doi": null,
+    "arxiv": "2605.02264"
+  },
+  {
+    "id": "B09",
+    "topic": "Anderson_localised_eigenstates",
+    "doi": "10.1016/j.jocs.2023.102136",
+    "arxiv": "2305.06802"
+  },
+  {
+    "id": "O01",
+    "topic": "open_quantum_steady_states",
+    "doi": "10.1103/PhysRevLett.122.250503",
+    "arxiv": "1902.10104"
+  },
+  {
+    "id": "S08",
+    "topic": "scattering_supervised_emulator",
+    "doi": "10.1103/qw54-df4l",
+    "arxiv": "2512.22500"
+  },
+  {
+    "id": "S09",
+    "topic": "scattering_reduced_basis",
+    "doi": "10.1103/n24x-d9gm",
+    "arxiv": "2512.17687"
+  },
+  {
+    "id": "S10",
+    "topic": "direct_boundary_matching",
+    "doi": "10.1103/ddcx-cslb",
+    "arxiv": "2512.07111"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "updated_utc": 1791886465.5328457,
+  "status": "PASS_AVAILABLE_FIXED_ENDPOINTS",
+  "trained_endpoints_checked": 221,
+  "missing": [],
+  "independent_JVP_and_hamiltonian_convolution": true,
+  "model_states_unchanged": true,
+  "stored_residual_samples_per_endpoint": 201,
+  "all_full_tables_independently_summed": true,
+  "no_training_budget_or_success_rule_changes": true,
+  "whole_study_complete": false,
+  "norm_projection_agreement_is_structural_not_dynamics_accuracy": true,
+  "discrete_checks_not_continuous_certificates": true
+}

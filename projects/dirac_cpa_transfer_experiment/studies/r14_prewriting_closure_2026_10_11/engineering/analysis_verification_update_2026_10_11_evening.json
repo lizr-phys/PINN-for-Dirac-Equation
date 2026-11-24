@@ -1,0 +1,28 @@
+{
+  "utc": 1791721620.7554898,
+  "status": "AVAILABLE_EVIDENCE_VALIDATED_FULL_STUDY_PENDING",
+  "scientific_source_sha256": "0c2bf352f6bfd12ad106b75ae0814e09abf9af51ac75b59dbc3e6665d595f0c9",
+  "changes": [
+    "Independent CSV/math statistical audit with exact prescribed table inventory; no surviving subset five-seed estimates",
+    "Preserve both snapshot evaluator computation and cumulative evaluator process wall time without changing original JSON",
+    "Independent inference median/RSS/source audit, keeping all original measurements",
+    "Full-convolution Parseval audit for108 TSFP configurations, primary and wide references, original five costs",
+    "Enforce mandatory401 and spatial-grid checks at full endpoints, every prescribed snapshot at completed jobs",
+    "Formal paired-difference interval and plot-input provenance prepared; no formal plots generated",
+    "22-phase operational postprocessing queue;18 user requirements mapped without accepting goal"
+  ],
+  "sources": [
+    "analysis_outputs/independent_statistical_audit.json",
+    "isolated_inference/independent_audit.json",
+    "analysis_outputs/independent_TSFP_audit.json",
+    "analysis_outputs/independent_metric_audit.json",
+    "analysis_outputs/residual_provenance_audit.json"
+  ],
+  "preserved_diagnostics": [
+    "engineering/statistical_audit_initial_cost_field_diagnostic_2026_10_11.json",
+    "engineering/statistical_audit_new_live_snapshots_diagnostic_2026_10_11.json"
+  ],
+  "training_seeds_methods_budgets_and_rules_unchanged": true,
+  "historical_scientific_files_not_written": true,
+  "goal_not_complete": true
+}

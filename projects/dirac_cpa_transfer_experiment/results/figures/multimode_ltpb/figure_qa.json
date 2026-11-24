@@ -1,0 +1,233 @@
+{
+  "figure_count": 7,
+  "pdftoppm_available": true,
+  "pypdf_available": true,
+  "visual_inspection_recorded": true,
+  "figures": [
+    {
+      "id": "primary_error_comparison",
+      "checks": {
+        "exists_png": true,
+        "exists_svg": true,
+        "exists_pdf": true,
+        "exists_csv": true,
+        "png_width_px": 4199,
+        "png_height_px": 1420,
+        "png_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "png_resolution_pass": true,
+        "png_dpi_pass": true,
+        "svg_editable_text_pass": true,
+        "svg_no_embedded_raster_pass": true,
+        "source_rows": 75,
+        "source_rows_expected": 75,
+        "source_rows_pass": true,
+        "source_numeric_finite_pass": true,
+        "pdf_page_count": 1,
+        "pdf_text_extractable_pass": true,
+        "pdf_render_width_px": 1262,
+        "pdf_render_height_px": 410,
+        "pdf_render_pass": true
+      },
+      "automated_pass": true,
+      "pdf_render": "tmp/pdfs/multimode_ltpb/primary_error_comparison.png",
+      "visual_inspection_pass": true,
+      "overall_pass": true
+    },
+    {
+      "id": "per_seed_results",
+      "checks": {
+        "exists_png": true,
+        "exists_svg": true,
+        "exists_pdf": true,
+        "exists_csv": true,
+        "png_width_px": 4199,
+        "png_height_px": 1515,
+        "png_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "png_resolution_pass": true,
+        "png_dpi_pass": true,
+        "svg_editable_text_pass": true,
+        "svg_no_embedded_raster_pass": true,
+        "source_rows": 50,
+        "source_rows_expected": 50,
+        "source_rows_pass": true,
+        "source_numeric_finite_pass": true,
+        "pdf_page_count": 1,
+        "pdf_text_extractable_pass": true,
+        "pdf_render_width_px": 1262,
+        "pdf_render_height_px": 456,
+        "pdf_render_pass": true
+      },
+      "automated_pass": true,
+      "pdf_render": "tmp/pdfs/multimode_ltpb/per_seed_results.png",
+      "visual_inspection_pass": true,
+      "overall_pass": true
+    },
+    {
+      "id": "representative_density_current",
+      "checks": {
+        "exists_png": true,
+        "exists_svg": true,
+        "exists_pdf": true,
+        "exists_csv": true,
+        "png_width_px": 4188,
+        "png_height_px": 2596,
+        "png_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "png_resolution_pass": true,
+        "png_dpi_pass": true,
+        "svg_editable_text_pass": true,
+        "svg_no_embedded_raster_pass": true,
+        "source_rows": 10050,
+        "source_rows_expected": 10050,
+        "source_rows_pass": true,
+        "source_numeric_finite_pass": true,
+        "pdf_page_count": 1,
+        "pdf_text_extractable_pass": true,
+        "pdf_render_width_px": 1257,
+        "pdf_render_height_px": 779,
+        "pdf_render_pass": true
+      },
+      "automated_pass": true,
+      "pdf_render": "tmp/pdfs/multimode_ltpb/representative_density_current.png",
+      "visual_inspection_pass": true,
+      "overall_pass": true
+    },
+    {
+      "id": "learned_four_phases",
+      "checks": {
+        "exists_png": true,
+        "exists_svg": true,
+        "exists_pdf": true,
+        "exists_csv": true,
+        "png_width_px": 4209,
+        "png_height_px": 2644,
+        "png_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "png_resolution_pass": true,
+        "png_dpi_pass": true,
+        "svg_editable_text_pass": true,
+        "svg_no_embedded_raster_pass": true,
+        "source_rows": 4020,
+        "source_rows_expected": 4020,
+        "source_rows_pass": true,
+        "source_numeric_finite_pass": true,
+        "pdf_page_count": 1,
+        "pdf_text_extractable_pass": true,
+        "pdf_render_width_px": 1263,
+        "pdf_render_height_px": 795,
+        "pdf_render_pass": true
+      },
+      "automated_pass": true,
+      "pdf_render": "tmp/pdfs/multimode_ltpb/learned_four_phases.png",
+      "visual_inspection_pass": true,
+      "overall_pass": true
+    },
+    {
+      "id": "modal_coefficient_errors",
+      "checks": {
+        "exists_png": true,
+        "exists_svg": true,
+        "exists_pdf": true,
+        "exists_csv": true,
+        "png_width_px": 4199,
+        "png_height_px": 1563,
+        "png_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "png_resolution_pass": true,
+        "png_dpi_pass": true,
+        "svg_editable_text_pass": true,
+        "svg_no_embedded_raster_pass": true,
+        "source_rows": 200,
+        "source_rows_expected": 200,
+        "source_rows_pass": true,
+        "source_numeric_finite_pass": true,
+        "pdf_page_count": 1,
+        "pdf_text_extractable_pass": true,
+        "pdf_render_width_px": 1262,
+        "pdf_render_height_px": 471,
+        "pdf_render_pass": true
+      },
+      "automated_pass": true,
+      "pdf_render": "tmp/pdfs/multimode_ltpb/modal_coefficient_errors.png",
+      "visual_inspection_pass": true,
+      "overall_pass": true
+    },
+    {
+      "id": "training_curves",
+      "checks": {
+        "exists_png": true,
+        "exists_svg": true,
+        "exists_pdf": true,
+        "exists_csv": true,
+        "png_width_px": 2999,
+        "png_height_px": 1776,
+        "png_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "png_resolution_pass": true,
+        "png_dpi_pass": true,
+        "svg_editable_text_pass": true,
+        "svg_no_embedded_raster_pass": true,
+        "source_rows": 12525,
+        "source_rows_expected": 12525,
+        "source_rows_pass": true,
+        "source_numeric_finite_pass": true,
+        "pdf_page_count": 1,
+        "pdf_text_extractable_pass": true,
+        "pdf_render_width_px": 902,
+        "pdf_render_height_px": 536,
+        "pdf_render_pass": true
+      },
+      "automated_pass": true,
+      "pdf_render": "tmp/pdfs/multimode_ltpb/training_curves.png",
+      "visual_inspection_pass": true,
+      "overall_pass": true
+    },
+    {
+      "id": "accuracy_time_tradeoff",
+      "checks": {
+        "exists_png": true,
+        "exists_svg": true,
+        "exists_pdf": true,
+        "exists_csv": true,
+        "png_width_px": 2879,
+        "png_height_px": 1815,
+        "png_dpi": [
+          599.9988,
+          599.9988
+        ],
+        "png_resolution_pass": true,
+        "png_dpi_pass": true,
+        "svg_editable_text_pass": true,
+        "svg_no_embedded_raster_pass": true,
+        "source_rows": 25,
+        "source_rows_expected": 25,
+        "source_rows_pass": true,
+        "source_numeric_finite_pass": true,
+        "pdf_page_count": 1,
+        "pdf_text_extractable_pass": true,
+        "pdf_render_width_px": 866,
+        "pdf_render_height_px": 545,
+        "pdf_render_pass": true
+      },
+      "automated_pass": true,
+      "pdf_render": "tmp/pdfs/multimode_ltpb/accuracy_time_tradeoff.png",
+      "visual_inspection_pass": true,
+      "overall_pass": true
+    }
+  ],
+  "status": "PASS"
+}

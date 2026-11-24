@@ -1,0 +1,44 @@
+{
+  "job": {
+    "type": "coupled",
+    "stage": "engineering",
+    "case": "T10",
+    "group": "joint_hard",
+    "seed": 999004,
+    "budget": 3,
+    "snapshots": [
+      3
+    ],
+    "bounds": [
+      -64,
+      96
+    ],
+    "directory": "engineering/full_pipeline"
+  },
+  "fixed_endpoint_reached": true,
+  "utc": 1791685208.796246,
+  "training_wall_seconds": 0.6987608000008549,
+  "training_cpu_seconds": 0.609375,
+  "evaluation_seconds": 44.3943177000001,
+  "checkpoint_io_seconds": 0.04648920000090584,
+  "setup_seconds": 3.8305913000003784,
+  "peak_rss_bytes": 377688064,
+  "total_parameters": 25670,
+  "active_parameters": 25670,
+  "frozen_parameters": 0,
+  "step": 3,
+  "source_pretraining_wall_seconds": 0.0,
+  "source_pretraining_cpu_seconds": 0.0,
+  "attributed_training_wall_seconds": 0.6987608000008549,
+  "attributed_training_cpu_seconds": 0.609375,
+  "carrier_pretraining_reused": false,
+  "incurred_pipeline_seconds": 48.97015900000224,
+  "attributed_pipeline_seconds": 48.97015900000224,
+  "unit_spinor_residual_points": 15456,
+  "attributed_unit_spinor_residual_points": 15456,
+  "complex_scalar_residual_components": 30912,
+  "free_steps": 0,
+  "coupled_steps": 3,
+  "peak_rss_includes_process_runtime_and_cache": true,
+  "engineering": true
+}

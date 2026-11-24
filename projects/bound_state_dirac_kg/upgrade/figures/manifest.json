@@ -1,0 +1,135 @@
+{
+  "backend": "python/matplotlib",
+  "archetype": "quantitative grid",
+  "statistics": "All seeds; arithmetic means where shown; sample SD in report, no p-values.",
+  "figures": {
+    "01_comparison": {
+      "caption": "所有种子散点；短线为算术均值，无显著性检验或置信区间。原始组为三种子且曾并发计时；改进基准为版本 6 十种子，版本 7 的新软约束及硬双输出对照各三种子、串行计时。架构、先验、数值保护和预算差异见方法，不能把原始时间作严格等硬件速度比或完全等协议因果试验。归一化在独立 8001 点网格测量，显示下限 1e-16；原始数据未截断。",
+      "sources": [
+        "figures/comparison_source.csv"
+      ],
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    "02_dirac_components": {
+      "caption": "Dirac 上、下分量和逐点绝对误差，十个正式种子全部绘出。只对齐一个共同整体符号；未重归一化 PINN。上排放大核心区域，下排含完整区间；对数误差显示下限 1e-18。",
+      "sources": [
+        "results/stable_formal/base/dirac/state_0/derivative/seed_0/evaluation.npz",
+        "results/stable_formal/base/dirac/state_0/derivative/seed_1/evaluation.npz",
+        "results/stable_formal/base/dirac/state_0/derivative/seed_2/evaluation.npz",
+        "results/stable_formal/base/dirac/state_0/derivative/seed_3/evaluation.npz",
+        "results/stable_formal/base/dirac/state_0/derivative/seed_4/evaluation.npz",
+        "results/stable_formal/base/dirac/state_0/derivative/seed_5/evaluation.npz",
+        "results/stable_formal/base/dirac/state_0/derivative/seed_6/evaluation.npz",
+        "results/stable_formal/base/dirac/state_0/derivative/seed_7/evaluation.npz",
+        "results/stable_formal/base/dirac/state_0/derivative/seed_8/evaluation.npz",
+        "results/stable_formal/base/dirac/state_0/derivative/seed_9/evaluation.npz"
+      ],
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    "03_kg_wave_charge": {
+      "caption": "KG 波形、所选约定的电荷密度及逐点误差；十个正式种子全部绘出。L2 归一化用于固定幅度，不把 phi^2 解释为一般概率密度。只对齐整体符号，对数误差显示下限 1e-18。",
+      "sources": [
+        "results/stable_formal/base/kg/state_0/derivative/seed_0/evaluation.npz",
+        "results/stable_formal/base/kg/state_0/derivative/seed_1/evaluation.npz",
+        "results/stable_formal/base/kg/state_0/derivative/seed_2/evaluation.npz",
+        "results/stable_formal/base/kg/state_0/derivative/seed_3/evaluation.npz",
+        "results/stable_formal/base/kg/state_0/derivative/seed_4/evaluation.npz",
+        "results/stable_formal/base/kg/state_0/derivative/seed_5/evaluation.npz",
+        "results/stable_formal/base/kg/state_0/derivative/seed_6/evaluation.npz",
+        "results/stable_formal/base/kg/state_0/derivative/seed_7/evaluation.npz",
+        "results/stable_formal/base/kg/state_0/derivative/seed_8/evaluation.npz",
+        "results/stable_formal/base/kg/state_0/derivative/seed_9/evaluation.npz"
+      ],
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    "04_parameter_state_coverage": {
+      "caption": "四个矢量势参数组；深宽阱三个已验证能级。误差/残差散点包含全部正式种子，失败尝试以红叉标示；基准最低态每模型样本数 10，其余扇区每模型样本数 3。保留的 38 次最低/第一激发态为版本 6，其余 12 次为版本 7，逐运行协议在源 CSV 中明列。Dirac/KG 残差量纲不同，不按其数值跨模型排名。四个参数分别训练，不是参数化算子或未训练参数泛化。",
+      "sources": [
+        "results/formal_summary.csv",
+        "config.json"
+      ],
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    "05_deep_dirac": {
+      "caption": "深宽阱 DIRAC 的 n=0,1,2。各态三个种子全部绘出；Dirac 逐分量、KG 波形与电荷分别绘图。失败种子用红色虚线单独标示，该态显示完整区间；全部成功的态放大核心区。原始文件包含完整区间，不能把失败尝试当作可靠本征态。",
+      "sources": [
+        "results/stable_formal/deep_wide/dirac/state_0/derivative/seed_0/evaluation.npz",
+        "results/stable_formal/deep_wide/dirac/state_0/derivative/seed_4/evaluation.npz",
+        "results/stable_formal/deep_wide/dirac/state_0/derivative/seed_8/evaluation.npz",
+        "results/stable_formal/deep_wide/dirac/state_1/derivative/seed_0/evaluation.npz",
+        "results/stable_formal/deep_wide/dirac/state_1/derivative/seed_4/evaluation.npz",
+        "results/stable_formal/deep_wide/dirac/state_1/derivative/seed_8/evaluation.npz",
+        "results/stable_v7/deep_wide/dirac/state_2/derivative/seed_0/evaluation.npz",
+        "results/stable_v7/deep_wide/dirac/state_2/derivative/seed_4/evaluation.npz",
+        "results/stable_v7/deep_wide/dirac/state_2/derivative/seed_8/evaluation.npz"
+      ],
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    "06_deep_kg": {
+      "caption": "深宽阱 KG 的 n=0,1,2。各态三个种子全部绘出；Dirac 逐分量、KG 波形与电荷分别绘图。失败种子用红色虚线单独标示，该态显示完整区间；全部成功的态放大核心区。原始文件包含完整区间，不能把失败尝试当作可靠本征态。",
+      "sources": [
+        "results/stable_v7/deep_wide/kg/state_0/derivative/seed_0/evaluation.npz",
+        "results/stable_v7/deep_wide/kg/state_0/derivative/seed_4/evaluation.npz",
+        "results/stable_v7/deep_wide/kg/state_0/derivative/seed_8/evaluation.npz",
+        "results/stable_v7/deep_wide/kg/state_1/derivative/seed_0/evaluation.npz",
+        "results/stable_v7/deep_wide/kg/state_1/derivative/seed_4/evaluation.npz",
+        "results/stable_v7/deep_wide/kg/state_1/derivative/seed_8/evaluation.npz",
+        "results/stable_v7/deep_wide/kg/state_2/derivative/seed_0/evaluation.npz",
+        "results/stable_v7/deep_wide/kg/state_2/derivative/seed_4/evaluation.npz",
+        "results/stable_v7/deep_wide/kg/state_2/derivative/seed_8/evaluation.npz"
+      ],
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    "07_validation_diagnostics": {
+      "caption": "KG 同宇称 n=0 与 n=2 的非平凡重叠；参考样本一对，PINN 三种子，显示绝对值但有符号原始值保留。参考收敛为十二个目标态中的最大波形差。敏感性仅为每模型单种子，不能据此声称训练误差单调收敛。独立网格残差包含全部十个基准种子，已按自然质量单位区分量纲。",
+      "sources": [
+        "results/orthogonality.csv",
+        "figures/reference_convergence_source.csv",
+        "results/formal_summary.csv",
+        "results/grid_refined_summary.csv",
+        "results/domain_extended_summary.csv"
+      ],
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    },
+    "08_training_cost": {
+      "caption": "训练曲线使用预先指定的种子 0/4/8，点线标示重启开始，累计时间包含失败尝试；能量差在训练后计算，没有进入损失或早停。成本图包含两模型各十种子、BVP 每模型三容差各五次计时；BVP 评价不计入求解时间，PINN 评价亦不计入训练时间。预算结束不是辨态失败；更严格物理早停与事后可靠性验收分开。",
+      "sources": [
+        "results/formal_summary.csv",
+        "results/bvp_benchmark.csv"
+      ],
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ]
+    }
+  }
+}

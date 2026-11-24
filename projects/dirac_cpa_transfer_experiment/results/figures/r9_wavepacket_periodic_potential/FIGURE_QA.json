@@ -1,0 +1,372 @@
+{
+  "status": "PASS",
+  "visual_inspection_pending": false,
+  "figures": [
+    {
+      "figure": "reference_calibration",
+      "claim": "The prescribed second pair converges; the potential measurably changes the trajectory.",
+      "seeds": [],
+      "source_csv": [
+        "source_data\\reference_calibration_truncation.csv",
+        "source_data\\reference_calibration_free_difference.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 203072,
+          "sha256": "552bbb1d643680de6e6707ac575d50a75637cdc80efbca5080f8c6d872eec9f8"
+        },
+        "svg": {
+          "bytes": 44403,
+          "sha256": "21fa22d52d5c7d796ff1c24b90426a9a6384311d1153a2a00438d06305892d31"
+        },
+        "pdf": {
+          "bytes": 22784,
+          "sha256": "f2a19f8c64dfc0e5d46e1a297fe91a4928bc8c44920bc01a33d20f5cb02ddcc3"
+        }
+      },
+      "text_outside_canvas": [],
+      "bounding_box_pass": true,
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 118,
+      "statistics": "deterministic reference calibration; no seed uncertainty estimated",
+      "svg_editable_text": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 330,
+      "pdf_render": "qa_renders\\reference_calibration_pdf.png",
+      "pdf_render_sha256": "c81ccd40e44bd24cf99253c5c15c2110c26aa610f47d6c8d97a08a8b05919a2c",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "all_seed_primary_metrics",
+      "claim": "Absolute success is assessed with all five metrics and all five seeds.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data\\all_seed_primary_metrics_all_seeds.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 187645,
+          "sha256": "d51356324f5a4b8cdd90eef62d8ad15acac30af0696097d6b70c6c2160bf037a"
+        },
+        "svg": {
+          "bytes": 56284,
+          "sha256": "a4757b255f8e8573fb789ac4c4ff05462d747205960faae8d09ac104dd5d46f2"
+        },
+        "pdf": {
+          "bytes": 26477,
+          "sha256": "041c084412bc39efb27ddc75275c11d4421a7d0481f10233c6dbe6f0b0977a50"
+        }
+      },
+      "text_outside_canvas": [],
+      "bounding_box_pass": true,
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 20,
+      "statistics": "all n=5 paired seeds; mean and population SD, ddof=0; no significance test",
+      "svg_editable_text": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 463,
+      "pdf_render": "qa_renders\\all_seed_primary_metrics_pdf.png",
+      "pdf_render_sha256": "1b38fe2f4d3fc00e77b352be81dccc266d533d117d6fe5654f206a4c8c98b285",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "paired_comparisons",
+      "claim": "Observed paired differences and ratios assess advantage separately from absolute success.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data\\paired_comparisons_all_pairs.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 113208,
+          "sha256": "e13e001364f9e0d13c9a4e111a03e7bea959dfde39ede4be346055aff366225c"
+        },
+        "svg": {
+          "bytes": 38509,
+          "sha256": "fe2bca1d4c1a5d5455c8433d950f0157d41bebb8c5b3902b2b6baadd194eb3cb"
+        },
+        "pdf": {
+          "bytes": 21234,
+          "sha256": "30a6678c5c0a1e7754e4d51ddb6201356af8ac0c8a31dce5f3f2795619d4ebba"
+        }
+      },
+      "text_outside_canvas": [],
+      "bounding_box_pass": true,
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 16,
+      "statistics": "all n=5 paired seeds; mean and population SD, ddof=0; no significance test",
+      "svg_editable_text": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 283,
+      "pdf_render": "qa_renders\\paired_comparisons_pdf.png",
+      "pdf_render_sha256": "53e6b3328aad40220c9fee1be62292fb80b6d3d19627e44452c7dee699f78896",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "dynamics_seed300",
+      "claim": "Fixed seed300 density and current reveal whether the whole wavepacket dynamics is recovered.",
+      "seeds": [
+        300
+      ],
+      "source_csv": [
+        "source_data\\dynamics_seed300_full_grid.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 448146,
+          "sha256": "7fd907cf3d1eaa105bcea318c1d512a279d0ab933210f843a6782ccb6d7016e3"
+        },
+        "svg": {
+          "bytes": 459209,
+          "sha256": "15231287f62e5b402ac9f3449a0db9f838fe7a092f4c59f07a96db815ea79425"
+        },
+        "pdf": {
+          "bytes": 302642,
+          "sha256": "8f49d84b19852f59e586a7dd64b3afc574cf0120b7efbd692d830a6b7a713796"
+        }
+      },
+      "text_outside_canvas": [],
+      "bounding_box_pass": true,
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 38,
+      "statistics": "fixed seed300 example; no seed uncertainty estimated",
+      "svg_editable_text": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 468,
+      "pdf_render": "qa_renders\\dynamics_seed300_pdf.png",
+      "pdf_render_sha256": "9f717424fb24dd717b5f5040dcb9a11966f877e68cb15e091e0f761358a243f1",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "modal_branch_seed300",
+      "claim": "Modal and free-branch occupations compare the original broad spectrum and generated support outside n=0,...,32.",
+      "seeds": [
+        300
+      ],
+      "source_csv": [
+        "source_data\\modal_branch_seed300_full_grid.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 431169,
+          "sha256": "37bb24f90cea86177a9bdf1063bcb521600f2dffa4dbc8d6be4a4dd72b500d4d"
+        },
+        "svg": {
+          "bytes": 364587,
+          "sha256": "ba44fe680239fb6b12e18b251f139b6d9e1643228579876888aa3d885443ee02"
+        },
+        "pdf": {
+          "bytes": 224350,
+          "sha256": "6779a534291c818e08ef17b3c72e2b4c07bb9c7da86d2edb09b8e62feb32acd9"
+        }
+      },
+      "text_outside_canvas": [],
+      "bounding_box_pass": true,
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 54,
+      "statistics": "fixed seed300 example; no seed uncertainty estimated",
+      "svg_editable_text": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 784,
+      "pdf_render": "qa_renders\\modal_branch_seed300_pdf.png",
+      "pdf_render_sha256": "2d1386b0c6631ffd7721b498b61e979ac683a6d2096d1cdeb7841ac77461e4aa",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "branch_center_width",
+      "claim": "All five seeds' branch centers and widths are compared to the potential-driven reference.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data\\branch_center_width_all_seed_trajectories.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 660778,
+          "sha256": "e81d24e980e2061a94d3a7b583053355efccdcea7127d9ad896c439220889773"
+        },
+        "svg": {
+          "bytes": 132420,
+          "sha256": "d0d2f16fbae370801998b857e34e6d712bc1e2dea837e4c655bdbf7c63f3d799"
+        },
+        "pdf": {
+          "bytes": 48727,
+          "sha256": "72c772223bbb1b594c1f6e12d03f71276abd18808886e8de712f4b78c3a38a33"
+        }
+      },
+      "text_outside_canvas": [],
+      "bounding_box_pass": true,
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 32,
+      "statistics": "all n=5 paired seeds; mean and population SD, ddof=0; no significance test",
+      "svg_editable_text": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 349,
+      "pdf_render": "qa_renders\\branch_center_width_pdf.png",
+      "pdf_render_sha256": "7f160058ae790157e1cf18ec4ca5b6048d94e678f36b1c0bc98e4db912d8a4bd",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "diagnostics_all_seeds",
+      "claim": "Coherence, complex coefficients, residual integration, and exterior leakage test distinct failure modes.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data\\diagnostics_all_seeds_all_seeds.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 153873,
+          "sha256": "825c5687f612516ca5d4dd5bbd9a01ca912baab8561b144c16895929a1c55cf5"
+        },
+        "svg": {
+          "bytes": 70970,
+          "sha256": "2e2766739e734d74493dd8d0c274c8858e87c092e8265c74a22a0227b24b482b"
+        },
+        "pdf": {
+          "bytes": 28251,
+          "sha256": "b2b0f7b3e30b88d521ddf6a08315541b98f0b39d979a56b591db76c7644a789c"
+        }
+      },
+      "text_outside_canvas": [],
+      "bounding_box_pass": true,
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 294,
+      "statistics": "all n=5 paired seeds; mean and population SD, ddof=0; no significance test",
+      "svg_editable_text": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 321,
+      "pdf_render": "qa_renders\\diagnostics_all_seeds_pdf.png",
+      "pdf_render_sha256": "76e0405d142c798208a19892e8671aa6d10048bd9d4ce48327423cdfd2a0d4b6",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "carrier_defects_all_seeds",
+      "claim": "The frozen carrier is learned and approximate; exact free rates are evaluation-only targets.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data\\carrier_defects_all_seeds_all_seeds.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 109178,
+          "sha256": "ca0738458efcd3c4d5226ccd26ace201c5adb4aed2d3e0326f6c3d1f1e4fe0c2"
+        },
+        "svg": {
+          "bytes": 22919,
+          "sha256": "eb7aee98f4a26e1f96e710097e71c46bf3436e2dfd6e09f8e7f6c4943821166b"
+        },
+        "pdf": {
+          "bytes": 18378,
+          "sha256": "82e7f013884dfab196f9187c4fb43e7f31210349e4e37eb53a8720ef0495c779"
+        }
+      },
+      "text_outside_canvas": [],
+      "bounding_box_pass": true,
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 12,
+      "statistics": "all n=5 paired seeds; mean and population SD, ddof=0; no significance test",
+      "svg_editable_text": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 280,
+      "pdf_render": "qa_renders\\carrier_defects_all_seeds_pdf.png",
+      "pdf_render_sha256": "8b50dc7197e3583df1f0bc191f139b7d82ae3f94eefdf7ad45b75c812a10429f",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "training_costs",
+      "claim": "Equal optimizer steps have different parameter, residual, time and memory costs.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data\\training_costs_all_costs.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 108146,
+          "sha256": "7ad39565c5e1197c9aa4be425b4b135141fb2f7ecf391fd9bd7e9c53896327e6"
+        },
+        "svg": {
+          "bytes": 33907,
+          "sha256": "e53e0bd22730564a8425276331b609ab56f0d061048a3e227019e1b8eaceb31f"
+        },
+        "pdf": {
+          "bytes": 21381,
+          "sha256": "64e76784419827e54ec96a626e23b56911a77be4134fc0d393bb98186df94c6a"
+        }
+      },
+      "text_outside_canvas": [],
+      "bounding_box_pass": true,
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 12,
+      "statistics": "all n=5 paired seeds; mean and population SD, ddof=0; no significance test",
+      "svg_editable_text": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 161,
+      "pdf_render": "qa_renders\\training_costs_pdf.png",
+      "pdf_render_sha256": "03f8b8b5364f00e1fa3add1b3fb529bb66b2c5f863e1a72ba7398f6357c60add",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_render_engine": "Poppler pdftoppm"
+    }
+  ],
+  "source_data_complete": true,
+  "all_statistics_include_five_seeds": true,
+  "fixed_dynamic_seed": 300,
+  "image_adjustments": "shared scales; no smoothing or selective omission; heatmaps rasterized in vector files",
+  "pdf_checks_pass": true,
+  "visual_inspection_record": {
+    "passed": true,
+    "notes": "All nine native PNGs and independent Poppler PDF contact sheets inspected: readable labels, no clipping or overlap, all five seeds retained, shared heatmap scales, seed300 fixed. The initial automated failures were nonrendered out-of-view tick artists; the corrected checker excludes only those artists. Initial exports and QA are preserved in initial_export_snapshot.",
+    "scope": "all nine native PNGs and independent Poppler-rendered PDF previews",
+    "all_seed_statistics": [
+      300,
+      301,
+      302,
+      303,
+      304
+    ],
+    "fixed_dynamic_seed": 300,
+    "selective_data_changes": false
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "search_date": "2026-09-30",
+  "calendar_window": {
+    "from": "2026-06-30",
+    "to": "2026-09-30",
+    "timezone": "Asia/Shanghai",
+    "arxiv_query_dates": "UTC"
+  },
+  "scope": "Dirac LTPB six-round study; adjacent bound-state and basic project checks",
+  "workflow": "nature-academic-search / multi-source-search",
+  "conclusion": "No full-method duplicate identified in inspected publicly accessible sources. This is not proof of global novelty.",
+  "sources_used": [
+    "arXiv API and primary records/full texts",
+    "CrossRef public DOI metadata",
+    "publisher primary pages or indexed abstracts",
+    "Preprints.org",
+    "OpenAlex supplementary discovery"
+  ],
+  "sources_not_used": [
+    "institutional Scopus",
+    "institutional Web of Science",
+    "CNKI",
+    "unpublished research"
+  ],
+  "arxiv_queries": [
+    {
+      "label": "dirac_pinn_recent_narrow",
+      "query": "(all:Dirac AND (all:PINN OR all:\"physics-informed\" OR all:\"neural network\")) AND submittedDate:[202606300000 TO 202609302359]",
+      "returned_count": 4,
+      "max_results": 100,
+      "sortBy": "submittedDate",
+      "source_url": "https://export.arxiv.org/api/query?search_query=(all%3ADirac%20AND%20(all%3APINN%20OR%20all%3A%22physics-informed%22%20OR%20all%3A%22neural%20network%22))%20AND%20submittedDate%3A%5B202606300000%20TO%20202609302359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+    },
+    {
+      "label": "dirac_neural_recent_broad",
+      "query": "(all:Dirac AND (all:neural OR all:PINN OR all:\"physics-informed\")) AND submittedDate:[202606300000 TO 202609302359]",
+      "returned_count": 14,
+      "max_results": 100,
+      "sortBy": "submittedDate",
+      "source_url": "https://export.arxiv.org/api/query?search_query=(all%3ADirac%20AND%20(all%3Aneural%20OR%20all%3APINN%20OR%20all%3A%22physics-informed%22))%20AND%20submittedDate%3A%5B202606300000%20TO%20202609302359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+    },
+    {
+      "label": "quantum_phase_recent",
+      "query": "((all:Dirac OR all:Schrodinger OR all:Schrödinger) AND (all:PINN OR all:\"physics-informed\") AND (all:phase OR all:amplitude OR all:spectral)) AND submittedDate:[202606300000 TO 202609302359]",
+      "returned_count": 2,
+      "max_results": 100,
+      "sortBy": "submittedDate",
+      "source_url": "https://export.arxiv.org/api/query?search_query=((all%3ADirac%20OR%20all%3ASchrodinger%20OR%20all%3ASchr%C3%B6dinger)%20AND%20(all%3APINN%20OR%20all%3A%22physics-informed%22)%20AND%20(all%3Aphase%20OR%20all%3Aamplitude%20OR%20all%3Aspectral))%20AND%20submittedDate%3A%5B202606300000%20TO%20202609302359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+    },
+    {
+      "label": "spinor_neural_recent",
+      "query": "all:spinor AND (all:neural OR all:PINN OR all:\"physics-informed\") AND submittedDate:[202606300000 TO 202609302359]",
+      "returned_count": 2,
+      "max_results": 100,
+      "sortBy": "submittedDate",
+      "source_url": "https://export.arxiv.org/api/query?search_query=all%3Aspinor%20AND%20(all%3Aneural%20OR%20all%3APINN%20OR%20all%3A%22physics-informed%22)%20AND%20submittedDate%3A%5B202606300000%20TO%20202609302359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+    },
+    {
+      "label": "dirac_pinn_all_dates_by_update",
+      "query": "all:Dirac AND (all:PINN OR all:\"physics-informed\")",
+      "returned_count": 20,
+      "sortBy": "lastUpdatedDate",
+      "max_results": 100,
+      "source_url": "https://export.arxiv.org/api/query?search_query=all%3ADirac%20AND%20(all%3APINN%20OR%20all%3A%22physics-informed%22)&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending"
+    }
+  ],
+  "query_counts_warning": "Raw query counts overlap and include false positives; they must not be summed as a screened-paper count.",
+  "representative_web_queries": [
+    "\"CPA-PINN\" phase amplitude",
+    "\"Dirac\" \"PINN\" \"July\" OR \"August\" OR \"September\" \"2026\"",
+    "\"Dirac\" \"spectral\" \"physics-informed\" neural network",
+    "\"multi-phase\" \"physics-informed\" OR \"eigenbasis\" \"phase\" PINN",
+    "\"Dirac equation\" \"neural\" after:2026-06-29 before:2026-10-01 -delta -groundwater -Nambu",
+    "\"physics-informed\" \"amplitude-phase\" 2026",
+    "\"Dirac\" \"positive and negative energy\" \"neural\"",
+    "\"Dirac\" \"phase\" \"PINN\" -delta -groundwater",
+    "\"Structure-preserving conservative phase-amplitude PINNs\"",
+    "\"spectral physics-informed neural networks\" 2026 phase quantum",
+    "\"phase-amplitude\" \"PINN\" after:2026-06-29 before:2026-10-01",
+    "\"Dirac\" \"branch\" \"physics-informed\" -delta -Nambu",
+    "\"Dirac\" \"phase\" \"PINN\" 2026 -delta -groundwater -cattaneo",
+    "\"Fourier spectral physics informed neural network\"",
+    "\"A spectral PINN approach to unresolved-scale closure in multiscale dynamics\"",
+    "\"Trainable Quantum Spectral Models for Partial Differential Equations\"",
+    "\"Dirac equation\" \"PINN\" \"2026\" -delta -groundwater -Nambu -Cattaneo",
+    "\"Dirac\" \"two-phase\" OR \"multi-phase\" OR \"phase-amplitude\" PINN",
+    "\"learnable\" \"phase\" \"Schrödinger\" PINN 2026",
+    "\"Dirac\" \"spectral\" neural \"energy branches\"",
+    "\"WKB-PINNs: Physics-informed neural networks for highly oscillatory\" \"2026\"",
+    "\"A deep learning WKB-PINNs framework\" \"August\" \"Available\"",
+    "\"A unified Python framework\" \"30 July 2026\"",
+    "\"Physics-Informed Diffusion Models in Spectral Space\" arxiv",
+    "\"WKB-PINNs: Physics-informed neural networks for highly oscillatory Schrödinger\"",
+    "\"Structure-preserving conservative phase-amplitude\" \"Available online\"",
+    "\"WKB-PINNs\" \"110653\" \"Available online\"",
+    "\"Dirac\" \"PINN\" \"amplitude\" \"2026\" -delta -groundwater",
+    "\"phase-amplitude\" \"Dirac\" PINN dual multiphase branch",
+    "\"WKB-PINNs\" \"135394\" \"August\"",
+    "\"A spectral PINN approach\" \"Available online\"",
+    "\"Dirac\" \"neural\" \"polar\" \"2026\" -delta -EEG -neuroscience"
+  ],
+  "primary_works": [
+    {
+      "id": "arxiv:2607.15087",
+      "title": "Split Complex-Valued Physics-Informed Neural Networks for Forward and Inverse Nonlinear PDEs",
+      "first_public": "2026-07-16",
+      "status": "preprint",
+      "url": "https://arxiv.org/abs/2607.15087",
+      "method_url": "https://arxiv.org/html/2607.15087v1",
+      "reading_level": "primary abstract and full-text key methods",
+      "overlap": "complex oscillatory PINN; not the energy-branch polar method"
+    },
+    {
+      "id": "arxiv:2608.21491",
+      "title": "NestyNet. IV. Laws Chosen by Nothing in Advance",
+      "first_public": "2026-08-21",
+      "latest_version_checked": "2026-08-25",
+      "status": "preprint",
+      "url": "https://arxiv.org/abs/2608.21491",
+      "method_url": "https://arxiv.org/html/2608.21491v2",
+      "reading_level": "primary abstract and key methods including Dirac benchmark",
+      "overlap": "Dirac equation discovery; different task"
+    },
+    {
+      "id": "doi:10.1063/5.0339545",
+      "title": "Physics-informed neural network amplitude and phase modeling of steady-state thermal waves in layered structures",
+      "published_online": "2026-09-01",
+      "status": "journal article",
+      "url": "https://doi.org/10.1063/5.0339545",
+      "metadata_url": "https://api.crossref.org/works/10.1063/5.0339545",
+      "reading_level": "publisher indexed abstract and metadata; full text not obtained",
+      "overlap": "generic amplitude-phase PINN, thermal-wave task"
+    },
+    {
+      "id": "preprints:202609.2113",
+      "title": "A Spectral–Physics-Informed Neural Network Hybrid with Energy-Constrained Training for the Allen–Cahn Equation: Forward and Inverse Problems",
+      "submitted": "2026-09-23",
+      "first_public": "2026-09-24",
+      "status": "not peer reviewed",
+      "url": "https://www.preprints.org/manuscript/202609.2113",
+      "reading_level": "primary full-text key methods and results",
+      "overlap": "spectral output vector and structure-accuracy distinction; not Dirac branch phases"
+    },
+    {
+      "id": "arxiv:2605.06022",
+      "journal_doi": "10.1103/756m-stz5",
+      "title": "Lattice fermion formulation via Physics-Informed Neural Networks: Ginsparg-Wilson relation and Overlap fermions",
+      "first_public": "2026-05-07",
+      "published_online": "2026-07-16",
+      "status": "journal article; earlier preprint outside window",
+      "url": "https://arxiv.org/abs/2605.06022",
+      "journal_url": "https://journals.aps.org/prd/abstract/10.1103/756m-stz5",
+      "reading_level": "primary records and abstract",
+      "overlap": "Dirac lattice operator construction; not a spinor IVP"
+    },
+    {
+      "id": "arxiv:2609.00836",
+      "title": "Neural-Network-Based Variational Method in Nuclear Density Functional Theory: Application to the Kohn--Sham method",
+      "first_public": "2026-09-01",
+      "status": "preprint",
+      "url": "https://arxiv.org/abs/2609.00836",
+      "reading_level": "primary abstract",
+      "overlap": "complex spinor orbitals; adjacent to stationary projects, different dynamics"
+    },
+    {
+      "id": "arxiv:2408.16414",
+      "journal_doi": "10.1016/j.cam.2025.117178",
+      "title": "Spectral Informed Neural Network: An Efficient and Low-Memory PINN",
+      "first_public": "2024-08-29",
+      "latest_version_checked": "2024-10-08",
+      "status": "older prior; published in 2025",
+      "url": "https://arxiv.org/abs/2408.16414",
+      "method_url": "https://arxiv.org/html/2408.16414v2",
+      "reading_level": "primary full-text key methods",
+      "overlap": "direct prior for shared frequency-time spectral coefficient network"
+    },
+    {
+      "id": "arxiv:2204.02959",
+      "journal_doi": "10.1016/j.cpc.2022.108474",
+      "title": "Computation of the Time-Dependent Dirac Equation with Physics-Informed Neural Networks",
+      "first_public": "2022-04-06",
+      "status": "older prior; published in 2022",
+      "url": "https://arxiv.org/abs/2204.02959",
+      "reading_level": "primary abstract, publisher indexed methods and local cited context",
+      "overlap": "time-dependent Dirac PINN and hard initial conditions"
+    }
+  ],
+  "crossref_date_records": [
+    {
+      "doi": "10.1016/j.cam.2026.117607",
+      "title": "Structure-preserving conservative phase-amplitude PINNs for semiclassical Schrödinger-type equations",
+      "authors": [
+        "Shubham Kumar",
+        "Himanshu Kumar Dwivedi",
+        "Rajeev"
+      ],
+      "source_url": "https://api.crossref.org/works/10.1016/j.cam.2026.117607",
+      "doi_record_created": "2026-03-18T09:29:57Z",
+      "published_online": null,
+      "published_print": [
+        2026,
+        10
+      ],
+      "date_warning": "DOI record creation is not online publication; issue date is not first public date."
+    },
+    {
+      "doi": "10.1016/j.cnsns.2026.110653",
+      "title": "A deep learning WKB-PINNs framework for forward and inverse problems of semiclassical nonlinear Schrödinger equations",
+      "authors": [
+        "Shubham Kumar",
+        "Himanshu Kumar Dwivedi",
+        "Rajeev"
+      ],
+      "source_url": "https://api.crossref.org/works/10.1016/j.cnsns.2026.110653",
+      "doi_record_created": "2026-08-04T23:18:50Z",
+      "published_online": null,
+      "published_print": [
+        2026,
+        11
+      ],
+      "date_warning": "DOI record creation is not online publication; issue date is not first public date."
+    },
+    {
+      "doi": "10.1016/j.physd.2026.135394",
+      "title": "WKB-PINNs: Physics-informed neural networks for highly oscillatory Schrödinger–type equations",
+      "authors": [
+        "Jinxia Cen",
+        "Himanshu Kumar Dwivedi",
+        "Shubham Kumar",
+        "Rajeev",
+        "Shengda Zeng"
+      ],
+      "source_url": "https://api.crossref.org/works/10.1016/j.physd.2026.135394",
+      "doi_record_created": "2026-09-02T23:01:42Z",
+      "published_online": null,
+      "published_print": [
+        2026,
+        11
+      ],
+      "date_warning": "DOI record creation is not online publication; issue date is not first public date."
+    },
+    {
+      "doi": "10.1016/j.cpc.2026.110335",
+      "title": "A unified Python framework for solving Schrödinger and Dirac equations in exotic lepton–antilepton atoms",
+      "authors": [
+        "Angelos P. Giotis",
+        "Athanasios Gkrepis",
+        "Odysseas Kosmas",
+        "Theocharis S. Kosmas"
+      ],
+      "source_url": "https://api.crossref.org/works/10.1016/j.cpc.2026.110335",
+      "doi_record_created": "2026-07-30T15:44:59Z",
+      "published_online": null,
+      "published_print": [
+        2026,
+        11
+      ],
+      "date_warning": "DOI record creation is not online publication; issue date is not first public date."
+    },
+    {
+      "doi": "10.1016/j.chaos.2026.118679",
+      "title": "A spectral PINN approach to unresolved-scale closure in multiscale dynamics",
+      "authors": [
+        "Pengyu Lai",
+        "Dewu Yang",
+        "Rui Wang",
+        "Jing Wang",
+        "Hui Xu"
+      ],
+      "source_url": "https://api.crossref.org/works/10.1016/j.chaos.2026.118679",
+      "doi_record_created": "2026-06-19T21:45:52Z",
+      "published_online": null,
+      "published_print": [
+        2026,
+        9
+      ],
+      "date_warning": "DOI record creation is not online publication; issue date is not first public date."
+    }
+  ],
+  "access_limitations": [
+    "Several Elsevier full-text pages returned HTTP 403; methods compared only to accessible publisher abstracts where stated.",
+    "CrossRef rate-limit response retried; missing online dates remain unknown.",
+    "Some candidates have future print issue dates; no first-public-date inference is made from DOI created or print issue.",
+    "No full algorithm reproduction or legal novelty opinion performed."
+  ],
+  "result_integrity": "No model training, previous preregistration, frozen code, checkpoint, or formal result modified."
+}

@@ -1,0 +1,415 @@
+{
+  "status": "PASS",
+  "visual_inspection_pending": false,
+  "backend": "Python/matplotlib",
+  "figures": [
+    {
+      "figure": "primary_metrics_final",
+      "claim": "Per-condition fixed endpoints; dots all seeds, squares mean +/- population SD, red line absolute threshold.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/primary_metrics_final_values.csv",
+          "sha256": "ef5176f327a4a0f2f8b035fd2d01b46fe4204f40a80d768d2ec1e0e93423ebc8",
+          "rows": 80
+        }
+      ],
+      "all_seeds": true,
+      "seeds": [
+        500,
+        501,
+        502,
+        503,
+        504
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "6bc094c9c49a07739284db6ef8ccf75ac72571bad8bd1b8939b30c423ddb7f72",
+        "svg": "547f99187826feb278e2b98ee7426690eabacd8c8d08cea1a7d40bc1ce216e80",
+        "pdf": "5bdfba09ed7bf00abb9965014e856741739229de68e6fe98b47e09d4e1b1e739"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 873,
+      "pdf_render": "qa_renders/primary_metrics_final_pdf.png",
+      "pdf_render_sha256": "35b7486098bb15038b60f48e6d1b0d52ce7f93e127487fec1de91e0eb19b0318",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "primary_metrics_coupled_20000",
+      "claim": "Per-condition fixed endpoints; dots all seeds, squares mean +/- population SD, red line absolute threshold.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/primary_metrics_coupled_20000_values.csv",
+          "sha256": "e3b8eaf0c4f9c640d7c97b9c747f3cd874ad702978e4f93fe485bc4d55e57622",
+          "rows": 80
+        }
+      ],
+      "all_seeds": true,
+      "seeds": [
+        500,
+        501,
+        502,
+        503,
+        504
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "c41217eed39db0fddcfc190798eaba7cdc374f04046bd4307105c6adb697402e",
+        "svg": "c6c32867084acb75410a97d8d8d3bb61eac49dd83b3390394790565be72ea49d",
+        "pdf": "d14d8499c6094af80a294c92ba12d6c8391dcdb08742b9ee9f8386d772d8cf69"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 893,
+      "pdf_render": "qa_renders/primary_metrics_coupled_20000_pdf.png",
+      "pdf_render_sha256": "571eedc34f940f44b5bed5383526ca5d3cf1258c465ab679e355d849f11784cc",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "paired_differences",
+      "claim": "All paired differences, no posthoc superiority gate; A-C mixes pretraining, updates and budget allocation.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/paired_differences_values.csv",
+          "sha256": "519d5efc46db8fc2ef1cbbb86b5a9139c4278d88c98fc2caefac7bccb45c427e",
+          "rows": 2880
+        }
+      ],
+      "all_seeds": true,
+      "seeds": [
+        500,
+        501,
+        502,
+        503,
+        504
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "78dfab8fe447c3ab075ac67137aa9faf1d557579b3052f5b491532e5bf5b8701",
+        "svg": "26ff4aec1731777ac5cbf2609c9ec2e3492b3c36b708a3f592e7a660d700917f",
+        "pdf": "8ff321d4c043c0e12ed7e6efbd59ac39f79c6f7c3f9f9348fe5b7370d1e3a626"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 778,
+      "pdf_render": "qa_renders/paired_differences_pdf.png",
+      "pdf_render_sha256": "d6f8d786334bc4ecad834a3181b3ffb0cc8c58af0b54baddac36c35fa5c0f77e",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "error_vs_total_cost",
+      "claim": "All fixed cost points; auxiliary pretraining included. Concurrent one-core timings are not isolated acceleration evidence.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/error_vs_total_cost_curves.csv",
+          "sha256": "34a273c4ab25d94eb6e42e5325367407e39fd26d1f17a6d61a2f8423e06af0d3",
+          "rows": 380
+        }
+      ],
+      "all_seeds": true,
+      "seeds": [
+        500,
+        501,
+        502,
+        503,
+        504
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "5ed5fdbef0781975e618fed2f583c1fcf790f6dc849ede1c20d77cef34b91d2c",
+        "svg": "25abc17b2a5fcca58eeefe0653842162ec290d1cb991df0d7581bd19a97d4014",
+        "pdf": "e45420cd81c69be02afd2a8aecc72026db6b7be7a82870e6b9dcac982f941f09"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 937,
+      "pdf_render": "qa_renders/error_vs_total_cost_pdf.png",
+      "pdf_render_sha256": "330e0a1ed85979eef14ee738817924fdaf4b61691300fc675199dacb0fb443d4",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "error_vs_residual_work",
+      "claim": "All fixed cost points; auxiliary pretraining included. Concurrent one-core timings are not isolated acceleration evidence.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/error_vs_residual_work_curves.csv",
+          "sha256": "34a273c4ab25d94eb6e42e5325367407e39fd26d1f17a6d61a2f8423e06af0d3",
+          "rows": 380
+        }
+      ],
+      "all_seeds": true,
+      "seeds": [
+        500,
+        501,
+        502,
+        503,
+        504
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "ddcde005b15a148cd1414678580e39fb286c5138cc3ca73174b31ffc97a3674a",
+        "svg": "9b91efb87dedf73d8152625a1893c5df7c5f536c2c0ddb6aa41c78607c8d32d0",
+        "pdf": "0f6053dffb0256ecd5e66a683ce2073bb1df673c4e576f3a729c0279aeb204b2"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 905,
+      "pdf_render": "qa_renders/error_vs_residual_work_pdf.png",
+      "pdf_render_sha256": "f4370034734df39267500cda98dbc6cec26ff2b32d32dec5d13a994d86e6cc07",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "norm_coherence_support",
+      "claim": "All seeds, collapse retained in coherence, new support defined by original Gaussian index interval.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/norm_coherence_support_series.csv",
+          "sha256": "03978f32055641da15729572d4e59506c62da931f6d3c579736d35d4c2b69e37",
+          "rows": 16080
+        }
+      ],
+      "all_seeds": true,
+      "seeds": [
+        500,
+        501,
+        502,
+        503,
+        504
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "77cc68cc55060d3597e2f1f0a06ceb0f6b086e3c10313fec33ad3631aa7831ee",
+        "svg": "48965ba1f7507cfcd39bd83e699c7408435dfbc0695505ee22c578cc9d696713",
+        "pdf": "6cc5e0349390a67daff114f6be8af9b87cb462def24dc66ced92e90356c026ad"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 762,
+      "pdf_render": "qa_renders/norm_coherence_support_pdf.png",
+      "pdf_render_sha256": "8a7c9439cc2dcea46cf167f8e94a55f2e37be84698742cf1be4c6b8917a67a51",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "branch_trajectories",
+      "claim": "Circular centers and widths relative to each coupled reference; collapsed branches are failure diagnostics.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/branch_trajectories_series.csv",
+          "sha256": "03978f32055641da15729572d4e59506c62da931f6d3c579736d35d4c2b69e37",
+          "rows": 16080
+        }
+      ],
+      "all_seeds": true,
+      "seeds": [
+        500,
+        501,
+        502,
+        503,
+        504
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "4c08ee1691f87879286a688d24a855aba67356cda2e8327d46a0947276c410c9",
+        "svg": "3c98cd6d8570d6e21edd705735c84a419ba4d8c3c878cc835306e4d9f4097c90",
+        "pdf": "bdcb8c33890e2fe044089fc2ac01a525e27e5d99ca3c9ac8b12eee9cda510dff"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 873,
+      "pdf_render": "qa_renders/branch_trajectories_pdf.png",
+      "pdf_render_sha256": "e5a476dcc66551ea274dae4ca81bb3883d7577ee92561886333eb026bfca97d1",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "carrier_residual_diagnostics",
+      "claim": "C has internal phase gauge freedom; carrier defects do not alone judge complete dynamics; quadrature is not continuous certification.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/carrier_residual_diagnostics_values.csv",
+          "sha256": "ef5176f327a4a0f2f8b035fd2d01b46fe4204f40a80d768d2ec1e0e93423ebc8",
+          "rows": 80
+        }
+      ],
+      "all_seeds": true,
+      "seeds": [
+        500,
+        501,
+        502,
+        503,
+        504
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "4a94b7ff0d7be5bf865ac455e256c95933b827f232c547a8011530b305f9dd93",
+        "svg": "8f439771d40696b177e5ab5553eadea37e26c4b6d37c2f2da4097736f5e761ae",
+        "pdf": "f5ede0d3c6258f6fb278a4e78d13df85a6394d2f0d4e9735de762e849f3a72b2"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 805,
+      "pdf_render": "qa_renders/carrier_residual_diagnostics_pdf.png",
+      "pdf_render_sha256": "41f6a2d0047e80b1aec819e1fe379061612505fd51213f86fe1f2fa16262aa02",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "dynamics_T10_seed500",
+      "claim": "Fixed seed 500 for all groups, shared physical and error color scales; full-domain predictions preserved.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/dynamics_T10_seed500_grid.csv",
+          "sha256": "c193e1f92df14561257303a7c396ea10f661c15eea16beb6171a12586e113af3",
+          "rows": 1029120
+        }
+      ],
+      "all_seeds": false,
+      "seeds": [
+        500
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "2ec3c6fd6bd8485cfbd8f1c25806e86c3909ed4085c5314378af17fe4822ee42",
+        "svg": "b61e5b4aa83bee54aac78a7ddb0b6960bfb811fcadfee75e619dcb07c7ca2547",
+        "pdf": "96426049f8888b8785cb356c89e1552c779d6c76924d52af8d82e25176255864"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 788,
+      "pdf_render": "qa_renders/dynamics_T10_seed500_pdf.png",
+      "pdf_render_sha256": "85a078565edc145e410f74af7e13e6b4db6adfeb3f8919f0ea2ed2386f2d6f23",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "dynamics_m10_seed500",
+      "claim": "Fixed seed 500 for all groups, shared physical and error color scales; full-domain predictions preserved.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/dynamics_m10_seed500_grid.csv",
+          "sha256": "8d5164d9abcc150ab8f61b4f431ce8e0aff8253f6e92de95e12474c4865a7fca",
+          "rows": 1029120
+        }
+      ],
+      "all_seeds": false,
+      "seeds": [
+        500
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "74996693f17f70777c8c7b441449ed61d990923db6883c22436a49bd8b2a6420",
+        "svg": "5b9f163e31a1d69eb33a28ee4e83c9f560ea28b4e3714737012c73051dcbc480",
+        "pdf": "ac35727a767fe45685f6123ddaaf8d89e87f01f34fae85f9417a230fad2a0bf9"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 768,
+      "pdf_render": "qa_renders/dynamics_m10_seed500_pdf.png",
+      "pdf_render_sha256": "3f254e077061c9f32b5e86a14edc1db15869cd79220ba57f6b929f151233f3db",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "dynamics_V04_seed500",
+      "claim": "Fixed seed 500 for all groups, shared physical and error color scales; full-domain predictions preserved.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/dynamics_V04_seed500_grid.csv",
+          "sha256": "51773c57b2f5db43ec03584a66539255644c4a4d34b632fe594c9549e71598f1",
+          "rows": 1029120
+        }
+      ],
+      "all_seeds": false,
+      "seeds": [
+        500
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "495fc778c6b248ee88c060f39a8e508b038ff639a8ddda0565e469235be3e8cf",
+        "svg": "c76eafda52ebb9e00777042d082dbbdf8eb52e7c7f8e2dfc8ffb333595046d74",
+        "pdf": "04d755f4ffd7ea464b052c70c5122b925d93f25bd8e69f264769aabbe115cc56"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 776,
+      "pdf_render": "qa_renders/dynamics_V04_seed500_pdf.png",
+      "pdf_render_sha256": "d7f91a71c3815a0da523613a131192584180b551d935327a1bd6daa84372459c",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "dynamics_two_harmonics_seed500",
+      "claim": "Fixed seed 500 for all groups, shared physical and error color scales; full-domain predictions preserved.",
+      "source_data": [
+        {
+          "path": "results/figures/r12_cross_condition_robustness/source_data/dynamics_two_harmonics_seed500_grid.csv",
+          "sha256": "0ce15030d155732f2229c25d1424d3dd5c737e72acc0a608be963e9aff5f7caf",
+          "rows": 1029120
+        }
+      ],
+      "all_seeds": false,
+      "seeds": [
+        500
+      ],
+      "bounding_box_pass": true,
+      "bounding_box_issues": [],
+      "svg_editable_text": true,
+      "exports": {
+        "png": "590b084d4e1984478c7428637d6e593424c61a5b6d77971a556be0c7b6e136d3",
+        "svg": "e3e2a5dbcde0fd0b5dd23070626165d5d6f8bf05c333b9e3b2a9462f22d7c7ce",
+        "pdf": "553f45ebd79364588574c2c27b1c6a30bbf23a171c8b690f13c7e444c4995292"
+      },
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 786,
+      "pdf_render": "qa_renders/dynamics_two_harmonics_seed500_pdf.png",
+      "pdf_render_sha256": "95135672fd3c5d6d22943f8f609146127fd98b8fdda78f1f70d880e65143fe84",
+      "pdf_render_engine": "Poppler pdftoppm"
+    }
+  ],
+  "all_seeds": [
+    500,
+    501,
+    502,
+    503,
+    504
+  ],
+  "dynamics_seed": 500,
+  "population_sd_ddof": 0,
+  "no_data_smoothing": true,
+  "no_seed_selection": true,
+  "pdf_checks_pass": true,
+  "tick_layout_only_revision": true,
+  "source_data_byte_identical_after_style_revision": true,
+  "visual_inspection_record": {
+    "passed": true,
+    "notes": "Actual inspection of all 12 native PNGs and all 12 independently rendered PDF pages completed. Labels, legends, all seed symbols/lines, threshold lines, shared dynamics color bars and full periodic domains are readable; E is explicitly an analytic diagnostic. Removed crowded nonzero ticks inside symlog linear regions only; previous four exports retained in qa_history. Source CSV hashes were byte-identical after this layout revision. No data, normalization, smoothing, seed selection or numerical criterion changed.",
+    "scope": "all native PNGs and all independently rendered PDF pages",
+    "all_seeds": [
+      500,
+      501,
+      502,
+      503,
+      504
+    ],
+    "dynamics_seed": 500,
+    "selective_data_changes": false
+  }
+}

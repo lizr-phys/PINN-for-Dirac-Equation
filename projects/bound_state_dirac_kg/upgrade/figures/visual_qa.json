@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "reviewed_on": "2026-10-03",
+  "method": "All eight PNG previews inspected with view_image; updated failure markers and seed legends inspected again.",
+  "inspected_files": [
+    "01_comparison",
+    "02_dirac_components",
+    "03_kg_wave_charge",
+    "04_parameter_state_coverage",
+    "05_deep_dirac",
+    "06_deep_kg",
+    "07_validation_diagnostics",
+    "08_training_cost"
+  ],
+  "checks": [
+    "No clipped labels or overlapping legends",
+    "All seed cohorts retained; failed Dirac n=2 seed 8 explicitly distinguished",
+    "Dirac components and KG charge convention identified",
+    "Physical residual units and timing scope disclosed",
+    "PNG previews inspected; editable SVG/PDF exports retained"
+  ],
+  "png_sha256": {
+    "01_comparison": "37ded482fecffb1caa23f3c9697ecf382c5fd7e4a39e5b7ad8a5f52d5d87d203",
+    "02_dirac_components": "1a69106b68d3255bfefa3fa948c6b51994023cb5570b9db52f67dfd8db482f15",
+    "03_kg_wave_charge": "86a73bfcc361e0f4e01e292bd3df2a653bf88fb78b2712e584b99ea77ee09469",
+    "04_parameter_state_coverage": "a1bd36aae37572cf4215a1103dc8e7f3d7326db4c42de4947ab4e437b7a225fa",
+    "05_deep_dirac": "06333476bfc1a54d70dd5f7f9d4d3c894509f8b48e2b38f9f192245ceca199ff",
+    "06_deep_kg": "a50f88cfba69e297578a34405691209db5abb5ed0f53f77f4db32834f73f1ed1",
+    "07_validation_diagnostics": "f8567e01d1a26e85e8e680c5f2a8c73c49d6c114fa5268286a288bce5d9352e3",
+    "08_training_cost": "37dfebe78c2ea0bcd933cb57e8a8b5a946103341cf9e28aa166d8fad16d8431f"
+  }
+}

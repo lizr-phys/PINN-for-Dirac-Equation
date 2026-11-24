@@ -1,0 +1,386 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "primary_metrics_final",
+      "claim": "Absolute replication and comparison are distinct; all five fresh seeds and fixed endpoints.",
+      "seeds": [
+        400,
+        401,
+        402,
+        403,
+        404
+      ],
+      "source_csv": [
+        "source_data/primary_metrics_final_values.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 206124,
+          "sha256": "f7e68ef3145803fce112ce4031f6848d8ae5fafefc1a7c1c022d5087b91cdb46"
+        },
+        "svg": {
+          "bytes": 103290,
+          "sha256": "fee5c940284229a79019baaff26ed1fb1f150bc4cd7e855edc8cae12e24d2d61"
+        },
+        "pdf": {
+          "bytes": 31850,
+          "sha256": "326b1a325a345ecc8f168aa3995ed037c11a3f5fb568473e1cad479b0255a1e8"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "n=5 fresh paired seeds; population SD ddof=0",
+      "analytic_diagnostic": "E*: exact free-carrier prior, excluded from learned claims",
+      "backend": "Python/matplotlib",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 496,
+      "pdf_render": "qa_renders/primary_metrics_final_pdf.png",
+      "pdf_render_sha256": "cee3301ed04d727c22cf587963335a637d4e9a0e365d1e87c0294c0ed7c96ba7",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "primary_metrics_coupled_20000",
+      "claim": "Absolute replication and comparison are distinct; all five fresh seeds and fixed endpoints.",
+      "seeds": [
+        400,
+        401,
+        402,
+        403,
+        404
+      ],
+      "source_csv": [
+        "source_data/primary_metrics_coupled_20000_values.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 198888,
+          "sha256": "d2d36868cb0fad3bfe4a9de722974e1ea8a949c7d2ae6a55e20d239b9ef9fb4a"
+        },
+        "svg": {
+          "bytes": 100691,
+          "sha256": "57f10b53c63de7206b180cdc5227474740581182d623203f7f410d3f695dbaa4"
+        },
+        "pdf": {
+          "bytes": 31380,
+          "sha256": "71d54f058f7e58b9e3364fb8f593d6258f299f986e265efc50315f763214d7e4"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "n=5 fresh paired seeds; population SD ddof=0",
+      "analytic_diagnostic": "E*: exact free-carrier prior, excluded from learned claims",
+      "backend": "Python/matplotlib",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 483,
+      "pdf_render": "qa_renders/primary_metrics_coupled_20000_pdf.png",
+      "pdf_render_sha256": "34fb83e07b42b79b5681b9914893783d3fd3fae0fec2011d71d1fdbd4da5ca4f",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "paired_ablation_differences",
+      "claim": "Paired contrasts separate budgets; A-C does not isolate freezing alone.",
+      "seeds": [
+        400,
+        401,
+        402,
+        403,
+        404
+      ],
+      "source_csv": [
+        "source_data/paired_ablation_differences_pairs.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 154520,
+          "sha256": "c36b5f2bf71bed9ec1d496becec9e7a1e57df85bd9d84e08686c363232a7bf6d"
+        },
+        "svg": {
+          "bytes": 65139,
+          "sha256": "f8f8f9ed4226d757074f710c14effab2d6826796772f9f75306d9f4839dfaaeb"
+        },
+        "pdf": {
+          "bytes": 25482,
+          "sha256": "f12ff250bd71c846f1166f0e82445ac1d80e3db7c6f22748f998b88762e82379"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "n=5 fresh paired seeds; population SD ddof=0",
+      "analytic_diagnostic": "E*: exact free-carrier prior, excluded from learned claims",
+      "backend": "Python/matplotlib",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 424,
+      "pdf_render": "qa_renders/paired_ablation_differences_pdf.png",
+      "pdf_render_sha256": "8f6d4db9669649378d8f51eab3122fe27216b330800cfd581c9dcbcc2d064556",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "error_vs_total_cost",
+      "claim": "Equal optimizer steps do not mean equal residual work or measured wall time.",
+      "seeds": [
+        400,
+        401,
+        402,
+        403,
+        404
+      ],
+      "source_csv": [
+        "source_data/error_vs_total_cost_curves.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 708323,
+          "sha256": "10b2883e428f266a3c1a4efb21bc347a66676b4860ccc52c09827f9a1a751fef"
+        },
+        "svg": {
+          "bytes": 171724,
+          "sha256": "f86f8e745a9891d607f35b9b4addf9254a988bcfbfb1bb8b180795f2ff36b809"
+        },
+        "pdf": {
+          "bytes": 54573,
+          "sha256": "c8495aac1418d87ab13f8b152d4e2dd8042ed89c7dc285513b495c6c60927bee"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "n=5 fresh paired seeds; population SD ddof=0",
+      "analytic_diagnostic": "E*: exact free-carrier prior, excluded from learned claims",
+      "backend": "Python/matplotlib",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 480,
+      "pdf_render": "qa_renders/error_vs_total_cost_pdf.png",
+      "pdf_render_sha256": "dce75ac0c811f6d261bfd22017530c2bcfb73fc4ff70da085290e33286569dfb",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "branch_trajectories_all_seeds",
+      "claim": "Branch center and width are compared to the same coupled reference, without timewise phase alignment.",
+      "seeds": [
+        400,
+        401,
+        402,
+        403,
+        404
+      ],
+      "source_csv": [
+        "source_data/branch_trajectories_all_seeds_series.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 1060195,
+          "sha256": "ab2f15893b424c2e0be2b76dcf8ce91c7a081460ea8dae78a0b299db32fe74e1"
+        },
+        "svg": {
+          "bytes": 307392,
+          "sha256": "a99dfe4b14b2f5718f1ec1bbda681343c99d97560b00f31d11d7afb3eb0d066e"
+        },
+        "pdf": {
+          "bytes": 71365,
+          "sha256": "0d841a5d8f88e582b4333bb259bafa89fc4213b181b0e527d5e9a5b64ee40433"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "n=5 fresh paired seeds; population SD ddof=0",
+      "analytic_diagnostic": "E*: exact free-carrier prior, excluded from learned claims",
+      "backend": "Python/matplotlib",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 889,
+      "pdf_render": "qa_renders/branch_trajectories_all_seeds_pdf.png",
+      "pdf_render_sha256": "c5f1cf62bbd90540adc6f8bd35c26054b07d038baff98887599556956e1ead7b",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "norm_balance_all_seeds",
+      "claim": "Full residual projection closes norm numerically, including all failed trajectories.",
+      "seeds": [
+        400,
+        401,
+        402,
+        403,
+        404
+      ],
+      "source_csv": [
+        "source_data/norm_balance_all_seeds_balance.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 584444,
+          "sha256": "00d867eaf574c88395e0821987a46cbead9e1e223900dc7d81afa40fde74a76a"
+        },
+        "svg": {
+          "bytes": 156911,
+          "sha256": "74df533426dbdc30ba062c72881950d1a11efc902ea4cf7055705425ad588d04"
+        },
+        "pdf": {
+          "bytes": 48482,
+          "sha256": "e9c4d5e2b3108f6d0cc151b731ff916fef49b804d882608702a33d290ebae2d3"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "n=5 fresh paired seeds; population SD ddof=0",
+      "analytic_diagnostic": "E*: exact free-carrier prior, excluded from learned claims",
+      "backend": "Python/matplotlib",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 643,
+      "pdf_render": "qa_renders/norm_balance_all_seeds_pdf.png",
+      "pdf_render_sha256": "0cda1e24d13e76ce531b35d61f24136c0eacc7f216369edbb6b63f3a98cd64ad",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "complex_carrier_residual_diagnostics",
+      "claim": "Exact-carrier E is a diagnostic prior; residual quadrature is not continuous certification.",
+      "seeds": [
+        400,
+        401,
+        402,
+        403,
+        404
+      ],
+      "source_csv": [
+        "source_data/complex_carrier_residual_diagnostics_values.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 187753,
+          "sha256": "5607d8b8366afcbad7b33ea89391e44fdbc23fc88b00a4426b9999b09746e66f"
+        },
+        "svg": {
+          "bytes": 121590,
+          "sha256": "07f14f1196d26a52eca0654840c8bc9fc2b9ca0248683c24a72202fd39fc57fe"
+        },
+        "pdf": {
+          "bytes": 34312,
+          "sha256": "fe22cf9d2fc62251a908da1dfafa00a6a35b42b7f3663ddaa80aee0d6a27c5d7"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "n=5 fresh paired seeds; population SD ddof=0",
+      "analytic_diagnostic": "E*: exact free-carrier prior, excluded from learned claims",
+      "backend": "Python/matplotlib",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 452,
+      "pdf_render": "qa_renders/complex_carrier_residual_diagnostics_pdf.png",
+      "pdf_render_sha256": "d8e9c8d672d60c926633ad20f44d092bfa9a7854abbfddd38c95397ed566378d",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "modal_branch_occupations_all_seeds",
+      "claim": "Occupations include both branches and all retained modes; new support respects the original broad Gaussian.",
+      "seeds": [
+        400,
+        401,
+        402,
+        403,
+        404
+      ],
+      "source_csv": [
+        "source_data/modal_branch_occupations_all_seeds_series.csv",
+        "source_data/modal_branch_occupations_all_seeds_final_modal_profiles.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 1003382,
+          "sha256": "676441d486e0dbb6c096bb45c2bce05d8015df9c1edc4568b4cfea6f442a514d"
+        },
+        "svg": {
+          "bytes": 323444,
+          "sha256": "567cc99c85c3150ac5f6f6be1415c3b2fe75284516511d66709868d702ab1fac"
+        },
+        "pdf": {
+          "bytes": 70171,
+          "sha256": "e411452f491f8ca60121b69a844f00b406cae294931935d1a354573b04860467"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "n=5 fresh paired seeds; population SD ddof=0",
+      "analytic_diagnostic": "E*: exact free-carrier prior, excluded from learned claims",
+      "backend": "Python/matplotlib",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 1206,
+      "pdf_render": "qa_renders/modal_branch_occupations_all_seeds_pdf.png",
+      "pdf_render_sha256": "7d627f0b63164d07dfd43a6f0a2da611bdf3996193413620f6878f70d1000205",
+      "pdf_render_engine": "Poppler pdftoppm"
+    },
+    {
+      "figure": "dynamics_seed400",
+      "claim": "All five groups and reference at a preregistered seed, with failures visible.",
+      "seeds": [
+        400
+      ],
+      "source_csv": [
+        "source_data/dynamics_seed400_physical_grid.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 640668,
+          "sha256": "21977e1e14bb3cb624f4fe05ee570e6c3322ac435f88694934e53f6547c9dd69"
+        },
+        "svg": {
+          "bytes": 766331,
+          "sha256": "c84169b18960dbb450fcc3878b5d0d5180cca6dc5666f23028eae32d9538bd53"
+        },
+        "pdf": {
+          "bytes": 345220,
+          "sha256": "43a88923e7688a86a5718e6d40fc19df34c06170991b31bc2005f488361c93d5"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "fixed seed400",
+      "analytic_diagnostic": "E*: exact free-carrier prior, excluded from learned claims",
+      "backend": "Python/matplotlib",
+      "pdf_valid_and_text_selectable": true,
+      "pdf_page_count": 1,
+      "pdf_extractable_text_characters": 964,
+      "pdf_render": "qa_renders/dynamics_seed400_pdf.png",
+      "pdf_render_sha256": "1ad7088ffdbc00971fba5f24e1a5e5025abf1c05fc7c8bd501285bdd49a9449f",
+      "pdf_render_engine": "Poppler pdftoppm"
+    }
+  ],
+  "visual_inspection_pending": false,
+  "backend": "Python/matplotlib",
+  "all_seeds": [
+    400,
+    401,
+    402,
+    403,
+    404
+  ],
+  "pdf_checks_pass": true,
+  "visual_inspection_record": {
+    "passed": true,
+    "notes": "逐张查看全部9份原生PNG及9份Poppler独立PDF预览。文字、坐标、阈值、均值与population SD、种子400–404、参考及失败轨迹完整可见；E为解析诊断，动力学固定seed400并使用统一色范围。成本图和范数图的图例位置已修正，初版完整保存于qa_history；10份source CSV逐文件SHA一致，其余7份PNG逐字节未改变。未发现文字裁切、曲线被图例遮挡或PDF字体异常。",
+    "scope": "all native PNGs and all independently rendered PDF pages",
+    "all_seeds": [
+      400,
+      401,
+      402,
+      403,
+      404
+    ],
+    "dynamics_seed": 400,
+    "selective_data_changes": false
+  }
+}

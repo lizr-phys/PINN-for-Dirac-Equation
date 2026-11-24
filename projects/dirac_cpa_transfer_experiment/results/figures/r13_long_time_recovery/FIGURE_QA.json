@@ -1,0 +1,261 @@
+{
+  "status": "PASS",
+  "automated_checks": [
+    {
+      "name": "bridge_metrics",
+      "png_pixels": [
+        3634,
+        874
+      ],
+      "pdf_pixels": [
+        1745,
+        420
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 6,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/bridge_metrics_pdf.png",
+      "pdf_render_sha256": "328a19933467dc7ccfabc37af941ad6df50cf677676a57cd1d2f2e0113a60994",
+      "automated_pass": true
+    },
+    {
+      "name": "exact_envelope_metrics",
+      "png_pixels": [
+        3634,
+        1714
+      ],
+      "pdf_pixels": [
+        1745,
+        824
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 18,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/exact_envelope_metrics_pdf.png",
+      "pdf_render_sha256": "bf57acaea253cf5c34b3b84a8f06855f5e3c6e529c310b1bd1044feb6a87977b",
+      "automated_pass": true
+    },
+    {
+      "name": "factorial_T10",
+      "png_pixels": [
+        3634,
+        874
+      ],
+      "pdf_pixels": [
+        1745,
+        420
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 18,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/factorial_T10_pdf.png",
+      "pdf_render_sha256": "966fab0f000db4f05f694352f325ba021b94023a3f4ed394f716eeaf56438adf",
+      "automated_pass": true
+    },
+    {
+      "name": "validation_metrics",
+      "png_pixels": [
+        3634,
+        1714
+      ],
+      "pdf_pixels": [
+        1745,
+        824
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 30,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/validation_metrics_pdf.png",
+      "pdf_render_sha256": "2ce424c059d0fc59cdba90727842587e31554837bdb5d9bfbb36d3fa2060379b",
+      "automated_pass": true
+    },
+    {
+      "name": "free_phase_time_T10",
+      "png_pixels": [
+        3034,
+        994
+      ],
+      "pdf_pixels": [
+        1457,
+        478
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 1809,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/free_phase_time_T10_pdf.png",
+      "pdf_render_sha256": "2779ee962464c93d38c76b225948b69d85609f784722a0f0fc4fc3da4f8e7907",
+      "automated_pass": true
+    },
+    {
+      "name": "free_phase_time_m10",
+      "png_pixels": [
+        3034,
+        994
+      ],
+      "pdf_pixels": [
+        1457,
+        478
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 1809,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/free_phase_time_m10_pdf.png",
+      "pdf_render_sha256": "b7144259759ecdaaebcc86c3cf78289c4559ce3313f98f6c2444f09898bc0352",
+      "automated_pass": true
+    },
+    {
+      "name": "free_phase_training",
+      "png_pixels": [
+        2434,
+        1834
+      ],
+      "pdf_pixels": [
+        1169,
+        881
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 54,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/free_phase_training_pdf.png",
+      "pdf_render_sha256": "2ce72ca7e12be75e89b00a6adc9828b6f76e5cabacfeb15a53db0ebdb16a73cc",
+      "automated_pass": true
+    },
+    {
+      "name": "error_vs_total_cost",
+      "png_pixels": [
+        3034,
+        2554
+      ],
+      "pdf_pixels": [
+        1457,
+        1227
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 264,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/error_vs_total_cost_pdf.png",
+      "pdf_render_sha256": "744128faa081598d58fd56ba01d0591dacfd3d4e6e0a803ed023fd314095ceaf",
+      "automated_pass": true
+    },
+    {
+      "name": "norm_current_coherence",
+      "png_pixels": [
+        3034,
+        2434
+      ],
+      "pdf_pixels": [
+        1457,
+        1169
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 6030,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/norm_current_coherence_pdf.png",
+      "pdf_render_sha256": "2515865750fe2556bfa5aa7f53226af3f4e5e819cc6708a195d48e1b4b424d51",
+      "automated_pass": true
+    },
+    {
+      "name": "dynamics_independent_validation_T10_seed700",
+      "png_pixels": [
+        2549,
+        2434
+      ],
+      "pdf_pixels": [
+        1224,
+        1169
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 205824,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/dynamics_independent_validation_T10_seed700_pdf.png",
+      "pdf_render_sha256": "2457dc42ff946d1ff1ce450aabcfa9185347b7966749664aed032c7576cf146b",
+      "automated_pass": true
+    },
+    {
+      "name": "dynamics_independent_validation_m10_seed700",
+      "png_pixels": [
+        2550,
+        2434
+      ],
+      "pdf_pixels": [
+        1224,
+        1169
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 205824,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/dynamics_independent_validation_m10_seed700_pdf.png",
+      "pdf_render_sha256": "5293b556214c1d9eeb7a975aa5d3b1bc6c399e10c2d55576550512f9942fa432",
+      "automated_pass": true
+    },
+    {
+      "name": "dynamics_T10_factorial_T10_seed600",
+      "png_pixels": [
+        4435,
+        2434
+      ],
+      "pdf_pixels": [
+        2129,
+        1169
+      ],
+      "pdf_pages": 1,
+      "pdf_has_editable_text": true,
+      "text_outside_pdf": [],
+      "source_rows": 205824,
+      "source_numeric_finite": true,
+      "source_hash_matches": true,
+      "exported_hashes_match": true,
+      "pdf_render_path": "results/figures/r13_long_time_recovery/qa_renders/dynamics_T10_factorial_T10_seed600_pdf.png",
+      "pdf_render_sha256": "fc3492a024c3e28801c2a5f1f45b96163f758de9446532ceb0c4ac36ad328703",
+      "automated_pass": true
+    }
+  ],
+  "actual_pdf_rendered": true,
+  "visual_review_pass": true,
+  "no_visual_review_fabricated": true,
+  "checked_utc": "2026-10-10T13:31:17.548716+00:00"
+}

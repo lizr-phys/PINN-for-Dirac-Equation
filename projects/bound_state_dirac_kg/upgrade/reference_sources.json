@@ -1,0 +1,8 @@
+{
+  "source_sha256": {
+    "upgrade/reference.py": "eb7c250ce52c35d3e1bf2fee4739ea5aded9ffd9bde3b87cc3de978d75ed0f14",
+    "upgrade/physics.py": "63026e744518a1c86368dfe88da7281f104e879bc99803ccf4fcc8d4d2c746d1",
+    "baseline/reference.py": "0bc959d51630443e6c0129aa0ecb754789c65ba4c2b26e2e1b88f6f2b761ccec"
+  },
+  "note": "Reference code snapshot recorded after verified reference generation; raw convergence and state files retained. Base cache predates addition of BVP tolerance metadata; deep-state fallback is explicitly stored."
+}

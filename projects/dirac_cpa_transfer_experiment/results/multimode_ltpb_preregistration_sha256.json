@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-08-31T14:03:23.403950+00:00",
+  "frozen_before_formal_results": true,
+  "formal_files_present_at_freeze": 0,
+  "smoke_protocol": "five learned models, seed 0, 20 Adam steps; code/NaN/artifact check only",
+  "full_pytest_before_freeze": "75 passed",
+  "files": {
+    "MULTIMODE_LTPB_PREREGISTRATION.md": "2579bb29e0f2a4bc5f13ceeffda2554842af6bb56597e71ea79c074f37b7ef52",
+    "MULTIMODE_LTPB_FIGURE_CONTRACT.md": "7d4655be807d7a4e611f9c343cc4b6ec7d538d568cd0cf745a1139751dc826e2",
+    "src/physics.py": "14469c6dabdec935136dd73fe3d053057834af337fddf27fbe0a122d0e058d1b",
+    "src/multimode_config.py": "c9505253648600646c1810a86191ae7b56717f14e233ed06810294eb44418787",
+    "src/multimode_physics.py": "c2b88734203d9b4536e511a94bdb3d8f75437c467dbb11cfbdfcc23f71164e88",
+    "src/multimode_models.py": "41ffb2c224fd25469a8c36b99af28558ae4777cce780776492b79f4477ce45b1",
+    "src/multimode_evaluate.py": "32b44bdee8e8efa15954eedfcf0c672628cdc25d7e93999e607cfa8f8a9b37d4",
+    "src/train_multimode_ltpb.py": "73397ea9c28c494a9e8d76627fa33b398065564b862cf951f1cbbf397e9937a9",
+    "src/run_multimode_ltpb.py": "57635dfcd3f717e71ca3aa1fd717060a24c4ed215f29a8124501761643247e06",
+    "src/multimode_ltpb_decision.py": "7f090b92f06e1aae6d78b1c8491b9430aeb6467cf314517f365832fe02c76613",
+    "src/aggregate_multimode_ltpb.py": "27562bd1d0a131a42899c526c1a02281b1e01b7109d41fe7ad2dfe751f9af14e",
+    "src/plot_multimode_ltpb.py": "45d6d103bf8228d264f1f958b65a737a3ad7593723420146253d00cae6e6f487",
+    "src/qa_multimode_ltpb_figures.py": "8ddd32eaa89e8f6498e02f057fd36a33b971df13bb172f04973f02e9d86c851c",
+    "src/build_multimode_ltpb_report.py": "e61bbbc07cdef1419f58517b77dd4f19de7a159c9775a2cc23e59d5140fba9a2",
+    "src/audit_multimode_ltpb.py": "06ddafc5a61954b0ffd9a49ea22b4af869735f9047d13c0a8ebfae674c3b0fe5",
+    "tests/test_multimode_ltpb.py": "a07b7144c4fceca875ad444491c8ab8cf866b7c3dffefaf4b3fcc333fa46aed8",
+    "tests/test_multimode_evaluation_decision.py": "442487738239c869119586b119d80279513ab6e436012d2792b14b3b12dee5ed"
+  },
+  "aggregate_sha256": "7d7af263424e8b8341690836676c4f0e0613c36bbd028f19100be2c5915b76a8"
+}

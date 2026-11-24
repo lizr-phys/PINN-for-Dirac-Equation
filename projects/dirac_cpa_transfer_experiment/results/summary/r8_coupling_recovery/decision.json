@@ -1,0 +1,93 @@
+{
+  "stage": "INDEPENDENT_VALIDATION",
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "classification": "COUPLING_RECOVERY_SUCCESS",
+  "groups": {
+    "A_carrier_complex": {
+      "pass_check": true,
+      "complete": true,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": true,
+        "current_rel_l2": true,
+        "fidelity_mean": true,
+        "modal_population_rel_l2": true,
+        "max_norm_drift": true
+      },
+      "joint_pass_count": 4,
+      "per_seed_joint_pass": {
+        "100": false,
+        "101": true,
+        "102": true,
+        "103": true,
+        "104": true
+      }
+    },
+    "C_release_windows": {
+      "pass_check": false,
+      "complete": true,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": false,
+        "current_rel_l2": false,
+        "fidelity_mean": false,
+        "modal_population_rel_l2": false,
+        "max_norm_drift": false
+      },
+      "joint_pass_count": 0,
+      "per_seed_joint_pass": {
+        "100": false,
+        "101": false,
+        "102": false,
+        "103": false,
+        "104": false
+      }
+    },
+    "complex": {
+      "pass_check": false,
+      "complete": true,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": false,
+        "current_rel_l2": false,
+        "fidelity_mean": false,
+        "modal_population_rel_l2": false,
+        "max_norm_drift": false
+      },
+      "joint_pass_count": 0,
+      "per_seed_joint_pass": {
+        "100": false,
+        "101": false,
+        "102": false,
+        "103": false,
+        "104": false
+      }
+    },
+    "phase_release": {
+      "pass_check": false,
+      "complete": true,
+      "mean_checks": {
+        "spinor_rel_l2_gauge_aligned": false,
+        "current_rel_l2": false,
+        "fidelity_mean": false,
+        "modal_population_rel_l2": false,
+        "max_norm_drift": true
+      },
+      "joint_pass_count": 0,
+      "per_seed_joint_pass": {
+        "100": false,
+        "101": false,
+        "102": false,
+        "103": false,
+        "104": false
+      }
+    }
+  },
+  "successful_candidates": [
+    "A_carrier_complex"
+  ],
+  "exploratory_selection_does_not_imply_validation": true
+}

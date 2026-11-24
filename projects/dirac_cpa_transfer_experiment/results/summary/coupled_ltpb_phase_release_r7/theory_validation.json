@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "diagnostic_not_training": true,
+  "initial_weights_tested_seeds": [
+    0,
+    1,
+    2
+  ],
+  "records": [
+    {
+      "seed": 0,
+      "model": "complex",
+      "initial_condition_max_abs_error": 1.1102230246251565e-16,
+      "parameter_count": 12932,
+      "initial_sideband_time_derivative_rel_l2": 1.0046737682471856,
+      "initial_sideband_imaginary_tangent_parameter_sensitivity": 1.706482203948916,
+      "initial_sideband_required_derivative_norm": 0.1414213562373095,
+      "initial_output_tangent_jacobian_min_singular_value": 0.2,
+      "initial_output_tangent_jacobian_rank_two_count": 4
+    },
+    {
+      "seed": 0,
+      "model": "original_ltpb",
+      "initial_condition_max_abs_error": 1.1102230246251565e-16,
+      "parameter_count": 12932,
+      "initial_sideband_time_derivative_rel_l2": 1.0045552437067735,
+      "initial_sideband_imaginary_tangent_parameter_sensitivity": 0.0,
+      "initial_sideband_required_derivative_norm": 0.1414213562373095,
+      "initial_output_tangent_jacobian_min_singular_value": 0.0,
+      "initial_output_tangent_jacobian_rank_two_count": 0
+    },
+    {
+      "seed": 0,
+      "model": "phase_release_ltpb",
+      "initial_condition_max_abs_error": 1.1102230246251565e-16,
+      "parameter_count": 12932,
+      "initial_sideband_time_derivative_rel_l2": 1.009278255222468,
+      "initial_sideband_imaginary_tangent_parameter_sensitivity": 0.0222727986518147,
+      "initial_sideband_required_derivative_norm": 0.1414213562373095,
+      "initial_output_tangent_jacobian_min_singular_value": 0.006293983796947531,
+      "initial_output_tangent_jacobian_rank_two_count": 4
+    },
+    {
+      "seed": 1,
+      "model": "complex",
+      "initial_condition_max_abs_error": 1.1102230246251565e-16,
+      "parameter_count": 12932,
+      "initial_sideband_time_derivative_rel_l2": 1.0023539847481528,
+      "initial_sideband_imaginary_tangent_parameter_sensitivity": 1.335618657463668,
+      "initial_sideband_required_derivative_norm": 0.1414213562373095,
+      "initial_output_tangent_jacobian_min_singular_value": 0.2,
+      "initial_output_tangent_jacobian_rank_two_count": 4
+    },
+    {
+      "seed": 1,
+      "model": "original_ltpb",
+      "initial_condition_max_abs_error": 1.1102230246251565e-16,
+      "parameter_count": 12932,
+      "initial_sideband_time_derivative_rel_l2": 1.0027881874429538,
+      "initial_sideband_imaginary_tangent_parameter_sensitivity": 0.0,
+      "initial_sideband_required_derivative_norm": 0.1414213562373095,
+      "initial_output_tangent_jacobian_min_singular_value": 0.0,
+      "initial_output_tangent_jacobian_rank_two_count": 0
+    },
+    {
+      "seed": 1,
+      "model": "phase_release_ltpb",
+      "initial_condition_max_abs_error": 1.1102230246251565e-16,
+      "parameter_count": 12932,
+      "initial_sideband_time_derivative_rel_l2": 1.0026787410457763,
+      "initial_sideband_imaginary_tangent_parameter_sensitivity": 0.009512169052452267,
+      "initial_sideband_required_derivative_norm": 0.1414213562373095,
+      "initial_output_tangent_jacobian_min_singular_value": 0.002479628624866669,
+      "initial_output_tangent_jacobian_rank_two_count": 4
+    },
+    {
+      "seed": 2,
+      "model": "complex",
+      "initial_condition_max_abs_error": 1.1102230246251565e-16,
+      "parameter_count": 12932,
+      "initial_sideband_time_derivative_rel_l2": 1.023737101765614,
+      "initial_sideband_imaginary_tangent_parameter_sensitivity": 1.6349401666658108,
+      "initial_sideband_required_derivative_norm": 0.1414213562373095,
+      "initial_output_tangent_jacobian_min_singular_value": 0.2,
+      "initial_output_tangent_jacobian_rank_two_count": 4
+    },
+    {
+      "seed": 2,
+      "model": "original_ltpb",
+      "initial_condition_max_abs_error": 1.1102230246251565e-16,
+      "parameter_count": 12932,
+      "initial_sideband_time_derivative_rel_l2": 1.0176953809279836,
+      "initial_sideband_imaginary_tangent_parameter_sensitivity": 0.0,
+      "initial_sideband_required_derivative_norm": 0.1414213562373095,
+      "initial_output_tangent_jacobian_min_singular_value": 0.0,
+      "initial_output_tangent_jacobian_rank_two_count": 0
+    },
+    {
+      "seed": 2,
+      "model": "phase_release_ltpb",
+      "initial_condition_max_abs_error": 1.1102230246251565e-16,
+      "parameter_count": 12932,
+      "initial_sideband_time_derivative_rel_l2": 1.0270095831512165,
+      "initial_sideband_imaginary_tangent_parameter_sensitivity": 0.03720255837425801,
+      "initial_sideband_required_derivative_norm": 0.1414213562373095,
+      "initial_output_tangent_jacobian_min_singular_value": 0.012085993385310032,
+      "initial_output_tangent_jacobian_rank_two_count": 4
+    }
+  ],
+  "interpretation": "Release permits the complex initial tangent when r is nonzero; it does not certify learned dynamics or avoid r=0 degeneracy."
+}

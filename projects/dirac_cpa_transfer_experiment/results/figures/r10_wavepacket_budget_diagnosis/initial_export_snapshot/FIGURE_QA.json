@@ -1,0 +1,221 @@
+{
+  "status": "FAIL",
+  "figures": [
+    {
+      "figure": "paired_primary_metrics",
+      "claim": "All five fixed endpoint pairs; conditional continuation and absolute criteria are separate.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data/paired_primary_metrics_values.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 347240,
+          "sha256": "4621eca9052d3a7282250603e7980beaa5550f0dd13682b55a747138c4e2bfd6"
+        },
+        "svg": {
+          "bytes": 57510,
+          "sha256": "2c91097aa4bf09cdf999e369347b5bb0804e992aa30b0983d3366891a8929ed0"
+        },
+        "pdf": {
+          "bytes": 29792,
+          "sha256": "964fbb07b396fa059b3c0d675cf00009ea4242720dfe112b24e8de55f737f970"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "paired ancestries, n=5; population SD ddof=0",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 20
+    },
+    {
+      "figure": "norm_balance_all_seeds",
+      "claim": "Residual projection reconstructs norm change; finite-grid integration is a numerical diagnostic.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data/norm_balance_all_seeds_balance.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 283750,
+          "sha256": "fcc60e74f59e848ac9aa657a6bf8b2f48a84d3b0d2aeba34b065bf529fbdcbc0"
+        },
+        "svg": {
+          "bytes": 53850,
+          "sha256": "7f50c8d15f46907e91131bc608a633ed6700ac68b1857a8a233fdfdf06e1847c"
+        },
+        "pdf": {
+          "bytes": 24359,
+          "sha256": "2c094bbc3e4a241a6e3afdb6a5cc18b59884798f2e5684254e45415e80f3c78b"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "paired ancestries, n=5; population SD ddof=0",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 40
+    },
+    {
+      "figure": "residual_decomposition",
+      "claim": "Unitary carrier defects and Hermitian coupling have no direct global norm source; no pretraining causal ablation.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data/residual_decomposition_decomposition.csv",
+        "source_data/residual_decomposition_balance.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 1293859,
+          "sha256": "c6c41458e1ffe9e8ef22cd3ad8ea482de254069e4208ac0c605dcef848fafc2c"
+        },
+        "svg": {
+          "bytes": 163430,
+          "sha256": "d4b48c7534e3f3b51a7a9ce654ce58631720290e8e698f5b513428f96eb5d147"
+        },
+        "pdf": {
+          "bytes": 56050,
+          "sha256": "87bb77f6cc52edd87aab2b535c01d4225f1d536cbbc7c7aafcba8769559bad0c"
+        }
+      },
+      "bounding_box_pass": false,
+      "text_outside_canvas": [
+        "−3"
+      ],
+      "svg_editable_text": true,
+      "statistics": "paired ancestries, n=5; population SD ddof=0",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 22
+    },
+    {
+      "figure": "dynamics_seed300",
+      "claim": "Fixed seed300 physical fields and errors; reference and both stages use common scales.",
+      "seeds": [
+        300
+      ],
+      "source_csv": [
+        "source_data/dynamics_seed300_physical_grid.csv",
+        "source_data/dynamics_seed300_series.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 455636,
+          "sha256": "7b75df784fcec5575fae119abfa9b7d7a3ddbce4cc4ac7e3d04d6b9d48e7e904"
+        },
+        "svg": {
+          "bytes": 324927,
+          "sha256": "72e13776fec5c2b05c6765c4b4466d6236037a62e678908a61d50b00a675b34b"
+        },
+        "pdf": {
+          "bytes": 163347,
+          "sha256": "a66506f31e9bb973defd236075d43c23bc27d167f2a89c697e1a98aabc2ceb2c"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "fixed seed300 dynamics",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 80
+    },
+    {
+      "figure": "branch_trajectories",
+      "claim": "Both free-branch center and width trajectories relative to the same coupled reference; all seeds.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data/branch_trajectories_series.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 651139,
+          "sha256": "24fd18e86cb686c3b30749633390d62c6b14c37df5b66c3adbfd803a52c993db"
+        },
+        "svg": {
+          "bytes": 169565,
+          "sha256": "4e085b3a16efc5391a9d591050f99dfa0dfbe12dc157d42ef0d929804c1609bf"
+        },
+        "pdf": {
+          "bytes": 62099,
+          "sha256": "915504ccd12f75a5ab82c2807f913c4b6427d3fac2daf2849f0602d8cc3617fe"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "paired ancestries, n=5; population SD ddof=0",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 32
+    },
+    {
+      "figure": "budget_and_residuals",
+      "claim": "Total optimizer steps and residual work differ; inherited and new measured costs are reported separately.",
+      "seeds": [
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "source_csv": [
+        "source_data/budget_and_residuals_costs.csv",
+        "source_data/budget_and_residuals_diagnostics.csv"
+      ],
+      "exports": {
+        "png": {
+          "bytes": 315990,
+          "sha256": "a7c692d534041f1794c4026fb0c60e82e4f6588ccf6d425e302b068fcd3321d3"
+        },
+        "svg": {
+          "bytes": 38289,
+          "sha256": "b19ec8c71d799e188dd93056774f3ad5fb8d32c752b389f59e53a42a8a442b95"
+        },
+        "pdf": {
+          "bytes": 25567,
+          "sha256": "0ca9529e40e8d55896ccaa017afcc5dd2fb5e218300d0ccc49be6ca0656e0ec1"
+        }
+      },
+      "bounding_box_pass": true,
+      "text_outside_canvas": [],
+      "svg_editable_text": true,
+      "statistics": "paired ancestries, n=5; population SD ddof=0",
+      "backend": "Python/matplotlib",
+      "undrawn_out_of_view_tick_labels_excluded": 16
+    }
+  ],
+  "visual_inspection_pending": true,
+  "figure_count": 6,
+  "dynamics_seed": 300,
+  "paired_ancestries": [
+    300,
+    301,
+    302,
+    303,
+    304
+  ],
+  "population_sd_ddof": 0
+}

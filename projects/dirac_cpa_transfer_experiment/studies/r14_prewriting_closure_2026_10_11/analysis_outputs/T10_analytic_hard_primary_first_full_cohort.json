@@ -1,0 +1,102 @@
+{
+  "assessed_utc": 1791728862.1701741,
+  "status": "PASS_FIXED_CASE_GROUP_ENDPOINT",
+  "case": "T10",
+  "group": "analytic_hard",
+  "coupled_steps": 20000,
+  "all_five_seeds": [
+    810,
+    811,
+    812,
+    813,
+    814
+  ],
+  "summary": {
+    "case": "T10",
+    "group": "analytic_hard",
+    "step": "20000",
+    "n": "5",
+    "n_planned": "5",
+    "all_five_present": "True",
+    "missing_seeds": "",
+    "failed_seeds": "",
+    "endpoint": "primary",
+    "spinor_rel_l2_gauge_aligned_available_finite_mean": "0.020855556129783098",
+    "spinor_rel_l2_gauge_aligned_mean": "0.020855556129783098",
+    "spinor_rel_l2_gauge_aligned_population_sd": "0.0018426078149292883",
+    "current_rel_l2_available_finite_mean": "0.025550664777895644",
+    "current_rel_l2_mean": "0.025550664777895644",
+    "current_rel_l2_population_sd": "0.004074138931890743",
+    "fidelity_mean_available_finite_mean": "0.9995629047124183",
+    "fidelity_mean_mean": "0.9995629047124183",
+    "fidelity_mean_population_sd": "7.562949831175355e-05",
+    "modal_population_rel_l2_available_finite_mean": "0.011162602557395401",
+    "modal_population_rel_l2_mean": "0.011162602557395401",
+    "modal_population_rel_l2_population_sd": "0.0019423226776478773",
+    "max_norm_drift_available_finite_mean": "4.440892098500626e-16",
+    "max_norm_drift_mean": "4.440892098500626e-16",
+    "max_norm_drift_population_sd": "0.0",
+    "joint_pass_count": "5",
+    "joint_success_rate": "1.0",
+    "success_rate_denominator": "5.0",
+    "attempts_accounted_at_endpoint": "5",
+    "absolute_success": "True",
+    "computed_absolute_success_before_independent_audit": "True",
+    "independent_metric_audit_complete": "True",
+    "numerical_or_dependency_failures": "0",
+    "status": "PASS"
+  },
+  "per_seed_sources": [
+    {
+      "seed": 810,
+      "path": "formal/coupled/T10/analytic_hard/seed_810/snapshots/20000/metrics.json",
+      "metric_sha256": "174e0672ad777735a40e99ebdc3f2258e9f3b78061b919c0904fbadbec34b6b0",
+      "checkpoint_sha256": "93ba2276a584d85d8b6deebe768fbb3a5a70e52e0f8bd06efe61649bb02d1e42",
+      "seed_joint_pass": true
+    },
+    {
+      "seed": 811,
+      "path": "formal/coupled/T10/analytic_hard/seed_811/snapshots/20000/metrics.json",
+      "metric_sha256": "8997e30eee53f4fd85aa16df44554725f5e527c6089aa8a0c951793efc3a5078",
+      "checkpoint_sha256": "af734cca4f52291939a0702b61bb3ae81bdbc9668df1352e8d005b3835d8a7ca",
+      "seed_joint_pass": true
+    },
+    {
+      "seed": 812,
+      "path": "formal/coupled/T10/analytic_hard/seed_812/snapshots/20000/metrics.json",
+      "metric_sha256": "91d413a9beda1ed45df5d5f39b7c8f741ea764e1474244654fe15028227fd29a",
+      "checkpoint_sha256": "f8979e1bfc855254bbca2b8eb1e5c62853b44193727597a3c1079940e5de90e7",
+      "seed_joint_pass": true
+    },
+    {
+      "seed": 813,
+      "path": "formal/coupled/T10/analytic_hard/seed_813/snapshots/20000/metrics.json",
+      "metric_sha256": "448a2cceedb26918fbe7339d0add011078a4a381e31478ee7b23009cf24a6f52",
+      "checkpoint_sha256": "2161300636b7f9d1fbb485ed7887192fd62c5aca507b9be5572b338d35e83893",
+      "seed_joint_pass": true
+    },
+    {
+      "seed": 814,
+      "path": "formal/coupled/T10/analytic_hard/seed_814/snapshots/20000/metrics.json",
+      "metric_sha256": "404bd6c4610df0cafc99570b88a02f03c1186b5b94acf6af9ead02c7f5783d2b",
+      "checkpoint_sha256": "6ca27d6e21706af321674701ea6907a1f5e5ac9303429cc228e481f9e53bd720",
+      "seed_joint_pass": true
+    }
+  ],
+  "independent_metric_audit": {
+    "path": "analysis_outputs/independent_metric_audit.json",
+    "sha256": "cb2a0bcf6917d90ca373e7c3e97cb934cc286812185b15af56b695933f7094b5"
+  },
+  "summary_table_sha256_at_assessment": "a074c2cd16416f6bb12f2f9768dbf11c2a6ab63c426688d70cbae1d9b05a2d85",
+  "norm_conservation_is_structural_not_dynamics_evidence": true,
+  "learned_carrier_advantage_not_assessed_from_missing_pairs": true,
+  "whole_study_complete": false,
+  "preserved_independent_audit_snapshot": {
+    "path": "analysis_outputs/cohort_receipts/T10_analytic_hard_20000_first/independent_metric_audit_at_assessment.json",
+    "sha256": "cb2a0bcf6917d90ca373e7c3e97cb934cc286812185b15af56b695933f7094b5"
+  },
+  "preserved_independent_per_seed_rows": {
+    "path": "analysis_outputs/cohort_receipts/T10_analytic_hard_20000_first/independent_five_seed_rows.csv",
+    "sha256": "a9176766cb54cf75ec3efed2c605dbe3210f5754369165d3ecc60e409d493571"
+  }
+}
